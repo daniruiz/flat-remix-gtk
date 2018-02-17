@@ -8,6 +8,7 @@ Flat Remix GTK theme is a pretty simple gtk window theme inspired on material de
 <br><br>
 
 ![theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix-GTK/master/1.png)
+![theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix-GTK/master/2.png)
 <br><br>
 
 # [Flat Remix ICON theme](https://github.com/daniruiz/Flat-Remix-GNOME-theme)
