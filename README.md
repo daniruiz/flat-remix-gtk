@@ -30,10 +30,10 @@ Flat Remix GTK theme is a pretty simple gtk window theme inspired on material de
 #### Terminal installation
 
 ```sh
-cd /tmp && rm -rf Flat-Remix &&
-git clone https://github.com/daniruiz/Flat-Remix-GTK &&
-mkdir -p ~/.themes && cp -r Flat-Remix-GTK/Flat\ Remix\ GTK ~/.themes/ &&
-gsettings set org.gnome.desktop.interface gtk-theme "Flat Remix GTK"
+cd /tmp && rm -rf flat-remix-gtk &&
+git clone https://github.com/daniruiz/flat-remix-gtk &&
+mkdir -p ~/.themes && cp -r flat-remix-gkt/Flat-Remix-GTK ~/.themes/ &&
+gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK"
 ```
 
 ##### Fedora based distributions

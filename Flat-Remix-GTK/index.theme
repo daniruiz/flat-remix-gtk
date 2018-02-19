@@ -1,12 +1,5 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=OSX-Arc-White
-Comment=A flat theme with transparent elements
+Name=Flat-Remix-GTK
+Comment=Flat Remix GTK theme is a pretty simple gtk window theme inspired on material design following a modern design using "flat" colors with high contrasts and sharp borders.
 Encoding=UTF-8
-
-[X-GNOME-Metatheme]
-GtkTheme=OSX-Arc-White
-MetacityTheme=OSX-Arc-White
-IconTheme=gnome
-CursorTheme=DMZ-Black
-ButtonLayout=menu:minimize,maximize,close
