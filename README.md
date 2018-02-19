@@ -36,6 +36,16 @@ mkdir -p ~/.themes && cp -r Flat-Remix-GTK/Flat\ Remix\ GTK ~/.themes/ &&
 gsettings set org.gnome.desktop.interface gtk-theme "Flat Remix GTK"
 ```
 
+##### Fedora based distributions
+
+```sh
+sudo dnf copr enable daniruiz/flat-remix
+sudo dnf install flat-remix-gtk
+```
+
+##### Arch based distributions
++ [`flat-remix-gtk-git`](https://aur.archlinux.org/packages/flat-remix-gtk-git/) (AUR)
+
 
 # Donate
 
