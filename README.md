@@ -36,6 +36,14 @@ mkdir -p ~/.themes && cp -r flat-remix-gkt/Flat-Remix-GTK ~/.themes/ &&
 gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK"
 ```
 
+#### Ubuntu based distributions:
+
+```sh
+sudo add-apt-repository ppa:daniruiz/flat-remix
+sudo apt-get update
+sudo apt-get install flat-remix-gtk
+```
+
 ##### Fedora based distributions
 
 ```sh
