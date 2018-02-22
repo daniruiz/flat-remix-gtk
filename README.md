@@ -32,7 +32,7 @@ Flat Remix GTK theme is a pretty simple gtk window theme inspired on material de
 ```sh
 cd /tmp && rm -rf flat-remix-gtk &&
 git clone https://github.com/daniruiz/flat-remix-gtk &&
-mkdir -p ~/.themes && cp -r flat-remix-gkt/Flat-Remix-GTK ~/.themes/ &&
+mkdir -p ~/.themes && cp -r flat-remix-gtk/Flat-Remix-GTK ~/.themes/ &&
 gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK"
 ```
 
