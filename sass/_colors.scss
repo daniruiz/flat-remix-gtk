@@ -3,9 +3,9 @@
 
 
 $base_color: if($variant =='light', #ffffff, #404552);
-$text_color: if($variant == 'light', #5c616c, #D3DAE3);
-$bg_color: if($variant =='light', #F5F6F7, #383C4A);
-$fg_color: if($variant =='light', #5c616c, #D3DAE3);
+$text_color: if($variant == 'light', #5c616c, white);
+$bg_color: if($variant =='light', #fafafa, #383C4A);
+$fg_color: if($variant =='light', #5c616c, white);
 
 $selected_fg_color: #ffffff;
 $selected_bg_color: #357af0;
@@ -19,17 +19,17 @@ $link_visited_color: if($variant == 'light', darken($selected_bg_color,20%),
 
 $selection_mode_bg: if($transparency == 'true', transparentize($selected_bg_color, 0.05), $selected_bg_color);
 $selection_mode_fg: $selected_fg_color;
-$warning_color: #F27835;
-$error_color: #FC4138;
+$warning_color: #ff6600;
+$error_color: #d41919;
 $warning_fg_color: white;
 $error_fg_color: white;
-$success_color: #73d216;
+$success_color: #1ba389;
 $destructive_color: #F04A50;
-$suggested_color: #4DADD4;
+$suggested_color: #357af0;
 $destructive_fg_color: white;
 $suggested_fg_color: white;
 
-$drop_target_color: #F08437;
+$drop_target_color: #ff6600;
 
 //insensitive state derived colors
 $insensitive_fg_color: if($variant == 'light', transparentize($fg_color, 0.45), transparentize($fg_color, 0.55));
