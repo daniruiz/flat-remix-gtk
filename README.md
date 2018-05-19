@@ -11,15 +11,7 @@ Flat Remix GTK theme is a pretty simple gtk window theme inspired on material de
 ![theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix-GTK/master/2.png)
 ![theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix-GTK/master/3.png)
 ![theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix-GTK/master/4.png)
-<br><br>
-
-# [Flat Remix ICON theme](https://github.com/daniruiz/Flat-Remix-GNOME-theme)
-![Icon theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix/master/preview.png)
-
-# [Flat Remix GNOME theme](https://github.com/daniruiz/Flat-Remix-GNOME-theme)
-![Gnome Shell theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix-GNOME-theme/master/Images/1.png)
-
-
+<br>
 
 # Installation
 
@@ -56,6 +48,14 @@ sudo dnf install flat-remix-gtk
 ##### Arch based distributions
 + [`flat-remix-gtk-git`](https://aur.archlinux.org/packages/flat-remix-gtk-git/) (AUR)
 
+
+<br>
+
+# [Flat Remix ICON theme](https://github.com/daniruiz/Flat-Remix-GNOME-theme)
+![Icon theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix/master/preview.png)
+
+# [Flat Remix GNOME theme](https://github.com/daniruiz/Flat-Remix-GNOME-theme)
+![Gnome Shell theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix-GNOME-theme/master/Images/1.png)
 
 # Donate
 
