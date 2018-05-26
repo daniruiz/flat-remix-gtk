@@ -2831,7 +2831,8 @@ headerbar button.titlebutton,
     background-color: transparent;
     background-position: center;
     background-repeat: no-repeat;
-    border-width: 0; }
+    border-width: 0;
+    min-width: 20px; }
     headerbar button.titlebutton.close:backdrop, headerbar button.titlebutton.maximize:backdrop, headerbar button.titlebutton.minimize:backdrop,
     .titlebar button.titlebutton.close:backdrop,
     .titlebar button.titlebutton.maximize:backdrop,
