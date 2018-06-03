@@ -52,20 +52,20 @@ sudo dnf install flat-remix-gtk
 <br>
 
 # [Flat Remix ICON theme](https://github.com/daniruiz/Flat-Remix)
-![Icon theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix/master/preview.png)
+<p align="center">
+<img src="https://raw.githubusercontent.com/daniruiz/Flat-Remix/master/preview.png">
+</p>
 
 # [Flat Remix GNOME theme](https://github.com/daniruiz/Flat-Remix-GNOME-theme)
 ![Gnome Shell theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix-GNOME-theme/master/Images/1.png)
 
 # Donate
 
-You can also support the development of Flat Remix by donating
+You can also support the development of Flat Remix by donating  
 
-- [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7LEWLS78EAJGJ)
+- [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7LEWLS78EAJGJ)
 
-- [Patreon](https://www.patreon.com/daniruiz)
-
-- Bitcoin Wallet:
-`1K4RhLu7u5xGheWrLAnMPhF2mTA7oMCMj4`
-
+- Bitcoin Wallet:  
+`1K4RhLu7u5xGheWrLAnMPhF2mTA7oMCMj4`  
+  
 - Monero Wallet:   `46o1H6xAnvNY25N1rosd9oUcN2pxhYaErU9qc48VwDNf3xrzSWhqWC5WbwaVe4vUMveKAzAiA4j8xgUi29TpKXpm3zCs4zx`  
