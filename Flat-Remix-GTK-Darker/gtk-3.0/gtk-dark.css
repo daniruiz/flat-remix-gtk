@@ -3748,6 +3748,12 @@ filechooser placessidebar.sidebar,
       .nautilus-window placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-icon,
       .nautilus-window placessidebar.sidebar row.sidebar-row:active:hover .sidebar-icon {
         color: inherit; }
+    filechooser placessidebar.sidebar row.sidebar-row:dir(rtl):selected.has-open-popup, filechooser placessidebar.sidebar row.sidebar-row:dir(rtl):selected, filechooser placessidebar.sidebar row.sidebar-row:dir(rtl):selected:hover, filechooser placessidebar.sidebar row.sidebar-row:dir(rtl):active:hover,
+    .nautilus-window placessidebar.sidebar row.sidebar-row:dir(rtl):selected.has-open-popup,
+    .nautilus-window placessidebar.sidebar row.sidebar-row:dir(rtl):selected,
+    .nautilus-window placessidebar.sidebar row.sidebar-row:dir(rtl):selected:hover,
+    .nautilus-window placessidebar.sidebar row.sidebar-row:dir(rtl):active:hover {
+      background-image: linear-gradient(to left, #115ee1 41px, transparent 0); }
     filechooser placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button,
     .nautilus-window placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button {
       color: #BAC3CF; }

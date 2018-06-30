@@ -68,6 +68,11 @@ filechooser,
         }
       }
 
+      &:dir(rtl):selected.has-open-popup,
+      &:dir(rtl):selected, &:dir(rtl):selected:hover, &:dir(rtl):active:hover {
+        background-image: linear-gradient(to left, darken($selected_bg_color, 10%) 41px, transparent 0);
+      }
+
       &:not(:selected) button.sidebar-button {
         color: $dark_sidebar_fg;
 
