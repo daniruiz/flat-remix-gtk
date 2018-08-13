@@ -6,8 +6,8 @@ Encoding=UTF-8
 
 
 [X-GNOME-Metatheme]
-GtkTheme=Arc
-MetacityTheme=Arc
-IconTheme=gnome
+GtkTheme=Flat-Remix-GTK
+MetacityTheme=Flat-Remix
+IconTheme=Flat-Remix
 CursorTheme=DMZ-Black
 ButtonLayout=menu:minimize,maximize,close

@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <metacity_theme>
 <info>
-	<name>Flat-Remix-GTK</name>
+	<name>Flat-Remix</name>
 	<author>horst3180, daniruiz</author>
 	<copyright>horst3180</copyright>
 	<date>2018</date>
-	<description>Flat-Remix-GTK Metacity theme</description>
+	<description>Flat-Remix Metacity theme</description>
 </info>
 
 <!-- meaningfull constants -->
