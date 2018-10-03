@@ -1231,8 +1231,6 @@ headerbar,
   padding: 0 7px;
 
   border-width: 0 0 1px;
-  border-style: solid;
-  border-color: opacify($header_border, 1);
 
   color: $header_fg;
   background-color: opacify($header_bg, 1);
@@ -1383,7 +1381,6 @@ headerbar {
   > separator {
     background-image: _solid($header_border);
   }
-
   @extend %titlebar;
 }
 
@@ -1460,8 +1457,14 @@ headerbar {
 
     @include button(header-normal);
 
+    &.appmenu {
+      -gtk-icon-shadow: 0 0 1px rgba(0,0,0,.9);
+      padding: 2px;
+    }
+
     &:backdrop {
       opacity: 0.7;
+      color: transparentize($header_fg, 0.2);
     }
 
     &:hover {
@@ -1698,7 +1701,7 @@ headerbar {
   // Headerbar Switches
   switch {
     &:backdrop {
-      opacity: 0.75;
+       opacity: 0.75;
     }
   }
 
@@ -2220,24 +2223,19 @@ notebook {
           border: 1px solid transparent;
           border-#{$_bpos}: none;
 
-          // tab overlap
-          + tab {
-            @if $_pos==top or $_pos==bottom {
-              margin-left: -1px;
-            } @else {
-              margin-top: -1px;
-            }
-          }
-
           // tab border radius
           @if $_pos==top {
-            border-radius: 1px 1px 0 0;
+            border-radius: 4px 4px 0 0;
+            margin: 0 5px;
           } @else if $_pos==bottom {
-            border-radius: 0 0 1px 1px;
+            border-radius: 0 0 4px 4px;
+            margin: 0 5px;
           } @else if $_pos==left {
-            border-radius: 1px 0 0 1px;
+            border-radius: 4px 0 0 4px;
+            margin: 5px 0;
           } @else if $_pos==right {
-            border-radius: 0 1px 1px 0;
+            border-radius: 0 4px 4px 0;
+            margin: 5px 0;
           }
         }
       }
@@ -2313,6 +2311,7 @@ notebook {
         color: $fg_color;
         background-color: $base_color;
         border-color: $borders_color;
+        font-weight: bold;
       }
       // close button
       button.flat {
@@ -3770,8 +3769,8 @@ decoration {
 
   $_wm_border: if($variant=='light', transparentize(black, 0.9), transparentize(black, 0.45));
 
-  box-shadow: 0 0 0 1px if($darker=='true' or $variant == 'dark', darken($header_bg, 7%), $_wm_border),
-  0 8px 8px 0 if($variant == 'light', opacify($_wm_border, 0.1), transparentize($_wm_border, 0.2));
+  box-shadow: 0 0 0 1px if($variant == 'light' and $darker == 'false', transparentize(black, .97), transparent),
+  0 2px 8px 0 transparentize(black, .6);
 
   // this is used for the resize cursor area
   margin: 10px;
@@ -3779,9 +3778,8 @@ decoration {
   &:backdrop {
     // the transparent shadow here is to enforce that the shadow extents don't
     // change when we go to backdrop, to prevent jumping windows
-    box-shadow: 0 0 0 1px if($darker=='true' or $variant == 'dark', transparentize(darken($header_bg, 7%), 0.1), $_wm_border),
-    0 8px 8px 0 transparent,
-    0 5px 5px 0 if($variant == 'light', opacify($_wm_border, 0.1), transparentize($_wm_border, 0.2));
+    box-shadow: 0 0 0 3px transparentize(if($variant == 'light' and $darker == 'false', black, white), .85),
+    0 2px 8px 0 transparent;
 
     transition: $backdrop_transition;
   }
@@ -3796,7 +3794,7 @@ decoration {
   // server-side decorations as used by mutter
   .ssd & {
     border-radius: if($darker=='false' and $variant=='light', 4px 4px 0 0, 3px 3px 0 0);
-    box-shadow: 0 0 0 1px if($darker=='true' or $variant == 'dark', transparentize(black, 0.35), $_wm_border);
+    box-shadow: 0 0 0 1px if($variant == 'light' and $darker == 'false', transparentize(black, .97), transparent);
 
     &.maximized {
       border-radius: 0;
@@ -3804,12 +3802,12 @@ decoration {
   }
   .csd.popup & {
     border-radius: 2px;
-    box-shadow: 0 3px 6px if($variant == 'light', $_wm_border, transparentize($_wm_border, 0.1)),
-    0 0 0 1px if($variant == 'light', $_wm_border, darken($bg_color, 10%));
+    box-shadow: 0 3px 6px transparentize(black, .6),
+    0 0 0 1px if($variant == 'light' and $darker == 'false', transparentize(black, .97), transparent);
   }
   tooltip.csd & {
     border-radius: 2px;
-    box-shadow: 0 1px 3px 1px if($variant == 'light', $_wm_border, transparentize($_wm_border, 0.3));
+    box-shadow: 0 0 0 1px if($variant == 'light' and $darker == 'false', transparentize(black, .97), transparent);
   }
   messagedialog.csd & {
     border-radius: 3px;
