@@ -376,7 +376,7 @@ button {
   min-width: 20px;
   transition: $button_transition;
   border: 1px solid;
-  border-radius: 3px;
+  border-radius: 100px;
   padding: 2px 6px;
 
   @include button(normal);
@@ -1385,19 +1385,7 @@ headerbar {
 }
 
 %header_separator {
-  min-width: 1px;
-  min-height: 1px;
   background: none;
-  border-width: 0 1px;
-  border-image: linear-gradient(to bottom,
-          transparentize($header_fg, 1) 25%,
-          transparentize($header_fg, 0.65) 25%,
-          transparentize($header_fg, 0.65) 75%,
-          transparentize($header_fg, 1) 75%) 0 1/0 1px stretch;
-
-  &:backdrop {
-    opacity: 0.6;
-  }
 }
 
 %header_widgets {
@@ -1457,9 +1445,19 @@ headerbar {
 
     @include button(header-normal);
 
-    &.appmenu {
-      -gtk-icon-shadow: 0 0 1px rgba(0,0,0,.9);
-      padding: 2px;
+    &.appmenu.toggle {
+      -gtk-icon-shadow: 0 0 1px rgba(255, 255, 255, .9);
+      background: linear-gradient(90deg, #00c7b3 0%, #009587 100%);
+      border: 0;
+
+      &:backdrop {
+        background: none;
+        -gtk-icon-shadow: 0 0 1px rgba(0, 0, 0, .9);
+      }
+
+      &:checked, &:active {
+        background: #00c7b3;
+      }
     }
 
     &:backdrop {
@@ -1517,7 +1515,7 @@ headerbar {
   // Reset buttons
   .linked:not(.vertical):not(.path-bar) > button {
     &, &:hover, &:active, &:checked, &:disabled {
-      border-radius: 3px;
+      border-radius: 100px;
       border-style: solid;
     }
   }
@@ -1701,7 +1699,7 @@ headerbar {
   // Headerbar Switches
   switch {
     &:backdrop {
-       opacity: 0.75;
+      opacity: 0.75;
     }
   }
 
@@ -1756,8 +1754,22 @@ headerbar {
 //
 // Pathbars
 //
+.path-bar-box.frame  {
+  background: transparentize($header_bg, .2);
+  border-radius: 100px;
+}
 .path-bar button {
-  &.text-button, &.image-button, & {
+  &.text-button {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+    &.first-child {
+      margin-left: 0;
+    }
+  }
+  &.image-button, & {
     padding-left: 6px;
     padding-right: 6px;
   }

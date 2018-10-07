@@ -232,7 +232,7 @@ button {
   min-width: 20px;
   transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   border: 1px solid;
-  border-radius: 3px;
+  border-radius: 100px;
   padding: 2px 6px;
   color: white;
   border-color: #2b2e39;
@@ -940,13 +940,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   background-image: linear-gradient(to bottom, rgba(38, 42, 51, 0.8), rgba(38, 42, 51, 0.8)); }
 
 .primary-toolbar:not(.libreoffice-toolbar) separator, headerbar separator.titlebutton, .titlebar:not(headerbar) separator.titlebutton {
-  min-width: 1px;
-  min-height: 1px;
-  background: none;
-  border-width: 0 1px;
-  border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.35) 25%, rgba(255, 255, 255, 0.35) 75%, rgba(255, 255, 255, 0) 75%) 0 1/0 1px stretch; }
-  .primary-toolbar:not(.libreoffice-toolbar) separator:backdrop, headerbar separator.titlebutton:backdrop, .titlebar:not(headerbar) separator.titlebutton:backdrop {
-    opacity: 0.6; }
+  background: none; }
 
 .primary-toolbar entry, headerbar entry {
   color: white;
@@ -999,9 +993,15 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   outline-offset: -3px;
   background-color: rgba(47, 52, 63, 0);
   border-color: rgba(47, 52, 63, 0); }
-  .primary-toolbar button.appmenu, headerbar button.appmenu {
-    -gtk-icon-shadow: 0 0 1px rgba(0, 0, 0, 0.9);
-    padding: 2px; }
+  .primary-toolbar button.appmenu.toggle, headerbar button.appmenu.toggle {
+    -gtk-icon-shadow: 0 0 1px rgba(255, 255, 255, 0.9);
+    background: linear-gradient(90deg, #00c7b3 0%, #009587 100%);
+    border: 0; }
+    .primary-toolbar button.appmenu.toggle:backdrop, headerbar button.appmenu.toggle:backdrop {
+      background: none;
+      -gtk-icon-shadow: 0 0 1px rgba(0, 0, 0, 0.9); }
+    .primary-toolbar button.appmenu.toggle:checked, headerbar button.appmenu.toggle:checked, .primary-toolbar button.appmenu.toggle:active, headerbar button.appmenu.toggle:active {
+      background: #00c7b3; }
   .primary-toolbar button:backdrop, headerbar button:backdrop {
     opacity: 0.7;
     color: rgba(255, 255, 255, 0.8); }
@@ -1032,7 +1032,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
 .primary-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) button:not(:last-child):not(:only-child), headerbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) button:not(:last-child):not(:only-child) {
   margin-right: 1px; }
 .primary-toolbar .linked:not(.vertical):not(.path-bar) > button, headerbar .linked:not(.vertical):not(.path-bar) > button, .primary-toolbar .linked:not(.vertical):not(.path-bar) > button:hover, headerbar .linked:not(.vertical):not(.path-bar) > button:hover, .primary-toolbar .linked:not(.vertical):not(.path-bar) > button:active, headerbar .linked:not(.vertical):not(.path-bar) > button:active, .primary-toolbar .linked:not(.vertical):not(.path-bar) > button:checked, headerbar .linked:not(.vertical):not(.path-bar) > button:checked, .primary-toolbar .linked:not(.vertical):not(.path-bar) > button:disabled, headerbar .linked:not(.vertical):not(.path-bar) > button:disabled {
-  border-radius: 3px;
+  border-radius: 100px;
   border-style: solid; }
 .primary-toolbar .linked:not(.vertical):not(.path-bar) > button:not(:checked):not(:active):not(.suggested-action):not(.destructive-action):hover:not(:only-child), headerbar .linked:not(.vertical):not(.path-bar) > button:not(:checked):not(:active):not(.suggested-action):not(.destructive-action):hover:not(:only-child),
 .primary-toolbar .linked:not(.vertical):not(.path-bar) > button:not(:checked):not(:active):not(.suggested-action):not(.destructive-action):hover + button:not(:checked):not(:active):not(.suggested-action):not(.destructive-action),
@@ -1283,7 +1283,18 @@ headerbar spinbutton:not(.vertical) > entry + button:not(:active):hover {
   .primary-toolbar scale trough:disabled, headerbar scale trough:disabled {
     background-color: rgba(21, 23, 28, 0.1); }
 
-.path-bar button.text-button, .path-bar button.image-button, .path-bar button {
+.path-bar-box.frame {
+  background: rgba(47, 52, 63, 0.6);
+  border-radius: 100px; }
+
+.path-bar button.text-button {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 3px;
+  margin-right: 3px; }
+  .path-bar button.text-button.first-child {
+    margin-left: 0; }
+.path-bar button.image-button, .path-bar button {
   padding-left: 6px;
   padding-right: 6px; }
 .path-bar button.text-button.image-button label {
