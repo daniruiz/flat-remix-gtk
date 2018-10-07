@@ -376,8 +376,12 @@ button {
   min-width: 20px;
   transition: $button_transition;
   border: 1px solid;
-  border-radius: 30px;
-  padding: 2px 6px;
+  border-radius: 3px;
+  padding: 3px 6px;
+  min-width: 16px;
+  min-height: 22px;
+
+
 
   @include button(normal);
 
@@ -439,12 +443,6 @@ button {
     &:active, &:checked {
       @include button(insensitive-active);
     }
-  }
-
-  &.image-button {
-    min-width: 24px;
-    padding-left: 5px;
-    padding-right: 5px;
   }
 
   &.text-button {
@@ -1448,15 +1446,19 @@ headerbar {
     &.appmenu.toggle {
       -gtk-icon-shadow: 0 0 1px rgba(255, 255, 255, .9);
       background: linear-gradient(90deg, #00c7b3 0%, #009587 100%);
+      color: white;
       border: 0;
+      min-width: 22px;
 
       &:backdrop {
         background: none;
         -gtk-icon-shadow: 0 0 1px rgba(0, 0, 0, .9);
+        color: black;
       }
 
       &:checked, &:active {
         background: #00c7b3;
+        color: white;
       }
     }
 
@@ -1515,7 +1517,7 @@ headerbar {
   // Reset buttons
   .linked:not(.vertical):not(.path-bar) > button {
     &, &:hover, &:active, &:checked, &:disabled {
-      border-radius: 30px;
+      border-radius: 100px;
       border-style: solid;
     }
   }
@@ -1756,7 +1758,7 @@ headerbar {
 //
 .path-bar-box.frame  {
   background: transparentize($header_bg, .2);
-  border-radius: 30px;
+  border-radius: 100px;
 }
 .path-bar button {
   &.text-button {
@@ -3839,7 +3841,7 @@ headerbar,
 .titlebar {
 
   &.default-decoration button.titlebutton { // no vertical padding for ssd buttons
-    padding: 0 4px; // already handled by the titlebar-padding
+    padding: 0 1px; // already handled by the titlebar-padding
     min-width: 0;
     min-height: 0;
     margin: 0;

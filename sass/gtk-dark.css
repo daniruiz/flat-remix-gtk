@@ -232,8 +232,10 @@ button {
   min-width: 20px;
   transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   border: 1px solid;
-  border-radius: 30px;
-  padding: 2px 6px;
+  border-radius: 3px;
+  padding: 3px 6px;
+  min-width: 16px;
+  min-height: 22px;
   color: white;
   border-color: #2b2e39;
   background-color: #444a58; }
@@ -282,10 +284,6 @@ button {
       opacity: 0.6; }
       button:disabled:active label, button:disabled:active, button:disabled:checked label, button:disabled:checked {
         color: rgba(255, 255, 255, 0.8); }
-  button.image-button {
-    min-width: 24px;
-    padding-left: 5px;
-    padding-right: 5px; }
   button.text-button {
     padding-left: 12px;
     padding-right: 12px; }
@@ -992,16 +990,24 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   color: white;
   outline-offset: -3px;
   background-color: rgba(47, 52, 63, 0);
-  border-color: rgba(47, 52, 63, 0); }
+  border-color: rgba(47, 52, 63, 0);
+  border-radius: 100px;
+  padding: 3px 6px;
+  min-width: 18px;
+  min-width: 16px; }
   .primary-toolbar button.appmenu.toggle, headerbar button.appmenu.toggle {
     -gtk-icon-shadow: 0 0 1px rgba(255, 255, 255, 0.9);
     background: linear-gradient(90deg, #00c7b3 0%, #009587 100%);
-    border: 0; }
+    color: white;
+    border: 0;
+    min-width: 22px; }
     .primary-toolbar button.appmenu.toggle:backdrop, headerbar button.appmenu.toggle:backdrop {
       background: none;
-      -gtk-icon-shadow: 0 0 1px rgba(0, 0, 0, 0.9); }
+      -gtk-icon-shadow: 0 0 1px rgba(0, 0, 0, 0.9);
+      color: black; }
     .primary-toolbar button.appmenu.toggle:checked, headerbar button.appmenu.toggle:checked, .primary-toolbar button.appmenu.toggle:active, headerbar button.appmenu.toggle:active {
-      background: #00c7b3; }
+      background: #00c7b3;
+      color: white; }
   .primary-toolbar button:backdrop, headerbar button:backdrop {
     opacity: 0.7;
     color: rgba(255, 255, 255, 0.8); }
@@ -1032,7 +1038,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
 .primary-toolbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) button:not(:last-child):not(:only-child), headerbar .linked:not(.vertical):not(.path-bar):not(.stack-switcher) button:not(:last-child):not(:only-child) {
   margin-right: 1px; }
 .primary-toolbar .linked:not(.vertical):not(.path-bar) > button, headerbar .linked:not(.vertical):not(.path-bar) > button, .primary-toolbar .linked:not(.vertical):not(.path-bar) > button:hover, headerbar .linked:not(.vertical):not(.path-bar) > button:hover, .primary-toolbar .linked:not(.vertical):not(.path-bar) > button:active, headerbar .linked:not(.vertical):not(.path-bar) > button:active, .primary-toolbar .linked:not(.vertical):not(.path-bar) > button:checked, headerbar .linked:not(.vertical):not(.path-bar) > button:checked, .primary-toolbar .linked:not(.vertical):not(.path-bar) > button:disabled, headerbar .linked:not(.vertical):not(.path-bar) > button:disabled {
-  border-radius: 30px;
+  border-radius: 100px;
   border-style: solid; }
 .primary-toolbar .linked:not(.vertical):not(.path-bar) > button:not(:checked):not(:active):not(.suggested-action):not(.destructive-action):hover:not(:only-child), headerbar .linked:not(.vertical):not(.path-bar) > button:not(:checked):not(:active):not(.suggested-action):not(.destructive-action):hover:not(:only-child),
 .primary-toolbar .linked:not(.vertical):not(.path-bar) > button:not(:checked):not(:active):not(.suggested-action):not(.destructive-action):hover + button:not(:checked):not(:active):not(.suggested-action):not(.destructive-action),
@@ -1285,7 +1291,7 @@ headerbar spinbutton:not(.vertical) > entry + button:not(:active):hover {
 
 .path-bar-box.frame {
   background: rgba(47, 52, 63, 0.6);
-  border-radius: 30px; }
+  border-radius: 100px; }
 
 .path-bar button.text-button {
   padding-left: 0px;
@@ -2754,7 +2760,7 @@ decoration {
 
 headerbar.default-decoration button.titlebutton,
 .titlebar.default-decoration button.titlebutton {
-  padding: 0 4px;
+  padding: 0 1px;
   min-width: 0;
   min-height: 0;
   margin: 0; }

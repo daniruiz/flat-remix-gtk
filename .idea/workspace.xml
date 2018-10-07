@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ad3e097-2d67-49d6-861c-ff3587fc4b23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flat-Remix-GTK-Dark/gtk-3.0/gtk.css" beforeDir="false" afterPath="$PROJECT_DIR$/Flat-Remix-GTK-Dark/gtk-3.0/gtk.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flat-Remix-GTK-Darker/gtk-3.0/gtk-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/Flat-Remix-GTK-Darker/gtk-3.0/gtk-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flat-Remix-GTK-Darker/gtk-3.0/gtk.css" beforeDir="false" afterPath="$PROJECT_DIR$/Flat-Remix-GTK-Darker/gtk-3.0/gtk.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flat-Remix-GTK/gtk-3.0/gtk-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/Flat-Remix-GTK/gtk-3.0/gtk-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flat-Remix-GTK/gtk-3.0/gtk.css" beforeDir="false" afterPath="$PROJECT_DIR$/Flat-Remix-GTK/gtk-3.0/gtk.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/.sass-cache/994917fb5523acff4d47cfa2dfd5111aaabc8da3/_common.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/sass/.sass-cache/994917fb5523acff4d47cfa2dfd5111aaabc8da3/_common.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/.sass-cache/994917fb5523acff4d47cfa2dfd5111aaabc8da3/_drawing.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/sass/.sass-cache/994917fb5523acff4d47cfa2dfd5111aaabc8da3/_drawing.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_drawing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_drawing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/gtk-dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/gtk-dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/gtk-darker.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/gtk-darker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/gtk.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/gtk.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1535913439">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="scss" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="SCSS" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="scss" value="382" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="SCSS" value="382" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/_common.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="3865" column="34" lean-forward="true" selection-start-line="3865" selection-start-column="34" selection-end-line="3865" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_drawing.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3045">
+              <caret line="203" column="51" selection-start-line="203" selection-start-column="50" selection-end-line="203" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_granite.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_applications.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="57" column="57" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_colors-public.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_colors.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>image-button</find>
+      <find>header-hover</find>
+      <find>30px</find>
+      <find>header-normal</find>
+      <find>linked</find>
+      <find>outline-</find>
+      <find>min-width</find>
+      <find>button</find>
+      <find>$header_button_bg</find>
+      <find>$header_button_border</find>
+      <find>.close</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sass/_drawing.scss" />
+        <option value="$PROJECT_DIR$/sass/_colors.scss" />
+        <option value="$PROJECT_DIR$/sass/_common.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="2800" />
+    <option name="y" value="179" />
+    <option name="width" value="1680" />
+    <option name="height" value="1406" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Flat Remix GTK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Flat Remix GTK" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Flat Remix GTK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Flat Remix GTK" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ad3e097-2d67-49d6-861c-ff3587fc4b23" name="Default Changelist" comment="" />
+      <created>1538939425787</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538939425787</updated>
+      <workItem from="1538939427929" duration="3323000" />
+      <workItem from="1538942878781" duration="2416000" />
+      <workItem from="1538945660545" duration="249000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5988000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2800" y="179" width="1680" height="1406" extended-state="4" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25887394" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sass/_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="3865" column="34" lean-forward="true" selection-start-line="3865" selection-start-column="34" selection-end-line="3865" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_drawing.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3045">
+          <caret line="203" column="51" selection-start-line="203" selection-start-column="50" selection-end-line="203" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_granite.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_applications.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="57" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_colors-public.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
