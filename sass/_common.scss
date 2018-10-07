@@ -376,7 +376,7 @@ button {
   min-width: 20px;
   transition: $button_transition;
   border: 1px solid;
-  border-radius: 100px;
+  border-radius: 30px;
   padding: 2px 6px;
 
   @include button(normal);
@@ -1515,7 +1515,7 @@ headerbar {
   // Reset buttons
   .linked:not(.vertical):not(.path-bar) > button {
     &, &:hover, &:active, &:checked, &:disabled {
-      border-radius: 100px;
+      border-radius: 30px;
       border-style: solid;
     }
   }
@@ -1756,7 +1756,7 @@ headerbar {
 //
 .path-bar-box.frame  {
   background: transparentize($header_bg, .2);
-  border-radius: 100px;
+  border-radius: 30px;
 }
 .path-bar button {
   &.text-button {
