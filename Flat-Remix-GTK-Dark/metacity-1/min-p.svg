@@ -1,10 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1">
- <g transform="translate(-671.14288,-648.57648)">
-  <g transform="matrix(0.1265625,0,0,-0.1265625,672.07092,663.09636)">
-   <g transform="scale(0.1,0.1)">
-    <path style="opacity:0.95;fill:#ff6600" d="M 558.77215,1068.2375 A 553.08642,553.08642 0 0 1 5.6857481,515.15103 553.08642,553.08642 0 0 1 558.77215,-37.935443 553.08642,553.08642 0 0 1 1111.8585,515.15103 553.08642,553.08642 0 0 1 558.77215,1068.2375 Z"/>
-    <path style="fill:#2f343f" d="M 321.7351,594.16336 V 436.13867 h 474.0741 v 158.02469 z"/>
-   </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" version="1.1">
+ <defs>
+  <linearGradient id="linearGradient1865" x1="1369" x2="1383" y1="255" y2="255" gradientTransform="translate(-1368,-247)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1878"/>
+  <linearGradient id="linearGradient1878">
+   <stop offset="0" style="stop-color:#ffa367"/>
+   <stop offset="1" style="stop-color:#ff6600"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <circle cx="8" cy="8" r="7" style="fill:url(#linearGradient1865)"/>
+  <path style="fill:#2f343f" d="m 5.000005,7 v 2 h 6 V 7 Z"/>
  </g>
 </svg>

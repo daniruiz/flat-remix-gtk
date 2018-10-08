@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1">
- <g transform="translate(-671.14288,-648.57648)">
-  <g transform="matrix(0.1265625,0,0,-0.1265625,672.07092,663.09636)">
-   <g transform="scale(0.1,0.1)">
-    <path style="fill:#d41919" d="m 558.77216,1068.2374 c -305.461,0 -553.0863969,-247.62522 -553.0863969,-553.08642 0,-305.4611 247.6253969,-553.086396 553.0863969,-553.086396 305.46091,0 553.08634,247.625296 553.08634,553.086396 0,305.4612 -247.62543,553.08642 -553.08634,553.08642 z"/>
-   </g>
-  </g>
- </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" version="1.1">
+ <defs>
+  <linearGradient id="linearGradient1891" x1="165" x2="179" y1="65" y2="65" gradientTransform="translate(-164,-57)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1890"/>
+  <linearGradient id="linearGradient1890">
+   <stop style="stop-color:#ee7276" offset="0"/>
+   <stop style="stop-color:#d31919" offset="1"/>
+  </linearGradient>
+ </defs>
+ <path style="fill:url(#linearGradient1891)" d="M 8.0000001,1 C 4.1340105,1 1.0000004,4.134007 1.0000004,8 c 0,3.865993 3.1340101,7 6.9999997,7 C 11.86599,15 15,11.865993 15,8 15,4.134007 11.86599,1 8.0000001,1 Z"/>
 </svg>

@@ -378,7 +378,7 @@ button {
   border: 1px solid;
   border-radius: 3px;
   padding: 3px 6px;
-  min-width: 16px;
+  min-width: 18px;
   min-height: 22px;
 
 
@@ -3841,7 +3841,7 @@ headerbar,
 .titlebar {
 
   &.default-decoration button.titlebutton { // no vertical padding for ssd buttons
-    padding: 0 1px; // already handled by the titlebar-padding
+    padding: 0; // already handled by the titlebar-padding
     min-width: 0;
     min-height: 0;
     margin: 0;
@@ -3866,7 +3866,7 @@ headerbar,
       background-position: center;
       background-repeat: no-repeat;
       border-width: 0;
-      min-width: 20px;
+      min-width: 16px;
 
       &:backdrop {
         opacity: 1;

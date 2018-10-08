@@ -16,7 +16,7 @@
    id="svg9892"
    version="1.1"
    inkscape:version="0.92.2 2405546, 2018-03-11"
-   sodipodi:docname="assets.svg.2018_10_07_16_34_18.0.svg">
+   sodipodi:docname="assets.svg">
   <defs
      id="defs9894">
     <linearGradient
@@ -636,17 +636,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8284271"
-     inkscape:cx="46.414117"
-     inkscape:cy="205.7544"
+     inkscape:cx="223.78005"
+     inkscape:cy="233.6157"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      showborder="true"
-     inkscape:window-width="3440"
+     inkscape:window-width="1720"
      inkscape:window-height="1378"
      inkscape:window-x="1080"
-     inkscape:window-y="145"
-     inkscape:window-maximized="1"
+     inkscape:window-y="160"
+     inkscape:window-maximized="0"
      inkscape:snap-nodes="true"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
@@ -5854,7 +5854,7 @@
     <g
        id="titlebutton-maximize-backdrop-dark"
        inkscape:label="#g6521"
-       style="display:inline;opacity:1"
+       style="display:inline;opacity:0.45"
        transform="translate(-238.00003,-43.000014)">
       <g
          style="display:inline;opacity:1"
@@ -5893,7 +5893,7 @@
     <g
        id="titlebutton-minimize-backdrop-dark"
        inkscape:label="#g6534"
-       style="display:inline;opacity:1"
+       style="display:inline;opacity:0.45"
        transform="translate(-229.00003,-43.000014)">
       <g
          style="display:inline;opacity:1"
@@ -5930,7 +5930,7 @@
          sodipodi:nodetypes="sssss" />
     </g>
     <g
-       style="display:inline;opacity:1"
+       style="display:inline;opacity:0.45"
        id="titlebutton-close-backdrop-dark"
        inkscape:label="#g6210"
        transform="translate(-247.00003,-25.999994)">

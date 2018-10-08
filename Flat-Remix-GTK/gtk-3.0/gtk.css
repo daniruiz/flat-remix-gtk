@@ -233,7 +233,7 @@ button {
   border: 1px solid;
   border-radius: 3px;
   padding: 3px 6px;
-  min-width: 16px;
+  min-width: 18px;
   min-height: 22px;
   color: #5c616c;
   border-color: #cfd6e6;
@@ -990,10 +990,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   outline-offset: -3px;
   background-color: rgba(255, 255, 255, 0);
   border-color: rgba(255, 255, 255, 0);
-  border-radius: 100px;
-  padding: 3px 6px;
-  min-width: 18px;
-  min-width: 16px; }
+  border-radius: 100px; }
   .primary-toolbar button.appmenu.toggle, headerbar button.appmenu.toggle {
     -gtk-icon-shadow: 0 0 1px rgba(255, 255, 255, 0.9);
     background: linear-gradient(90deg, #00c7b3 0%, #009587 100%);
@@ -2763,7 +2760,7 @@ decoration {
 
 headerbar.default-decoration button.titlebutton,
 .titlebar.default-decoration button.titlebutton {
-  padding: 0 1px;
+  padding: 0;
   min-width: 0;
   min-height: 0;
   margin: 0; }
@@ -2795,7 +2792,7 @@ headerbar button.titlebutton,
     background-position: center;
     background-repeat: no-repeat;
     border-width: 0;
-    min-width: 20px; }
+    min-width: 16px; }
     headerbar button.titlebutton.close:backdrop, headerbar button.titlebutton.maximize:backdrop, headerbar button.titlebutton.minimize:backdrop,
     .titlebar button.titlebutton.close:backdrop,
     .titlebar button.titlebutton.maximize:backdrop,

@@ -1,13 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1">
- <g transform="translate(-671.14288,-648.57648)">
-  <g transform="matrix(0.1265625,0,0,-0.1265625,672.07092,663.09636)">
-   <g transform="scale(0.1,0.1)">
-    <g transform="matrix(9.9999999,0,0,9.9999999,-4.0034923,0.11816995)">
-     <g transform="scale(0.1,0.1)">
-      <path style="opacity:0.95;fill:#357af0" d="M 562.77565,1068.1193 A 553.08643,553.08643 0 0 1 9.6892161,515.03285 553.08643,553.08643 0 0 1 562.77565,-38.053567 553.08643,553.08643 0 0 1 1115.8621,515.03285 553.08643,553.08643 0 0 1 562.77565,1068.1193 Z"/>
-     </g>
-    </g>
-   </g>
-  </g>
- </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" version="1.1">
+ <defs>
+  <linearGradient id="linearGradient1845" x1="616.997" x2="630.997" y1="-177.634" y2="-177.634" gradientTransform="translate(-615.99655,185.63436)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1884"/>
+  <linearGradient id="linearGradient1884">
+   <stop offset="0" style="stop-color:#74a4f4"/>
+   <stop offset="1" style="stop-color:#357af0"/>
+  </linearGradient>
+ </defs>
+ <path style="fill:url(#linearGradient1845)" d="M 8.0000002,1.0000001 A 7,7 0 0 0 1.0000001,8.0000002 7,7 0 0 0 8.0000002,15 7,7 0 0 0 15,8.0000002 7,7 0 0 0 8.0000002,1.0000001 Z"/>
 </svg>

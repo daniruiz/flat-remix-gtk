@@ -174,9 +174,6 @@
     background-color: transparentize($header_bg, 1);
     border-color: transparentize($header_bg, 1);
     border-radius: 100px;
-    padding: 3px 6px;
-    min-width: 18px;
-    min-width: 16px
   }
 
   @else if $t==header-hover {
