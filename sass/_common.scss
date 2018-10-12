@@ -1131,7 +1131,7 @@ toolbar {
 
   &.osd {
     padding: 7px;
-    border: 1px solid transparentize(black, 0.5);
+    border: 1px solid transparentize(#000, 0.5);
     border-radius: 3px;
     background-color: transparentize($osd_bg_color, 0.1);
 
@@ -1445,20 +1445,20 @@ headerbar {
 
     &.appmenu.toggle {
       -gtk-icon-shadow: 0 0 1px rgba(255, 255, 255, .9);
-      background: linear-gradient(90deg, #00c7b3 0%, #009587 100%);
-      color: white;
+      background: linear-gradient(90deg, #20cbac 0%, #19a187 100%);
+      color: #FFF;
       border: 0;
       min-width: 22px;
 
       &:backdrop {
         background: none;
         -gtk-icon-shadow: 0 0 1px rgba(0, 0, 0, .9);
-        color: black;
+        color: #000;
       }
 
       &:checked, &:active {
-        background: #00c7b3;
-        color: white;
+        background: #20cbac;
+        color: #FFF;
       }
     }
 
@@ -1816,7 +1816,7 @@ treeview.view {
   }
 
   border-left-color: transparentize($fg_color, 0.85); // this is actually the tree lines color,
-  border-top-color: transparentize(black, 0.9); // while this is the grid lines color, better then nothing
+  border-top-color: transparentize(#000, 0.9); // while this is the grid lines color, better then nothing
 
   rubberband {
     @extend rubberband;
@@ -1847,7 +1847,7 @@ treeview.view {
 
   &.separator {
     min-height: 2px;
-    color: transparentize(black, 0.9);
+    color: transparentize(#000, 0.9);
   }
 
   &:drop(active) {
@@ -1907,7 +1907,7 @@ treeview.view {
 
     &:selected, &:selected:focus {
       color: $selected_fg_color;
-      background-color: transparentize(black, 0.8);
+      background-color: transparentize(#000, 0.8);
       border-radius: 3px;
       border-width: 0;
     }
@@ -1929,8 +1929,8 @@ treeview.view {
       border-radius: 0;
       border-image: linear-gradient(to bottom,
               $base_color 20%,
-              transparentize(if($variant == 'light', black, white), 0.89) 20%,
-              transparentize(if($variant == 'light', black, white), 0.89) 80%,
+              transparentize(if($variant == 'light', #000, #FFF), 0.89) 20%,
+              transparentize(if($variant == 'light', #000, #FFF), 0.89) 80%,
               $base_color 80%) 0 1 0 0 / 0 1px 0 0 stretch;
 
       &:hover {
@@ -2116,7 +2116,7 @@ popover.background {
   background-clip: border-box;
   background-color: $_popover_bg;
 
-  box-shadow: 0 2px 6px 1px if($variant=='light', transparentize(black, 0.93), transparentize(black, 0.65));
+  box-shadow: 0 2px 6px 1px if($variant=='light', transparentize(#000, 0.93), transparentize(#000, 0.65));
 
   .csd &, & {
     border: 1px solid darken($borders_color, 5%);
@@ -2448,7 +2448,7 @@ scrollbar {
         min-width: 4px;
         min-height: 4px;
         background-color: mix($fg_color, $bg_color, 70%);
-        border: 1px solid if($variant == 'light', transparentize(white, 0.4), transparentize(black, 0.7));
+        border: 1px solid if($variant == 'light', transparentize(#FFF, 0.4), transparentize(#000, 0.7));
       }
 
       &.horizontal slider {
@@ -2689,7 +2689,7 @@ scale {
     menuitem:hover &,
     row:selected &,
     infobar & {
-      background-color: transparentize(black, 0.8);
+      background-color: transparentize(#000, 0.8);
 
       highlight {
         background-color: $selected_fg_color;
@@ -2700,7 +2700,7 @@ scale {
       }
 
       &:disabled {
-        background-color: transparentize(black, 0.9);
+        background-color: transparentize(#000, 0.9);
       }
     }
   }
@@ -2884,7 +2884,7 @@ progressbar {
 
     row:selected &,
     infobar & {
-      background-color: transparentize(black, 0.8);
+      background-color: transparentize(#000, 0.8);
     }
   }
 }
@@ -3023,7 +3023,7 @@ scrolledwindow {
 
 //vbox and hbox separators
 separator {
-  background-color: transparentize(black, 0.9);
+  background-color: transparentize(#000, 0.9);
   min-width: 1px;
   min-height: 1px;
 }
@@ -3056,7 +3056,7 @@ row {
   &.activatable {
     &.has-open-popup,
     &:hover {
-      background-color: if($variant == 'light', transparentize(black, 0.95), transparentize(white, 0.97));
+      background-color: if($variant == 'light', transparentize(#000, 0.95), transparentize(#FFF, 0.97));
     }
 
     &:active {
@@ -3076,7 +3076,7 @@ row {
 
       &.has-open-popup,
       &:hover {
-        background-color: mix(black, $selected_bg_color, 10%);
+        background-color: mix(#000, $selected_bg_color, 10%);
       }
     }
   }
@@ -3632,29 +3632,29 @@ colorswatch {
   }
 
   &.dark overlay {
-    color: transparentize(white, 0.3);
+    color: transparentize(#FFF, 0.3);
     &:hover {
-      border-color: if($variant == 'light', transparentize(black, 0.5), $borders_color);
+      border-color: if($variant == 'light', transparentize(#000, 0.5), $borders_color);
     }
   }
   &.light overlay {
-    color: transparentize(black, 0.3);
+    color: transparentize(#000, 0.3);
     &:hover {
-      border-color: if($variant == 'light', transparentize(black, 0.7), $borders_color);
+      border-color: if($variant == 'light', transparentize(#000, 0.7), $borders_color);
     }
   }
 
   overlay {
-    border: 1px solid if($variant == 'light', transparentize(black, 0.85), $borders_color);
+    border: 1px solid if($variant == 'light', transparentize(#000, 0.85), $borders_color);
     &:hover {
-      background-color: transparentize(white, 0.8)
+      background-color: transparentize(#FFF, 0.8)
     }
   }
 
   &:disabled {
     opacity: 0.5;
     overlay {
-      border-color: transparentize(black, 0.4);
+      border-color: transparentize(#000, 0.4);
       box-shadow: none;
     }
   }
@@ -3753,7 +3753,7 @@ button.circular-button {
   background-color: $base_color;
   border: 1px solid $borders_color;
   border-radius: 2.5px;
-  box-shadow: inset 0px -2px 0px if($variant=='light', transparentize(black, 0.95), transparentize(black, 0.85));
+  box-shadow: inset 0px -2px 0px if($variant=='light', transparentize(#000, 0.95), transparentize(#000, 0.85));
 }
 
 stackswitcher button {
@@ -3781,10 +3781,10 @@ decoration {
   border-radius: if($darker=='false' and $variant=='light', 4px 4px 0 0, 3px 3px 0 0);
   border-width: 0px;
 
-  $_wm_border: if($variant=='light', transparentize(black, 0.9), transparentize(black, 0.45));
+  $_wm_border: if($variant=='light', transparentize(#000, 0.9), transparentize(#000, 0.45));
 
-  box-shadow: 0 0 0 1px if($variant == 'light' and $darker == 'false', transparentize(black, .97), transparent),
-  0 2px 8px 0 transparentize(black, .6);
+  box-shadow: 0 0 0 1px if($variant == 'light' and $darker == 'false', transparentize(#000, .97), transparent),
+  0 2px 8px 0 transparentize(#000, .6);
 
   // this is used for the resize cursor area
   margin: 10px;
@@ -3792,7 +3792,7 @@ decoration {
   &:backdrop {
     // the transparent shadow here is to enforce that the shadow extents don't
     // change when we go to backdrop, to prevent jumping windows
-    box-shadow: 0 0 0 3px transparentize(if($variant == 'light' and $darker == 'false', black, white), .85),
+    box-shadow: 0 0 0 3px transparentize(if($variant == 'light' and $darker == 'false', #000, #FFF), .85),
     0 2px 8px 0 transparent;
 
     transition: $backdrop_transition;
@@ -3808,7 +3808,7 @@ decoration {
   // server-side decorations as used by mutter
   .ssd & {
     border-radius: if($darker=='false' and $variant=='light', 4px 4px 0 0, 3px 3px 0 0);
-    box-shadow: 0 0 0 1px if($variant == 'light' and $darker == 'false', transparentize(black, .97), transparent);
+    box-shadow: 0 0 0 1px if($variant == 'light' and $darker == 'false', transparentize(#000, .97), transparent);
 
     &.maximized {
       border-radius: 0;
@@ -3816,12 +3816,12 @@ decoration {
   }
   .csd.popup & {
     border-radius: 2px;
-    box-shadow: 0 3px 6px transparentize(black, .6),
-    0 0 0 1px if($variant == 'light' and $darker == 'false', transparentize(black, .97), transparent);
+    box-shadow: 0 3px 6px transparentize(#000, .6),
+    0 0 0 1px if($variant == 'light' and $darker == 'false', transparentize(#000, .97), transparent);
   }
   tooltip.csd & {
     border-radius: 2px;
-    box-shadow: 0 0 0 1px if($variant == 'light' and $darker == 'false', transparentize(black, .97), transparent);
+    box-shadow: 0 0 0 1px if($variant == 'light' and $darker == 'false', transparentize(#000, .97), transparent);
   }
   messagedialog.csd & {
     border-radius: 3px;

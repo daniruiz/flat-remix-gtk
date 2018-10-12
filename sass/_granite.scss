@@ -177,13 +177,13 @@ GraniteWidgetsPopOver {
   -GraniteWidgetsPopOver-border-width: 1;
   -GraniteWidgetsPopOver-shadow-size: 12;
 
-  border: 1px solid transparentize(black, 0.7);
+  border: 1px solid transparentize(#000, 0.7);
   margin: 0;
 }
 
 .popover_bg {
   background-image: _solid($base_color);
-  border: 1px solid transparentize(black, 0.7);
+  border: 1px solid transparentize(#000, 0.7);
 }
 
 GraniteWidgetsPopOver .sidebar.view,
