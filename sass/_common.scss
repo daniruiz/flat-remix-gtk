@@ -1444,21 +1444,22 @@ headerbar {
     @include button(header-normal);
 
     &.appmenu.toggle {
-      -gtk-icon-shadow: 0 0 1px rgba(255, 255, 255, .9);
-      background: linear-gradient(90deg, #20cbac 0%, #19a187 100%);
-      color: #FFF;
+      background: transparent;
       border: 0;
-      min-width: 22px;
+      min-height: 15px;
+      min-width: 15px;
+      margin: 5px;
 
-      &:backdrop {
-        background: none;
-        -gtk-icon-shadow: 0 0 1px rgba(0, 0, 0, .9);
-        color: #000;
+      @each $l, $m in ('', ''), (':backdrop', '-backdrop'), (':hover', '-hover'), (':active', '-active') {
+
+        &#{$l} {
+          background-image: -gtk-scaled(url('assets/titlebutton-appmenu#{$m}#{$darker_asset_suffix}.png'),
+                  url('assets/titlebutton-appmenu#{$m}#{$darker_asset_suffix}@2.png'));
+        }
       }
 
-      &:checked, &:active {
-        background: #20cbac;
-        color: #FFF;
+      image {
+        opacity: 0;
       }
     }
 
@@ -1756,9 +1757,10 @@ headerbar {
 //
 // Pathbars
 //
-.path-bar-box.frame  {
+.path-bar-box.width-maximized  {
   background: transparentize($header_bg, .2);
   border-radius: 100px;
+  border: 1px solid if($variant=='light' and $darker=='false', darken($header_bg, 20%), lighten($header_bg, 30%));
 }
 .path-bar button {
   &.text-button {
@@ -3362,8 +3364,6 @@ placessidebar {
       &:not(:hover):not(:active) > image {
         opacity: 0.5
       }
-
-    ;
     }
 
     &.sidebar-placeholder-row {
@@ -3781,9 +3781,7 @@ decoration {
   border-radius: if($darker=='false' and $variant=='light', 4px 4px 0 0, 3px 3px 0 0);
   border-width: 0px;
 
-  $_wm_border: if($variant=='light', transparentize(#000, 0.9), transparentize(#000, 0.45));
-
-  box-shadow: 0 0 0 1px if($variant == 'light' and $darker == 'false', transparentize(#000, .97), transparent),
+  box-shadow: 0 0 0 if($variant == 'light', 1px transparentize(#000, .97), 3px #FFF),
   0 2px 8px 0 transparentize(#000, .6);
 
   // this is used for the resize cursor area
@@ -3792,7 +3790,7 @@ decoration {
   &:backdrop {
     // the transparent shadow here is to enforce that the shadow extents don't
     // change when we go to backdrop, to prevent jumping windows
-    box-shadow: 0 0 0 3px transparentize(if($variant == 'light' and $darker == 'false', #000, #FFF), .85),
+    box-shadow: 0 0 0 3px if($variant == 'light', transparentize(#000, .85), transparentize(#FFF, .6)),
     0 2px 8px 0 transparent;
 
     transition: $backdrop_transition;

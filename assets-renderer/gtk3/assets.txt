@@ -40,6 +40,10 @@ titlebutton-close
 titlebutton-close-backdrop
 titlebutton-close-hover
 titlebutton-close-active
+titlebutton-appmenu
+titlebutton-appmenu-backdrop
+titlebutton-appmenu-hover
+titlebutton-appmenu-active
 titlebutton-maximize
 titlebutton-maximize-backdrop
 titlebutton-maximize-hover
@@ -74,6 +78,10 @@ titlebutton-close-dark
 titlebutton-close-backdrop-dark
 titlebutton-close-hover-dark
 titlebutton-close-active-dark
+titlebutton-appmenu-dark
+titlebutton-appmenu-backdrop-dark
+titlebutton-appmenu-hover-dark
+titlebutton-appmenu-active-dark
 titlebutton-maximize-dark
 titlebutton-maximize-backdrop-dark
 titlebutton-maximize-hover-dark
