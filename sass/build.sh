@@ -31,8 +31,7 @@ rm -rf ../Flat-Remix-GTK-Darker/gtk-3.0/assets
 cp -rf $ASSETS_DIR ../Flat-Remix-GTK-Darker/gtk-3.0/assets
 
 
+sudo rm -rf
 sudo cp -R ../Flat-Remix-GTK* /usr/share/themes
 
 gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK"
-sudo killall nautilus
-nautilus &
