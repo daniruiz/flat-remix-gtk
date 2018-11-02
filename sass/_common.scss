@@ -3782,7 +3782,7 @@ decoration {
   border-width: 0px;
 
   box-shadow: 0 0 0 if($variant == 'light', 1px transparentize(#000, .97), 3px #FFF),
-  0 2px 8px 0 transparentize(#000, .6);
+  0 2px 8px 0 if($variant == 'light', transparentize(#000, .6), #000);
 
   // this is used for the resize cursor area
   margin: 10px;
