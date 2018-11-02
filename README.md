@@ -11,6 +11,7 @@ Flat Remix GTK theme is a pretty simple gtk window theme inspired on material de
 ![theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix-GTK/master/2.png)
 ![theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix-GTK/master/3.png)
 ![theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix-GTK/master/4.png)
+![theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix-GTK/master/5.png)
 <br>
 
 # Installation
