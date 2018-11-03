@@ -32,10 +32,10 @@ filechooser,
 
     background-color: transparent;
     &:dir(ltr) {
-      background-image: linear-gradient(to right, black 41px, $dark_sidebar_bg 0);
+      background-image: linear-gradient(to right, darken($dark_sidebar_bg, 10%) 41px, $dark_sidebar_bg 0);
     }
     &:dir(rtl) {
-      background-image: linear-gradient(to left, black 41px, $dark_sidebar_bg 0);
+      background-image: linear-gradient(to left, darken($dark_sidebar_bg, 10%) 41px, $dark_sidebar_bg 0);
     }
 
     row.sidebar-row {
