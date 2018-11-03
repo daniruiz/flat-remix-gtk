@@ -2730,10 +2730,10 @@ stackswitcher button.circular, stackswitcher button.nautilus-circular-button.ima
 decoration {
   border-radius: 3px 3px 0 0;
   border-width: 0px;
-  box-shadow: 0 2px 8px 6px #000, 0 0 0 3px #FFF;
+  box-shadow: 0 2px 11px 3px #000, 0 0 0 3px #FFF;
   margin: 10px; }
   decoration:backdrop {
-    box-shadow: 0 2px 8px 6px transparent, 0 0 0 3px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 2px 11px 3px transparent, 0 0 0 3px rgba(255, 255, 255, 0.4);
     transition: 200ms ease-out; }
   .fullscreen decoration, .tiled decoration {
     border-radius: 0; }

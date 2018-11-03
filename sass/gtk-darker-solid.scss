@@ -1,0 +1,12 @@
+$variant: 'light';
+$darker: 'true';
+$darkest: 'false';
+$transparency: 'false';
+
+@import 'colors';
+@import 'drawing';
+@import 'common';
+@import 'applications';
+@import 'granite';
+@import 'transparent_widgets';
+@import 'colors-public';
