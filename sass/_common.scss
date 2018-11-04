@@ -381,8 +381,6 @@ button {
   min-width: 18px;
   min-height: 22px;
 
-
-
   @include button(normal);
 
   separator {
@@ -734,7 +732,6 @@ toolbar.inline-toolbar toolbutton {
 
       > entry#{$e_type}:not(:only-child) {
         + entry,
-        + button,
         + combobox > box > button.combo {
           border-#{$_border}-color: if($var=='light', $e_color, $e_border);
         }
@@ -748,10 +745,6 @@ toolbar.inline-toolbar toolbutton {
   @if $button_rules=='true' {
     $_uncolored_button: 'button:not(:checked):not(:active):not(.suggested-action):not(.destructive-action)';
 
-    > button + button {
-      border-#{$_border}-style: none;
-    }
-
     > #{$_uncolored_button}:hover:not(:only-child),
     > #{$_uncolored_button}:hover + #{$_uncolored_button} {
       box-shadow: inset if($vert=='false', 1px 0, 0 1px) $b_border;
@@ -762,6 +755,9 @@ toolbar.inline-toolbar toolbutton {
       box-shadow: inset if($vert=='false', 1px 0, 0 1px) transparentize($b_border, 0.5);
     }
 
+    > button + button {
+      border-#{$_border}-style: none;
+    }
     > button:active + #{$_uncolored_button}:hover,
     > button:checked + #{$_uncolored_button}:hover,
     > button.suggested-action + #{$_uncolored_button}:hover,
@@ -824,16 +820,16 @@ toolbar.inline-toolbar toolbutton {
 %linked {
   @extend %linked_middle;
   &:first-child {
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
   }
   &:last-child {
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
     border-right-style: solid;
   }
   &:only-child {
-    border-radius: 3px;
+    border-radius: 6px;
     border-style: solid;
   }
 }
@@ -1522,6 +1518,36 @@ headerbar {
       border-style: solid;
     }
   }
+  .linked:not(.vertical):not(.path-bar) > entry {
+    + button {
+      &, &:backdrop {
+        background-color: $header_entry_bg;
+        color: $header_fg;
+      }
+
+      &, &:hover, &:active, &:checked, &:disabled {
+        border-radius: 0 6px 6px 0;
+        border-color: $header_entry_border;
+        border-left-style: none;
+      }
+
+      &:active, &:checked {
+        background-color: $selected_bg_color;
+        border-color: $selected_bg_color;
+        color: $selected_fg_color;
+      }
+
+      &:backdrop {
+        opacity: .85;
+      }
+    }
+
+    &:focus + button {
+      color: $selected_fg_color;
+      border-color: if($darker=='false' and $variant=='light', $selected_bg_color, transparent);
+      background-color: $selected_bg_color;
+    }
+  }
   .linked:not(.vertical):not(.path-bar) {
     $_uncolored_button: 'button:not(:checked):not(:active):not(.suggested-action):not(.destructive-action)';
 
@@ -1757,11 +1783,12 @@ headerbar {
 //
 // Pathbars
 //
-.path-bar-box.width-maximized  {
+.path-bar-box.width-maximized {
   background: transparentize($header_bg, .2);
   border-radius: 100px;
-  border: 1px solid if($variant=='light' and $darker=='false', darken($header_bg, 20%), lighten($header_bg, 30%));
+  border: 1px solid $header_entry_border;
 }
+
 .path-bar button {
   &.text-button {
     padding-left: 0px;
@@ -1770,7 +1797,7 @@ headerbar {
     margin-right: 3px;
 
     &:checked {
-      box-shadow:0 2px 2px rgba(0,0,0,.3);
+      box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
     }
 
     &.first-child {
@@ -3786,7 +3813,7 @@ decoration {
   border-width: 0px;
 
   box-shadow: 0 2px if($darkest=='true', 11px 3px #000, 8px 0 transparentize(#000, .6)),
-    0 0 0 if($darkest=='true', 3px #FFF, 1px transparentize(#000, .97));
+  0 0 0 if($darkest=='true', 3px #FFF, 1px transparentize(#000, .97));
 
   // this is used for the resize cursor area
   margin: 10px;
