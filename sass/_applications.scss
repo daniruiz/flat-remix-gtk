@@ -59,6 +59,10 @@ terminal-window,
 
   searchbar { border-top: 1px solid $borders_color; }
   .searchbar-container { margin-top: -1px; }
+
+  .path-bar-box .text-button:checked {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+  }
 }
 
 .nautilus-window notebook,
@@ -133,7 +137,7 @@ $disk_space_free: darken($bg_color, 3%);
   // Rename entry
   .nemo-window-pane widget.entry {
     border: 1px solid;
-    border-radius: 3px;
+    border-radius: 6px;
 
     @include entry(focus);
 
@@ -320,7 +324,7 @@ eggsearchbar box.search-bar {
 pillbox {
   color: $selected_fg_color;
   background-color: $selected_bg_color;
-  border-radius: 3px;
+  border-radius: 6px;
 
   &:disabled label { color: transparentize($selected_fg_color, 0.5) }
 }
@@ -411,7 +415,7 @@ button.run-arrow-button {
   min-width: 12px;
 }
 
-omnibar.linked > entry:not(:only-child) { border-style: solid; border-radius: 3px; margin-left: 1px; margin-right: 1px; }
+omnibar.linked > entry:not(:only-child) { border-style: solid; border-radius: 6px; margin-left: 1px; margin-right: 1px; }
 
 gstyleslidein {
   #scale_box,
@@ -731,7 +735,7 @@ panel-toplevel.background {
 //}
 
 .marlin-pathbar.pathbar {
-  border-radius: 3px;
+  border-radius: 6px;
   padding-left: 4px;
   padding-right: 4px;
 
@@ -751,7 +755,7 @@ panel-toplevel.background {
 //
 .gala-notification {
     border: 1px solid rgba(0, 0, 0, 0.35);
-    border-radius: 3px;
+    border-radius: 6px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     background-image: _solid(#FFF);
     background-color: transparent;

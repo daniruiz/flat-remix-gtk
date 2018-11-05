@@ -148,6 +148,7 @@ label {
 
 .dim-label {
   opacity: 0.55;
+  margin: 0 6px;
 }
 
 assistant {
@@ -215,7 +216,7 @@ entry {
   padding: 2px 8px;
 
   caret-color: currentColor;
-  border-radius: 3px;
+  border-radius: 6px;
   transition: all 200ms $ease-out-quad;
 
   &.search {
@@ -376,7 +377,7 @@ button {
   min-width: 20px;
   transition: $button_transition;
   border: 1px solid;
-  border-radius: 3px;
+  border-radius: 6px;
   padding: 3px 6px;
   min-width: 18px;
   min-height: 22px;
@@ -842,16 +843,16 @@ toolbar.inline-toolbar toolbutton {
 %linked_vertical {
   @extend %linked_vertical_middle;
   &:first-child {
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
   }
   &:last-child {
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
     border-bottom-style: solid;
   }
   &:only-child {
-    border-radius: 3px;
+    border-radius: 6px;
     border-style: solid;
   }
 }
@@ -979,7 +980,7 @@ spinbutton {
 
     &:dir(ltr) entry,
     &:dir(rtl) button.up {
-      border-radius: 3px 0 0 3px;
+      border-radius: 6px 0 0 6px;
     }
 
     > button + button {
@@ -1037,7 +1038,7 @@ spinbutton {
     }
 
     button.up {
-      border-radius: 3px 3px 0 0;
+      border-radius: 6px 6px 0 0;
     }
 
     > entry:focus + button {
@@ -1128,7 +1129,7 @@ toolbar {
   &.osd {
     padding: 7px;
     border: 1px solid transparentize(#000, 0.5);
-    border-radius: 3px;
+    border-radius: 6px;
     background-color: transparentize($osd_bg_color, 0.1);
 
     &.left,
@@ -1196,7 +1197,7 @@ toolbar {
   border-color: $borders_color;
   border-width: 0 1px 1px;
   padding: 3px;
-  border-radius: 0 0 3px 3px;
+  border-radius: 0 0 6px 6px;
 }
 
 searchbar {
@@ -1793,12 +1794,6 @@ headerbar {
   &.text-button {
     padding-left: 0px;
     padding-right: 0px;
-    margin-left: 3px;
-    margin-right: 3px;
-
-    &:checked {
-      box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
-    }
 
     &.first-child {
       margin-left: 0;
@@ -1923,7 +1918,7 @@ treeview.view {
 
   &.progressbar, &.progressbar:focus { // progress bar in treeviews
     color: $selected_fg_color;
-    border-radius: 3px;
+    border-radius: 6px;
     background-color: $selected_bg_color;
 
     &:selected, &:selected:focus {
@@ -1935,13 +1930,13 @@ treeview.view {
   &.trough { // progress bar trough in treeviews
     color: $fg_color;
     background-color: $button_border;
-    border-radius: 3px;
+    border-radius: 6px;
     border-width: 0;
 
     &:selected, &:selected:focus {
       color: $selected_fg_color;
       background-color: transparentize(#000, 0.8);
-      border-radius: 3px;
+      border-radius: 6px;
       border-width: 0;
     }
   }
@@ -2145,7 +2140,7 @@ popover,
 popover.background {
   $_popover_bg: if($variant=='light', $base_color, $bg_color);
   padding: 2px;
-  border-radius: 3px;
+  border-radius: 6px;
   background-clip: border-box;
   background-color: $_popover_bg;
 
@@ -2901,7 +2896,7 @@ progressbar {
   progress {
     background-color: $selected_bg_color;
     border: none;
-    border-radius: 3px;
+    border-radius: 6px;
     box-shadow: none; //needed for clipping
 
     row:selected &,
@@ -2912,7 +2907,7 @@ progressbar {
   // Trough
   trough {
     border: none;
-    border-radius: 3px;
+    border-radius: 6px;
     background-color: if($variant == 'light', $button_border, darken($bg_color, 5%));
 
     row:selected &,
@@ -2938,7 +2933,7 @@ levelbar {
   trough {
     border: none;
     padding: 3px;
-    border-radius: 3px;
+    border-radius: 6px;
     background-color: if($variant == 'light', $button_border, darken($bg_color, 5%));
   }
 
@@ -3182,7 +3177,7 @@ expander {
 calendar {
   color: $fg_color;
   border: 1px solid $borders_color;
-  border-radius: 3px;
+  border-radius: 6px;
   padding: 2px;
 
   &:selected {
@@ -3235,8 +3230,8 @@ messagedialog { // Message Dialog styling
 
   &.csd { // rounded bottom border styling for csd version
     &.background {
-      border-bottom-left-radius: 3px;
-      border-bottom-right-radius: 3px;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
       border: none;
     }
     .dialog-action-area button {
@@ -3258,15 +3253,15 @@ messagedialog { // Message Dialog styling
       border-right-style: none;
     }
     %last_button {
-      border-radius: 0 0 3px 0;
+      border-radius: 0 0 6px 0;
       border-right-style: none;
     }
     %first_button {
-      border-radius: 0 0 0 3px;
+      border-radius: 0 0 0 6px;
       border-left-style: none;
     }
     %single_button {
-      border-radius: 0 0 3px 3px;
+      border-radius: 0 0 6px 6px;
       border-left-style: none;
       border-right-style: none;
     }
@@ -3717,7 +3712,7 @@ button.color {
 
 // colorscale popup
 colorchooser .popover.osd {
-  border-radius: 3px;
+  border-radius: 6px;
 }
 
 //
@@ -3836,7 +3831,7 @@ decoration {
   }
   // server-side decorations as used by mutter
   .ssd & {
-    border-radius: if($darker=='false' and $variant=='light', 4px 4px 0 0, 3px 3px 0 0);
+    border-radius: if($darker=='false' and $variant=='light', 4px 4px 0 0, 6px 6px 0 0);
     box-shadow: 0 0 0 1px if($variant == 'light' and $darker == 'false', transparentize(#000, .97), transparent);
 
     &.maximized {
@@ -3853,7 +3848,7 @@ decoration {
     box-shadow: 0 0 0 1px if($variant == 'light' and $darker == 'false', transparentize(#000, .97), transparent);
   }
   messagedialog.csd & {
-    border-radius: 3px;
+    border-radius: 6px;
   }
   .solid-csd & {
     border-radius: 0;
