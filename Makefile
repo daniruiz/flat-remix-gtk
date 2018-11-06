@@ -3,7 +3,7 @@
 
 PREFIX ?= /usr
 IGNORE ?=
-THEMES ?= Flat-Remix-GTK Flat-Remix-GTK-Dark Flat-Remix-GTK-Darker
+THEMES ?= Flat-Remix-GTK Flat-Remix-GTK-Dark Flat-Remix-GTK-Darker Flat-Remix-GTK-Darker-Solid Flat-Remix-GTK-Darkest Flat-Remix-GTK-Darkest-Solid Flat-Remix-GTK-Dark-Solid Flat-Remix-GTK-Solid
 
 # excludes IGNORE from THEMES list
 THEMES := $(filter-out $(IGNORE), $(THEMES))
