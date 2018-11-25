@@ -1583,7 +1583,7 @@ notebook {
         outline-offset: -4px;
         border: 1px solid transparent;
         border-bottom: none;
-        border-radius: 4px 4px 0 0;
+        border-radius: 6px 6px 0 0;
         margin: 0 5px; }
     notebook > header.bottom {
       padding-top: 0; }
@@ -1594,7 +1594,7 @@ notebook {
         outline-offset: -4px;
         border: 1px solid transparent;
         border-top: none;
-        border-radius: 0 0 4px 4px;
+        border-radius: 0 0 6px 6px;
         margin: 0 5px; }
     notebook > header.right {
       padding-left: 0; }
@@ -1605,7 +1605,7 @@ notebook {
         outline-offset: -4px;
         border: 1px solid transparent;
         border-left: none;
-        border-radius: 0 4px 4px 0;
+        border-radius: 0 6px 6px 0;
         margin: 5px 0; }
     notebook > header.left {
       padding-right: 0; }
@@ -1616,7 +1616,7 @@ notebook {
         outline-offset: -4px;
         border: 1px solid transparent;
         border-right: none;
-        border-radius: 4px 0 0 4px;
+        border-radius: 6px 0 0 6px;
         margin: 5px 0; }
     notebook > header.top > tabs > arrow.up, notebook > header.bottom > tabs > arrow.up {
       -gtk-icon-source: -gtk-icontheme("pan-end-symbolic"); }
@@ -2348,7 +2348,7 @@ row.activatable:selected.has-open-popup, row.activatable:selected:hover {
   color: #FFF;
   background-color: #1a1a1a;
   background-clip: border-box;
-  border-radius: 0 0 2px 2px;
+  border-radius: 0 0 6px 6px;
   border-width: 0 1px 1px 1px;
   border-style: solid;
   border-color: black; }
@@ -2740,10 +2740,12 @@ decoration {
     box-shadow: none;
     border-radius: 0; }
   .ssd decoration {
-    border-radius: 6px 6px 0 0;
-    box-shadow: 0 0 0 1px transparent; }
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.03); }
     .ssd decoration.maximized {
       border-radius: 0; }
+    .ssd decoration:backdrop {
+      box-shadow: none; }
   .csd.popup decoration {
     border-radius: 2px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4), 0 0 0 1px transparent; }
@@ -2763,7 +2765,7 @@ headerbar.default-decoration button.titlebutton,
   padding: 0;
   min-width: 0;
   min-height: 0;
-  margin: 0; }
+  margin: -1px; }
 headerbar button.titlebutton,
 .titlebar button.titlebutton {
   padding: 0;
