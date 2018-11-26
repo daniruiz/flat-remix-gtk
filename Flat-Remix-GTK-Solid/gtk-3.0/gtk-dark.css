@@ -985,22 +985,6 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   background-color: rgba(47, 52, 63, 0);
   border-color: rgba(47, 52, 63, 0);
   border-radius: 100px; }
-  .primary-toolbar button.appmenu.toggle, headerbar button.appmenu.toggle {
-    background: transparent;
-    border: 0;
-    min-height: 15px;
-    min-width: 15px;
-    margin: 5px; }
-    .primary-toolbar button.appmenu.toggle, headerbar button.appmenu.toggle {
-      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-dark.png"), url("assets/titlebutton-appmenu-dark@2.png")); }
-    .primary-toolbar button.appmenu.toggle:backdrop, headerbar button.appmenu.toggle:backdrop {
-      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-backdrop-dark.png"), url("assets/titlebutton-appmenu-backdrop-dark@2.png")); }
-    .primary-toolbar button.appmenu.toggle:hover, headerbar button.appmenu.toggle:hover {
-      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-hover-dark.png"), url("assets/titlebutton-appmenu-hover-dark@2.png")); }
-    .primary-toolbar button.appmenu.toggle:active, headerbar button.appmenu.toggle:active {
-      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-active-dark.png"), url("assets/titlebutton-appmenu-active-dark@2.png")); }
-    .primary-toolbar button.appmenu.toggle image, headerbar button.appmenu.toggle image {
-      opacity: 0; }
   .primary-toolbar button:backdrop, headerbar button:backdrop {
     opacity: 0.7;
     color: rgba(255, 255, 255, 0.8); }
@@ -2745,8 +2729,6 @@ decoration {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.03); }
     .ssd decoration.maximized {
       border-radius: 0; }
-    .ssd decoration:backdrop {
-      box-shadow: none; }
   .csd.popup decoration {
     border-radius: 2px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4), 0 0 0 1px transparent; }
@@ -2837,6 +2819,28 @@ headerbar button.titlebutton,
   headerbar button.titlebutton.minimize:active,
   .titlebar button.titlebutton.minimize:active {
     background-image: -gtk-scaled(url("assets/titlebutton-minimize-active-dark.png"), url("assets/titlebutton-minimize-active-dark@2.png")); }
+  .csd headerbar button.titlebutton.appmenu.toggle,
+  .csd .titlebar button.titlebutton.appmenu.toggle {
+    background: transparent;
+    border: 0;
+    min-height: 15px;
+    min-width: 15px;
+    margin: 5px; }
+    .csd headerbar button.titlebutton.appmenu.toggle,
+    .csd .titlebar button.titlebutton.appmenu.toggle {
+      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-dark.png"), url("assets/titlebutton-appmenu-dark@2.png")); }
+    .csd headerbar button.titlebutton.appmenu.toggle:backdrop,
+    .csd .titlebar button.titlebutton.appmenu.toggle:backdrop {
+      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-backdrop-dark.png"), url("assets/titlebutton-appmenu-backdrop-dark@2.png")); }
+    .csd headerbar button.titlebutton.appmenu.toggle:hover,
+    .csd .titlebar button.titlebutton.appmenu.toggle:hover {
+      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-hover-dark.png"), url("assets/titlebutton-appmenu-hover-dark@2.png")); }
+    .csd headerbar button.titlebutton.appmenu.toggle:active,
+    .csd .titlebar button.titlebutton.appmenu.toggle:active {
+      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-active-dark.png"), url("assets/titlebutton-appmenu-active-dark@2.png")); }
+    .csd headerbar button.titlebutton.appmenu.toggle image,
+    .csd .titlebar button.titlebutton.appmenu.toggle image {
+      opacity: 0; }
 
 .view:selected, iconview:selected, .view:selected:focus, iconview:selected:focus,
 .view text:selected,
@@ -3459,6 +3463,10 @@ panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel butto
   font-weight: bold;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
   -gtk-icon-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
+  .panel * {
+    text-shadow: none; }
+  .panel .maximized {
+    background-color: #000; }
   .panel-shadow {
     background-image: none;
     background-color: transparent; }

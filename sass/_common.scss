@@ -1440,26 +1440,6 @@ headerbar {
 
     @include button(header-normal);
 
-    &.appmenu.toggle {
-      background: transparent;
-      border: 0;
-      min-height: 15px;
-      min-width: 15px;
-      margin: 5px;
-
-      @each $l, $m in ('', ''), (':backdrop', '-backdrop'), (':hover', '-hover'), (':active', '-active') {
-
-        &#{$l} {
-          background-image: -gtk-scaled(url('assets/titlebutton-appmenu#{$m}#{$darker_asset_suffix}.png'),
-                  url('assets/titlebutton-appmenu#{$m}#{$darker_asset_suffix}@2.png'));
-        }
-      }
-
-      image {
-        opacity: 0;
-      }
-    }
-
     &:backdrop {
       opacity: 0.7;
       color: transparentize($header_fg, 0.2);
@@ -3817,7 +3797,7 @@ decoration {
     // the transparent shadow here is to enforce that the shadow extents don't
     // change when we go to backdrop, to prevent jumping windows
     box-shadow: 0 2px if($darkest=='true', 11px 3px, 8px 0) transparent, 0 0 0 3px if($variant == 'light',
-            transparentize(#000, .85), if($darkest == 'true', transparentize(#FFF, .6), transparentize(#000, .75)));
+            transparentize(#000, .85), if($darkest == 'true', transparentize(#CCC, .5), transparentize(#000, .75)));
 
     transition: $backdrop_transition;
   }
@@ -3905,6 +3885,24 @@ headerbar,
                   url('assets/titlebutton-#{$k}#{$m}#{$darker_asset_suffix}@2.png'));
         }
       }
+    }
+
+    .csd &.appmenu.toggle {
+      background: transparent;
+      border: 0;
+      min-height: 15px;
+      min-width: 15px;
+      margin: 5px;
+
+      @each $l, $m in ('', ''), (':backdrop', '-backdrop'), (':hover', '-hover'), (':active', '-active') {
+
+        &#{$l} {
+          background-image: -gtk-scaled(url('assets/titlebutton-appmenu#{$m}#{$darker_asset_suffix}.png'),
+                  url('assets/titlebutton-appmenu#{$m}#{$darker_asset_suffix}@2.png'));
+        }
+      }
+
+      image { opacity: 0; }
     }
   }
 }
