@@ -3787,8 +3787,8 @@ decoration {
   border-radius: $_header_radius $_header_radius 0 0;
   border-width: 0px;
 
-  box-shadow: 0 2px if($darkest=='true', 11px 3px #000, 8px 0 transparentize(#000, .6)),
-  0 0 0 if($darkest=='true', 3px #FFF, 1px transparentize(#000, .97));
+  box-shadow: 0 2px if($windowOutline=='true', 11px 3px, 8px 0) if($darkest=='true', #000, transparentize(#000, .6)),
+        0 0 0 if($windowOutline=='true', 3px #FFF, 1px transparentize(#FFF, .95));
 
   // this is used for the resize cursor area
   margin: 10px;
@@ -3796,8 +3796,10 @@ decoration {
   &:backdrop {
     // the transparent shadow here is to enforce that the shadow extents don't
     // change when we go to backdrop, to prevent jumping windows
-    box-shadow: 0 2px if($darkest=='true', 11px 3px, 8px 0) transparent, 0 0 0 3px if($variant == 'light',
-            transparentize(#000, .85), if($darkest == 'true', transparentize(#CCC, .5), transparentize(#000, .75)));
+    box-shadow: 0 2px if($windowOutline=='true', 11px 3px, 8px 0) transparent,
+            0 0 0 3px if($variant == 'light',
+                    transparentize(#000, .85),
+                    transparentize(if($darkest=='true', if($windowOutline=='true', #CCC, #555), #000), if($windowOutline=='true', .5, .75)));
 
     transition: $backdrop_transition;
   }
@@ -3812,7 +3814,7 @@ decoration {
   // server-side decorations as used by mutter
   .ssd & {
     border-radius: $_header_radius $_header_radius 0 0;
-    box-shadow: 0 0 0 if($darkest=='true', 3px #FFF, 1px transparentize(#000, .97));
+    box-shadow: 0 0 0 if($windowOutline=='true', 3px #FFF, 1px transparentize(#000, .95));
 
     &.maximized {
       border-radius: 0;

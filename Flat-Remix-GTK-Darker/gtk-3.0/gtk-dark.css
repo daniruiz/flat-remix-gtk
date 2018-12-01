@@ -2714,7 +2714,7 @@ stackswitcher button.circular, stackswitcher button.nautilus-circular-button.ima
 decoration {
   border-radius: 3px 3px 0 0;
   border-width: 0px;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.05);
   margin: 10px; }
   decoration:backdrop {
     box-shadow: 0 2px 8px 0 transparent, 0 0 0 3px rgba(0, 0, 0, 0.25);
@@ -2726,7 +2726,7 @@ decoration {
     border-radius: 0; }
   .ssd decoration {
     border-radius: 3px 3px 0 0;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.03); }
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05); }
     .ssd decoration.maximized {
       border-radius: 0; }
   .csd.popup decoration {
