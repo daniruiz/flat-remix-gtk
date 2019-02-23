@@ -76,7 +76,7 @@ label:disabled {
 
 .dim-label, label.separator, popover label.separator, popover.background label.separator, headerbar .subtitle, .titlebar:not(headerbar) .subtitle {
   opacity: 0.55;
-  margin: 0 6px; }
+  margin: 0 -2px; }
 
 assistant .sidebar {
   background-color: #000;
@@ -1301,6 +1301,9 @@ headerbar spinbutton:not(.vertical) > entry + button:not(:active):hover {
 .path-bar button image {
   padding-left: 4px;
   padding-right: 4px; }
+
+.path-bar:not(.linked) button:checked {
+  margin-left: 10px; }
 
 treeview.view {
   border-left-color: rgba(255, 255, 255, 0.15);

@@ -148,7 +148,7 @@ label {
 
 .dim-label {
   opacity: 0.55;
-  margin: 0 6px;
+  margin: 0 -2px;
 }
 
 assistant {
@@ -1808,6 +1808,10 @@ headerbar {
     padding-left: 4px;
     padding-right: 4px;
   }
+}
+
+.path-bar:not(.linked) button:checked {
+  margin-left: 10px;
 }
 
 //
