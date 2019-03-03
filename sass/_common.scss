@@ -1725,8 +1725,6 @@ headerbar {
 
   // Headerbar Scale
   scale {
-    $_trough_bg: if($variant=='light' and $darker=='false', opacify($header_button_border, 0.05), $header_button_border);
-
     &:backdrop {
       opacity: 0.75;
     }
@@ -1752,10 +1750,10 @@ headerbar {
       }
     }
     trough {
-      background-color: $_trough_bg;
+      background-color: $trough_bg;
 
       &:disabled {
-        background-color: if($variant=='light' and $darker=='false', transparentize($_trough_bg, 0.05), transparentize($_trough_bg, 0.1));
+        background-color: if($variant=='light' and $darker=='false', transparentize($trough_bg, 0.05), transparentize($trough_bg, 0.1));
       }
     }
   }

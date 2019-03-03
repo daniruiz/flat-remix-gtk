@@ -86,4 +86,5 @@ $button_border: $entry_border;
 
 $header_button_bg: if($darker == 'true' or $variant == 'dark', transparentize(lighten($header_bg, 22%), 0), #FFF);
 $header_button_border: if($variant == 'light' and $darker == 'false', $header_entry_border, transparent);
+$trough_bg: if($variant=='light' and $darker=='false', opacify($header_entry_border, 0.05), $header_entry_border);
 

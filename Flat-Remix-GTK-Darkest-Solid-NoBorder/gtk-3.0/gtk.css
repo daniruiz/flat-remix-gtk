@@ -1271,9 +1271,9 @@ headerbar spinbutton:not(.vertical) > entry + button:not(:active):hover {
     background-color: #121212;
     border-color: rgba(0, 0, 0, 0.3); }
 .primary-toolbar scale trough, headerbar scale trough {
-  background-color: transparent; }
+  background-color: #4d4d4d; }
   .primary-toolbar scale trough:disabled, headerbar scale trough:disabled {
-    background-color: rgba(0, 0, 0, 0); }
+    background-color: rgba(77, 77, 77, 0.9); }
 
 .path-bar-box.width-maximized {
   background: rgba(0, 0, 0, 0.8);
