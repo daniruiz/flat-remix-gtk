@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" version="1.1">
+ <defs>
+  <linearGradient id="linearGradient1865" x1="1369" x2="1383" y1="255" y2="255" gradientTransform="translate(-1368,-247)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1878"/>
+  <linearGradient id="linearGradient1878">
+   <stop style="stop-color:#ffa367" offset="0"/>
+   <stop style="stop-color:#ff6600" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient6573" x1="89" x2="89" y1="974" y2="976" gradientTransform="translate(-81.000195,-967)" gradientUnits="userSpaceOnUse" xlink:href="#selected_fg_color"/>
+  <linearGradient id="selected_fg_color" osb:paint="solid">
+   <stop style="stop-color:#ffffff" offset="0"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <circle style="fill:url(#linearGradient1865)" cx="8" cy="8" r="7"/>
+  <path d="m 5.000005,7 v 2 h 6 V 7 Z" style="fill:url(#linearGradient6573)"/>
+ </g>
+</svg>
