@@ -1,0 +1,90 @@
+// When color definition differs for dark and light variant,
+// it gets @if ed depending on $variant
+
+
+$base_color: #FFF;
+@if $variant=='light' { $base_color: #FFF; }
+@if $variant=='dark' and $darkest=='false' { $base_color: #2f343f; }
+@if $variant=='dark' and $darkest=='true' { $base_color: #000; }
+$text_color: if($variant == 'light', #5c616c, #FFF);
+$bg_color: #fafafa;
+@if $variant=='light' { $bg_color: #fafafa; }
+@if $variant=='dark' and $darkest=='false' { $bg_color: #383C4A; }
+@if $variant=='dark' and $darkest=='true' { $bg_color: lighten($base_color, 10%); }
+$fg_color: if($variant =='light', #5c616c, #FFF);
+
+$selected_fg_color: #ffffff;
+$selected_bg_color: #367bf0;
+$selected_borders_color: darken($selected_bg_color, 20%);
+$borders_color: if($variant =='light', darken($bg_color,9%), darken($bg_color,6%));
+
+$link_color: if($variant == 'light', darken($selected_bg_color,10%),
+                                     lighten($selected_bg_color,20%));
+$link_visited_color: if($variant == 'light', darken($selected_bg_color,20%),
+                                     lighten($selected_bg_color,10%));
+
+$selection_mode_bg: if($transparency == 'true', transparentize($selected_bg_color, 0.05), $selected_bg_color);
+$selection_mode_fg: $selected_fg_color;
+$warning_color: #ff6600;
+$error_color: #d31919;
+$warning_fg_color: #FFF;
+$error_fg_color: #FFF;
+$success_color: #19a187;
+$destructive_color: #d31919;
+$suggested_color: #367bf0;
+$destructive_fg_color: #FFF;
+$suggested_fg_color: #FFF;
+
+$drop_target_color: #ff6600;
+
+//insensitive state derived colors
+$insensitive_fg_color: if($variant == 'light', transparentize($fg_color, 0.45), transparentize($fg_color, 0.55));
+$insensitive_bg_color: if($variant == 'light', mix($bg_color, $base_color, 40%), lighten($bg_color, 2%));
+
+$header_bg: transparentize(if($darker=='false', $base_color, #000), if($transparency=='false', 0, .2));
+$header_bg_backdrop: if($darker == 'true' or $variant == 'dark', lighten($header_bg, 1.5%), lighten($header_bg, 3%));
+
+$header_border: if($variant == 'light' and $darker=='false', darken($header_bg, 7%), darken($header_bg, 4%));
+
+$header_fg: if($variant == 'light', #000, #FFF);
+$header_fg: if($darker == 'true', #FFF, $header_fg);
+
+$dark_sidebar_bg: #000;
+@if $variant=='light' or $darkest=='true' {
+  $dark_sidebar_bg: lighten(transparentize(#000, if($transparency=='true', if($variant=='light', 0.07, 0.025), 0)), 10%);
+} @else {
+  $dark_sidebar_bg: if($transparency == 'true', transparentize(#353945, 0.05), #353945);
+}
+$dark_sidebar_fg: #FFF;
+$dark_sidebar_border: if($variant == 'light', $dark_sidebar_bg, darken($dark_sidebar_bg, 5%));
+
+
+$osd_fg_color: $dark_sidebar_fg;
+$osd_bg_color: $dark_sidebar_bg;
+
+$osd_button_bg: transparentize(lighten($osd_bg_color, 22%), 0.6);
+$osd_button_border: transparentize(darken($osd_bg_color, 12%), 0.6);
+
+$osd_entry_bg: transparentize(lighten($osd_bg_color, 22%), 0.6);
+$osd_entry_border: transparentize(darken($osd_bg_color, 12%), 0.6);
+
+$osd_insensitive_bg_color: darken($osd_bg_color, 3%);
+$osd_insensitive_fg_color: mix($osd_fg_color, opacify($osd_bg_color, 1), 30%);
+$osd_borders_color: transparentize(#000, 0.3);
+
+$panel_bg: darken($dark_sidebar_bg, 4.7%);
+$panel_fg: $dark_sidebar_fg;
+
+$entry_bg: if($variant=='light', $base_color, lighten($base_color, 0%));
+$entry_border: if($variant == 'light', #cfd6e6, darken($borders_color, 0%));
+
+$header_entry_bg: if($darker == 'true' or $variant == 'dark', transparentize(lighten($header_bg, 22%), 0.6), transparentize($base_color, 0.1));
+$header_entry_border: if($variant=='light' and $darker=='false', darken($header_bg, 20%), lighten($header_bg, 30%));
+
+$button_bg: if($variant == 'light', lighten($bg_color, 2%), lighten($base_color, 2%));
+$button_border: $entry_border;
+
+$header_button_bg: if($darker == 'true' or $variant == 'dark', transparentize(lighten($header_bg, 22%), 0), #FFF);
+$header_button_border: if($variant == 'light' and $darker == 'false', $header_entry_border, transparent);
+$trough_bg: if($variant=='light' and $darker=='false', opacify($header_entry_border, 0.05), $header_entry_border);
+
