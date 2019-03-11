@@ -1753,7 +1753,7 @@ infobar switch {
 
 headerbar switch,
 .primary-toolbar switch {
-  background-image: -gtk-scaled(url("assets/switch-header-dark.png"), url("assets/switch-header-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-header-darkest.png"), url("assets/switch-header-darkest@2.png")); }
 
 switch:checked {
   background-image: -gtk-scaled(url("assets/switch-active.png"), url("assets/switch-active@2.png")); }
@@ -1765,7 +1765,7 @@ infobar switch:checked {
 
 headerbar switch:checked,
 .primary-toolbar switch:checked {
-  background-image: -gtk-scaled(url("assets/switch-active-header-dark.png"), url("assets/switch-active-header-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-active-header-darkest.png"), url("assets/switch-active-header-darkest@2.png")); }
 
 switch:disabled {
   background-image: -gtk-scaled(url("assets/switch-insensitive.png"), url("assets/switch-insensitive@2.png")); }
@@ -1777,7 +1777,7 @@ infobar switch:disabled {
 
 headerbar switch:disabled,
 .primary-toolbar switch:disabled {
-  background-image: -gtk-scaled(url("assets/switch-insensitive-header-dark.png"), url("assets/switch-insensitive-header-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-insensitive-header-darkest.png"), url("assets/switch-insensitive-header-darkest@2.png")); }
 
 switch:checked:disabled {
   background-image: -gtk-scaled(url("assets/switch-active-insensitive.png"), url("assets/switch-active-insensitive@2.png")); }
@@ -1789,7 +1789,7 @@ infobar switch:checked:disabled {
 
 headerbar switch:checked:disabled,
 .primary-toolbar switch:checked:disabled {
-  background-image: -gtk-scaled(url("assets/switch-active-insensitive-header-dark.png"), url("assets/switch-active-insensitive-header-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-active-insensitive-header-darkest.png"), url("assets/switch-active-insensitive-header-darkest@2.png")); }
 
 .check,
 check,
@@ -2787,40 +2787,40 @@ headerbar button.titlebutton,
       opacity: 1; }
   headerbar button.titlebutton.close,
   .titlebar button.titlebutton.close {
-    background-image: -gtk-scaled(url("assets/titlebutton-close-dark.png"), url("assets/titlebutton-close-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-close-darkest.png"), url("assets/titlebutton-close-darkest@2.png")); }
   headerbar button.titlebutton.close:backdrop,
   .titlebar button.titlebutton.close:backdrop {
-    background-image: -gtk-scaled(url("assets/titlebutton-close-backdrop-dark.png"), url("assets/titlebutton-close-backdrop-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-close-backdrop-darkest.png"), url("assets/titlebutton-close-backdrop-darkest@2.png")); }
   headerbar button.titlebutton.close:hover,
   .titlebar button.titlebutton.close:hover {
-    background-image: -gtk-scaled(url("assets/titlebutton-close-hover-dark.png"), url("assets/titlebutton-close-hover-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-close-hover-darkest.png"), url("assets/titlebutton-close-hover-darkest@2.png")); }
   headerbar button.titlebutton.close:active,
   .titlebar button.titlebutton.close:active {
-    background-image: -gtk-scaled(url("assets/titlebutton-close-active-dark.png"), url("assets/titlebutton-close-active-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-close-active-darkest.png"), url("assets/titlebutton-close-active-darkest@2.png")); }
   headerbar button.titlebutton.maximize,
   .titlebar button.titlebutton.maximize {
-    background-image: -gtk-scaled(url("assets/titlebutton-maximize-dark.png"), url("assets/titlebutton-maximize-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-maximize-darkest.png"), url("assets/titlebutton-maximize-darkest@2.png")); }
   headerbar button.titlebutton.maximize:backdrop,
   .titlebar button.titlebutton.maximize:backdrop {
-    background-image: -gtk-scaled(url("assets/titlebutton-maximize-backdrop-dark.png"), url("assets/titlebutton-maximize-backdrop-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-maximize-backdrop-darkest.png"), url("assets/titlebutton-maximize-backdrop-darkest@2.png")); }
   headerbar button.titlebutton.maximize:hover,
   .titlebar button.titlebutton.maximize:hover {
-    background-image: -gtk-scaled(url("assets/titlebutton-maximize-hover-dark.png"), url("assets/titlebutton-maximize-hover-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-maximize-hover-darkest.png"), url("assets/titlebutton-maximize-hover-darkest@2.png")); }
   headerbar button.titlebutton.maximize:active,
   .titlebar button.titlebutton.maximize:active {
-    background-image: -gtk-scaled(url("assets/titlebutton-maximize-active-dark.png"), url("assets/titlebutton-maximize-active-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-maximize-active-darkest.png"), url("assets/titlebutton-maximize-active-darkest@2.png")); }
   headerbar button.titlebutton.minimize,
   .titlebar button.titlebutton.minimize {
-    background-image: -gtk-scaled(url("assets/titlebutton-minimize-dark.png"), url("assets/titlebutton-minimize-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-minimize-darkest.png"), url("assets/titlebutton-minimize-darkest@2.png")); }
   headerbar button.titlebutton.minimize:backdrop,
   .titlebar button.titlebutton.minimize:backdrop {
-    background-image: -gtk-scaled(url("assets/titlebutton-minimize-backdrop-dark.png"), url("assets/titlebutton-minimize-backdrop-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-minimize-backdrop-darkest.png"), url("assets/titlebutton-minimize-backdrop-darkest@2.png")); }
   headerbar button.titlebutton.minimize:hover,
   .titlebar button.titlebutton.minimize:hover {
-    background-image: -gtk-scaled(url("assets/titlebutton-minimize-hover-dark.png"), url("assets/titlebutton-minimize-hover-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-minimize-hover-darkest.png"), url("assets/titlebutton-minimize-hover-darkest@2.png")); }
   headerbar button.titlebutton.minimize:active,
   .titlebar button.titlebutton.minimize:active {
-    background-image: -gtk-scaled(url("assets/titlebutton-minimize-active-dark.png"), url("assets/titlebutton-minimize-active-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-minimize-active-darkest.png"), url("assets/titlebutton-minimize-active-darkest@2.png")); }
   .csd headerbar button.titlebutton.appmenu.toggle,
   .csd .titlebar button.titlebutton.appmenu.toggle {
     background: transparent;
@@ -2830,16 +2830,16 @@ headerbar button.titlebutton,
     margin: 5px; }
     .csd headerbar button.titlebutton.appmenu.toggle,
     .csd .titlebar button.titlebutton.appmenu.toggle {
-      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-dark.png"), url("assets/titlebutton-appmenu-dark@2.png")); }
+      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-darkest.png"), url("assets/titlebutton-appmenu-darkest@2.png")); }
     .csd headerbar button.titlebutton.appmenu.toggle:backdrop,
     .csd .titlebar button.titlebutton.appmenu.toggle:backdrop {
-      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-backdrop-dark.png"), url("assets/titlebutton-appmenu-backdrop-dark@2.png")); }
+      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-backdrop-darkest.png"), url("assets/titlebutton-appmenu-backdrop-darkest@2.png")); }
     .csd headerbar button.titlebutton.appmenu.toggle:hover,
     .csd .titlebar button.titlebutton.appmenu.toggle:hover {
-      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-hover-dark.png"), url("assets/titlebutton-appmenu-hover-dark@2.png")); }
+      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-hover-darkest.png"), url("assets/titlebutton-appmenu-hover-darkest@2.png")); }
     .csd headerbar button.titlebutton.appmenu.toggle:active,
     .csd .titlebar button.titlebutton.appmenu.toggle:active {
-      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-active-dark.png"), url("assets/titlebutton-appmenu-active-dark@2.png")); }
+      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-active-darkest.png"), url("assets/titlebutton-appmenu-active-darkest@2.png")); }
     .csd headerbar button.titlebutton.appmenu.toggle image,
     .csd .titlebar button.titlebutton.appmenu.toggle image {
       opacity: 0; }

@@ -1745,7 +1745,7 @@ switch {
     box-shadow: none; }
 
 switch {
-  background-image: -gtk-scaled(url("assets/switch-dark.png"), url("assets/switch-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-darkest.png"), url("assets/switch-darkest@2.png")); }
 
 menuitem:hover switch,
 row:selected switch,
@@ -1754,10 +1754,10 @@ infobar switch {
 
 headerbar switch,
 .primary-toolbar switch {
-  background-image: -gtk-scaled(url("assets/switch-header-dark.png"), url("assets/switch-header-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-header-darkest.png"), url("assets/switch-header-darkest@2.png")); }
 
 switch:checked {
-  background-image: -gtk-scaled(url("assets/switch-active-dark.png"), url("assets/switch-active-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-active-darkest.png"), url("assets/switch-active-darkest@2.png")); }
 
 menuitem:hover switch:checked,
 row:selected switch:checked,
@@ -1766,10 +1766,10 @@ infobar switch:checked {
 
 headerbar switch:checked,
 .primary-toolbar switch:checked {
-  background-image: -gtk-scaled(url("assets/switch-active-header-dark.png"), url("assets/switch-active-header-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-active-header-darkest.png"), url("assets/switch-active-header-darkest@2.png")); }
 
 switch:disabled {
-  background-image: -gtk-scaled(url("assets/switch-insensitive-dark.png"), url("assets/switch-insensitive-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-insensitive-darkest.png"), url("assets/switch-insensitive-darkest@2.png")); }
 
 menuitem:hover switch:disabled,
 row:selected switch:disabled,
@@ -1778,10 +1778,10 @@ infobar switch:disabled {
 
 headerbar switch:disabled,
 .primary-toolbar switch:disabled {
-  background-image: -gtk-scaled(url("assets/switch-insensitive-header-dark.png"), url("assets/switch-insensitive-header-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-insensitive-header-darkest.png"), url("assets/switch-insensitive-header-darkest@2.png")); }
 
 switch:checked:disabled {
-  background-image: -gtk-scaled(url("assets/switch-active-insensitive-dark.png"), url("assets/switch-active-insensitive-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-active-insensitive-darkest.png"), url("assets/switch-active-insensitive-darkest@2.png")); }
 
 menuitem:hover switch:checked:disabled,
 row:selected switch:checked:disabled,
@@ -1790,12 +1790,12 @@ infobar switch:checked:disabled {
 
 headerbar switch:checked:disabled,
 .primary-toolbar switch:checked:disabled {
-  background-image: -gtk-scaled(url("assets/switch-active-insensitive-header-dark.png"), url("assets/switch-active-insensitive-header-dark@2.png")); }
+  background-image: -gtk-scaled(url("assets/switch-active-insensitive-header-darkest.png"), url("assets/switch-active-insensitive-header-darkest@2.png")); }
 
 .check,
 check,
 treeview.check {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-dark.png"), url("assets/checkbox-unchecked-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-darkest.png"), url("assets/checkbox-unchecked-darkest@2.png")); }
 
 .osd check,
 filechooser actionbar check {
@@ -1812,7 +1812,7 @@ infobar check {
 .check:disabled,
 check:disabled,
 treeview.check:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-insensitive-dark.png"), url("assets/checkbox-unchecked-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-insensitive-darkest.png"), url("assets/checkbox-unchecked-insensitive-darkest@2.png")); }
 
 .osd check:disabled,
 filechooser actionbar check:disabled {
@@ -1829,7 +1829,7 @@ infobar check:disabled {
 .check:indeterminate,
 check:indeterminate,
 treeview.check:indeterminate {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-dark.png"), url("assets/checkbox-mixed-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-darkest.png"), url("assets/checkbox-mixed-darkest@2.png")); }
 
 .osd check:indeterminate,
 filechooser actionbar check:indeterminate {
@@ -1846,7 +1846,7 @@ infobar check:indeterminate {
 .check:indeterminate:disabled,
 check:indeterminate:disabled,
 treeview.check:indeterminate:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-insensitive-dark.png"), url("assets/checkbox-mixed-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-insensitive-darkest.png"), url("assets/checkbox-mixed-insensitive-darkest@2.png")); }
 
 .osd check:indeterminate:disabled,
 filechooser actionbar check:indeterminate:disabled {
@@ -1863,7 +1863,7 @@ infobar check:indeterminate:disabled {
 .check:checked,
 check:checked,
 treeview.check:checked {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-dark.png"), url("assets/checkbox-checked-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-darkest.png"), url("assets/checkbox-checked-darkest@2.png")); }
 
 .osd check:checked,
 filechooser actionbar check:checked {
@@ -1880,7 +1880,7 @@ infobar check:checked {
 .check:checked:disabled,
 check:checked:disabled,
 treeview.check:checked:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-insensitive-dark.png"), url("assets/checkbox-checked-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-insensitive-darkest.png"), url("assets/checkbox-checked-insensitive-darkest@2.png")); }
 
 .osd check:checked:disabled,
 filechooser actionbar check:checked:disabled {
@@ -1897,7 +1897,7 @@ infobar check:checked:disabled {
 .radio,
 radio,
 treeview.radio {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked-dark.png"), url("assets/radio-unchecked-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked-darkest.png"), url("assets/radio-unchecked-darkest@2.png")); }
 
 .osd radio,
 filechooser actionbar radio {
@@ -1914,7 +1914,7 @@ infobar radio {
 .radio:disabled,
 radio:disabled,
 treeview.radio:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked-insensitive-dark.png"), url("assets/radio-unchecked-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked-insensitive-darkest.png"), url("assets/radio-unchecked-insensitive-darkest@2.png")); }
 
 .osd radio:disabled,
 filechooser actionbar radio:disabled {
@@ -1931,7 +1931,7 @@ infobar radio:disabled {
 .radio:indeterminate,
 radio:indeterminate,
 treeview.radio:indeterminate {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-dark.png"), url("assets/radio-mixed-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-darkest.png"), url("assets/radio-mixed-darkest@2.png")); }
 
 .osd radio:indeterminate,
 filechooser actionbar radio:indeterminate {
@@ -1948,7 +1948,7 @@ infobar radio:indeterminate {
 .radio:indeterminate:disabled,
 radio:indeterminate:disabled,
 treeview.radio:indeterminate:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-insensitive-dark.png"), url("assets/radio-mixed-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-insensitive-darkest.png"), url("assets/radio-mixed-insensitive-darkest@2.png")); }
 
 .osd radio:indeterminate:disabled,
 filechooser actionbar radio:indeterminate:disabled {
@@ -1965,7 +1965,7 @@ infobar radio:indeterminate:disabled {
 .radio:checked,
 radio:checked,
 treeview.radio:checked {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-checked-dark.png"), url("assets/radio-checked-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-checked-darkest.png"), url("assets/radio-checked-darkest@2.png")); }
 
 .osd radio:checked,
 filechooser actionbar radio:checked {
@@ -1982,7 +1982,7 @@ infobar radio:checked {
 .radio:checked:disabled,
 radio:checked:disabled,
 treeview.radio:checked:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-checked-insensitive-dark.png"), url("assets/radio-checked-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-checked-insensitive-darkest.png"), url("assets/radio-checked-insensitive-darkest@2.png")); }
 
 .osd radio:checked:disabled,
 filechooser actionbar radio:checked:disabled {
@@ -1997,11 +1997,11 @@ infobar radio:checked:disabled {
   -gtk-icon-source: -gtk-scaled(url("assets/radio-checked-insensitive-selected.png"), url("assets/radio-checked-insensitive-selected@2.png")); }
 
 .view.content-view.check:not(list), iconview.content-view.check:not(list) {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-selectionmode-dark.png"), url("assets/checkbox-selectionmode-dark@2.png"));
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-selectionmode-darkest.png"), url("assets/checkbox-selectionmode-darkest@2.png"));
   background-color: transparent; }
 
 .view.content-view.check:checked:not(list), iconview.content-view.check:checked:not(list) {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-selectionmode-dark.png"), url("assets/checkbox-checked-selectionmode-dark@2.png"));
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-selectionmode-darkest.png"), url("assets/checkbox-checked-selectionmode-darkest@2.png"));
   background-color: transparent; }
 
 checkbutton.text-button, radiobutton.text-button {
@@ -2788,40 +2788,40 @@ headerbar button.titlebutton,
       opacity: 1; }
   headerbar button.titlebutton.close,
   .titlebar button.titlebutton.close {
-    background-image: -gtk-scaled(url("assets/titlebutton-close-dark.png"), url("assets/titlebutton-close-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-close-darkest.png"), url("assets/titlebutton-close-darkest@2.png")); }
   headerbar button.titlebutton.close:backdrop,
   .titlebar button.titlebutton.close:backdrop {
-    background-image: -gtk-scaled(url("assets/titlebutton-close-backdrop-dark.png"), url("assets/titlebutton-close-backdrop-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-close-backdrop-darkest.png"), url("assets/titlebutton-close-backdrop-darkest@2.png")); }
   headerbar button.titlebutton.close:hover,
   .titlebar button.titlebutton.close:hover {
-    background-image: -gtk-scaled(url("assets/titlebutton-close-hover-dark.png"), url("assets/titlebutton-close-hover-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-close-hover-darkest.png"), url("assets/titlebutton-close-hover-darkest@2.png")); }
   headerbar button.titlebutton.close:active,
   .titlebar button.titlebutton.close:active {
-    background-image: -gtk-scaled(url("assets/titlebutton-close-active-dark.png"), url("assets/titlebutton-close-active-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-close-active-darkest.png"), url("assets/titlebutton-close-active-darkest@2.png")); }
   headerbar button.titlebutton.maximize,
   .titlebar button.titlebutton.maximize {
-    background-image: -gtk-scaled(url("assets/titlebutton-maximize-dark.png"), url("assets/titlebutton-maximize-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-maximize-darkest.png"), url("assets/titlebutton-maximize-darkest@2.png")); }
   headerbar button.titlebutton.maximize:backdrop,
   .titlebar button.titlebutton.maximize:backdrop {
-    background-image: -gtk-scaled(url("assets/titlebutton-maximize-backdrop-dark.png"), url("assets/titlebutton-maximize-backdrop-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-maximize-backdrop-darkest.png"), url("assets/titlebutton-maximize-backdrop-darkest@2.png")); }
   headerbar button.titlebutton.maximize:hover,
   .titlebar button.titlebutton.maximize:hover {
-    background-image: -gtk-scaled(url("assets/titlebutton-maximize-hover-dark.png"), url("assets/titlebutton-maximize-hover-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-maximize-hover-darkest.png"), url("assets/titlebutton-maximize-hover-darkest@2.png")); }
   headerbar button.titlebutton.maximize:active,
   .titlebar button.titlebutton.maximize:active {
-    background-image: -gtk-scaled(url("assets/titlebutton-maximize-active-dark.png"), url("assets/titlebutton-maximize-active-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-maximize-active-darkest.png"), url("assets/titlebutton-maximize-active-darkest@2.png")); }
   headerbar button.titlebutton.minimize,
   .titlebar button.titlebutton.minimize {
-    background-image: -gtk-scaled(url("assets/titlebutton-minimize-dark.png"), url("assets/titlebutton-minimize-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-minimize-darkest.png"), url("assets/titlebutton-minimize-darkest@2.png")); }
   headerbar button.titlebutton.minimize:backdrop,
   .titlebar button.titlebutton.minimize:backdrop {
-    background-image: -gtk-scaled(url("assets/titlebutton-minimize-backdrop-dark.png"), url("assets/titlebutton-minimize-backdrop-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-minimize-backdrop-darkest.png"), url("assets/titlebutton-minimize-backdrop-darkest@2.png")); }
   headerbar button.titlebutton.minimize:hover,
   .titlebar button.titlebutton.minimize:hover {
-    background-image: -gtk-scaled(url("assets/titlebutton-minimize-hover-dark.png"), url("assets/titlebutton-minimize-hover-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-minimize-hover-darkest.png"), url("assets/titlebutton-minimize-hover-darkest@2.png")); }
   headerbar button.titlebutton.minimize:active,
   .titlebar button.titlebutton.minimize:active {
-    background-image: -gtk-scaled(url("assets/titlebutton-minimize-active-dark.png"), url("assets/titlebutton-minimize-active-dark@2.png")); }
+    background-image: -gtk-scaled(url("assets/titlebutton-minimize-active-darkest.png"), url("assets/titlebutton-minimize-active-darkest@2.png")); }
   .csd headerbar button.titlebutton.appmenu.toggle,
   .csd .titlebar button.titlebutton.appmenu.toggle {
     background: transparent;
@@ -2831,16 +2831,16 @@ headerbar button.titlebutton,
     margin: 5px; }
     .csd headerbar button.titlebutton.appmenu.toggle,
     .csd .titlebar button.titlebutton.appmenu.toggle {
-      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-dark.png"), url("assets/titlebutton-appmenu-dark@2.png")); }
+      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-darkest.png"), url("assets/titlebutton-appmenu-darkest@2.png")); }
     .csd headerbar button.titlebutton.appmenu.toggle:backdrop,
     .csd .titlebar button.titlebutton.appmenu.toggle:backdrop {
-      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-backdrop-dark.png"), url("assets/titlebutton-appmenu-backdrop-dark@2.png")); }
+      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-backdrop-darkest.png"), url("assets/titlebutton-appmenu-backdrop-darkest@2.png")); }
     .csd headerbar button.titlebutton.appmenu.toggle:hover,
     .csd .titlebar button.titlebutton.appmenu.toggle:hover {
-      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-hover-dark.png"), url("assets/titlebutton-appmenu-hover-dark@2.png")); }
+      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-hover-darkest.png"), url("assets/titlebutton-appmenu-hover-darkest@2.png")); }
     .csd headerbar button.titlebutton.appmenu.toggle:active,
     .csd .titlebar button.titlebutton.appmenu.toggle:active {
-      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-active-dark.png"), url("assets/titlebutton-appmenu-active-dark@2.png")); }
+      background-image: -gtk-scaled(url("assets/titlebutton-appmenu-active-darkest.png"), url("assets/titlebutton-appmenu-active-darkest@2.png")); }
     .csd headerbar button.titlebutton.appmenu.toggle image,
     .csd .titlebar button.titlebutton.appmenu.toggle image {
       opacity: 0; }
