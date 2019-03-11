@@ -9,7 +9,8 @@ mkdir -p "$TMP"
 # Build CSS files
 for scss in sass/*.scss
 do
-  scss --sourcemap=none -C -q "$scss" "$TMP"/"$(basename ${scss%%.scss})".css
+	echo "Generate ${scss}"
+	scss --sourcemap=none -C -q "$scss" "$TMP"/"$(basename ${scss%%.scss})".css
 done
 
 
@@ -33,4 +34,16 @@ cp -f "$TMP"/gtk-darkest-noBorder.css ../Flat-Remix-GTK-Darkest-NoBorder/gtk-3.0
 cp -f "$TMP"/gtk-darkest-solid-noBorder.css ../Flat-Remix-GTK-Darkest-Solid-NoBorder/gtk-3.0/gtk.css
 
 # Generate assets
+if [[ $1 != "--no-assets" ]]
+then
+	cp -r assets-renderer "$TMP"/
+	(cd "$TMP"/assets-renderer/gtk2/ && ./render-assets.sh)
+	(cd "$TMP"/assets-renderer/gtk3/ && ./render-assets.sh)
+
+	for i in ../Flat-Remix-GTK*
+	do
+		rm "$i"/gtk-3.0/assets/*
+		cp -f "$TMP"/assets-renderer/gtk3/assets/* "$i"/gtk-3.0/assets/
+	done
+fi
 
