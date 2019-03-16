@@ -1,18 +1,21 @@
-![Flat Remix](https://cdn.rawgit.com/daniruiz/Flat-Remix-GTK/master/logo.png)
+![Flat Remix GTK theme](https://github.com/daniruiz/flat-remix-gtk/raw/master/assets/logo.png)
 
-###### Flat-Remix-GTK is licensed under the GNU General Public License v3.0
-Theme based on Arc theme by horst3180 https://github.com/horst3180/arc-theme
-<hr>
-<br>
-Flat Remix GTK theme is a pretty simple gtk window theme inspired on material design following a modern design using "flat" colors with high contrasts and sharp borders.
-<br><br>
+<hr/>
 
-![theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix-GTK/master/1.png)
-![theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix-GTK/master/2.png)
-![theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix-GTK/master/3.png)
-![theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix-GTK/master/4.png)
-![theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix-GTK/master/5.png)
-<br>
+### Support this theme by downloading it from [openDesktop](https://www.opendesktop.org/p/1214931)
+
+<hr/>
+
+# Themes
+
+#### Flat Remix ![Screenshot Flat-Remix](https://github.com/daniruiz/flat-remix-gtk/raw/master/assets/2.png)
+#### Flat Remix Darker ![Screenshot Flat-Remix-Darker](https://github.com/daniruiz/flat-remix-gtk/raw/master/assets/3.png)
+#### Flat Remix Dark ![Screenshot Flat-Remix-Dark](https://github.com/daniruiz/flat-remix-gtk/raw/master/assets/4.png)
+#### Flat Remix Darkest ![Screenshot Flat-Remix-Darkest](https://github.com/daniruiz/flat-remix-gtk/raw/master/assets/5.png)
+
+## Variants
+ - **Solid:** theme without transparency
+ - **No Border:**  darkest theme without white window border
 
 # Installation
 
@@ -20,7 +23,7 @@ Flat Remix GTK theme is a pretty simple gtk window theme inspired on material de
 
 1. Download and uncompress the zip file.
 1. Move "Flat Remix GTK" folder to ".themes" in your home directory.
-1. Select "Flat Remix GTK" as shell theme via gnome-tweak-tool.
+1. Run ```gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK"``` or select "Flat-Remix-GTK" via your desktop specific tweaks application.
 
 #### Terminal installation
 
@@ -47,26 +50,14 @@ sudo dnf install flat-remix-gtk
 ```
 
 ##### Arch based distributions
-+ [`flat-remix-gtk-git`](https://aur.archlinux.org/packages/flat-remix-gtk-git/) (AUR)
++ [`flat-remix-gtk`](https://aur.archlinux.org/packages/flat-remix-gtk/) (AUR)
 
+<hr/>
 
-<br>
+# [Flat Remix ICON theme](https://github.com/daniruiz/Flat-Remix/)
+<a href="https://github.com/daniruiz/Flat-Remix/" align="center">
+<img src="https://raw.githubusercontent.com/daniruiz/Flat-Remix/master/assets/preview.png">
+</a>
 
-# [Flat Remix ICON theme](https://github.com/daniruiz/Flat-Remix)
-<p align="center">
-<img src="https://raw.githubusercontent.com/daniruiz/Flat-Remix/master/preview.png">
-</p>
+# [Flat Remix GNOME theme ![Gnome Shell theme preview](https://raw.githubusercontent.com/daniruiz/flat-remix-gnome/master/assets/1.png)](https://github.com/daniruiz/Flat-Remix-GNOME-theme)
 
-# [Flat Remix GNOME theme](https://github.com/daniruiz/Flat-Remix-GNOME-theme)
-![Gnome Shell theme preview](https://raw.githubusercontent.com/daniruiz/Flat-Remix-GNOME-theme/master/Images/1.png)
-
-# Donate
-
-You can also support the development of Flat Remix by donating  
-
-- [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7LEWLS78EAJGJ)
-
-- Bitcoin Wallet:  
-`1K4RhLu7u5xGheWrLAnMPhF2mTA7oMCMj4`  
-  
-- Monero Wallet:   `46o1H6xAnvNY25N1rosd9oUcN2pxhYaErU9qc48VwDNf3xrzSWhqWC5WbwaVe4vUMveKAzAiA4j8xgUi29TpKXpm3zCs4zx`  
