@@ -43,7 +43,7 @@ This package contains the following themes:
 
 %files
 %defattr(-,root,root)
-%doc LICENSE README.md CREDITS
+%doc LICENSE README.md
 %{_datadir}/themes/Flat-Remix-GTK
 %{_datadir}/themes/Flat-Remix-GTK-Dark
 %{_datadir}/themes/Flat-Remix-GTK-Darker
