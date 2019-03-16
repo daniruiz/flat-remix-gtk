@@ -12,18 +12,15 @@ BuildArch:      noarch
 %description
 Flat Remix GTK theme is a pretty simple gtk window theme inspired on material design following a modern design using "flat" colors with high contrasts and sharp borders.
 
-This package contains the following themes:
+Themes:
+ • Flat Remix GTK
+ • Flat Remix GTK Dark
+ • Flat Remix GTK Darker
+ • Flat Remix GTK Darkest
 
- - Flat-Remix-GTK
- - Flat-Remix-GTK-Solid
- - Flat-Remix-GTK-Dark
- - Flat-Remix-GTK-Dark-Solid
- - Flat-Remix-GTK-Darker
- - Flat-Remix-GTK-Darker-Solid
- - Flat-Remix-GTK-Darkest
- - Flat-Remix-GTK-Darkest-Solid
- - Flat-Remix-GTK-Darkest-NoBorder
- - Flat-Remix-GTK-Darkest-Solid-NoBorder
+Variants:
+ • Solid: Theme without transparency
+ • No Border: Darkest theme without white window border
 
 
 %prep
