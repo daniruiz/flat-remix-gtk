@@ -134,13 +134,13 @@
 
 <draw_ops name="close_focused_pressed">
 
-	<image filename="close-p.svg" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
+	<image filename="close-hover.svg" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 	
 </draw_ops>
 
 <draw_ops name="close_focused_prelight">
 
-	<image filename="close-p.svg" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
+	<image filename="close-hover.svg" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 	
 </draw_ops>
 
@@ -152,13 +152,13 @@
 
 <draw_ops name="close_unfocused_prelight">
 
-	<image filename="close-p.svg" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
+	<image filename="close-hover.svg" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 	
 </draw_ops>
 
 <draw_ops name="close_unfocused_pressed">
 
-	<image filename="close-p.svg" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
+	<image filename="close-hover.svg" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 	
 </draw_ops>
 
@@ -171,13 +171,13 @@
 
 <draw_ops name="maximize_focused_pressed">
 
-	<image filename="maximize-p.svg" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
+	<image filename="maximize-hover.svg" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 	
 </draw_ops>
 
 <draw_ops name="maximize_focused_prelight">
 
-	<image filename="maximize-p.svg" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
+	<image filename="maximize-hover.svg" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 	
 </draw_ops>
 
@@ -189,13 +189,13 @@
 
 <draw_ops name="maximize_unfocused_prelight">
 
-	<image filename="maximize-p.svg"  x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
+	<image filename="maximize-hover.svg"  x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 	
 </draw_ops>
 
 <draw_ops name="maximize_unfocused_pressed">
 
-	<image filename="maximize-p.svg"  x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
+	<image filename="maximize-hover.svg"  x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 	
 </draw_ops>
 
@@ -208,13 +208,13 @@
 
 <draw_ops name="minimize_focused_pressed">
 
-	<image filename="min-p.svg"  x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
+	<image filename="min-hover.svg"  x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 	
 </draw_ops>
 
 <draw_ops name="minimize_focused_prelight">
 
-	<image filename="min-p.svg"  x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
+	<image filename="min-hover.svg"  x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 	
 </draw_ops>
 
@@ -226,13 +226,13 @@
 
 <draw_ops name="minimize_unfocused_prelight">
 
-	<image filename="min-p.svg"  x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
+	<image filename="min-hover.svg"  x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 	
 </draw_ops>
 
 <draw_ops name="minimize_unfocused_pressed">
 
-	<image filename="min-p.svg"  x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
+	<image filename="min-hover.svg"  x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 	
 </draw_ops>
 

@@ -37,13 +37,38 @@ cp -f "$TMP"/gtk-darkest-solid-noBorder.css ../Flat-Remix-GTK-Darkest-Solid-NoBo
 if [[ $1 != "--no-assets" ]]
 then
 	cp -r assets-renderer "$TMP"/
-	(cd "$TMP"/assets-renderer/gtk2/ && ./render-assets.sh)
-	(cd "$TMP"/assets-renderer/gtk3/ && ./render-assets.sh)
+	"$TMP"/assets-renderer/gtk2/render-assets.sh
+	"$TMP"/assets-renderer/gtk3/render-assets.sh
+	"$TMP"/assets-renderer/metacity/render-assets.sh
 
-	for i in ../Flat-Remix-GTK*
+	for theme in ../Flat-Remix-GTK*
 	do
-		rm "$i"/gtk-3.0/assets/*
-		cp -f "$TMP"/assets-renderer/gtk3/assets/* "$i"/gtk-3.0/assets/
+		rm "$theme"/gtk-3.0/assets/*
+		cp -f "$TMP"/assets-renderer/gtk3/assets/* "$theme"/gtk-3.0/assets/
+
+		rm "$theme"/gtk-2.0/assets/*
+		rm "$theme"/metacity-1/*.svg
+		case "$theme" in
+			*Darkest*)
+				cp -f "$TMP"/assets-renderer/gtk2/assets-darkest/* "$theme"/gtk-2.0/assets/
+				cp -f "$TMP"/assets-renderer/metacity/metacity-darkest/* "$theme"/metacity-1/
+				;;
+			*Dark|*Dark-*)
+				cp -f "$TMP"/assets-renderer/gtk2/assets-dark/* "$theme"/gtk-2.0/assets/
+				cp -f "$TMP"/assets-renderer/metacity/metacity-dark/* "$theme"/metacity-1/
+				;;
+			*Darker|*Darker-*)
+				cp -f "$TMP"/assets-renderer/gtk2/assets/* "$theme"/gtk-2.0/assets/
+				cp -f "$TMP"/assets-renderer/metacity/metacity-darkest/* "$theme"/metacity-1/
+				;;
+			*)
+				cp -f "$TMP"/assets-renderer/gtk2/assets/* "$theme"/gtk-2.0/assets/
+				cp -f "$TMP"/assets-renderer/metacity/metacity/* "$theme"/metacity-1/
+				;;
+		esac
+
+		rm "$theme"/gtk-2.0/menubar-toolbar/*.png
+		cp -f "$TMP"/assets-renderer/gtk2/menubar-toolbar/* "$theme"/gtk-2.0/menubar-toolbar/
 	done
 fi
 
