@@ -1,36 +1,36 @@
-<svg id="svg9892" width="484" height="276" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<defs id="defs9894">
+<svg width="484" height="276" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
 		<linearGradient id="app-menu">
-			<stop id="stop2138" style="stop-color:#5ebdab" offset="0"/>
-			<stop id="stop2140" style="stop-color:#19a187" offset="1"/>
+			<stop style="stop-color:#5ebdab" offset="0"/>
+			<stop style="stop-color:#19a187" offset="1"/>
 		</linearGradient>
 		<linearGradient id="close-button">
-			<stop id="stop1886" style="stop-color:#e15e5e" offset="0"/>
-			<stop id="stop1888" style="stop-color:#d41919" offset="1"/>
+			<stop style="stop-color:#e15e5e" offset="0"/>
+			<stop style="stop-color:#d41919" offset="1"/>
 		</linearGradient>
 		<linearGradient id="maximize-button">
-			<stop id="stop1880" style="stop-color:#72a2f4" offset="0"/>
-			<stop id="stop1882" style="stop-color:#367bf0" offset="1"/>
+			<stop style="stop-color:#72a2f4" offset="0"/>
+			<stop style="stop-color:#367bf0" offset="1"/>
 		</linearGradient>
 		<linearGradient id="minimize-button">
-			<stop id="stop1874" style="stop-color:#fea44c" offset="0"/>
-			<stop id="stop1876" style="stop-color:#fd7d00" offset="1"/>
+			<stop style="stop-color:#fea44c" offset="0"/>
+			<stop style="stop-color:#fd7d00" offset="1"/>
 		</linearGradient>
 		<linearGradient id="app-menu-dark">
-			<stop id="stop14" style="stop-color:#47b49f" offset="0"/>
-			<stop id="stop16" style="stop-color:#17917a" offset="1"/>
+			<stop style="stop-color:#47b49f" offset="0"/>
+			<stop style="stop-color:#19a187" offset="1"/>
 		</linearGradient>
 		<linearGradient id="close-button-dark">
-			<stop id="stop19" style="stop-color:#dd4747" offset="0"/>
-			<stop id="stop21" style="stop-color:#d41919" offset="1"/>
+			<stop style="stop-color:#dd4747" offset="0"/>
+			<stop style="stop-color:#d41919" offset="1"/>
 		</linearGradient>
 		<linearGradient id="maximize-button-dark">
-			<stop id="stop24" style="stop-color:#4a88f1" offset="0"/>
-			<stop id="stop26" style="stop-color:#367bf0" offset="1"/>
+			<stop style="stop-color:#4a88f1" offset="0"/>
+			<stop style="stop-color:#367bf0" offset="1"/>
 		</linearGradient>
 		<linearGradient id="minimize-button-dark">
-			<stop id="stop29" style="stop-color:#fd9733" offset="0"/>
-			<stop id="stop31" style="stop-color:#e47100" offset="1"/>
+			<stop style="stop-color:#fd9733" offset="0"/>
+			<stop style="stop-color:#fd7d00" offset="1"/>
 		</linearGradient>
 		<linearGradient id="linearGradient1827" x1="588" x2="602" y1="-177.63" y2="-177.63" gradientUnits="userSpaceOnUse" xlink:href="#minimize-button"/>
 		<linearGradient id="linearGradient1845" x1="617" x2="631" y1="-177.63" y2="-177.63" gradientUnits="userSpaceOnUse" xlink:href="#maximize-button"/>
@@ -46,1745 +46,1488 @@
 		<linearGradient id="linearGradient1891" x1="165" x2="179" y1="65" y2="65" gradientUnits="userSpaceOnUse" xlink:href="#close-button"/>
 		<linearGradient id="linearGradient1901" x1="407" x2="421" y1="65" y2="65" gradientUnits="userSpaceOnUse" xlink:href="#close-button-dark"/>
 		<linearGradient id="linearGradient1903" x1="407" x2="421" y1="99" y2="99" gradientUnits="userSpaceOnUse" xlink:href="#close-button-dark"/>
-		<linearGradient id="linearGradient1905" x1="407" x2="421" y1="116" y2="116" gradientUnits="userSpaceOnUse" xlink:href="#close-button"/>
+		<linearGradient id="linearGradient1905" x1="407" x2="421" y1="116" y2="116" gradientUnits="userSpaceOnUse" xlink:href="#close-button-dark"/>
 		<linearGradient id="linearGradient1907" x1="1369" x2="1383" y1="255" y2="255" gradientUnits="userSpaceOnUse" xlink:href="#close-button"/>
 		<linearGradient id="linearGradient1909" x1="165" x2="179" y1="99" y2="99" gradientUnits="userSpaceOnUse" xlink:href="#close-button"/>
 		<linearGradient id="linearGradient1916" x1="165" x2="179" y1="65" y2="65" gradientUnits="userSpaceOnUse" xlink:href="#app-menu"/>
 		<linearGradient id="linearGradient2049" x1="165" x2="179" y1="99" y2="99" gradientTransform="translate(20)" gradientUnits="userSpaceOnUse" xlink:href="#app-menu"/>
 		<linearGradient id="linearGradient1953" x1="617" x2="631" y1="-177.63" y2="-177.63" gradientUnits="userSpaceOnUse" xlink:href="#maximize-button-dark"/>
-		<linearGradient id="linearGradient1957" x1="407" x2="421" y1="116" y2="116" gradientUnits="userSpaceOnUse" xlink:href="#close-button-dark"/>
 		<linearGradient id="linearGradient1963" x1="165" x2="179" y1="99" y2="99" gradientTransform="translate(20)" gradientUnits="userSpaceOnUse" xlink:href="#app-menu-dark"/>
 		<linearGradient id="linearGradient1967" x1="165" x2="179" y1="65" y2="65" gradientUnits="userSpaceOnUse" xlink:href="#app-menu-dark"/>
 	</defs>
-	<g id="layer3" transform="translate(8 285.64)">
-		<rect id="rect18028" transform="scale(1,-1)" x="-8" y="147.64" width="121" height="138" rx="0" ry="0" style="color:#000000;fill:#f9fafb"/>
-		<rect id="rect11783" x="113" y="-285.64" width="121" height="138" style="fill:#e7e8eb;stroke-width:0"/>
-		<rect id="rect8047-5" x="-8" y="-147.64" width="121" height="138" rx="0" ry="0" style="color:#000000;fill:#367bf0"/>
+	<g transform="translate(8 285.64)">
+		<rect transform="scale(1,-1)" x="-8" y="147.64" width="121" height="138" rx="0" ry="0" style="color:#000000;fill:#f9fafb"/>
+		<rect x="113" y="-285.64" width="121" height="138" style="fill:#e7e8eb;stroke-width:0"/>
+		<rect x="-8" y="-147.64" width="121" height="138" rx="0" ry="0" style="color:#000000;fill:#367bf0"/>
 		<g id="checkbox-checked" transform="translate(-22 -229)">
-			<g id="checkbox-unchecked-5" transform="translate(19)">
-				<g id="sdsd-7">
-					<g id="scdsdcd-5" transform="translate(0,-30)">
-						<rect id="rect13523-7" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-						<g id="g5400-6">
-							<rect id="rect5147-9-1-5-7-6-7" x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-						</g>
-					</g>
+			<g transform="translate(19)">
+				<g transform="translate(0,-30)">
+					<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+					<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 				</g>
 			</g>
 			<g id="checkbox-checked-darkest" transform="translate(36,-1036)">
-				<g id="g4049-2" transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
-					<g id="g4056-7" transform="translate(12.374 11.531)">
-						<g id="g3981-0" transform="translate(-3 -5)" style="fill:#3b3c3e">
-							<rect id="rect3977-39" x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#fff"/>
-							<rect id="rect3979-7" x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#fff"/>
+				<g transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
+					<g transform="translate(12.374 11.531)">
+						<g transform="translate(-3 -5)" style="fill:#3b3c3e">
+							<rect x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#fff"/>
+							<rect x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#fff"/>
 						</g>
-						<rect id="rect4047-81" transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
+						<rect transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
 					</g>
 				</g>
 			</g>
 		</g>
 		<g id="checkbox-mixed" transform="translate(-3 -229)">
-			<g id="checkbox-unchecked-5-4" transform="translate(19)">
-				<g id="sdsd-7-0">
-					<g id="scdsdcd-5-2" transform="translate(0,-30)">
-						<rect id="rect13523-7-8" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-						<g id="g5400-6-9">
-							<rect id="rect5147-9-1-5-7-6-7-0" x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-						</g>
-					</g>
+			<g transform="translate(19)">
+				<g transform="translate(0,-30)">
+					<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+					<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 				</g>
 			</g>
-			<g id="g140" transform="translate(36,-1036)">
-				<g id="g4049-2-9" transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
-					<g id="g4056-7-0" transform="translate(12.374 11.531)">
-						<g id="g3981-0-1" transform="translate(-3 -5)" style="fill:#3b3c3e">
-							<rect id="rect3979-7-3" transform="matrix(-.70711 -.70711 .70711 -.70711 0 0)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#fff"/>
+			<g transform="translate(36,-1036)">
+				<g transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
+					<g transform="translate(12.374 11.531)">
+						<g transform="translate(-3 -5)" style="fill:#3b3c3e">
+							<rect transform="matrix(-.70711 -.70711 .70711 -.70711 0 0)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#fff"/>
 						</g>
-						<rect id="rect4047-81-4" transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
+						<rect transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
 					</g>
 				</g>
 			</g>
 		</g>
 		<g id="radio-checked" transform="translate(-41 -229)">
-			<g id="radio-unchecked-2" transform="translate(19.004 -4.6993e-6)">
-				<g id="g10964-6">
-					<g id="radio-unchecked2-0" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-						<rect id="rect14348-4-8" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-						<g id="g7025-09">
-							<g id="g5489-2-9-3-2" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-								<g id="g5428-8-1-7-5">
-									<rect id="rect5147-9-1-7-2" x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-								</g>
-							</g>
-						</g>
+			<g transform="translate(19.004 -4.6993e-6)">
+				<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+					<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+					<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+						<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 					</g>
 				</g>
 			</g>
-			<rect id="use15101-5-7" x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#fff"/>
+			<rect x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#fff"/>
 		</g>
 		<g id="radio-mixed" transform="translate(-41 -229)">
-			<g id="g11220">
-				<g id="radio-checked-7" transform="translate(19 -4.6993e-6)">
-					<g id="radio-unchecked-2-6" transform="translate(19.004 -4.6993e-6)">
-						<g id="g10964-6-0">
-							<g id="radio-unchecked2-0-0" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-								<rect id="rect14348-4-8-7" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-								<g id="g7025-09-3">
-									<g id="g5489-2-9-3-2-7" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-										<g id="g5428-8-1-7-5-9">
-											<rect id="rect5147-9-1-7-2-6" x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-										</g>
-									</g>
-								</g>
-							</g>
+			<g transform="translate(19 -4.6993e-6)">
+				<g transform="translate(19.004 -4.6993e-6)">
+					<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+						<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+						<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+							<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 						</g>
 					</g>
 				</g>
-				<rect id="rect3979-7-3-9" transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#fff"/>
 			</g>
+			<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#fff"/>
 		</g>
 		<g id="switch-active" transform="translate(-1010 -618.64)">
-			<g id="layer1-9-0" transform="translate(885,450)">
-				<g id="switch-active-8" transform="translate(120 -117)">
-					<g id="g3900-1-87" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-3" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-0-8" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-						<circle id="path3759-0" cx="41" cy="1041.4" r="9" style="fill:#fff"/>
+			<g transform="translate(885,450)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#fff"/>
 					</g>
 				</g>
 			</g>
-			<g id="g4816" transform="translate(-1.0003)">
-				<rect id="rect3977-39-2" transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#fff"/>
-				<rect id="rect3979-7-0" transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#fff"/>
+			<g transform="translate(-1.0003)">
+				<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#fff"/>
+				<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#fff"/>
 			</g>
 		</g>
 		<g id="switch" transform="translate(-1010 -613.64)">
-			<g id="layer1-9" transform="matrix(-1,0,0,1,1177,420)">
-				<g id="switch-active-2" transform="translate(120 -117)">
-					<g id="g3900-12" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-32" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-07" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#cfd6e6"/>
-						<circle id="path3759-7" cx="41" cy="1041.4" r="9" style="fill:#fff"/>
+			<g transform="matrix(-1,0,0,1,1177,420)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#cfd6e6"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#fff"/>
 					</g>
 				</g>
 			</g>
-			<path id="path10839-9-8-2-2-5" d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="block-progression:tb;color:#bebebe;enable-background:new;fill:#5c616c;opacity:.6;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="block-progression:tb;color:#bebebe;enable-background:new;fill:#5c616c;opacity:.6;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="switch-active-insensitive" transform="translate(-947 -618.64)" style="opacity:.55">
-			<g id="layer1-9-0-5" transform="translate(885,450)" style="opacity:1">
-				<g id="switch-active-8-1" transform="translate(120 -117)">
-					<g id="g3900-1-3-1" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-3-9" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-0-2-5" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-						<circle id="path3759-0-8" cx="41" cy="1041.4" r="9" style="fill:#fff"/>
+			<g transform="translate(885,450)" style="opacity:1">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#fff"/>
 					</g>
 				</g>
 			</g>
-			<g id="g4816-6" transform="translate(-1.0003)">
-				<rect id="rect3977-39-2-3" transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#fff;opacity:1"/>
-				<rect id="rect3979-7-0-6" transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#fff;opacity:1"/>
+			<g transform="translate(-1.0003)">
+				<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#fff;opacity:1"/>
+				<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#fff;opacity:1"/>
 			</g>
 		</g>
 		<g id="switch-insensitive" transform="translate(-947 -613.64)" style="opacity:.55">
-			<g id="layer1-9-1" transform="matrix(-1,0,0,1,1177,420)">
-				<g id="switch-active-88" transform="translate(120 -117)">
-					<g id="g3900-4" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-5" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-02" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#cfd6e6"/>
-						<circle id="path3759-1-7" cx="41" cy="1041.4" r="9" style="fill:#fff"/>
+			<g transform="matrix(-1,0,0,1,1177,420)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#cfd6e6"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#fff"/>
 					</g>
 				</g>
 			</g>
-			<path id="path10839-9-8-2-2-5-5" d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="block-progression:tb;color:#bebebe;enable-background:new;fill:#5c616c;opacity:.6;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="block-progression:tb;color:#bebebe;enable-background:new;fill:#5c616c;opacity:.6;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="checkbox-unchecked" transform="translate(-22 -229)">
-			<g id="sdsd-0">
-				<g id="scdsdcd-0" transform="translate(0,-30)">
-					<rect id="rect13523-4" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-					<g id="g5400-2">
-						<rect id="rect5147-9-1-5-7-6-3" x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#fff;stroke-linejoin:round;stroke:#cfd6e6"/>
-					</g>
-				</g>
+			<g transform="translate(0,-30)">
+				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+				<rect x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#fff;stroke-linejoin:round;stroke:#cfd6e6"/>
 			</g>
 		</g>
 		<g id="radio-unchecked" transform="translate(-41.996 -229)">
-			<g id="g10964-4">
-				<g id="radio-unchecked2-6" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-					<rect id="rect14348-4-3" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-					<g id="g7025-3">
-						<g id="g5489-2-9-3-8" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-							<g id="g5428-8-1-7-83">
-								<rect id="rect5147-9-1-7-7" x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#fff;stroke-linejoin:round;stroke-width:2.0822;stroke:#cfd6e6"/>
-							</g>
-						</g>
-					</g>
+			<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+				<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+				<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+					<rect x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#fff;stroke-linejoin:round;stroke-width:2.0822;stroke:#cfd6e6"/>
 				</g>
 			</g>
 		</g>
 		<g id="checkbox-checked-insensitive" transform="translate(-22 -210)" style="opacity:.55">
-			<g id="checkbox-unchecked-5-5" transform="translate(19)">
-				<g id="sdsd-7-01">
-					<g id="scdsdcd-5-9" transform="translate(0,-30)">
-						<rect id="rect13523-7-1" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-						<g id="g5400-6-4">
-							<rect id="rect5147-9-1-5-7-6-7-3" x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-						</g>
-					</g>
+			<g transform="translate(19)">
+				<g transform="translate(0,-30)">
+					<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+					<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 				</g>
 			</g>
-			<g id="g237" transform="translate(36,-1036)">
-				<g id="g4049-2-1" transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
-					<g id="g4056-7-9" transform="translate(12.374 11.531)">
-						<g id="g3981-0-4" transform="translate(-3 -5)" style="fill:#3b3c3e">
-							<rect id="rect3977-39-0" x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#fff"/>
-							<rect id="rect3979-7-6" x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#fff"/>
+			<g transform="translate(36,-1036)">
+				<g transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
+					<g transform="translate(12.374 11.531)">
+						<g transform="translate(-3 -5)" style="fill:#3b3c3e">
+							<rect x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#fff"/>
+							<rect x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#fff"/>
 						</g>
-						<rect id="rect4047-81-9" transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
+						<rect transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
 					</g>
 				</g>
 			</g>
 		</g>
 		<g id="checkbox-mixed-insensitive" transform="translate(-3 -210)" style="opacity:.55">
-			<g id="checkbox-unchecked-5-4-1" transform="translate(19)">
-				<g id="sdsd-7-0-5">
-					<g id="scdsdcd-5-2-8" transform="translate(0,-30)">
-						<rect id="rect13523-7-8-8" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-						<g id="g5400-6-9-9">
-							<rect id="rect5147-9-1-5-7-6-7-0-7" x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-						</g>
-					</g>
+			<g transform="translate(19)">
+				<g transform="translate(0,-30)">
+					<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+					<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 				</g>
 			</g>
-			<g id="g255" transform="translate(36,-1036)">
-				<g id="g4049-2-9-7" transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
-					<g id="g4056-7-0-8" transform="translate(12.374 11.531)">
-						<g id="g3981-0-1-4" transform="translate(-3 -5)" style="fill:#3b3c3e">
-							<rect id="rect3979-7-3-91" transform="matrix(-.70711 -.70711 .70711 -.70711 0 0)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#fff"/>
+			<g transform="translate(36,-1036)">
+				<g transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
+					<g transform="translate(12.374 11.531)">
+						<g transform="translate(-3 -5)" style="fill:#3b3c3e">
+							<rect transform="matrix(-.70711 -.70711 .70711 -.70711 0 0)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#fff"/>
 						</g>
-						<rect id="rect4047-81-4-2" transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
+						<rect transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
 					</g>
 				</g>
 			</g>
 		</g>
 		<g id="radio-checked-insensitive" transform="translate(-41 -210)" style="opacity:.55">
-			<g id="radio-unchecked-2-8" transform="translate(19.004 -4.6993e-6)">
-				<g id="g10964-6-7">
-					<g id="radio-unchecked2-0-4" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-						<rect id="rect14348-4-8-2" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-						<g id="g7025-09-5">
-							<g id="g5489-2-9-3-2-70" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-								<g id="g5428-8-1-7-5-62">
-									<rect id="rect5147-9-1-7-2-2" x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-								</g>
-							</g>
-						</g>
+			<g transform="translate(19.004 -4.6993e-6)">
+				<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+					<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+					<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+						<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 					</g>
 				</g>
 			</g>
-			<rect id="use15101-5-7-2" x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#fff"/>
+			<rect x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#fff"/>
 		</g>
 		<g id="radio-mixed-insensitive" transform="translate(-41 -210)" style="opacity:.55">
-			<g id="g11220-22">
-				<g id="radio-checked-7-4" transform="translate(19 -4.6993e-6)">
-					<g id="radio-unchecked-2-6-0" transform="translate(19.004 -4.6993e-6)">
-						<g id="g10964-6-0-1">
-							<g id="radio-unchecked2-0-0-2" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-								<rect id="rect14348-4-8-7-5" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-								<g id="g7025-09-3-9">
-									<g id="g5489-2-9-3-2-7-7" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-										<g id="g5428-8-1-7-5-9-2">
-											<rect id="rect5147-9-1-7-2-6-9" x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-										</g>
-									</g>
-								</g>
-							</g>
+			<g transform="translate(19 -4.6993e-6)">
+				<g transform="translate(19.004 -4.6993e-6)">
+					<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+						<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+						<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+							<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 						</g>
 					</g>
 				</g>
-				<rect id="rect3979-7-3-9-3" transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#fff"/>
 			</g>
+			<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#fff"/>
 		</g>
 		<g id="checkbox-unchecked-insensitive" transform="translate(-22 -210)" style="opacity:.55">
-			<g id="sdsd-0-3">
-				<g id="scdsdcd-0-7" transform="translate(0,-30)">
-					<rect id="rect13523-4-2" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-					<g id="g5400-2-4">
-						<rect id="rect5147-9-1-5-7-6-3-7" x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#fff;stroke-linejoin:round;stroke:#cfd6e6"/>
-					</g>
-				</g>
+			<g transform="translate(0,-30)">
+				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+				<rect x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#fff;stroke-linejoin:round;stroke:#cfd6e6"/>
 			</g>
 		</g>
 		<g id="radio-unchecked-insensitive" transform="translate(-41.996 -210)" style="opacity:.55">
-			<g id="g10964-4-8">
-				<g id="radio-unchecked2-6-3" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-					<rect id="rect14348-4-3-7" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-					<g id="g7025-3-8">
-						<g id="g5489-2-9-3-8-9" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-							<g id="g5428-8-1-7-83-9">
-								<rect id="rect5147-9-1-7-7-2" x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#fff;stroke-linejoin:round;stroke-width:2.0822;stroke:#cfd6e6"/>
-							</g>
-						</g>
-					</g>
+			<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+				<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+				<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+					<rect x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#fff;stroke-linejoin:round;stroke-width:2.0822;stroke:#cfd6e6"/>
 				</g>
 			</g>
 		</g>
 		<g id="switch-active-selected" transform="translate(-1010 -480.64)">
-			<g id="layer1-9-0-0" transform="translate(885,450)">
-				<g id="switch-active-8-4" transform="translate(120 -117)">
-					<g id="g3900-1-87-6" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-3-6" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-0-8-4" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
-						<circle id="path3759-0-7" cx="41" cy="1041.4" r="9" style="fill:#367bf0"/>
+			<g transform="translate(885,450)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#367bf0"/>
 					</g>
 				</g>
 			</g>
-			<g id="g4816-0" transform="translate(-1.0003)">
-				<rect id="rect3977-39-2-1" transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#367bf0"/>
-				<rect id="rect3979-7-0-8" transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#367bf0"/>
+			<g transform="translate(-1.0003)">
+				<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#367bf0"/>
+				<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#367bf0"/>
 			</g>
 		</g>
 		<g id="switch-selected" transform="translate(-1010 -475.64)">
-			<g id="layer1-9-3" transform="matrix(-1,0,0,1,1177,420)">
-				<g id="switch-active-2-8" transform="translate(120 -117)">
-					<g id="g3900-12-2" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-32-9" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-07-3" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="opacity:.2"/>
-						<circle id="path3759-7-1" cx="41" cy="1041.4" r="9" style="fill:#fff"/>
+			<g transform="matrix(-1,0,0,1,1177,420)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="opacity:.2"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#fff"/>
 					</g>
 				</g>
 			</g>
-			<path id="path10839-9-8-2-2-5-7" d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="block-progression:tb;color:#bebebe;enable-background:new;fill:#fff;opacity:.6;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="block-progression:tb;color:#bebebe;enable-background:new;fill:#fff;opacity:.6;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="switch-active-insensitive-selected" transform="translate(-947 -480.64)" style="opacity:.55">
-			<g id="layer1-9-0-5-6" transform="translate(885,450)" style="opacity:1">
-				<g id="switch-active-8-1-0" transform="translate(120 -117)">
-					<g id="g3900-1-3-1-8" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-3-9-3" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-0-2-5-0" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
-						<circle id="path3759-0-8-8" cx="41" cy="1041.4" r="9" style="fill:#367bf0"/>
+			<g transform="translate(885,450)" style="opacity:1">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#367bf0"/>
 					</g>
 				</g>
 			</g>
-			<g id="g4816-6-8" transform="translate(-1.0003)">
-				<rect id="rect3977-39-2-3-7" transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#367bf0;opacity:1"/>
-				<rect id="rect3979-7-0-6-6" transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#367bf0;opacity:1"/>
+			<g transform="translate(-1.0003)">
+				<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#367bf0;opacity:1"/>
+				<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#367bf0;opacity:1"/>
 			</g>
 		</g>
 		<g id="switch-insensitive-selected" transform="translate(-947 -475.64)" style="opacity:.55">
-			<g id="layer1-9-3-1" transform="matrix(-1,0,0,1,1177,420)">
-				<g id="switch-active-2-8-8" transform="translate(120 -117)">
-					<g id="g3900-12-2-3" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-32-9-9" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-07-3-7" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="opacity:.2"/>
-						<circle id="path3759-7-1-9" cx="41" cy="1041.4" r="9" style="fill:#fff"/>
+			<g transform="matrix(-1,0,0,1,1177,420)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="opacity:.2"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#fff"/>
 					</g>
 				</g>
 			</g>
-			<path id="path10839-9-8-2-2-5-7-9" d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="block-progression:tb;color:#bebebe;enable-background:new;fill:#fff;opacity:.6;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="block-progression:tb;color:#bebebe;enable-background:new;fill:#fff;opacity:.6;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="checkbox-checked-selected" transform="translate(-22 -91)">
-			<g id="checkbox-unchecked-5-9" transform="translate(19)">
-				<g id="sdsd-7-5">
-					<g id="scdsdcd-5-62" transform="translate(0,-30)">
-						<rect id="rect13523-7-4" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-						<g id="g5400-6-91">
-							<rect id="rect5147-9-1-5-7-6-7-35" x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#fff;stroke-width:0"/>
-						</g>
-					</g>
+			<g transform="translate(19)">
+				<g transform="translate(0,-30)">
+					<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+					<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#fff;stroke-width:0"/>
 				</g>
 			</g>
-			<g id="g352" transform="translate(36,-1036)">
-				<g id="g4049-2-3" transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
-					<g id="g4056-7-2" transform="translate(12.374 11.531)">
-						<g id="g3981-0-2" transform="translate(-3 -5)" style="fill:#3b3c3e">
-							<rect id="rect3977-39-9" x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#367bf0"/>
-							<rect id="rect3979-7-65" x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#367bf0"/>
+			<g transform="translate(36,-1036)">
+				<g transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
+					<g transform="translate(12.374 11.531)">
+						<g transform="translate(-3 -5)" style="fill:#3b3c3e">
+							<rect x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#367bf0"/>
+							<rect x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#367bf0"/>
 						</g>
-						<rect id="rect4047-81-45" transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
+						<rect transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
 					</g>
 				</g>
 			</g>
 		</g>
 		<g id="checkbox-mixed-selected" transform="translate(-3 -91)">
-			<g id="checkbox-unchecked-5-4-4" transform="translate(19)">
-				<g id="sdsd-7-0-51">
-					<g id="scdsdcd-5-2-1" transform="translate(0,-30)">
-						<rect id="rect13523-7-8-3" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-						<g id="g5400-6-9-99">
-							<rect id="rect5147-9-1-5-7-6-7-0-8" x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#fff;stroke-width:0"/>
-						</g>
-					</g>
+			<g transform="translate(19)">
+				<g transform="translate(0,-30)">
+					<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+					<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#fff;stroke-width:0"/>
 				</g>
 			</g>
-			<g id="g370" transform="translate(36,-1036)">
-				<g id="g4049-2-9-3" transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
-					<g id="g4056-7-0-6" transform="translate(12.374 11.531)">
-						<g id="g3981-0-1-46" transform="translate(-3 -5)" style="fill:#3b3c3e">
-							<rect id="rect3979-7-3-2" transform="matrix(-.70711 -.70711 .70711 -.70711 0 0)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#367bf0"/>
+			<g transform="translate(36,-1036)">
+				<g transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
+					<g transform="translate(12.374 11.531)">
+						<g transform="translate(-3 -5)" style="fill:#3b3c3e">
+							<rect transform="matrix(-.70711 -.70711 .70711 -.70711 0 0)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#367bf0"/>
 						</g>
-						<rect id="rect4047-81-4-77" transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
+						<rect transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
 					</g>
 				</g>
 			</g>
 		</g>
 		<g id="radio-checked-selected" transform="translate(-41 -91)">
-			<g id="radio-unchecked-2-3" transform="translate(19.004 -4.6993e-6)">
-				<g id="g10964-6-9">
-					<g id="radio-unchecked2-0-9" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-						<rect id="rect14348-4-8-8" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-						<g id="g7025-09-59">
-							<g id="g5489-2-9-3-2-2" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-								<g id="g5428-8-1-7-5-1">
-									<rect id="rect5147-9-1-7-2-1" x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#fff;stroke-width:0"/>
-								</g>
-							</g>
-						</g>
+			<g transform="translate(19.004 -4.6993e-6)">
+				<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+					<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+					<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+						<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#fff;stroke-width:0"/>
 					</g>
 				</g>
 			</g>
-			<rect id="use15101-5-7-51" x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#367bf0"/>
+			<rect x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#367bf0"/>
 		</g>
 		<g id="radio-mixed-selected" transform="translate(-41 -91)">
-			<g id="g11220-3">
-				<g id="radio-checked-7-9" transform="translate(19 -4.6993e-6)">
-					<g id="radio-unchecked-2-6-7" transform="translate(19.004 -4.6993e-6)">
-						<g id="g10964-6-0-2">
-							<g id="radio-unchecked2-0-0-1" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-								<rect id="rect14348-4-8-7-6" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-								<g id="g7025-09-3-94">
-									<g id="g5489-2-9-3-2-7-9" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-										<g id="g5428-8-1-7-5-9-8">
-											<rect id="rect5147-9-1-7-2-6-97" x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#fff;stroke-width:0"/>
-										</g>
-									</g>
-								</g>
-							</g>
+			<g transform="translate(19 -4.6993e-6)">
+				<g transform="translate(19.004 -4.6993e-6)">
+					<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+						<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+						<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+							<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#fff;stroke-width:0"/>
 						</g>
 					</g>
 				</g>
-				<rect id="rect3979-7-3-9-08" transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#367bf0"/>
 			</g>
+			<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#367bf0"/>
 		</g>
 		<g id="checkbox-unchecked-selected" transform="translate(-22 -91)">
-			<g id="sdsd-0-4">
-				<g id="scdsdcd-0-3" transform="translate(0,-30)">
-					<rect id="rect13523-4-3" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-					<g id="g5400-2-0">
-						<rect id="rect5147-9-1-5-7-6-3-5" x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#367bf0;opacity:.5;stroke-linejoin:round;stroke:#fff"/>
-					</g>
-				</g>
+			<g transform="translate(0,-30)">
+				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+				<rect x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#367bf0;opacity:.5;stroke-linejoin:round;stroke:#fff"/>
 			</g>
 		</g>
 		<g id="radio-unchecked-selected" transform="translate(-41.996 -91.004)">
-			<g id="g10964-4-1">
-				<g id="radio-unchecked2-6-0" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-					<rect id="rect14348-4-3-0" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-					<g id="g7025-3-2">
-						<g id="g5489-2-9-3-8-5" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-							<g id="g5428-8-1-7-83-3">
-								<rect id="rect5147-9-1-7-7-6" x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#367bf0;opacity:.5;stroke-linejoin:round;stroke-width:2.0822;stroke:#fff"/>
-							</g>
-						</g>
-					</g>
+			<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+				<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+				<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+					<rect x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#367bf0;opacity:.5;stroke-linejoin:round;stroke-width:2.0822;stroke:#fff"/>
 				</g>
 			</g>
 		</g>
 		<g id="checkbox-checked-insensitive-selected" transform="translate(-22 -72)" style="opacity:.55">
-			<g id="checkbox-unchecked-5-5-4" transform="translate(19)">
-				<g id="sdsd-7-01-4">
-					<g id="scdsdcd-5-9-3" transform="translate(0,-30)">
-						<rect id="rect13523-7-1-2" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-						<g id="g5400-6-4-1">
-							<rect id="rect5147-9-1-5-7-6-7-3-3" x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#fff;stroke-width:0"/>
-						</g>
-					</g>
+			<g transform="translate(19)">
+				<g transform="translate(0,-30)">
+					<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+					<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#fff;stroke-width:0"/>
 				</g>
 			</g>
-			<g id="g431" transform="translate(36,-1036)">
-				<g id="g4049-2-1-5" transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
-					<g id="g4056-7-9-3" transform="translate(12.374 11.531)">
-						<g id="g3981-0-4-4" transform="translate(-3 -5)" style="fill:#3b3c3e">
-							<rect id="rect3977-39-0-1" x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#367bf0"/>
-							<rect id="rect3979-7-6-7" x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#367bf0"/>
+			<g transform="translate(36,-1036)">
+				<g transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
+					<g transform="translate(12.374 11.531)">
+						<g transform="translate(-3 -5)" style="fill:#3b3c3e">
+							<rect x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#367bf0"/>
+							<rect x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#367bf0"/>
 						</g>
-						<rect id="rect4047-81-9-1" transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
+						<rect transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
 					</g>
 				</g>
 			</g>
 		</g>
 		<g id="checkbox-mixed-insensitive-selected" transform="translate(-3 -72)" style="opacity:.55">
-			<g id="checkbox-unchecked-5-4-1-4" transform="translate(19)">
-				<g id="sdsd-7-0-5-7">
-					<g id="scdsdcd-5-2-8-9" transform="translate(0,-30)">
-						<rect id="rect13523-7-8-8-2" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-						<g id="g5400-6-9-9-0">
-							<rect id="rect5147-9-1-5-7-6-7-0-7-3" x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#fff;stroke-width:0"/>
-						</g>
-					</g>
+			<g transform="translate(19)">
+				<g transform="translate(0,-30)">
+					<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+					<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#fff;stroke-width:0"/>
 				</g>
 			</g>
-			<g id="g449" transform="translate(36,-1036)">
-				<g id="g4049-2-9-7-9" transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
-					<g id="g4056-7-0-8-8" transform="translate(12.374 11.531)">
-						<g id="g3981-0-1-4-9" transform="translate(-3 -5)" style="fill:#3b3c3e">
-							<rect id="rect3979-7-3-91-3" transform="matrix(-.70711 -.70711 .70711 -.70711 0 0)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#367bf0"/>
+			<g transform="translate(36,-1036)">
+				<g transform="matrix(.70711 .70711 -.70711 .70711 727.94 295.31)">
+					<g transform="translate(12.374 11.531)">
+						<g transform="translate(-3 -5)" style="fill:#3b3c3e">
+							<rect transform="matrix(-.70711 -.70711 .70711 -.70711 0 0)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#367bf0"/>
 						</g>
-						<rect id="rect4047-81-4-2-2" transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
+						<rect transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
 					</g>
 				</g>
 			</g>
 		</g>
 		<g id="radio-checked-insensitive-selected" transform="translate(-41 -72)" style="opacity:.55">
-			<g id="radio-unchecked-2-8-5" transform="translate(19.004 -4.6993e-6)">
-				<g id="g10964-6-7-9">
-					<g id="radio-unchecked2-0-4-1" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-						<rect id="rect14348-4-8-2-6" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-						<g id="g7025-09-5-9">
-							<g id="g5489-2-9-3-2-70-9" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-								<g id="g5428-8-1-7-5-62-0">
-									<rect id="rect5147-9-1-7-2-2-0" x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#fff;stroke-width:0"/>
-								</g>
-							</g>
-						</g>
+			<g transform="translate(19.004 -4.6993e-6)">
+				<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+					<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+					<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+						<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#fff;stroke-width:0"/>
 					</g>
 				</g>
 			</g>
-			<rect id="use15101-5-7-2-84" x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#367bf0"/>
+			<rect x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#367bf0"/>
 		</g>
 		<g id="radio-mixed-insensitive-selected" transform="translate(-41 -72)" style="opacity:.55">
-			<g id="g11220-22-3">
-				<g id="radio-checked-7-4-1" transform="translate(19 -4.6993e-6)">
-					<g id="radio-unchecked-2-6-0-6" transform="translate(19.004 -4.6993e-6)">
-						<g id="g10964-6-0-1-5">
-							<g id="radio-unchecked2-0-0-2-9" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-								<rect id="rect14348-4-8-7-5-9" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-								<g id="g7025-09-3-9-7">
-									<g id="g5489-2-9-3-2-7-7-9" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-										<g id="g5428-8-1-7-5-9-2-2">
-											<rect id="rect5147-9-1-7-2-6-9-6" x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#fff;stroke-width:0"/>
-										</g>
-									</g>
-								</g>
-							</g>
+			<g transform="translate(19 -4.6993e-6)">
+				<g transform="translate(19.004 -4.6993e-6)">
+					<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+						<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+						<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+							<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#fff;stroke-width:0"/>
 						</g>
 					</g>
 				</g>
-				<rect id="rect3979-7-3-9-3-4" transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#367bf0"/>
 			</g>
+			<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#367bf0"/>
 		</g>
 		<g id="checkbox-unchecked-insensitive-selected" transform="translate(-22 -72)" style="opacity:.55">
-			<g id="sdsd-0-3-5">
-				<g id="scdsdcd-0-7-3" transform="translate(0,-30)">
-					<rect id="rect13523-4-2-2" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-					<g id="g5400-2-4-8">
-						<rect id="rect5147-9-1-5-7-6-3-7-5" x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#367bf0;opacity:.5;stroke-linejoin:round;stroke:#fff"/>
-					</g>
-				</g>
+			<g transform="translate(0,-30)">
+				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+				<rect x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#367bf0;opacity:.5;stroke-linejoin:round;stroke:#fff"/>
 			</g>
 		</g>
 		<g id="radio-unchecked-insensitive-selected" transform="translate(-41.996 -72)" style="opacity:.55">
-			<g id="g10964-4-8-2">
-				<g id="radio-unchecked2-6-3-3" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-					<rect id="rect14348-4-3-7-7" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-					<g id="g7025-3-8-1">
-						<g id="g5489-2-9-3-8-9-5" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-							<g id="g5428-8-1-7-83-9-8">
-								<rect id="rect5147-9-1-7-7-2-3" x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#367bf0;opacity:.5;stroke-linejoin:round;stroke-width:2.0822;stroke:#fff"/>
-							</g>
-						</g>
-					</g>
+			<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+				<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+				<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+					<rect x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#367bf0;opacity:.5;stroke-linejoin:round;stroke-width:2.0822;stroke:#fff"/>
 				</g>
 			</g>
 		</g>
 	</g>
-	<g id="layer1" transform="translate(8 285.64)">
+	<g transform="translate(8 285.64)">
 		<g id="titlebutton-minimize" transform="translate(-471,-43)">
-			<path id="path4068-7-5-9-6-7-2-1-5" d="m595-184.64a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:url(#linearGradient1827)"/>
-			<rect id="rect17883-32" x="587" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m595-184.64a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:url(#linearGradient1827);stroke-width:.5;stroke:#fd7d00"/>
+			<rect x="587" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
 		<g id="checkbox-checked-selectionmode" transform="translate(-470,-369)">
-			<rect id="rect13851-7" x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
-			<rect id="rect13851" x="466" y="183.36" width="32" height="32" rx="2" ry="2" style="fill:#367bf0;stroke-width:0"/>
-			<g id="g14051" transform="translate(-2.2045 1.973)">
-				<path id="rect3977-39-35-1-3" d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625-3.1876-3.1875z" style="fill:#fff"/>
+			<rect x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
+			<rect x="466" y="183.36" width="32" height="32" rx="2" ry="2" style="fill:#367bf0;stroke-width:0"/>
+			<g transform="translate(-2.2045 1.973)">
+				<path d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625-3.1876-3.1875z" style="fill:#fff"/>
 			</g>
 		</g>
 		<g id="checkbox-selectionmode" transform="translate(-425,-369)">
-			<rect id="rect13851-8" x="466.5" y="183.86" width="31" height="31" rx="2" ry="2" style="fill:#fff;stroke:#cfd6e6"/>
-			<g id="g14051-0" transform="translate(-2.2045 1.973)">
-				<path id="rect3977-39-35-1-3-5" d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625-3.1876-3.1875z" style="fill:#cfd6e6;opacity:.4"/>
+			<rect x="466.5" y="183.86" width="31" height="31" rx="2" ry="2" style="fill:#fff;stroke:#cfd6e6"/>
+			<g transform="translate(-2.2045 1.973)">
+				<path d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625-3.1876-3.1875z" style="fill:#cfd6e6;opacity:.4"/>
 			</g>
-			<rect id="rect13851-7-0" x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
+			<rect x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
 		</g>
 		<g id="switch-active-header" transform="translate(-889 -618.64)">
-			<g id="layer1-9-0-8" transform="translate(885,450)">
-				<g id="switch-active-8-2" transform="translate(120 -117)">
-					<g id="g3900-1-87-1" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-3-7" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-0-8-8" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-						<circle id="path3759-0-9" cx="41" cy="1041.4" r="9" style="fill:#fff"/>
+			<g transform="translate(885,450)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#fff"/>
 					</g>
 				</g>
 			</g>
-			<g id="g4816-7" transform="translate(-1.0003)">
-				<rect id="rect3977-39-2-6" transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#fff"/>
-				<rect id="rect3979-7-0-5" transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#fff"/>
+			<g transform="translate(-1.0003)">
+				<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#fff"/>
+				<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#fff"/>
 			</g>
 		</g>
 		<g id="switch-header" transform="translate(-889 -613.64)">
-			<g id="layer1-9-4" transform="matrix(-1,0,0,1,1177,420)">
-				<g id="switch-active-2-5" transform="translate(120 -117)">
-					<g id="g3900-12-9" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-32-3" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-07-5" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff;opacity:.9"/>
-						<circle id="path3759-7-8" cx="41" cy="1041.4" r="9" style="fill:#cfd6e6"/>
+			<g transform="matrix(-1,0,0,1,1177,420)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff;opacity:.9"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#cfd6e6"/>
 					</g>
 				</g>
 			</g>
-			<path id="path10839-9-8-2-2-5-4" d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="block-progression:tb;color:#bebebe;enable-background:new;fill:#5c616c;opacity:.6;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="block-progression:tb;color:#bebebe;enable-background:new;fill:#5c616c;opacity:.6;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="switch-active-insensitive-header" transform="translate(-826 -618.64)" style="opacity:.55">
-			<g id="layer1-9-0-5-9" transform="translate(885,450)" style="opacity:1">
-				<g id="switch-active-8-1-1" transform="translate(120 -117)">
-					<g id="g3900-1-3-1-4" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-3-9-6" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-0-2-5-3" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-						<circle id="path3759-0-8-5" cx="41" cy="1041.4" r="9" style="fill:#fff"/>
+			<g transform="translate(885,450)" style="opacity:1">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#fff"/>
 					</g>
 				</g>
 			</g>
-			<g id="g4816-6-6" transform="translate(-1.0003)">
-				<rect id="rect3977-39-2-3-77" transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:url(#linearGradient6561);opacity:1"/>
-				<rect id="rect3979-7-0-6-4" transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:url(#linearGradient6563);opacity:1"/>
+			<g transform="translate(-1.0003)">
+				<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:url(#linearGradient6561);opacity:1"/>
+				<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:url(#linearGradient6563);opacity:1"/>
 			</g>
 		</g>
 		<g id="switch-insensitive-header" transform="translate(-826 -613.64)" style="opacity:.55">
-			<g id="layer1-9-1-6" transform="matrix(-1,0,0,1,1177,420)">
-				<g id="switch-active-88-4" transform="translate(120 -117)">
-					<g id="g3900-4-6" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-5-1" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-02-7" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
-						<circle id="path3759-1-7-5" cx="41" cy="1041.4" r="9" style="fill:#cfd6e6"/>
+			<g transform="matrix(-1,0,0,1,1177,420)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#cfd6e6"/>
 					</g>
 				</g>
 			</g>
-			<path id="path10839-9-8-2-2-5-5-9" d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="block-progression:tb;color:#bebebe;enable-background:new;fill:#5c616c;opacity:.6;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="block-progression:tb;color:#bebebe;enable-background:new;fill:#5c616c;opacity:.6;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="titlebutton-close" transform="translate(-489,-43)">
-			<g id="g4927-9" transform="translate(-678 -432.64)">
-				<g id="g4490-6-5-2" transform="translate(-103)">
-					<g id="g4092-0-2-21-0" transform="translate(58)">
-						<path id="path4068-7-5-9-6" transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1891)"/>
+			<g transform="translate(-678 -432.64)">
+				<g transform="translate(-103)">
+					<g transform="translate(58)">
+						<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1891);stroke-width:.5;stroke:#d41919"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-39" x="645" y="-185.64" width="16" height="16" style="fill:none"/>
+			<rect x="645" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
 		<g id="titlebutton-maximize" transform="translate(-480,-43)">
-			<path id="path4068-7-5-9-6-7-2-1-7" d="m624-184.63a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:url(#linearGradient1845)"/>
-			<rect id="rect17883-29" x="616" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m624-184.63a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:url(#linearGradient1845);stroke-width:.5;stroke:#367bf0"/>
+			<rect x="616" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
 		<g id="titlebutton-close-hover" transform="translate(-386,-9)">
-			<g id="g4927" transform="translate(-781 -432.64)">
-				<g id="g4490-6-9" transform="translate(-103)">
-					<g id="g4092-0-2-3" transform="translate(58)">
-						<path id="path4068-7-5-8" transform="translate(1204,156)" d="m172 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1909)"/>
+			<g transform="translate(-781 -432.64)">
+				<g transform="translate(-103)">
+					<g transform="translate(58)">
+						<path transform="translate(1204,156)" d="m172 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1909);stroke-width:.5;stroke:#d41919"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-5" x="542" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path id="path10839-9-2-2-7-9-7-4-9" d="m547-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z" style="block-progression:tb;color:#bebebe;enable-background:new;fill:#f8f8f9;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<rect x="542" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m547-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z" style="block-progression:tb;color:#bebebe;enable-background:new;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="titlebutton-maximize-hover" transform="translate(-377,-9)">
-			<g id="g4891" transform="translate(-781 -432.64)">
-				<path id="path4068-7-5-9-6-7-2-4" transform="translate(1150,156)" d="m152 92a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:url(#linearGradient1883);opacity:.95"/>
-				<g id="g4806-9" transform="translate(1294,247)" style="fill:#c0e3ff">
-					<g id="layer12-3-0" transform="translate(-81 -967)" style="fill:#c0e3ff">
-						<path id="path4293-6" d="m87.8 972h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#fff"/>
+			<g transform="translate(-781 -432.64)">
+				<path transform="translate(1150,156)" d="m152 92a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:url(#linearGradient1883);opacity:.95;stroke-width:.5;stroke:#367bf0"/>
+				<g transform="translate(1294,247)" style="fill:#c0e3ff">
+					<g transform="translate(-81 -967)" style="fill:#c0e3ff">
+						<path d="m87.8 972h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#000"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-0" x="513" y="-185.64" width="16" height="16" style="fill:none"/>
+			<rect x="513" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
 		<g id="titlebutton-minimize-hover" transform="translate(-368,-9)">
-			<g id="g4909" transform="translate(-781 -432.64)">
-				<path id="path4068-7-5-9-6-7-2-1" transform="translate(1141,156)" d="m132 92a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:url(#linearGradient1867);opacity:.95"/>
-				<g id="g4834-0" transform="translate(1265,247)" style="fill:#c0e3ff">
-					<g id="layer12-45-6" transform="translate(-81 -967)" style="fill:#c0e3ff">
-						<path id="rect9057-8" d="m86 974v2h6v-2z" style="block-progression:tb;color:#000000;fill:#fff;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<g transform="translate(-781 -432.64)">
+				<path transform="translate(1141,156)" d="m132 92a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:url(#linearGradient1867);opacity:.95;stroke-width:.5;stroke:#fd7d00"/>
+				<g transform="translate(1265,247)" style="fill:#c0e3ff">
+					<g transform="translate(-81 -967)" style="fill:#c0e3ff">
+						<path d="m86 974v2h6v-2z" style="color:#000000;fill:#000;text-decoration-line:none;text-indent:0;text-transform:none"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-11" x="484" y="-185.64" width="16" height="16" style="fill:none"/>
+			<rect x="484" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
 		<g id="titlebutton-close-active" transform="translate(-285,8)">
-			<g id="g4927-8-7" transform="translate(-882 -432.64)">
-				<g id="g4490-6-3-7" transform="translate(-103)">
-					<g id="g4092-0-2-2-1" transform="translate(58)">
-						<circle id="path4068-7-5-4-9" cx="1376" cy="255" r="7" style="fill:url(#linearGradient1907)"/>
+			<g transform="translate(-882 -432.64)">
+				<g transform="translate(-103)">
+					<g transform="translate(58)">
+						<circle cx="1376" cy="255" r="7" style="fill:url(#linearGradient1907);stroke-width:.5;stroke:#d41919"/>
 					</g>
 				</g>
-				<g id="g4778-3-6" transform="translate(1323 246.87)" style="fill:#fff">
-					<g id="g2996-7-0" transform="matrix(.75 0 0 .75 2 2.0547)" style="fill:#fff">
-						<g id="layer12-4-6-3" transform="translate(-60,-518)" style="fill:#fff">
-							<g id="layer4-4-1-4-1" transform="translate(19,-242)" style="fill:#fff">
-								<path id="path10839-9-8-7" d="m45 764h1c0.01037-1.2e-4 0.02079-4.6e-4 0.03125 0 0.25495 0.0112 0.50987 0.12858 0.6875 0.3125l2.2812 2.2812 2.3125-2.2812c0.26562-0.2305 0.44667-0.3055 0.6875-0.3125h1v1c0 0.28647-0.03434 0.55065-0.25 0.75l-2.2812 2.2812 2.25 2.25c0.18819 0.18817 0.28124 0.45345 0.28125 0.71875v1h-1c-0.2653-1e-5 -0.53059-0.0931-0.71875-0.28125l-2.2812-2.2812-2.2812 2.2812c-0.18816 0.18819-0.45346 0.28125-0.71875 0.28125h-1v-1c-3e-6 -0.26529 0.09306-0.53058 0.28125-0.71875l2.2812-2.25-2.2812-2.2812c-0.21074-0.19463-0.30316-0.46925-0.28125-0.75v-1z" style="block-progression:tb;color:#bebebe;enable-background:new;fill:#fff;text-decoration-line:none;text-indent:0;text-transform:none"/>
+				<g transform="translate(1323 246.87)" style="fill:#fff">
+					<g transform="matrix(.75 0 0 .75 2 2.0547)" style="fill:#fff">
+						<g transform="translate(-60,-518)" style="fill:#fff">
+							<g transform="translate(19,-242)" style="fill:#fff">
+								<path d="m45 764h1c0.01037-1.2e-4 0.02079-4.6e-4 0.03125 0 0.25495 0.0112 0.50987 0.12858 0.6875 0.3125l2.2812 2.2812 2.3125-2.2812c0.26562-0.2305 0.44667-0.3055 0.6875-0.3125h1v1c0 0.28647-0.03434 0.55065-0.25 0.75l-2.2812 2.2812 2.25 2.25c0.18819 0.18817 0.28124 0.45345 0.28125 0.71875v1h-1c-0.2653-1e-5 -0.53059-0.0931-0.71875-0.28125l-2.2812-2.2812-2.2812 2.2812c-0.18816 0.18819-0.45346 0.28125-0.71875 0.28125h-1v-1c-3e-6 -0.26529 0.09306-0.53058 0.28125-0.71875l2.2812-2.25-2.2812-2.2812c-0.21074-0.19463-0.30316-0.46925-0.28125-0.75v-1z" style="block-progression:tb;color:#bebebe;enable-background:new;fill:#000;text-decoration-line:none;text-indent:0;text-transform:none"/>
 							</g>
 						</g>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-02" x="441" y="-185.64" width="16" height="16" style="fill:none"/>
+			<rect x="441" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
 		<g id="titlebutton-maximize-active" transform="translate(-276,8)">
-			<g id="g4891-4" transform="translate(-882 -432.64)">
-				<g id="g4490-2-9-1-2" transform="translate(-132)">
-					<g id="g4092-0-6-3-6-8" transform="translate(58)">
-						<circle id="path4068-7-6-5-1-6" cx="1376" cy="255" r="7" style="fill:url(#linearGradient1881)"/>
+			<g transform="translate(-882 -432.64)">
+				<g transform="translate(-132)">
+					<g transform="translate(58)">
+						<circle cx="1376" cy="255" r="7" style="fill:url(#linearGradient1881);stroke-width:.5;stroke:#367bf0"/>
 					</g>
 				</g>
-				<g id="g4806-5-2" transform="translate(1294,247)" style="fill:#c0e3ff">
-					<g id="layer12-3-7-2" transform="translate(-81 -967)" style="fill:#c0e3ff">
-						<path id="path4293-4-9" d="m87.8 972h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#fff"/>
+				<g transform="translate(1294,247)" style="fill:#c0e3ff">
+					<g transform="translate(-81 -967)" style="fill:#c0e3ff">
+						<path d="m87.8 972h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#000"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-79" x="412" y="-185.64" width="16" height="16" style="fill:none"/>
+			<rect x="412" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
 		<g id="titlebutton-minimize-active" transform="translate(-267,8)">
-			<g id="g4909-1" transform="translate(-882 -432.64)">
-				<g id="g4490-3-6-1-4" transform="translate(-161)">
-					<g id="g4092-0-7-2-0-0" transform="translate(58)">
-						<circle id="path4068-7-3-0-3-6" cx="1376" cy="255" r="7" style="fill:url(#linearGradient1865)"/>
+			<g transform="translate(-882 -432.64)">
+				<g transform="translate(-161)">
+					<g transform="translate(58)">
+						<circle cx="1376" cy="255" r="7" style="fill:url(#linearGradient1865);stroke-width:.5;stroke:#fd7d00"/>
 					</g>
 				</g>
-				<g id="g4834-9-3" transform="translate(1265,247)" style="fill:#c0e3ff">
-					<g id="layer12-45-3-7" transform="translate(-81 -967)" style="fill:#c0e3ff">
-						<path id="rect9057-3-5" d="m86 974v2h6v-2z" style="block-progression:tb;color:#000000;fill:#fff;text-decoration-line:none;text-indent:0;text-transform:none"/>
+				<g transform="translate(1265,247)" style="fill:#c0e3ff">
+					<g transform="translate(-81 -967)" style="fill:#c0e3ff">
+						<path d="m86 974v2h6v-2z" style="color:#000000;fill:#000;text-decoration-line:none;text-indent:0;text-transform:none"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-79-9" x="383" y="-185.64" width="16" height="16" style="fill:none"/>
+			<rect x="383" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
 		<g id="titlebutton-maximize-backdrop" transform="translate(-480,-43)" style="opacity:.45">
-			<rect id="rect17883-39-6" x="616" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
-			<path id="path4068-7-5-9-6-8-9" d="m624-167.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+			<rect x="616" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
+			<path d="m624-167.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
 		</g>
 		<g id="titlebutton-minimize-backdrop" transform="translate(-471,-43)" style="opacity:.45">
-			<rect id="rect17883-39-3" x="587" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
-			<path id="path4068-7-5-9-6-8-9-7" d="m595-167.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+			<rect x="587" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
+			<path d="m595-167.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
 		</g>
 		<g id="titlebutton-close-backdrop" transform="translate(-489 -26)" style="opacity:.45">
-			<g id="g4927-9-3" transform="translate(-678 -432.64)" style="opacity:1">
-				<g id="g4490-6-5-2-6" transform="translate(-103)" style="opacity:1">
-					<g id="g4092-0-2-21-0-6" transform="translate(58)">
-						<path id="path4068-7-5-9-6-8" transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+			<g transform="translate(-678 -432.64)" style="opacity:1">
+				<g transform="translate(-103)" style="opacity:1">
+					<g transform="translate(58)">
+						<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-39-7" x="645" y="-185.64" width="16" height="16" style="fill:none;opacity:1"/>
+			<rect x="645" y="-185.64" width="16" height="16" style="fill:none;opacity:1"/>
 		</g>
-		<rect id="rect18028-4" transform="scale(1,-1)" x="234" y="147.64" width="121" height="138" rx="0" ry="0" style="color:#000000;fill:#383c4a"/>
+		<rect transform="scale(1,-1)" x="234" y="147.64" width="121" height="138" rx="0" ry="0" style="color:#000000;fill:#383c4a"/>
 		<g id="checkbox-checked-dark" transform="translate(220 -229)">
-			<g id="checkbox-unchecked-5-59" transform="translate(19)">
-				<g id="sdsd-7-54">
-					<g id="scdsdcd-5-8" transform="translate(0,-30)">
-						<rect id="rect13523-7-11" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-						<g id="g5400-6-68">
-							<rect id="rect5147-9-1-5-7-6-7-4" x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-						</g>
-					</g>
+			<g transform="translate(19)">
+				<g transform="translate(0,-30)">
+					<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+					<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 				</g>
 			</g>
-			<g id="g704" transform="translate(36,-1036)">
-				<g id="g4049-2-5" transform="rotate(45 7.5 1026.4)">
-					<g id="g4056-7-6" transform="translate(12.374 11.531)">
-						<g id="g3981-0-8" transform="translate(-3 -5)" style="fill:#3b3c3e">
-							<rect id="rect3977-39-90" x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#2b303b"/>
-							<rect id="rect3979-7-60" x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#2b303b"/>
+			<g transform="translate(36,-1036)">
+				<g transform="rotate(45 7.5 1026.4)">
+					<g transform="translate(12.374 11.531)">
+						<g transform="translate(-3 -5)" style="fill:#3b3c3e">
+							<rect x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#2b303b"/>
+							<rect x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#2b303b"/>
 						</g>
-						<rect id="rect4047-81-5" transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
+						<rect transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
 					</g>
 				</g>
 			</g>
 		</g>
 		<g id="checkbox-mixed-dark" transform="translate(239 -229)">
-			<g id="checkbox-unchecked-5-4-5" transform="translate(19)">
-				<g id="sdsd-7-0-0">
-					<g id="scdsdcd-5-2-0" transform="translate(0,-30)">
-						<rect id="rect13523-7-8-6" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-						<g id="g5400-6-9-3">
-							<rect id="rect5147-9-1-5-7-6-7-0-0" x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-						</g>
-					</g>
+			<g transform="translate(19)">
+				<g transform="translate(0,-30)">
+					<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+					<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 				</g>
 			</g>
-			<g id="g722" transform="translate(36,-1036)">
-				<g id="g4049-2-9-34" transform="rotate(45 7.5 1026.4)">
-					<g id="g4056-7-0-9" transform="translate(12.374 11.531)">
-						<g id="g3981-0-1-9" transform="translate(-3 -5)" style="fill:#3b3c3e">
-							<rect id="rect3979-7-3-4" transform="rotate(225)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#2b303b"/>
+			<g transform="translate(36,-1036)">
+				<g transform="rotate(45 7.5 1026.4)">
+					<g transform="translate(12.374 11.531)">
+						<g transform="translate(-3 -5)" style="fill:#3b3c3e">
+							<rect transform="rotate(225)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#2b303b"/>
 						</g>
-						<rect id="rect4047-81-4-5" transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
+						<rect transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
 					</g>
 				</g>
 			</g>
 		</g>
 		<g id="radio-checked-dark" transform="translate(201 -229)">
-			<g id="radio-unchecked-2-1" transform="translate(19.004 -4.6993e-6)">
-				<g id="g10964-6-63">
-					<g id="radio-unchecked2-0-8" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-						<rect id="rect14348-4-8-5" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-						<g id="g7025-09-09">
-							<g id="g5489-2-9-3-2-28" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-								<g id="g5428-8-1-7-5-64">
-									<rect id="rect5147-9-1-7-2-0" x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-								</g>
-							</g>
-						</g>
+			<g transform="translate(19.004 -4.6993e-6)">
+				<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+					<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+					<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+						<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 					</g>
 				</g>
 			</g>
-			<rect id="use15101-5-7-55" x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#2b303b"/>
+			<rect x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#2b303b"/>
 		</g>
 		<g id="radio-mixed-dark" transform="translate(201 -229)">
-			<g id="g11220-5">
-				<g id="radio-checked-7-40" transform="translate(19 -4.6993e-6)">
-					<g id="radio-unchecked-2-6-5" transform="translate(19.004 -4.6993e-6)">
-						<g id="g10964-6-0-7">
-							<g id="radio-unchecked2-0-0-0" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-								<rect id="rect14348-4-8-7-0" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-								<g id="g7025-09-3-3">
-									<g id="g5489-2-9-3-2-7-19" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-										<g id="g5428-8-1-7-5-9-7">
-											<rect id="rect5147-9-1-7-2-6-8" x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-										</g>
-									</g>
-								</g>
-							</g>
+			<g transform="translate(19 -4.6993e-6)">
+				<g transform="translate(19.004 -4.6993e-6)">
+					<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+						<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+						<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+							<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 						</g>
 					</g>
 				</g>
-				<rect id="rect3979-7-3-9-5" transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#2b303b"/>
 			</g>
+			<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#2b303b"/>
 		</g>
 		<g id="switch-active-dark" transform="translate(-768 -618.64)">
-			<g id="layer1-9-0-51" transform="translate(885,450)">
-				<g id="switch-active-8-8" transform="translate(120 -117)">
-					<g id="g3900-1-87-0" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-3-3" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-0-8-7" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-						<circle id="path3759-0-75" cx="41" cy="1041.4" r="9" style="fill:#353a47"/>
+			<g transform="translate(885,450)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#353a47"/>
 					</g>
 				</g>
 			</g>
-			<g id="g4816-8" transform="translate(-1.0003)">
-				<rect id="rect3977-39-2-13" transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#353a47"/>
-				<rect id="rect3979-7-0-65" transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#353a47"/>
+			<g transform="translate(-1.0003)">
+				<rect transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#353a47"/>
+				<rect transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#353a47"/>
 			</g>
 		</g>
 		<g id="switch-dark" transform="translate(-768 -613.64)">
-			<g id="layer1-9-13" transform="matrix(-1,0,0,1,1177,420)">
-				<g id="switch-active-2-2" transform="translate(120 -117)">
-					<g id="g3900-12-8" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-32-7" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-07-4" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#5b627b"/>
-						<circle id="path3759-7-4" cx="41" cy="1041.4" r="9" style="fill:#353a47"/>
+			<g transform="matrix(-1,0,0,1,1177,420)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#5b627b"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#353a47"/>
 					</g>
 				</g>
 			</g>
-			<path id="path10839-9-8-2-2-5-46" d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#353a47;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#353a47;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="switch-active-insensitive-dark" transform="translate(-705 -618.64)" style="opacity:.55">
-			<g id="layer1-9-0-5-7" transform="translate(885,450)" style="opacity:1">
-				<g id="switch-active-8-1-7" transform="translate(120 -117)">
-					<g id="g3900-1-3-1-6" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-3-9-67" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-0-2-5-36" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-						<circle id="path3759-0-8-4" cx="41" cy="1041.4" r="9" style="fill:#353a47"/>
+			<g transform="translate(885,450)" style="opacity:1">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#353a47"/>
 					</g>
 				</g>
 			</g>
-			<g id="g4816-6-4" transform="translate(-1.0003)">
-				<rect id="rect3977-39-2-3-6" transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#353a47;opacity:1"/>
-				<rect id="rect3979-7-0-6-69" transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#353a47;opacity:1"/>
+			<g transform="translate(-1.0003)">
+				<rect transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#353a47;opacity:1"/>
+				<rect transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#353a47;opacity:1"/>
 			</g>
 		</g>
 		<g id="switch-insensitive-dark" transform="translate(-705 -613.64)" style="opacity:.55">
-			<g id="layer1-9-1-3" transform="matrix(-1,0,0,1,1177,420)">
-				<g id="switch-active-88-45" transform="translate(120 -117)">
-					<g id="g3900-4-69" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-5-12" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-02-4" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#5b627b"/>
-						<circle id="path3759-1-7-3" cx="41" cy="1041.4" r="9" style="fill:#353a47"/>
+			<g transform="matrix(-1,0,0,1,1177,420)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#5b627b"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#353a47"/>
 					</g>
 				</g>
 			</g>
-			<path id="path10839-9-8-2-2-5-5-5" d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#353a47;opacity:1;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#353a47;opacity:1;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="checkbox-unchecked-dark" transform="translate(220 -229)">
-			<g id="sdsd-0-1">
-				<g id="scdsdcd-0-4" transform="translate(0,-30)">
-					<rect id="rect13523-4-0" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-					<g id="g5400-2-47">
-						<rect id="rect5147-9-1-5-7-6-3-70" x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke:#262934"/>
-					</g>
-				</g>
+			<g transform="translate(0,-30)">
+				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+				<rect x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke:#262934"/>
 			</g>
 		</g>
 		<g id="radio-unchecked-dark" transform="translate(200 -229)">
-			<g id="g10964-4-5">
-				<g id="radio-unchecked2-6-5" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-					<rect id="rect14348-4-3-9" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-					<g id="g7025-3-9">
-						<g id="g5489-2-9-3-8-0" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-							<g id="g5428-8-1-7-83-7">
-								<rect id="rect5147-9-1-7-7-61" x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke-width:2.0822;stroke:#262934"/>
-							</g>
-						</g>
-					</g>
+			<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+				<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+				<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+					<rect x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke-width:2.0822;stroke:#262934"/>
 				</g>
 			</g>
 		</g>
 		<g id="checkbox-checked-insensitive-dark" transform="translate(220 -210)" style="opacity:.55">
-			<g id="checkbox-unchecked-5-5-1" transform="translate(19)">
-				<g id="sdsd-7-01-6">
-					<g id="scdsdcd-5-9-7" transform="translate(0,-30)">
-						<rect id="rect13523-7-1-24" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-						<g id="g5400-6-4-3">
-							<rect id="rect5147-9-1-5-7-6-7-3-9" x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-						</g>
-					</g>
+			<g transform="translate(19)">
+				<g transform="translate(0,-30)">
+					<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+					<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 				</g>
 			</g>
-			<g id="g819" transform="translate(36,-1036)">
-				<g id="g4049-2-1-3" transform="rotate(45 7.5 1026.4)">
-					<g id="g4056-7-9-9" transform="translate(12.374 11.531)">
-						<g id="g3981-0-4-2" transform="translate(-3 -5)" style="fill:#3b3c3e">
-							<rect id="rect3977-39-0-3" x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#2b303b"/>
-							<rect id="rect3979-7-6-9" x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#2b303b"/>
+			<g transform="translate(36,-1036)">
+				<g transform="rotate(45 7.5 1026.4)">
+					<g transform="translate(12.374 11.531)">
+						<g transform="translate(-3 -5)" style="fill:#3b3c3e">
+							<rect x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#2b303b"/>
+							<rect x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#2b303b"/>
 						</g>
-						<rect id="rect4047-81-9-6" transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
+						<rect transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
 					</g>
 				</g>
 			</g>
 		</g>
 		<g id="checkbox-mixed-insensitive-dark" transform="translate(239 -210)" style="opacity:.55">
-			<g id="checkbox-unchecked-5-4-1-9" transform="translate(19)">
-				<g id="sdsd-7-0-5-8">
-					<g id="scdsdcd-5-2-8-5" transform="translate(0,-30)">
-						<rect id="rect13523-7-8-8-7" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-						<g id="g5400-6-9-9-6">
-							<rect id="rect5147-9-1-5-7-6-7-0-7-33" x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-						</g>
-					</g>
+			<g transform="translate(19)">
+				<g transform="translate(0,-30)">
+					<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+					<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 				</g>
 			</g>
-			<g id="g837" transform="translate(36,-1036)">
-				<g id="g4049-2-9-7-5" transform="rotate(45 7.5 1026.4)">
-					<g id="g4056-7-0-8-4" transform="translate(12.374 11.531)">
-						<g id="g3981-0-1-4-7" transform="translate(-3 -5)" style="fill:#3b3c3e">
-							<rect id="rect3979-7-3-91-5" transform="rotate(225)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#2b303b"/>
+			<g transform="translate(36,-1036)">
+				<g transform="rotate(45 7.5 1026.4)">
+					<g transform="translate(12.374 11.531)">
+						<g transform="translate(-3 -5)" style="fill:#3b3c3e">
+							<rect transform="rotate(225)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#2b303b"/>
 						</g>
-						<rect id="rect4047-81-4-2-21" transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
+						<rect transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
 					</g>
 				</g>
 			</g>
 		</g>
 		<g id="radio-checked-insensitive-dark" transform="translate(201 -210)" style="opacity:.55">
-			<g id="radio-unchecked-2-8-6" transform="translate(19.004 -4.6993e-6)">
-				<g id="g10964-6-7-2">
-					<g id="radio-unchecked2-0-4-5" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-						<rect id="rect14348-4-8-2-7" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-						<g id="g7025-09-5-0">
-							<g id="g5489-2-9-3-2-70-6" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-								<g id="g5428-8-1-7-5-62-6">
-									<rect id="rect5147-9-1-7-2-2-2" x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-								</g>
-							</g>
-						</g>
+			<g transform="translate(19.004 -4.6993e-6)">
+				<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+					<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+					<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+						<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 					</g>
 				</g>
 			</g>
-			<rect id="use15101-5-7-2-5" x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#2b303b"/>
+			<rect x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#2b303b"/>
 		</g>
 		<g id="radio-mixed-insensitive-dark" transform="translate(201 -210)" style="opacity:.55">
-			<g id="g11220-22-7">
-				<g id="radio-checked-7-4-10" transform="translate(19 -4.6993e-6)">
-					<g id="radio-unchecked-2-6-0-3" transform="translate(19.004 -4.6993e-6)">
-						<g id="g10964-6-0-1-8">
-							<g id="radio-unchecked2-0-0-2-8" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-								<rect id="rect14348-4-8-7-5-8" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-								<g id="g7025-09-3-9-4">
-									<g id="g5489-2-9-3-2-7-7-8" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-										<g id="g5428-8-1-7-5-9-2-3">
-											<rect id="rect5147-9-1-7-2-6-9-3" x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-										</g>
-									</g>
-								</g>
-							</g>
+			<g transform="translate(19 -4.6993e-6)">
+				<g transform="translate(19.004 -4.6993e-6)">
+					<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+						<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+						<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+							<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 						</g>
 					</g>
 				</g>
-				<rect id="rect3979-7-3-9-3-37" transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#2b303b"/>
 			</g>
+			<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#2b303b"/>
 		</g>
 		<g id="checkbox-unchecked-insensitive-dark" transform="translate(220 -210)" style="opacity:.6">
-			<g id="sdsd-0-3-0">
-				<g id="scdsdcd-0-7-1" transform="translate(0,-30)">
-					<rect id="rect13523-4-2-5" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-					<g id="g5400-2-4-7">
-						<rect id="rect5147-9-1-5-7-6-3-7-2" x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke:#262934"/>
-					</g>
-				</g>
+			<g transform="translate(0,-30)">
+				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+				<rect x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke:#262934"/>
 			</g>
 		</g>
 		<g id="radio-unchecked-insensitive-dark" transform="translate(200 -210)" style="opacity:.6">
-			<g id="g10964-4-8-3">
-				<g id="radio-unchecked2-6-3-0" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-					<rect id="rect14348-4-3-7-2" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-					<g id="g7025-3-8-9">
-						<g id="g5489-2-9-3-8-9-6" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-							<g id="g5428-8-1-7-83-9-6">
-								<rect id="rect5147-9-1-7-7-2-6" x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke-width:2.0822;stroke:#262934"/>
-							</g>
-						</g>
-					</g>
+			<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+				<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+				<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+					<rect x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke-width:2.0822;stroke:#262934"/>
 				</g>
 			</g>
 		</g>
 		<g id="checkbox-checked-selectionmode-dark" transform="translate(-228 -369)">
-			<rect id="rect13851-5" x="466" y="183.36" width="32" height="32" rx="2" ry="2" style="fill:#367bf0;stroke-width:0"/>
-			<g id="g14051-7" transform="translate(-2.2045 1.973)">
-				<path id="rect3977-39-35-1-3-50" d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z" style="fill:#2b303b"/>
+			<rect x="466" y="183.36" width="32" height="32" rx="2" ry="2" style="fill:#367bf0;stroke-width:0"/>
+			<g transform="translate(-2.2045 1.973)">
+				<path d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z" style="fill:#2b303b"/>
 			</g>
-			<rect id="rect13851-7-3" x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
+			<rect x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
 		</g>
 		<g id="checkbox-selectionmode-dark" transform="translate(-183 -369)">
-			<rect id="rect13851-8-3" x="466.5" y="183.86" width="31" height="31" rx="2" ry="2" style="fill:#2d323d;stroke:#262934"/>
-			<g id="g14051-0-8" transform="translate(-2.2045 1.973)">
-				<path id="rect3977-39-35-1-3-5-2" d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z" style="fill:#5f6578;opacity:.55"/>
+			<rect x="466.5" y="183.86" width="31" height="31" rx="2" ry="2" style="fill:#2d323d;stroke:#262934"/>
+			<g transform="translate(-2.2045 1.973)">
+				<path d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z" style="fill:#5f6578;opacity:.55"/>
 			</g>
-			<rect id="rect13851-7-1" x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
+			<rect x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
 		</g>
-		<rect id="rect11783-3-1" x="355" y="-285.64" width="121" height="138" style="fill:#2f343f;stroke-width:0"/>
+		<rect x="355" y="-285.64" width="121" height="138" style="fill:#2f343f;stroke-width:0"/>
 		<g id="switch-active-header-dark" transform="translate(-647 -618.64)">
-			<g id="layer1-9-0-8-3-1" transform="translate(885,450)">
-				<g id="switch-active-8-2-5-0" transform="translate(120 -117)">
-					<g id="g3900-1-87-1-7-9" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-3-7-0-8" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-0-8-8-7-5" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-						<circle id="path3759-0-9-7-1" cx="41" cy="1041.4" r="9" style="fill:#2d323f"/>
+			<g transform="translate(885,450)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#2d323f"/>
 					</g>
 				</g>
 			</g>
-			<g id="g4816-7-3-7" transform="translate(-1.0003)">
-				<rect id="rect3977-39-2-6-0-5" transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#2d323f"/>
-				<rect id="rect3979-7-0-5-9-4" transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#2d323f"/>
+			<g transform="translate(-1.0003)">
+				<rect transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#2d323f"/>
+				<rect transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#2d323f"/>
 			</g>
 		</g>
 		<g id="switch-header-dark" transform="translate(-647 -613.64)">
-			<g id="layer1-9-4-5-1" transform="matrix(-1,0,0,1,1177,420)">
-				<g id="switch-active-2-5-8-0" transform="translate(120 -117)">
-					<g id="g3900-12-9-5-2" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-32-3-7-9" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-07-5-3-3" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#5b627b"/>
-						<circle id="path3759-7-8-7-8" cx="41" cy="1041.4" r="9" style="fill:#2d323f"/>
+			<g transform="matrix(-1,0,0,1,1177,420)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#5b627b"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#2d323f"/>
 					</g>
 				</g>
 			</g>
-			<path id="path10839-9-8-2-2-5-4-1-8" d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#2d323f;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#2d323f;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="switch-active-insensitive-header-dark" transform="translate(-584 -618.64)" style="opacity:.55">
-			<g id="layer1-9-0-5-9-3-1" transform="translate(885,450)" style="opacity:1">
-				<g id="switch-active-8-1-1-7-4" transform="translate(120 -117)">
-					<g id="g3900-1-3-1-4-9-0" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-3-9-6-8-2" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-0-2-5-3-4-9" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-						<circle id="path3759-0-8-5-9-1" cx="41" cy="1041.4" r="9" style="fill:#2d323f"/>
+			<g transform="translate(885,450)" style="opacity:1">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#2d323f"/>
 					</g>
 				</g>
 			</g>
-			<g id="g4816-6-6-5-6" transform="translate(-1.0003)">
-				<rect id="rect3977-39-2-3-77-4-7" transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#2d323f;opacity:1"/>
-				<rect id="rect3979-7-0-6-4-7-1" transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#2d323f;opacity:1"/>
+			<g transform="translate(-1.0003)">
+				<rect transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#2d323f;opacity:1"/>
+				<rect transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#2d323f;opacity:1"/>
 			</g>
 		</g>
 		<g id="switch-insensitive-header-dark" transform="translate(-584 -613.64)" style="opacity:.55">
-			<g id="layer1-9-1-6-2-5" transform="matrix(-1,0,0,1,1177,420)">
-				<g id="switch-active-88-4-1-3" transform="translate(120 -117)">
-					<g id="g3900-4-6-4-0" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-5-1-5-8" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-02-7-6-5" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#5b627b"/>
-						<circle id="path3759-1-7-5-1-1" cx="41" cy="1041.4" r="9" style="fill:#2d323f;opacity:1"/>
+			<g transform="matrix(-1,0,0,1,1177,420)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#5b627b"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#2d323f;opacity:1"/>
 					</g>
 				</g>
 			</g>
-			<path id="path10839-9-8-2-2-5-5-9-7-6" d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#2d323f;opacity:1;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#2d323f;opacity:1;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="titlebutton-minimize-dark" transform="translate(-229 -43)">
-			<rect id="rect17883-32-6-9" x="587" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path id="path4068-7-5-9-6-5-8-3-7-6" d="m595-184.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1859)"/>
+			<rect x="587" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m595-184.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1859);stroke-width:.5;stroke:#fd7d00"/>
 		</g>
 		<g id="titlebutton-close-dark" transform="translate(-247 -43)">
-			<g id="g4927-9-2-8" transform="translate(-678 -432.64)">
-				<g id="g4490-6-5-2-5-3" transform="translate(-103)">
-					<g id="g4092-0-2-21-0-9-7" transform="translate(58)">
-						<path id="path4068-7-5-9-6-5-8" transform="translate(962 190)" d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1901)"/>
+			<g transform="translate(-678 -432.64)">
+				<g transform="translate(-103)">
+					<g transform="translate(58)">
+						<path transform="translate(962 190)" d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1901);stroke-width:.5;stroke:#d41919"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-39-99-8" x="645" y="-185.64" width="16" height="16" style="fill:none"/>
+			<rect x="645" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
 		<g id="titlebutton-maximize-dark" transform="translate(-238 -43)">
-			<rect id="rect17883-29-2-2" x="616" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path id="path4068-7-5-9-6-5-8-3-7-5" d="m624-184.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1953)"/>
+			<rect x="616" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m624-184.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1953);stroke-width:.5;stroke:#367bf0"/>
 		</g>
 		<g id="titlebutton-close-hover-dark" transform="translate(-144 -9)">
-			<g id="g4927-97-4" transform="translate(-781 -432.64)">
-				<g id="g4490-6-9-1-3" transform="translate(-103)">
-					<g id="g4092-0-2-3-4-6" transform="translate(58)">
-						<path id="path4068-7-5-8-2-3" transform="translate(962,156)" d="m414 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1903)"/>
+			<g transform="translate(-781 -432.64)">
+				<g transform="translate(-103)">
+					<g transform="translate(58)">
+						<path transform="translate(962,156)" d="m414 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1903);stroke-width:.5;stroke:#d41919"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-5-4-2" x="542" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path id="path10839-9-2-2-7-9-7-4-9-0" d="m547-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#edeef2;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<rect x="542" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m547-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#fff;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="titlebutton-maximize-hover-dark" transform="translate(-135 -9)">
-			<g id="g4891-5-8" transform="translate(-781 -432.64)">
-				<path id="path4068-7-5-9-6-7-2-4-6-6" transform="translate(908,156)" d="m394 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1879)"/>
+			<g transform="translate(-781 -432.64)">
+				<path transform="translate(908,156)" d="m394 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1879);stroke-width:.5;stroke:#367bf0"/>
 			</g>
-			<rect id="rect17883-0-1-5" x="513" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path id="path4293-6-9" d="m519.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#edeef2"/>
+			<rect x="513" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m519.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#fff"/>
 		</g>
 		<g id="titlebutton-minimize-hover-dark" transform="translate(-126 -9)">
-			<g id="g4909-3-7" transform="translate(-781 -432.64)">
-				<path id="path4068-7-5-9-6-7-2-1-6-1" transform="translate(899,156)" d="m374 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1861)"/>
+			<g transform="translate(-781 -432.64)">
+				<path transform="translate(899,156)" d="m374 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1861);stroke-width:.5;stroke:#fd7d00"/>
 			</g>
-			<rect id="rect17883-11-4-0" x="484" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path id="rect9057-8-3" d="m489-178.64v2h6v-2z" style="color:#000000;fill:#edeef2;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<rect x="484" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m489-178.64v2h6v-2z" style="color:#000000;fill:#fff;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="titlebutton-close-active-dark" transform="translate(-43 8)">
-			<g id="g4927-8-7-4-9" transform="translate(-882 -432.64)">
-				<g id="g4490-6-3-7-46-6" transform="translate(-103)">
-					<g id="g4092-0-2-2-1-7-2" transform="translate(58)">
-						<path id="path4068-7-5-4-9-7-6" transform="translate(962,139)" d="m414 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1905)"/>
+			<g transform="translate(-882 -432.64)">
+				<g transform="translate(-103)">
+					<g transform="translate(58)">
+						<path transform="translate(962,139)" d="m414 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1905);stroke-width:.5;stroke:#d41919"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-02-4-3" x="441" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path id="path10839-9-2-2-7-9-7-4-9-0-6" d="m446-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#edeef2;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<rect x="441" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m446-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#fff;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="titlebutton-maximize-active-dark" transform="translate(-34 8)">
-			<g id="g4891-4-5-5" transform="translate(-882 -432.64)">
-				<g id="g4490-2-9-1-2-4-8" transform="translate(-132)">
-					<g id="g4092-0-6-3-6-8-3-7" transform="translate(58)">
-						<path id="path4068-7-6-5-1-6-6-0" transform="translate(982,139)" d="m394 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1877)"/>
+			<g transform="translate(-882 -432.64)">
+				<g transform="translate(-132)">
+					<g transform="translate(58)">
+						<path transform="translate(982,139)" d="m394 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1877);stroke-width:.5;stroke:#367bf0"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-79-3-0" x="412" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path id="path4293-6-9-0" d="m418.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#edeef2"/>
+			<rect x="412" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m418.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#fff"/>
 		</g>
 		<g id="titlebutton-minimize-active-dark" transform="translate(-25 8)">
-			<g id="g4909-1-2-0" transform="translate(-882 -432.64)">
-				<g id="g4490-3-6-1-4-1-6" transform="translate(-161)">
-					<g id="g4092-0-7-2-0-0-94-2" transform="translate(58)">
-						<path id="path4068-7-3-0-3-6-8-3" transform="translate(1002,139)" d="m374 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1863)"/>
+			<g transform="translate(-882 -432.64)">
+				<g transform="translate(-161)">
+					<g transform="translate(58)">
+						<path transform="translate(1002,139)" d="m374 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1863);stroke-width:.5;stroke:#fd7d00"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-79-9-2-2" x="383" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path id="rect9057-8-3-6" d="m388-178.64v2h6v-2z" style="color:#000000;fill:#edeef2;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<rect x="383" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m388-178.64v2h6v-2z" style="color:#000000;fill:#fff;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="titlebutton-maximize-backdrop-dark" transform="translate(-238 -43)" style="opacity:.45">
-			<g id="g7146-1-1-6" transform="translate(-781 -415.64)" style="opacity:1">
-				<path id="path4293-5-6-4" d="m1403.8 252h3.3818c0.4503 0 0.8162 0.36847 0.8187 0.8188v3.3817zm2.4074 6.0069h-3.395c-0.4504 0-0.8188-0.36842-0.8188-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#b9bcc2;opacity:1"/>
+			<g transform="translate(-781 -415.64)" style="opacity:1">
+				<path d="m1403.8 252h3.3818c0.4503 0 0.8162 0.36847 0.8187 0.8188v3.3817zm2.4074 6.0069h-3.395c-0.4504 0-0.8188-0.36842-0.8188-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#b9bcc2;opacity:1"/>
 			</g>
-			<path id="path4068-7-5-9-6-5-8-3-7" d="m624-167.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
-			<rect id="rect17883-39-6-2-5" x="616" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
+			<path d="m624-167.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+			<rect x="616" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
 		</g>
 		<g id="titlebutton-minimize-backdrop-dark" transform="translate(-229 -43)" style="opacity:.45">
-			<g id="g7138-0-7-7" transform="translate(-781 -415.64)" style="opacity:1">
-				<path id="rect9057-4-09-2" d="m1373 254v2h6v-2z" style="color:#000000;fill:#b9bcc2;opacity:1;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<g transform="translate(-781 -415.64)" style="opacity:1">
+				<path d="m1373 254v2h6v-2z" style="color:#000000;fill:#b9bcc2;opacity:1;text-decoration-line:none;text-indent:0;text-transform:none"/>
 			</g>
-			<rect id="rect17883-39-3-46-6" x="587" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
-			<path id="path4068-7-5-9-6-5-8-3-3" d="m595-167.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+			<rect x="587" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
+			<path d="m595-167.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
 		</g>
 		<g id="titlebutton-close-backdrop-dark" transform="translate(-247 -26)" style="opacity:.45">
-			<g id="g4927-9-2-8-0" transform="translate(-678 -432.64)" style="opacity:1">
-				<g id="g4490-6-5-2-5-3-3" transform="translate(-103)" style="opacity:1">
-					<g id="g4092-0-2-21-0-9-7-0" transform="translate(58)">
-						<path id="path4068-7-5-9-6-5-8-3" transform="translate(962 190)" d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b"/>
+			<g transform="translate(-678 -432.64)" style="opacity:1">
+				<g transform="translate(-103)" style="opacity:1">
+					<g transform="translate(58)">
+						<path transform="translate(962 190)" d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-39-99-8-6" x="645" y="-185.64" width="16" height="16" style="fill:none;opacity:1"/>
+			<rect x="645" y="-185.64" width="16" height="16" style="fill:none;opacity:1"/>
 		</g>
 		<g id="titlebutton-appmenu" transform="translate(-469,-43)">
-			<g id="g4927-9-5" transform="translate(-678 -432.64)">
-				<g id="g4490-6-5-2-3" transform="translate(-103)">
-					<g id="g4092-0-2-21-0-5" transform="translate(58)">
-						<path id="path4068-7-5-9-6-6" transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1916)"/>
+			<g transform="translate(-678 -432.64)">
+				<g transform="translate(-103)">
+					<g transform="translate(58)">
+						<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1916);stroke-width:.5;stroke:#19a187"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-39-62" x="645" y="-185.64" width="16" height="16" style="fill:none"/>
+			<rect x="645" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
 		<g id="titlebutton-appmenu-backdrop" transform="translate(-469 -26)" style="opacity:.45">
-			<g id="g4927-9-3-1" transform="translate(-678 -432.64)" style="opacity:1">
-				<g id="g4490-6-5-2-6-8" transform="translate(-103)" style="opacity:1">
-					<g id="g4092-0-2-21-0-6-7" transform="translate(58)">
-						<path id="path4068-7-5-9-6-8-92" transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+			<g transform="translate(-678 -432.64)" style="opacity:1">
+				<g transform="translate(-103)" style="opacity:1">
+					<g transform="translate(58)">
+						<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-39-7-7" x="645" y="-185.64" width="16" height="16" style="fill:none;opacity:1"/>
+			<rect x="645" y="-185.64" width="16" height="16" style="fill:none;opacity:1"/>
 		</g>
 		<g id="titlebutton-appmenu-hover" transform="translate(-366,-9)">
-			<g id="g4927-2" transform="translate(-781 -432.64)">
-				<g id="g4490-6-9-9" transform="translate(-103)">
-					<g id="g4092-0-2-3-3" transform="translate(58)">
-						<path id="path4068-7-5-8-1" transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient2049)"/>
+			<g transform="translate(-781 -432.64)">
+				<g transform="translate(-103)">
+					<g transform="translate(58)">
+						<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient2049);stroke-width:.5;stroke:#19a187"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-5-0" x="542" y="-185.64" width="16" height="16" style="fill:none"/>
-			<circle id="path1920-3" cx="550" cy="-177.64" r="1.5" style="fill:#fff;stroke-width:.5"/>
+			<rect x="542" y="-185.64" width="16" height="16" style="fill:none"/>
+			<circle cx="550" cy="-177.64" r="1.5" style="stroke-width:.5"/>
 		</g>
 		<g id="titlebutton-appmenu-active" transform="translate(-366,8)">
-			<g id="g4927-2-5" transform="translate(-781 -432.64)">
-				<g id="g4490-6-9-9-6" transform="translate(-103)">
-					<g id="g4092-0-2-3-3-2" transform="translate(58)">
-						<path id="path4068-7-5-8-1-9" transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient2049)"/>
+			<g transform="translate(-781 -432.64)">
+				<g transform="translate(-103)">
+					<g transform="translate(58)">
+						<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient2049);stroke-width:.5;stroke:#19a187"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-5-0-6" x="542" y="-185.64" width="16" height="16" style="fill:none"/>
-			<circle id="path1920-3-1" cx="550" cy="-177.64" r="1.5" style="fill:#fff;stroke-width:.5"/>
+			<rect x="542" y="-185.64" width="16" height="16" style="fill:none"/>
+			<circle cx="550" cy="-177.64" r="1.5" style="stroke-width:.5"/>
 		</g>
 		<g id="titlebutton-appmenu-dark" transform="translate(-227 -43)">
-			<g id="g4927-9-5-2" transform="translate(-678 -432.64)">
-				<g id="g4490-6-5-2-3-0" transform="translate(-103)">
-					<g id="g4092-0-2-21-0-5-2" transform="translate(58)">
-						<path id="path4068-7-5-9-6-6-3" transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1967)"/>
+			<g transform="translate(-678 -432.64)">
+				<g transform="translate(-103)">
+					<g transform="translate(58)">
+						<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1967);stroke-width:.5;stroke:#19a187"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-39-62-1" x="645" y="-185.64" width="16" height="16" style="fill:none"/>
+			<rect x="645" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
 		<g id="titlebutton-appmenu-backdrop-dark" transform="translate(-227 -26)" style="opacity:.45">
-			<g id="g4927-9-3-1-9" transform="translate(-678 -432.64)" style="opacity:1">
-				<g id="g4490-6-5-2-6-8-3" transform="translate(-103)" style="opacity:1">
-					<g id="g4092-0-2-21-0-6-7-1" transform="translate(58)">
-						<path id="path4068-7-5-9-6-8-92-9" transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+			<g transform="translate(-678 -432.64)" style="opacity:1">
+				<g transform="translate(-103)" style="opacity:1">
+					<g transform="translate(58)">
+						<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-39-7-7-6" x="645" y="-185.64" width="16" height="16" style="fill:none;opacity:1"/>
+			<rect x="645" y="-185.64" width="16" height="16" style="fill:none;opacity:1"/>
 		</g>
 		<g id="titlebutton-appmenu-hover-dark" transform="translate(-124 -9)">
-			<g id="g4927-2-2" transform="translate(-781 -432.64)">
-				<g id="g4490-6-9-9-0" transform="translate(-103)">
-					<g id="g4092-0-2-3-3-6" transform="translate(58)">
-						<path id="path4068-7-5-8-1-1" transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1963)"/>
+			<g transform="translate(-781 -432.64)">
+				<g transform="translate(-103)">
+					<g transform="translate(58)">
+						<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1963);stroke-width:.5;stroke:#19a187"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-5-0-5" x="542" y="-185.64" width="16" height="16" style="fill:none"/>
-			<circle id="path1920-3-1-9" cx="550" cy="-177.64" r="1.5" style="fill:#edeef2;stroke-width:.5"/>
+			<rect x="542" y="-185.64" width="16" height="16" style="fill:none"/>
+			<circle cx="550" cy="-177.64" r="1.5" style="fill:#fff;stroke-width:.5"/>
 		</g>
 		<g id="titlebutton-appmenu-active-dark" transform="translate(-124 8)">
-			<g id="g4927-2-5-4" transform="translate(-781 -432.64)">
-				<g id="g4490-6-9-9-6-7" transform="translate(-103)">
-					<g id="g4092-0-2-3-3-2-4" transform="translate(58)">
-						<path id="path4068-7-5-8-1-9-4" transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient2049)"/>
+			<g transform="translate(-781 -432.64)">
+				<g transform="translate(-103)">
+					<g transform="translate(58)">
+						<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1963);stroke-width:.5;stroke:#19a187"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-5-0-6-4" x="542" y="-185.64" width="16" height="16" style="fill:none"/>
-			<circle id="path1920-3-1-7" cx="550" cy="-177.64" r="1.5" style="fill:#edeef2;stroke-width:.5"/>
+			<rect x="542" y="-185.64" width="16" height="16" style="fill:none"/>
+			<circle cx="550" cy="-177.64" r="1.5" style="fill:#fff;stroke-width:.5"/>
 		</g>
-		<rect id="rect18028-4-9" transform="scale(1,-1)" x="234" y="9.6378" width="121" height="138" rx="0" ry="0" style="color:#000000;fill:#1a1a1a"/>
-		<g id="g1222" transform="translate(220 -91)">
-			<g id="checkbox-unchecked-5-59-0" transform="translate(19)">
-				<g id="sdsd-7-54-6">
-					<g id="scdsdcd-5-8-0" transform="translate(0,-30)">
-						<rect id="rect13523-7-11-8" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-						<g id="g5400-6-68-2">
-							<rect id="rect5147-9-1-5-7-6-7-4-1" x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-						</g>
-					</g>
+		<rect transform="scale(1,-1)" x="234" y="9.6378" width="121" height="138" rx="0" ry="0" style="color:#000000;fill:#1a1a1a"/>
+		<g transform="translate(220 -91)">
+			<g transform="translate(19)">
+				<g transform="translate(0,-30)">
+					<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+					<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 				</g>
 			</g>
-			<g id="g1220" transform="translate(36,-1036)">
-				<g id="g4049-2-5-8" transform="rotate(45 7.5 1026.4)">
-					<g id="g4056-7-6-5" transform="translate(12.374 11.531)">
-						<g id="g3981-0-8-5" transform="translate(-3 -5)" style="fill:#3b3c3e">
-							<rect id="rect3977-39-90-0" x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#2b303b"/>
-							<rect id="rect3979-7-60-7" x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#2b303b"/>
+			<g transform="translate(36,-1036)">
+				<g transform="rotate(45 7.5 1026.4)">
+					<g transform="translate(12.374 11.531)">
+						<g transform="translate(-3 -5)" style="fill:#3b3c3e">
+							<rect x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#2b303b"/>
+							<rect x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#2b303b"/>
 						</g>
-						<rect id="rect4047-81-5-3" transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
+						<rect transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
 					</g>
 				</g>
 			</g>
 		</g>
 		<g id="checkbox-mixed-darkest" transform="translate(239 -91)">
-			<g id="checkbox-unchecked-5-4-5-2" transform="translate(19)">
-				<g id="sdsd-7-0-0-3">
-					<g id="scdsdcd-5-2-0-0" transform="translate(0,-30)">
-						<rect id="rect13523-7-8-6-6" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-						<g id="g5400-6-9-3-9">
-							<rect id="rect5147-9-1-5-7-6-7-0-0-1" x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-						</g>
-					</g>
+			<g transform="translate(19)">
+				<g transform="translate(0,-30)">
+					<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+					<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 				</g>
 			</g>
-			<g id="g1239" transform="translate(36,-1036)">
-				<g id="g4049-2-9-34-0" transform="rotate(45 7.5 1026.4)">
-					<g id="g4056-7-0-9-8" transform="translate(12.374 11.531)">
-						<g id="g3981-0-1-9-9" transform="translate(-3 -5)" style="fill:#3b3c3e">
-							<rect id="rect3979-7-3-4-8" transform="rotate(225)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#2b303b"/>
+			<g transform="translate(36,-1036)">
+				<g transform="rotate(45 7.5 1026.4)">
+					<g transform="translate(12.374 11.531)">
+						<g transform="translate(-3 -5)" style="fill:#3b3c3e">
+							<rect transform="rotate(225)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#2b303b"/>
 						</g>
-						<rect id="rect4047-81-4-5-8" transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
+						<rect transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
 					</g>
 				</g>
 			</g>
 		</g>
 		<g id="radio-checked-darkest" transform="translate(201 -91)">
-			<g id="radio-unchecked-2-1-3" transform="translate(19.004 -4.6993e-6)">
-				<g id="g10964-6-63-7">
-					<g id="radio-unchecked2-0-8-0" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-						<rect id="rect14348-4-8-5-1" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-						<g id="g7025-09-09-7">
-							<g id="g5489-2-9-3-2-28-7" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-								<g id="g5428-8-1-7-5-64-9">
-									<rect id="rect5147-9-1-7-2-0-7" x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-								</g>
-							</g>
-						</g>
+			<g transform="translate(19.004 -4.6993e-6)">
+				<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+					<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+					<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+						<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 					</g>
 				</g>
 			</g>
-			<rect id="use15101-5-7-55-6" x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#2b303b"/>
+			<rect x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#2b303b"/>
 		</g>
 		<g id="radio-mixed-darkest" transform="translate(201 -91)">
-			<g id="g11220-5-7">
-				<g id="radio-checked-7-40-1" transform="translate(19 -4.6993e-6)">
-					<g id="radio-unchecked-2-6-5-5" transform="translate(19.004 -4.6993e-6)">
-						<g id="g10964-6-0-7-8">
-							<g id="radio-unchecked2-0-0-0-8" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-								<rect id="rect14348-4-8-7-0-4" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-								<g id="g7025-09-3-3-5">
-									<g id="g5489-2-9-3-2-7-19-6" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-										<g id="g5428-8-1-7-5-9-7-5">
-											<rect id="rect5147-9-1-7-2-6-8-6" x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-										</g>
-									</g>
-								</g>
-							</g>
+			<g transform="translate(19 -4.6993e-6)">
+				<g transform="translate(19.004 -4.6993e-6)">
+					<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+						<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+						<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+							<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 						</g>
 					</g>
 				</g>
-				<rect id="rect3979-7-3-9-5-8" transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#2b303b"/>
 			</g>
+			<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#2b303b"/>
 		</g>
 		<g id="switch-active-darkest" transform="translate(-768 -480.64)">
-			<g id="layer1-9-0-51-8" transform="translate(885,450)">
-				<g id="switch-active-8-8-8" transform="translate(120 -117)">
-					<g id="g3900-1-87-0-3" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-3-3-8" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-0-8-7-7" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-						<circle id="path3759-0-75-5" cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
+			<g transform="translate(885,450)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
 					</g>
 				</g>
 			</g>
-			<g id="g4816-8-2" transform="translate(-1.0003)">
-				<rect id="rect3977-39-2-13-4" transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#1a1a1a"/>
-				<rect id="rect3979-7-0-65-5" transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#1a1a1a"/>
+			<g transform="translate(-1.0003)">
+				<rect transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#1a1a1a"/>
+				<rect transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#1a1a1a"/>
 			</g>
 		</g>
 		<g id="switch-darkest" transform="translate(-768 -475.64)">
-			<g id="layer1-9-13-5" transform="matrix(-1,0,0,1,1177,420)">
-				<g id="switch-active-2-2-7" transform="translate(120 -117)">
-					<g id="g3900-12-8-3" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-32-7-2" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-07-4-7" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
-						<circle id="path3759-7-4-2" cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
+			<g transform="matrix(-1,0,0,1,1177,420)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
 					</g>
 				</g>
 			</g>
-			<path id="path10839-9-8-2-2-5-46-1" d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#1a1a1a;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#1a1a1a;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="switch-active-insensitive-darkest" transform="translate(-705 -480.64)" style="opacity:.55">
-			<g id="layer1-9-0-5-7-4" transform="translate(885,450)" style="opacity:1">
-				<g id="switch-active-8-1-7-9" transform="translate(120 -117)">
-					<g id="g3900-1-3-1-6-4" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-3-9-67-1" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-0-2-5-36-9" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-						<circle id="path3759-0-8-4-5" cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
+			<g transform="translate(885,450)" style="opacity:1">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
 					</g>
 				</g>
 			</g>
-			<g id="g4816-6-4-7" transform="translate(-1.0003)">
-				<rect id="rect3977-39-2-3-6-4" transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#1a1a1a;opacity:1"/>
-				<rect id="rect3979-7-0-6-69-1" transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#1a1a1a;opacity:1"/>
+			<g transform="translate(-1.0003)">
+				<rect transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#1a1a1a;opacity:1"/>
+				<rect transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#1a1a1a;opacity:1"/>
 			</g>
 		</g>
 		<g id="switch-insensitive-darkest" transform="translate(-705 -475.64)" style="opacity:.55">
-			<g id="layer1-9-1-3-2" transform="matrix(-1,0,0,1,1177,420)">
-				<g id="switch-active-88-45-1" transform="translate(120 -117)">
-					<g id="g3900-4-69-6" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-5-12-2" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-02-4-0" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
-						<circle id="path3759-1-7-3-2" cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
+			<g transform="matrix(-1,0,0,1,1177,420)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
 					</g>
 				</g>
 			</g>
-			<path id="path10839-9-8-2-2-5-5-5-2" d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#1a1a1a;opacity:1;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#1a1a1a;opacity:1;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="checkbox-unchecked-darkest" transform="translate(220 -91)">
-			<g id="sdsd-0-1-7">
-				<g id="scdsdcd-0-4-4" transform="translate(0,-30)">
-					<rect id="rect13523-4-0-1" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-					<g id="g5400-2-47-4">
-						<rect id="rect5147-9-1-5-7-6-3-70-0" x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke:#262934"/>
-					</g>
-				</g>
+			<g transform="translate(0,-30)">
+				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+				<rect x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke:#262934"/>
 			</g>
 		</g>
 		<g id="radio-unchecked-darkest" transform="translate(200 -91.004)">
-			<g id="g10964-4-5-1">
-				<g id="radio-unchecked2-6-5-2" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-					<rect id="rect14348-4-3-9-7" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-					<g id="g7025-3-9-7">
-						<g id="g5489-2-9-3-8-0-9" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-							<g id="g5428-8-1-7-83-7-8">
-								<rect id="rect5147-9-1-7-7-61-1" x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke-width:2.0822;stroke:#262934"/>
-							</g>
-						</g>
-					</g>
+			<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+				<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+				<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+					<rect x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke-width:2.0822;stroke:#262934"/>
 				</g>
 			</g>
 		</g>
 		<g id="checkbox-checked-insensitive-darkest" transform="translate(220 -72)" style="opacity:.55">
-			<g id="checkbox-unchecked-5-5-1-7" transform="translate(19)">
-				<g id="sdsd-7-01-6-6">
-					<g id="scdsdcd-5-9-7-0" transform="translate(0,-30)">
-						<rect id="rect13523-7-1-24-5" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-						<g id="g5400-6-4-3-1">
-							<rect id="rect5147-9-1-5-7-6-7-3-9-9" x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-						</g>
-					</g>
+			<g transform="translate(19)">
+				<g transform="translate(0,-30)">
+					<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+					<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 				</g>
 			</g>
-			<g id="g1336" transform="translate(36,-1036)">
-				<g id="g4049-2-1-3-3" transform="rotate(45 7.5 1026.4)">
-					<g id="g4056-7-9-9-1" transform="translate(12.374 11.531)">
-						<g id="g3981-0-4-2-2" transform="translate(-3 -5)" style="fill:#3b3c3e">
-							<rect id="rect3977-39-0-3-0" x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#2b303b"/>
-							<rect id="rect3979-7-6-9-6" x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#2b303b"/>
+			<g transform="translate(36,-1036)">
+				<g transform="rotate(45 7.5 1026.4)">
+					<g transform="translate(12.374 11.531)">
+						<g transform="translate(-3 -5)" style="fill:#3b3c3e">
+							<rect x="8" y="1033.4" width="5" height="2" rx=".66666" ry=".66666" style="fill:#2b303b"/>
+							<rect x="11" y="1027.4" width="2" height="8" ry="0" style="fill:#2b303b"/>
 						</g>
-						<rect id="rect4047-81-9-6-8" transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
+						<rect transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
 					</g>
 				</g>
 			</g>
 		</g>
 		<g id="checkbox-mixed-insensitive-darkest" transform="translate(239 -72)" style="opacity:.55">
-			<g id="checkbox-unchecked-5-4-1-9-4" transform="translate(19)">
-				<g id="sdsd-7-0-5-8-9">
-					<g id="scdsdcd-5-2-8-5-2" transform="translate(0,-30)">
-						<rect id="rect13523-7-8-8-7-9" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-						<g id="g5400-6-9-9-6-1">
-							<rect id="rect5147-9-1-5-7-6-7-0-7-33-2" x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-						</g>
-					</g>
+			<g transform="translate(19)">
+				<g transform="translate(0,-30)">
+					<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+					<rect x="18" y="31.362" width="14" height="14" rx="2" ry="2" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 				</g>
 			</g>
-			<g id="g1354" transform="translate(36,-1036)">
-				<g id="g4049-2-9-7-5-6" transform="rotate(45 7.5 1026.4)">
-					<g id="g4056-7-0-8-4-0" transform="translate(12.374 11.531)">
-						<g id="g3981-0-1-4-7-6" transform="translate(-3 -5)" style="fill:#3b3c3e">
-							<rect id="rect3979-7-3-91-5-4" transform="rotate(225)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#2b303b"/>
+			<g transform="translate(36,-1036)">
+				<g transform="rotate(45 7.5 1026.4)">
+					<g transform="translate(12.374 11.531)">
+						<g transform="translate(-3 -5)" style="fill:#3b3c3e">
+							<rect transform="rotate(225)" x="-738.8" y="-725.95" width="2" height="8" ry="0" style="fill:#2b303b"/>
 						</g>
-						<rect id="rect4047-81-4-2-21-0" transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
+						<rect transform="translate(0 1036.4)" x="5" y="-8" width="3" height="1" style="fill-opacity:0"/>
 					</g>
 				</g>
 			</g>
 		</g>
 		<g id="radio-checked-insensitive-darkest" transform="translate(201 -72)" style="opacity:.55">
-			<g id="radio-unchecked-2-8-6-4" transform="translate(19.004 -4.6993e-6)">
-				<g id="g10964-6-7-2-5">
-					<g id="radio-unchecked2-0-4-5-4" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-						<rect id="rect14348-4-8-2-7-9" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-						<g id="g7025-09-5-0-9">
-							<g id="g5489-2-9-3-2-70-6-5" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-								<g id="g5428-8-1-7-5-62-6-2">
-									<rect id="rect5147-9-1-7-2-2-2-1" x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-								</g>
-							</g>
-						</g>
+			<g transform="translate(19.004 -4.6993e-6)">
+				<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+					<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+					<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+						<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 					</g>
 				</g>
 			</g>
-			<rect id="use15101-5-7-2-5-3" x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#2b303b"/>
+			<rect x="122" y="6.3622" width="4" height="4" rx="1.9989" ry="2" style="color:#000000;fill:#2b303b"/>
 		</g>
 		<g id="radio-mixed-insensitive-darkest" transform="translate(201 -72)" style="opacity:.55">
-			<g id="g11220-22-7-9">
-				<g id="radio-checked-7-4-10-9" transform="translate(19 -4.6993e-6)">
-					<g id="radio-unchecked-2-6-0-3-1" transform="translate(19.004 -4.6993e-6)">
-						<g id="g10964-6-0-1-8-3">
-							<g id="radio-unchecked2-0-0-2-8-4" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-								<rect id="rect14348-4-8-7-5-8-5" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-								<g id="g7025-09-3-9-4-8">
-									<g id="g5489-2-9-3-2-7-7-8-5" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-										<g id="g5428-8-1-7-5-9-2-3-7">
-											<rect id="rect5147-9-1-7-2-6-9-3-3" x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
-										</g>
-									</g>
-								</g>
-							</g>
+			<g transform="translate(19 -4.6993e-6)">
+				<g transform="translate(19.004 -4.6993e-6)">
+					<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+						<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+						<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+							<rect x="51.611" y="126.56" width="29.385" height="28.919" rx="14.692" ry="14.46" style="color:#000000;fill:#367bf0;stroke-width:0"/>
 						</g>
 					</g>
 				</g>
-				<rect id="rect3979-7-3-9-3-37-3" transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#2b303b"/>
 			</g>
+			<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#2b303b"/>
 		</g>
 		<g id="checkbox-unchecked-insensitive-darkest" transform="translate(220 -72)" style="opacity:.6">
-			<g id="sdsd-0-3-0-9">
-				<g id="scdsdcd-0-7-1-5" transform="translate(0,-30)">
-					<rect id="rect13523-4-2-5-6" x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
-					<g id="g5400-2-4-7-0">
-						<rect id="rect5147-9-1-5-7-6-3-7-2-3" x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke:#262934"/>
-					</g>
-				</g>
+			<g transform="translate(0,-30)">
+				<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
+				<rect x="18.5" y="31.862" width="13" height="13" rx="2" ry="2" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke:#262934"/>
 			</g>
 		</g>
 		<g id="radio-unchecked-insensitive-darkest" transform="translate(200 -72)" style="opacity:.6">
-			<g id="g10964-4-8-3-6">
-				<g id="radio-unchecked2-6-3-0-1" transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
-					<rect id="rect14348-4-3-7-2-8" x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-					<g id="g7025-3-8-9-7">
-						<g id="g5489-2-9-3-8-9-6-0" transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-							<g id="g5428-8-1-7-83-9-6-5">
-								<rect id="rect5147-9-1-7-7-2-6-1" x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke-width:2.0822;stroke:#262934"/>
-							</g>
-						</g>
-					</g>
+			<g transform="matrix(.93617 0 0 .93566 -96.783 -244.76)">
+				<rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+				<g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
+					<rect x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#2d323d;stroke-linejoin:round;stroke-width:2.0822;stroke:#262934"/>
 				</g>
 			</g>
 		</g>
 		<g id="checkbox-checked-selectionmode-darkest" transform="translate(-228 -231)">
-			<rect id="rect13851-5-0" x="466" y="183.36" width="32" height="32" rx="2" ry="2" style="fill:#367bf0;stroke-width:0"/>
-			<g id="g14051-7-3" transform="translate(-2.2045 1.973)">
-				<path id="rect3977-39-35-1-3-50-0" d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z" style="fill:#2b303b"/>
+			<rect x="466" y="183.36" width="32" height="32" rx="2" ry="2" style="fill:#367bf0;stroke-width:0"/>
+			<g transform="translate(-2.2045 1.973)">
+				<path d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z" style="fill:#2b303b"/>
 			</g>
-			<rect id="rect13851-7-3-0" x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
+			<rect x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
 		</g>
 		<g id="checkbox-selectionmode-darkest" transform="translate(-183 -231)">
-			<rect id="rect13851-8-3-5" x="466.5" y="183.86" width="31" height="31" rx="2" ry="2" style="fill:#2d323d;stroke:#262934"/>
-			<g id="g14051-0-8-4" transform="translate(-2.2045 1.973)">
-				<path id="rect3977-39-35-1-3-5-2-2" d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z" style="fill:#5f6578;opacity:.55"/>
+			<rect x="466.5" y="183.86" width="31" height="31" rx="2" ry="2" style="fill:#2d323d;stroke:#262934"/>
+			<g transform="translate(-2.2045 1.973)">
+				<path d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z" style="fill:#5f6578;opacity:.55"/>
 			</g>
-			<rect id="rect13851-7-1-4" x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
+			<rect x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
 		</g>
-		<rect id="rect11783-3-1-9" x="355" y="-147.64" width="121" height="138" style="fill:#010101;stroke-width:0"/>
+		<rect x="355" y="-147.64" width="121" height="138" style="fill:#010101;stroke-width:0"/>
 		<g id="switch-active-header-darkest" transform="translate(-647 -480.64)">
-			<g id="layer1-9-0-8-3-1-9" transform="translate(885,450)">
-				<g id="switch-active-8-2-5-0-4" transform="translate(120 -117)">
-					<g id="g3900-1-87-1-7-9-9" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-3-7-0-8-8" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-0-8-8-7-5-1" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-						<circle id="path3759-0-9-7-1-6" cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
+			<g transform="translate(885,450)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
 					</g>
 				</g>
 			</g>
-			<g id="g4816-7-3-7-3" transform="translate(-1.0003)">
-				<rect id="rect3977-39-2-6-0-5-9" transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#1a1a1a"/>
-				<rect id="rect3979-7-0-5-9-4-3" transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#1a1a1a"/>
+			<g transform="translate(-1.0003)">
+				<rect transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#1a1a1a"/>
+				<rect transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#1a1a1a"/>
 			</g>
 		</g>
 		<g id="switch-header-darkest" transform="translate(-647 -475.64)">
-			<g id="layer1-9-4-5-1-4" transform="matrix(-1,0,0,1,1177,420)">
-				<g id="switch-active-2-5-8-0-6" transform="translate(120 -117)">
-					<g id="g3900-12-9-5-2-1" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-32-3-7-9-5" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-07-5-3-3-6" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
-						<circle id="path3759-7-8-7-8-1" cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
+			<g transform="matrix(-1,0,0,1,1177,420)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
 					</g>
 				</g>
 			</g>
-			<path id="path10839-9-8-2-2-5-4-1-8-7" d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#1a1a1a;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#1a1a1a;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="switch-active-insensitive-header-darkest" transform="translate(-584 -480.64)" style="opacity:.55">
-			<g id="layer1-9-0-5-9-3-1-2" transform="translate(885,450)" style="opacity:1">
-				<g id="switch-active-8-1-1-7-4-9" transform="translate(120 -117)">
-					<g id="g3900-1-3-1-4-9-0-2" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-3-9-6-8-2-8" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-0-2-5-3-4-9-1" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-						<circle id="path3759-0-8-5-9-1-2" cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
+			<g transform="translate(885,450)" style="opacity:1">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
 					</g>
 				</g>
 			</g>
-			<g id="g4816-6-6-5-6-4" transform="translate(-1.0003)">
-				<rect id="rect3977-39-2-3-77-4-7-7" transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#1a1a1a;opacity:1"/>
-				<rect id="rect3979-7-0-6-4-7-1-8" transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#1a1a1a;opacity:1"/>
+			<g transform="translate(-1.0003)">
+				<rect transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#1a1a1a;opacity:1"/>
+				<rect transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#1a1a1a;opacity:1"/>
 			</g>
 		</g>
 		<g id="switch-insensitive-header-darkest" transform="translate(-584 -475.64)" style="opacity:.55">
-			<g id="layer1-9-1-6-2-5-3" transform="matrix(-1,0,0,1,1177,420)">
-				<g id="switch-active-88-4-1-3-7" transform="translate(120 -117)">
-					<g id="g3900-4-6-4-0-7" transform="translate(0 -1004.4)">
-						<rect id="rect5465-3-5-1-5-8-2" y="1029.4" width="52" height="24" style="opacity:0"/>
-						<rect id="rect2987-02-7-6-5-3" x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
-						<circle id="path3759-1-7-5-1-1-7" cx="41" cy="1041.4" r="9" style="fill:#1a1a1a;opacity:1"/>
+			<g transform="matrix(-1,0,0,1,1177,420)">
+				<g transform="translate(120 -117)">
+					<g transform="translate(0 -1004.4)">
+						<rect y="1029.4" width="52" height="24" style="opacity:0"/>
+						<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
+						<circle cx="41" cy="1041.4" r="9" style="fill:#1a1a1a;opacity:1"/>
 					</g>
 				</g>
 			</g>
-			<path id="path10839-9-8-2-2-5-5-9-7-6-2" d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#1a1a1a;opacity:1;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#1a1a1a;opacity:1;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="titlebutton-minimize-darkest" transform="translate(-229 95)">
-			<rect id="rect17883-32-6-9-3" x="587" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path id="path4068-7-5-9-6-5-8-3-7-6-7" d="m595-184.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1859)"/>
+			<rect x="587" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m595-184.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fd7d00;stroke-width:.5;stroke:#b25800"/>
 		</g>
 		<g id="titlebutton-close-darkest" transform="translate(-247 95)">
-			<g id="g4927-9-2-8-8" transform="translate(-678 -432.64)">
-				<g id="g4490-6-5-2-5-3-1" transform="translate(-103)">
-					<g id="g4092-0-2-21-0-9-7-3" transform="translate(58)">
-						<path id="path4068-7-5-9-6-5-8-6" transform="translate(962 190)" d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1901)"/>
+			<g transform="translate(-678 -432.64)">
+				<g transform="translate(-103)">
+					<g transform="translate(58)">
+						<path transform="translate(962 190)" d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#d41919;stroke-width:.5;stroke:#951212"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-39-99-8-9" x="645" y="-185.64" width="16" height="16" style="fill:none"/>
+			<rect x="645" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
 		<g id="titlebutton-maximize-darkest" transform="translate(-238 95)">
-			<rect id="rect17883-29-2-2-1" x="616" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path id="path4068-7-5-9-6-5-8-3-7-5-2" d="m624-184.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1953)"/>
+			<rect x="616" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m624-184.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#367bf0;stroke-width:.5;stroke:#2656a8"/>
 		</g>
 		<g id="titlebutton-close-hover-darkest" transform="translate(-144 129)">
-			<g id="g4927-97-4-0" transform="translate(-781 -432.64)">
-				<g id="g4490-6-9-1-3-6" transform="translate(-103)">
-					<g id="g4092-0-2-3-4-6-3" transform="translate(58)">
-						<path id="path4068-7-5-8-2-3-9" transform="translate(962,156)" d="m414 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1903)"/>
+			<g transform="translate(-781 -432.64)">
+				<g transform="translate(-103)">
+					<g transform="translate(58)">
+						<path transform="translate(962,156)" d="m414 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#d41919;stroke-width:.5;stroke:#951212"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-5-4-2-0" x="542" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path id="path10839-9-2-2-7-9-7-4-9-5" d="m547-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z" style="color:#bebebe;enable-background:new;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<rect x="542" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m547-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#fff;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="titlebutton-maximize-hover-darkest" transform="translate(-135 129)">
-			<g id="g4891-5-8-1" transform="translate(-781 -432.64)">
-				<path id="path4068-7-5-9-6-7-2-4-6-6-8" transform="translate(908,156)" d="m394 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1879)"/>
+			<g transform="translate(-781 -432.64)">
+				<path transform="translate(908,156)" d="m394 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#367bf0;stroke-width:.5;stroke:#2656a8"/>
 			</g>
-			<rect id="rect17883-0-1-5-8" x="513" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path id="path4293-6-6" d="m519.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd"/>
+			<rect x="513" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m519.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#fff"/>
 		</g>
 		<g id="titlebutton-minimize-hover-darkest" transform="translate(-126 129)">
-			<g id="g4909-3-7-6" transform="translate(-781 -432.64)">
-				<path id="path4068-7-5-9-6-7-2-1-6-1-9" transform="translate(899,156)" d="m374 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1861)"/>
+			<g transform="translate(-781 -432.64)">
+				<path transform="translate(899,156)" d="m374 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fd7d00;stroke-width:.5;stroke:#b25800"/>
 			</g>
-			<rect id="rect17883-11-4-0-9" x="484" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path id="rect9057-8-9" d="m489-178.64v2h6v-2z" style="color:#000000;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<rect x="484" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m489-178.64v2h6v-2z" style="color:#000000;fill:#fff;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="titlebutton-close-active-darkest" transform="translate(-43 146)">
-			<g id="g4927-8-7-4-9-1" transform="translate(-882 -432.64)">
-				<g id="g4490-6-3-7-46-6-9" transform="translate(-103)">
-					<g id="g4092-0-2-2-1-7-2-4" transform="translate(58)">
-						<path id="path4068-7-5-4-9-7-6-2" transform="translate(962,139)" d="m414 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1957)"/>
+			<g transform="translate(-882 -432.64)">
+				<g transform="translate(-103)">
+					<g transform="translate(58)">
+						<path transform="translate(962,139)" d="m414 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#d41919;stroke-width:.5;stroke:#951212"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-02-4-3-7" x="441" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path id="path10839-9-2-2-7-9-7-4-9-5-1" d="m446-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z" style="color:#bebebe;enable-background:new;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<rect x="441" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m446-180.72h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#fff;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="titlebutton-maximize-active-darkest" transform="translate(-34 146)">
-			<g id="g4891-4-5-5-7" transform="translate(-882 -432.64)">
-				<g id="g4490-2-9-1-2-4-8-3" transform="translate(-132)">
-					<g id="g4092-0-6-3-6-8-3-7-3" transform="translate(58)">
-						<path id="path4068-7-6-5-1-6-6-0-9" transform="translate(982,139)" d="m394 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1877)"/>
+			<g transform="translate(-882 -432.64)">
+				<g transform="translate(-132)">
+					<g transform="translate(58)">
+						<path transform="translate(982,139)" d="m394 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#367bf0;stroke-width:.5;stroke:#2656a8"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-79-3-0-9" x="412" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path id="path4293-4-9-2" d="m418.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd"/>
+			<rect x="412" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m418.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#fff"/>
 		</g>
 		<g id="titlebutton-minimize-active-darkest" transform="translate(-25 146)">
-			<g id="g4909-1-2-0-4" transform="translate(-882 -432.64)">
-				<g id="g4490-3-6-1-4-1-6-3" transform="translate(-161)">
-					<g id="g4092-0-7-2-0-0-94-2-9" transform="translate(58)">
-						<path id="path4068-7-3-0-3-6-8-3-4" transform="translate(1002,139)" d="m374 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1863)"/>
+			<g transform="translate(-882 -432.64)">
+				<g transform="translate(-161)">
+					<g transform="translate(58)">
+						<path transform="translate(1002,139)" d="m374 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fd7d00;stroke-width:.5;stroke:#b25800"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-79-9-2-2-2" x="383" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path id="rect9057-3-5-7" d="m388-178.64v2h6v-2z" style="color:#000000;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<rect x="383" y="-185.64" width="16" height="16" style="fill:none"/>
+			<path d="m388-178.64v2h6v-2z" style="color:#000000;fill:#fff;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
 		<g id="titlebutton-maximize-backdrop-darkest" transform="translate(-238 95)" style="opacity:.45">
-			<g id="g7146-1-1-6-0" transform="translate(-781 -415.64)" style="opacity:1">
-				<path id="path4293-5-6-4-4" d="m1403.8 252h3.3818c0.4503 0 0.8162 0.36847 0.8187 0.8188v3.3817zm2.4074 6.0069h-3.395c-0.4504 0-0.8188-0.36842-0.8188-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#b9bcc2;opacity:1"/>
+			<g transform="translate(-781 -415.64)" style="opacity:1">
+				<path d="m1403.8 252h3.3818c0.4503 0 0.8162 0.36847 0.8187 0.8188v3.3817zm2.4074 6.0069h-3.395c-0.4504 0-0.8188-0.36842-0.8188-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#b9bcc2;opacity:1"/>
 			</g>
-			<path id="path4068-7-5-9-6-5-8-3-7-1" d="m624-167.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
-			<rect id="rect17883-39-6-2-5-7" x="616" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
+			<path d="m624-167.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+			<rect x="616" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
 		</g>
 		<g id="titlebutton-minimize-backdrop-darkest" transform="translate(-229 95)" style="opacity:.45">
-			<g id="g7138-0-7-7-3" transform="translate(-781 -415.64)" style="opacity:1">
-				<path id="rect9057-4-09-2-1" d="m1373 254v2h6v-2z" style="color:#000000;fill:#b9bcc2;opacity:1;text-decoration-line:none;text-indent:0;text-transform:none"/>
+			<g transform="translate(-781 -415.64)" style="opacity:1">
+				<path d="m1373 254v2h6v-2z" style="color:#000000;fill:#b9bcc2;opacity:1;text-decoration-line:none;text-indent:0;text-transform:none"/>
 			</g>
-			<rect id="rect17883-39-3-46-6-2" x="587" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
-			<path id="path4068-7-5-9-6-5-8-3-3-5" d="m595-167.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+			<rect x="587" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
+			<path d="m595-167.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
 		</g>
 		<g id="titlebutton-close-backdrop-darkest" transform="translate(-247 112)" style="opacity:.45">
-			<g id="g4927-9-2-8-0-9" transform="translate(-678 -432.64)" style="opacity:1">
-				<g id="g4490-6-5-2-5-3-3-1" transform="translate(-103)" style="opacity:1">
-					<g id="g4092-0-2-21-0-9-7-0-8" transform="translate(58)">
-						<path id="path4068-7-5-9-6-5-8-3-8" transform="translate(962 190)" d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b"/>
+			<g transform="translate(-678 -432.64)" style="opacity:1">
+				<g transform="translate(-103)" style="opacity:1">
+					<g transform="translate(58)">
+						<path transform="translate(962 190)" d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-39-99-8-6-6" x="645" y="-185.64" width="16" height="16" style="fill:none;opacity:1"/>
+			<rect x="645" y="-185.64" width="16" height="16" style="fill:none;opacity:1"/>
 		</g>
 		<g id="titlebutton-appmenu-darkest" transform="translate(-227 95)">
-			<g id="g4927-9-5-2-4" transform="translate(-678 -432.64)">
-				<g id="g4490-6-5-2-3-0-6" transform="translate(-103)">
-					<g id="g4092-0-2-21-0-5-2-6" transform="translate(58)">
-						<path id="path4068-7-5-9-6-6-3-7" transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1967)"/>
+			<g transform="translate(-678 -432.64)">
+				<g transform="translate(-103)">
+					<g transform="translate(58)">
+						<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#19a187;stroke-width:.5;stroke:#12715f"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-39-62-1-7" x="645" y="-185.64" width="16" height="16" style="fill:none"/>
+			<rect x="645" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
 		<g id="titlebutton-appmenu-backdrop-darkest" transform="translate(-227 112)" style="opacity:.45">
-			<g id="g4927-9-3-1-9-4" transform="translate(-678 -432.64)" style="opacity:1">
-				<g id="g4490-6-5-2-6-8-3-7" transform="translate(-103)" style="opacity:1">
-					<g id="g4092-0-2-21-0-6-7-1-2" transform="translate(58)">
-						<path id="path4068-7-5-9-6-8-92-9-1" transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+			<g transform="translate(-678 -432.64)" style="opacity:1">
+				<g transform="translate(-103)" style="opacity:1">
+					<g transform="translate(58)">
+						<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-39-7-7-6-5" x="645" y="-185.64" width="16" height="16" style="fill:none;opacity:1"/>
+			<rect x="645" y="-185.64" width="16" height="16" style="fill:none;opacity:1"/>
 		</g>
 		<g id="titlebutton-appmenu-hover-darkest" transform="translate(-124 129)">
-			<g id="g4927-2-2-9" transform="translate(-781 -432.64)">
-				<g id="g4490-6-9-9-0-1" transform="translate(-103)">
-					<g id="g4092-0-2-3-3-6-6" transform="translate(58)">
-						<path id="path4068-7-5-8-1-1-2" transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1963)"/>
+			<g transform="translate(-781 -432.64)">
+				<g transform="translate(-103)">
+					<g transform="translate(58)">
+						<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#19a187;stroke-width:.5;stroke:#12715f"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-5-0-5-2" x="542" y="-185.64" width="16" height="16" style="fill:none"/>
-			<circle id="path1920-3-1-1-2" cx="550" cy="-177.64" r="1.5" style="stroke-width:.5"/>
+			<rect x="542" y="-185.64" width="16" height="16" style="fill:none"/>
+			<circle cx="550" cy="-177.64" r="1.5" style="fill:#fff;stroke-width:.5"/>
 		</g>
 		<g id="titlebutton-appmenu-active-darkest" transform="translate(-124 146)">
-			<g id="g4927-2-5-4-6" transform="translate(-781 -432.64)">
-				<g id="g4490-6-9-9-6-7-4" transform="translate(-103)">
-					<g id="g4092-0-2-3-3-2-4-3" transform="translate(58)">
-						<path id="path4068-7-5-8-1-9-4-3" transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1963)"/>
+			<g transform="translate(-781 -432.64)">
+				<g transform="translate(-103)">
+					<g transform="translate(58)">
+						<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#19a187;stroke-width:.5;stroke:#12715f"/>
 					</g>
 				</g>
 			</g>
-			<rect id="rect17883-5-0-6-4-3" x="542" y="-185.64" width="16" height="16" style="fill:none"/>
-			<circle id="path1920-3-1-1" cx="550" cy="-177.64" r="1.5" style="stroke-width:.5"/>
+			<rect x="542" y="-185.64" width="16" height="16" style="fill:none"/>
+			<circle cx="550" cy="-177.64" r="1.5" style="fill:#fff;stroke-width:.5"/>
 		</g>
 	</g>
 </svg>
