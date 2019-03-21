@@ -86,18 +86,18 @@
          id="stop19" />
       <stop
          offset="1"
-         style="stop-color:#bf1717"
+         style="stop-color:#d41919"
          id="stop21" />
     </linearGradient>
     <linearGradient
        id="maximize-button-dark">
       <stop
          offset="0"
-         style="stop-color:#5e95f3"
+         style="stop-color:#4a88f1"
          id="stop24" />
       <stop
          offset="1"
-         style="stop-color:#316fd8"
+         style="stop-color:#367bf0"
          id="stop26" />
     </linearGradient>
     <linearGradient
