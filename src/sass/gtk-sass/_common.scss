@@ -1762,12 +1762,6 @@ headerbar {
 //
 // Pathbars
 //
-.path-bar-box.width-maximized {
-  background: transparentize($header_bg, .2);
-  border-radius: 100px;
-  border: 1px solid $header_entry_border;
-}
-
 .path-bar button {
   &.text-button {
     padding-left: 0px;
@@ -1808,7 +1802,7 @@ headerbar {
   }
 }
 
-.path-bar:not(.linked) button:checked {
+.path-bar:not(.linked) .horizontal:not(:first-child) > button:checked {
   margin-left: 10px;
 }
 

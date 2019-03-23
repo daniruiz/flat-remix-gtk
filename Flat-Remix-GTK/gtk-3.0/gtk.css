@@ -1278,11 +1278,6 @@ headerbar spinbutton:not(.vertical) > entry + button:not(:active):hover {
   .primary-toolbar scale trough:disabled, headerbar scale trough:disabled {
     background-color: rgba(204, 204, 204, 0.8); }
 
-.path-bar-box.width-maximized {
-  background: rgba(255, 255, 255, 0.6);
-  border-radius: 100px;
-  border: 1px solid rgba(204, 204, 204, 0.8); }
-
 .path-bar button.text-button {
   padding-left: 0px;
   padding-right: 0px; }
@@ -1305,7 +1300,7 @@ headerbar spinbutton:not(.vertical) > entry + button:not(:active):hover {
   padding-left: 4px;
   padding-right: 4px; }
 
-.path-bar:not(.linked) button:checked {
+.path-bar:not(.linked) .horizontal:not(:first-child) > button:checked {
   margin-left: 10px; }
 
 treeview.view {
@@ -2937,8 +2932,18 @@ terminal-window notebook > header.top,
   border-top: 1px solid #e3e3e3; }
 .nautilus-window .searchbar-container {
   margin-top: -1px; }
-.nautilus-window .path-bar-box .text-button:checked {
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); }
+.nautilus-window .path-bar-box {
+  padding: 0 10px; }
+  .nautilus-window .path-bar-box .text-button:checked, .nautilus-window .path-bar-box .text-button:last-child {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    border-color: #367bf0;
+    background-color: #367bf0; }
+    .nautilus-window .path-bar-box .text-button:checked:backdrop, .nautilus-window .path-bar-box .text-button:last-child:backdrop {
+      box-shadow: none; }
+  .nautilus-window .path-bar-box.width-maximized {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 100px; }
 
 .nautilus-window notebook,
 .nautilus-window notebook > stack:not(:only-child) searchbar {

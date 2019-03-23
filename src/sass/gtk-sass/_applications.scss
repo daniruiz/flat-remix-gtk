@@ -60,8 +60,20 @@ terminal-window,
   searchbar { border-top: 1px solid $borders_color; }
   .searchbar-container { margin-top: -1px; }
 
-  .path-bar-box .text-button:checked {
-    box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+  .path-bar-box {
+    padding: 0 10px;
+
+    .text-button:checked, .text-button:last-child {
+      box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+      @include button(header-active);
+
+      &:backdrop { box-shadow: none; }
+    }
+
+    &.width-maximized {
+      background: transparentize($header_bg, .2);
+      border-radius: 100px;
+    }
   }
 }
 
