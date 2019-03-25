@@ -1249,9 +1249,11 @@ headerbar spinbutton:not(.vertical) > entry + button:not(:active):hover {
 .primary-toolbar progressbar trough, headerbar progressbar trough {
   background-color: transparent; }
 .primary-toolbar progressbar:backdrop, headerbar progressbar:backdrop {
-  opacity: 0.45; }
+  opacity: 0.45;
+  transition: 200ms ease-out; }
 .primary-toolbar scale:backdrop, headerbar scale:backdrop {
-  opacity: 0.45; }
+  opacity: 0.45;
+  transition: 200ms ease-out; }
 .primary-toolbar scale slider, headerbar scale slider {
   background-color: #1a1a1a;
   border-color: rgba(0, 0, 0, 0.3); }

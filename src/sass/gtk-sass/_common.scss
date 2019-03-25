@@ -1694,12 +1694,18 @@ headerbar {
       background-color: if($variant=='light' and $darker=='false', opacify($header_button_border, 0.05), $header_button_border);
     }
 
-    &:backdrop { opacity: $backdrop_opacity; }
+    &:backdrop {
+      opacity: $backdrop_opacity;
+      transition: $backdrop_transition;
+    }
   }
 
   // Headerbar Scale
   scale {
-    &:backdrop { opacity: $backdrop_opacity; }
+    &:backdrop {
+      opacity: $backdrop_opacity;
+      transition: $backdrop_transition;
+    }
 
     slider {
       $_slider_border: if($variant=='light' and $darker=='false', opacify($header_button_border, 0.2), opacify($header_button_border, 0.3));
