@@ -4,6 +4,7 @@
 
 $ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
 $backdrop_transition: 200ms ease-out;
+$backdrop_opacity: .45;
 $asset_suffix: if($variant=='dark', if($darkest=='true', '-darkest', '-dark'), ''); // use dark/darkest assets
 $darker_asset_suffix: if($darker=='true', '-darkest', $asset_suffix);
 
@@ -1179,8 +1180,6 @@ toolbar {
   border-image: linear-gradient(to bottom, opacify($header_bg, 1),
           darken($header_bg, 7%)) 1 0 1 0; //temporary hack for rhythmbox 3.1
 
-  //&:backdrop { background-color: opacify($header_bg_backdrop, 1); }
-
   separator {
     @extend %header_separator;
   }
@@ -1238,13 +1237,7 @@ headerbar,
 
   &:backdrop {
     transition: $backdrop_transition;
-
-    color: transparentize($header_fg, 0.3);
-    background-color: opacify($header_bg_backdrop, 1);
-
-    .csd & {
-      background-color: $header_bg_backdrop;
-    }
+    color: rgba($header_fg, $backdrop_opacity);
   }
 
   .title {
@@ -1268,7 +1261,7 @@ headerbar,
 
     &:backdrop {
       background-color: $selection_mode_bg;
-      color: transparentize($selection_mode_fg, 0.4);
+      color: rgba($selection_mode_fg, $backdrop_opacity);
     }
 
     .subtitle:link {
@@ -1299,10 +1292,6 @@ headerbar,
   .maximized & {
     background-color: opacify($header_bg, 1);
     border-color: opacify($header_border, 1);
-
-    &:backdrop {
-      background-color: opacify($header_bg_backdrop, 1);
-    }
   }
 
   &.default-decoration,
@@ -1389,9 +1378,7 @@ headerbar {
   entry {
     @include entry(header-normal);
 
-    &:backdrop {
-      opacity: 0.85;
-    }
+    &:backdrop { opacity: $backdrop_opacity; }
 
     &:focus {
       @include entry(header-focus);
@@ -1440,10 +1427,7 @@ headerbar {
 
     @include button(header-normal);
 
-    &:backdrop {
-      opacity: 0.7;
-      color: transparentize($header_fg, 0.2);
-    }
+    &:backdrop { opacity: $backdrop_opacity; }
 
     &:hover {
       @include button(header-hover);
@@ -1518,9 +1502,7 @@ headerbar {
         color: $selected_fg_color;
       }
 
-      &:backdrop {
-        opacity: .85;
-      }
+      &:backdrop { opacity: $backdrop_opacity; }
     }
 
     &:focus + button {
@@ -1595,9 +1577,7 @@ headerbar {
       }
     }
     button.#{$b_type}:backdrop,
-    button.#{$b_type}:backdrop {
-      opacity: 0.8;
-    }
+    button.#{$b_type}:backdrop { opacity: $backdrop_opacity; }
   }
 
   // Headerbar Spinbuttons
@@ -1707,27 +1687,19 @@ headerbar {
   }
 
   // Headerbar Switches
-  switch {
-    &:backdrop {
-      opacity: 0.75;
-    }
-  }
+  switch:backdrop { opacity: $backdrop_opacity; }
 
   progressbar {
     trough {
       background-color: if($variant=='light' and $darker=='false', opacify($header_button_border, 0.05), $header_button_border);
     }
 
-    &:backdrop {
-      opacity: 0.75;
-    }
+    &:backdrop { opacity: $backdrop_opacity; }
   }
 
   // Headerbar Scale
   scale {
-    &:backdrop {
-      opacity: 0.75;
-    }
+    &:backdrop { opacity: $backdrop_opacity; }
 
     slider {
       $_slider_border: if($variant=='light' and $darker=='false', opacify($header_button_border, 0.2), opacify($header_button_border, 0.3));
@@ -1985,10 +1957,7 @@ menubar,
   background-color: opacify($header_bg, 1);
   color: $header_fg;
 
-  &:backdrop {
-    color: transparentize($header_fg, 0.3);
-    //background-color: opacify($header_bg_backdrop, 1);
-  }
+  &:backdrop { color: rgba($header_fg, $backdrop_opacity); }
 
   > menuitem {
     padding: 4px 8px;

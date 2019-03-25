@@ -637,19 +637,19 @@
 			</g>
 			<rect x="383" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
-		<g id="titlebutton-maximize-backdrop" transform="translate(-480,-43)" style="opacity:.45">
+		<g id="titlebutton-maximize-backdrop" transform="translate(-480,-43)" style="opacity:.3">
 			<rect x="616" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
-			<path d="m624-167.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+			<path d="m624-167.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="opacity:1"/>
 		</g>
-		<g id="titlebutton-minimize-backdrop" transform="translate(-471,-43)" style="opacity:.45">
+		<g id="titlebutton-minimize-backdrop" transform="translate(-471,-43)" style="opacity:.3">
 			<rect x="587" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
-			<path d="m595-167.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+			<path d="m595-167.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="opacity:1"/>
 		</g>
-		<g id="titlebutton-close-backdrop" transform="translate(-489 -26)" style="opacity:.45">
+		<g id="titlebutton-close-backdrop" transform="translate(-489 -26)" style="opacity:.3">
 			<g transform="translate(-678 -432.64)" style="opacity:1">
 				<g transform="translate(-103)" style="opacity:1">
-					<g transform="translate(58)">
-						<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+					<g transform="translate(58)" style="">
+						<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="opacity:1"/>
 					</g>
 				</g>
 			</g>
@@ -1005,25 +1005,19 @@
 			<rect x="383" y="-185.64" width="16" height="16" style="fill:none"/>
 			<path d="m388-178.64v2h6v-2z" style="color:#000000;fill:#fff;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
-		<g id="titlebutton-maximize-backdrop-dark" transform="translate(-238 -43)" style="opacity:.45">
-			<g transform="translate(-781 -415.64)" style="opacity:1">
-				<path d="m1403.8 252h3.3818c0.4503 0 0.8162 0.36847 0.8187 0.8188v3.3817zm2.4074 6.0069h-3.395c-0.4504 0-0.8188-0.36842-0.8188-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#b9bcc2;opacity:1"/>
-			</g>
-			<path d="m624-167.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+		<g id="titlebutton-maximize-backdrop-dark" transform="translate(-238 -43)" style="opacity:.3">
+			<path d="m624-167.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fff;opacity:1"/>
 			<rect x="616" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
 		</g>
-		<g id="titlebutton-minimize-backdrop-dark" transform="translate(-229 -43)" style="opacity:.45">
-			<g transform="translate(-781 -415.64)" style="opacity:1">
-				<path d="m1373 254v2h6v-2z" style="color:#000000;fill:#b9bcc2;opacity:1;text-decoration-line:none;text-indent:0;text-transform:none"/>
-			</g>
+		<g id="titlebutton-minimize-backdrop-dark" transform="translate(-229 -43)" style="opacity:.3">
 			<rect x="587" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
-			<path d="m595-167.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+			<path d="m595-167.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fff;opacity:1"/>
 		</g>
-		<g id="titlebutton-close-backdrop-dark" transform="translate(-247 -26)" style="opacity:.45">
+		<g id="titlebutton-close-backdrop-dark" transform="translate(-247 -26)" style="opacity:.3">
 			<g transform="translate(-678 -432.64)" style="opacity:1">
 				<g transform="translate(-103)" style="opacity:1">
-					<g transform="translate(58)">
-						<path transform="translate(962 190)" d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b"/>
+					<g transform="translate(58)" style="">
+						<path transform="translate(962 190)" d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fff"/>
 					</g>
 				</g>
 			</g>
@@ -1039,11 +1033,11 @@
 			</g>
 			<rect x="645" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
-		<g id="titlebutton-appmenu-backdrop" transform="translate(-469 -26)" style="opacity:.45">
+		<g id="titlebutton-appmenu-backdrop" transform="translate(-469 -26)" style="opacity:.3">
 			<g transform="translate(-678 -432.64)" style="opacity:1">
 				<g transform="translate(-103)" style="opacity:1">
-					<g transform="translate(58)">
-						<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+					<g transform="translate(58)" style="">
+						<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="opacity:1"/>
 					</g>
 				</g>
 			</g>
@@ -1081,11 +1075,11 @@
 			</g>
 			<rect x="645" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
-		<g id="titlebutton-appmenu-backdrop-dark" transform="translate(-227 -26)" style="opacity:.45">
+		<g id="titlebutton-appmenu-backdrop-dark" transform="translate(-227 -26)" style="opacity:.3">
 			<g transform="translate(-678 -432.64)" style="opacity:1">
 				<g transform="translate(-103)" style="opacity:1">
-					<g transform="translate(58)">
-						<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+					<g transform="translate(58)" style="">
+						<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fff;opacity:1"/>
 					</g>
 				</g>
 			</g>
@@ -1463,25 +1457,19 @@
 			<rect x="383" y="-185.64" width="16" height="16" style="fill:none"/>
 			<path d="m388-178.64v2h6v-2z" style="color:#000000;fill:#fff;text-decoration-line:none;text-indent:0;text-transform:none"/>
 		</g>
-		<g id="titlebutton-maximize-backdrop-darkest" transform="translate(-238 95)" style="opacity:.45">
-			<g transform="translate(-781 -415.64)" style="opacity:1">
-				<path d="m1403.8 252h3.3818c0.4503 0 0.8162 0.36847 0.8187 0.8188v3.3817zm2.4074 6.0069h-3.395c-0.4504 0-0.8188-0.36842-0.8188-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#b9bcc2;opacity:1"/>
-			</g>
-			<path d="m624-167.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+		<g id="titlebutton-maximize-backdrop-darkest" transform="translate(-238 95)" style="opacity:.3">
+			<path d="m624-167.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fff;opacity:1"/>
 			<rect x="616" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
 		</g>
-		<g id="titlebutton-minimize-backdrop-darkest" transform="translate(-229 95)" style="opacity:.45">
-			<g transform="translate(-781 -415.64)" style="opacity:1">
-				<path d="m1373 254v2h6v-2z" style="color:#000000;fill:#b9bcc2;opacity:1;text-decoration-line:none;text-indent:0;text-transform:none"/>
-			</g>
+		<g id="titlebutton-minimize-backdrop-darkest" transform="translate(-229 95)" style="opacity:.3">
 			<rect x="587" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
-			<path d="m595-167.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+			<path d="m595-167.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fff;opacity:1"/>
 		</g>
-		<g id="titlebutton-close-backdrop-darkest" transform="translate(-247 112)" style="opacity:.45">
+		<g id="titlebutton-close-backdrop-darkest" transform="translate(-247 112)" style="opacity:.3">
 			<g transform="translate(-678 -432.64)" style="opacity:1">
 				<g transform="translate(-103)" style="opacity:1">
-					<g transform="translate(58)">
-						<path transform="translate(962 190)" d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b"/>
+					<g transform="translate(58)" style="">
+						<path transform="translate(962 190)" d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fff"/>
 					</g>
 				</g>
 			</g>
@@ -1497,11 +1485,11 @@
 			</g>
 			<rect x="645" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
-		<g id="titlebutton-appmenu-backdrop-darkest" transform="translate(-227 112)" style="opacity:.45">
+		<g id="titlebutton-appmenu-backdrop-darkest" transform="translate(-227 112)" style="opacity:.3">
 			<g transform="translate(-678 -432.64)" style="opacity:1">
 				<g transform="translate(-103)" style="opacity:1">
-					<g transform="translate(58)">
-						<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#7a7f8b;opacity:1"/>
+					<g transform="translate(58)" style="">
+						<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fff;opacity:1"/>
 					</g>
 				</g>
 			</g>

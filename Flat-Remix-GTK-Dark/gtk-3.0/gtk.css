@@ -863,10 +863,7 @@ headerbar, .titlebar:not(headerbar) {
     border-color: rgba(38, 42, 51, 0.8); }
   headerbar:backdrop, .titlebar:backdrop:not(headerbar) {
     transition: 200ms ease-out;
-    color: rgba(255, 255, 255, 0.7);
-    background-color: #323843; }
-    .csd headerbar:backdrop, .csd .titlebar:backdrop:not(headerbar) {
-      background-color: rgba(50, 56, 67, 0.8); }
+    color: rgba(255, 255, 255, 0.45); }
   headerbar .title, .titlebar:not(headerbar) .title {
     padding-left: 12px;
     padding-right: 12px; }
@@ -881,7 +878,7 @@ headerbar, .titlebar:not(headerbar) {
     box-shadow: none; }
     headerbar.selection-mode:backdrop, .selection-mode.titlebar:backdrop:not(headerbar) {
       background-color: rgba(54, 123, 240, 0.95);
-      color: rgba(255, 255, 255, 0.6); }
+      color: rgba(255, 255, 255, 0.45); }
     headerbar.selection-mode .selection-menu, .selection-mode.titlebar:not(headerbar) .selection-menu {
       box-shadow: none;
       padding-left: 10px;
@@ -897,8 +894,6 @@ headerbar, .titlebar:not(headerbar) {
   .maximized headerbar, .maximized .titlebar:not(headerbar) {
     background-color: #2f343f;
     border-color: #262a33; }
-    .maximized headerbar:backdrop, .maximized .titlebar:backdrop:not(headerbar) {
-      background-color: #323843; }
   headerbar.default-decoration, .csd headerbar.default-decoration, headerbar.default-decoration:backdrop, .csd headerbar.default-decoration:backdrop, .default-decoration.titlebar:not(headerbar), .csd .default-decoration.titlebar:not(headerbar), .default-decoration.titlebar:backdrop:not(headerbar), .csd .default-decoration.titlebar:backdrop:not(headerbar) {
     min-height: 28px;
     padding: 0 3px;
@@ -940,7 +935,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   .primary-toolbar entry image, headerbar entry image, .primary-toolbar entry image:hover, headerbar entry image:hover {
     color: inherit; }
   .primary-toolbar entry:backdrop, headerbar entry:backdrop {
-    opacity: 0.85; }
+    opacity: 0.45; }
   .primary-toolbar entry:focus, headerbar entry:focus {
     color: #ffffff;
     border-color: transparent;
@@ -986,8 +981,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   border-color: rgba(47, 52, 63, 0);
   border-radius: 100px; }
   .primary-toolbar button:backdrop, headerbar button:backdrop {
-    opacity: 0.7;
-    color: rgba(255, 255, 255, 0.8); }
+    opacity: 0.45; }
   .primary-toolbar button:hover, headerbar button:hover {
     color: #FFF;
     border-color: transparent;
@@ -1029,7 +1023,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   border-color: #367bf0;
   color: #ffffff; }
 .primary-toolbar .linked:not(.vertical):not(.path-bar) > entry + button:backdrop, headerbar .linked:not(.vertical):not(.path-bar) > entry + button:backdrop {
-  opacity: .85; }
+  opacity: 0.45; }
 .primary-toolbar .linked:not(.vertical):not(.path-bar) > entry:focus + button, headerbar .linked:not(.vertical):not(.path-bar) > entry:focus + button {
   color: #ffffff;
   border-color: transparent;
@@ -1158,7 +1152,7 @@ headerbar .linked:not(.vertical):not(.path-bar) > button:checked + entry {
 .primary-toolbar button.suggested-action:backdrop, headerbar button.suggested-action:backdrop,
 .primary-toolbar button.suggested-action:backdrop,
 headerbar button.suggested-action:backdrop {
-  opacity: 0.8; }
+  opacity: 0.45; }
 .primary-toolbar button.destructive-action, headerbar button.destructive-action {
   background-clip: border-box;
   color: #FFF;
@@ -1187,7 +1181,7 @@ headerbar button.suggested-action:backdrop {
 .primary-toolbar button.destructive-action:backdrop, headerbar button.destructive-action:backdrop,
 .primary-toolbar button.destructive-action:backdrop,
 headerbar button.destructive-action:backdrop {
-  opacity: 0.8; }
+  opacity: 0.45; }
 .primary-toolbar spinbutton:not(.vertical):focus, headerbar spinbutton:not(.vertical):focus {
   color: #ffffff;
   caret-color: #ffffff; }
@@ -1251,13 +1245,13 @@ headerbar spinbutton:not(.vertical) > entry + button:not(:active):hover {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
 .primary-toolbar switch:backdrop, headerbar switch:backdrop {
-  opacity: 0.75; }
+  opacity: 0.45; }
 .primary-toolbar progressbar trough, headerbar progressbar trough {
   background-color: transparent; }
 .primary-toolbar progressbar:backdrop, headerbar progressbar:backdrop {
-  opacity: 0.75; }
+  opacity: 0.45; }
 .primary-toolbar scale:backdrop, headerbar scale:backdrop {
-  opacity: 0.75; }
+  opacity: 0.45; }
 .primary-toolbar scale slider, headerbar scale slider {
   background-color: #454c5c;
   border-color: rgba(0, 0, 0, 0.3); }
@@ -1407,7 +1401,7 @@ menubar,
   color: #FFF; }
   menubar:backdrop,
   .menubar:backdrop {
-    color: rgba(255, 255, 255, 0.7); }
+    color: rgba(255, 255, 255, 0.45); }
   menubar > menuitem,
   .menubar > menuitem {
     padding: 4px 8px;

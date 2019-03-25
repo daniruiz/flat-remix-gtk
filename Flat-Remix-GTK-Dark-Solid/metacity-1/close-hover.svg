@@ -6,12 +6,12 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   id="svg1838"
+   id="svg1822"
    version="1.1"
    height="16"
    width="16">
   <metadata
-     id="metadata1842">
+     id="metadata1826">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -296,7 +296,7 @@
        x1="165"
        gradientTransform="translate(20)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1844"
+       id="linearGradient1828"
        xlink:href="#app-menu" />
     <linearGradient
        y2="99"
@@ -305,11 +305,11 @@
        x1="165"
        gradientTransform="translate(20)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1846"
+       id="linearGradient1830"
        xlink:href="#app-menu-dark" />
   </defs>
   <g
-     id="g1836"
+     id="g1820"
      transform="translate(-398,194.64)">
     <g
        transform="translate(-144,-9)"
