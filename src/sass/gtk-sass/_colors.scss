@@ -13,8 +13,8 @@ $bg_color: #fafafa;
 @if $variant=='dark' and $darkest=='true' { $bg_color: lighten($base_color, 10%); }
 $fg_color: if($variant =='light', #5c616c, #FFF);
 
-$selected_fg_color: #ffffff;
-$selected_bg_color: #367bf0;
+$selected_fg_color: #ffffff !default;
+$selected_bg_color: #367bf0 !default;
 $selected_borders_color: darken($selected_bg_color, 20%);
 $borders_color: if($variant =='light', darken($bg_color,9%), darken($bg_color,6%));
 
@@ -31,7 +31,7 @@ $warning_fg_color: #FFF;
 $error_fg_color: #FFF;
 $success_color: #19a187;
 $destructive_color: #d31919;
-$suggested_color: #367bf0;
+$suggested_color: $selected_bg_color;
 $destructive_fg_color: #FFF;
 $suggested_fg_color: #FFF;
 
