@@ -2,7 +2,7 @@
 #   gmake PREFIX=/usr/local install
 
 PREFIX ?= /usr
-IGNORE ?= $(patsubst %/index.theme,%,$(wildcard ./Flat-Remix-GTK-Yellow*/index.theme))
+IGNORE ?= 
 THEMES ?= $(patsubst %/index.theme,%,$(wildcard ./*/index.theme))
 
 # excludes IGNORE from THEMES list
