@@ -1,5 +1,5 @@
 Name:           flat-remix-gtk
-Version: 20190321
+Version: 20190326
 Release:        1
 License:        GPLv3
 Summary:        Flat Remix GTK theme
