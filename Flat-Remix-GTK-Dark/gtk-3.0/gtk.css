@@ -2927,12 +2927,12 @@ terminal-window notebook > header.top,
   margin-top: -1px; }
 .nautilus-window .path-bar-box {
   padding: 0 10px; }
-  .nautilus-window .path-bar-box .text-button:checked, .nautilus-window .path-bar-box .text-button:last-child {
+  .nautilus-window .path-bar-box .text-button:checked, .nautilus-window .path-bar-box widget > .text-button:last-child {
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
     color: #ffffff;
     border-color: transparent;
     background-color: #367bf0; }
-    .nautilus-window .path-bar-box .text-button:checked:backdrop, .nautilus-window .path-bar-box .text-button:last-child:backdrop {
+    .nautilus-window .path-bar-box .text-button:checked:backdrop, .nautilus-window .path-bar-box widget > .text-button:last-child:backdrop {
       box-shadow: none; }
   .nautilus-window .path-bar-box.width-maximized {
     background: rgba(47, 52, 63, 0.6);
