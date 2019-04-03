@@ -10,7 +10,7 @@
 		</linearGradient>
 		<linearGradient id="maximize-button">
 			<stop style="stop-color:#72a2f4" offset="0"/>
-			<stop style="stop-color:#367bf0" offset="1"/>
+			<stop style="stop-color:#367bf1" offset="1"/>
 		</linearGradient>
 		<linearGradient id="minimize-button">
 			<stop style="stop-color:#fea44c" offset="0"/>
@@ -26,7 +26,7 @@
 		</linearGradient>
 		<linearGradient id="maximize-button-dark">
 			<stop style="stop-color:#4a88f1" offset="0"/>
-			<stop style="stop-color:#367bf0" offset="1"/>
+			<stop style="stop-color:#367bf1" offset="1"/>
 		</linearGradient>
 		<linearGradient id="minimize-button-dark">
 			<stop style="stop-color:#fd9733" offset="0"/>
@@ -552,7 +552,7 @@
 			<rect x="645" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
 		<g id="titlebutton-maximize" transform="translate(-480,-43)">
-			<path d="m624-184.63a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:url(#linearGradient1845);stroke-width:.5;stroke:#367bf0"/>
+			<path d="m624-184.63a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:url(#linearGradient1845);stroke-width:.5;stroke:#367bf1"/>
 			<rect x="616" y="-185.64" width="16" height="16" style="fill:none"/>
 		</g>
 		<g id="titlebutton-close-hover" transform="translate(-386,-9)">
@@ -568,7 +568,7 @@
 		</g>
 		<g id="titlebutton-maximize-hover" transform="translate(-377,-9)">
 			<g transform="translate(-781 -432.64)">
-				<path transform="translate(1150,156)" d="m152 92a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:url(#linearGradient1883);opacity:.95;stroke-width:.5;stroke:#367bf0"/>
+				<path transform="translate(1150,156)" d="m152 92a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:url(#linearGradient1883);stroke-width:.5;stroke:#367bf1"/>
 				<g transform="translate(1294,247)" style="fill:#c0e3ff">
 					<g transform="translate(-81 -967)" style="fill:#c0e3ff">
 						<path d="m87.8 972h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#000"/>
@@ -611,7 +611,7 @@
 			<g transform="translate(-882 -432.64)">
 				<g transform="translate(-132)">
 					<g transform="translate(58)">
-						<circle cx="1376" cy="255" r="7" style="fill:url(#linearGradient1881);stroke-width:.5;stroke:#367bf0"/>
+						<circle cx="1376" cy="255" r="7" style="fill:url(#linearGradient1881);stroke-width:.5;stroke:#367bf1"/>
 					</g>
 				</g>
 				<g transform="translate(1294,247)" style="fill:#c0e3ff">
@@ -945,7 +945,7 @@
 		</g>
 		<g id="titlebutton-maximize-dark" transform="translate(-238 -43)">
 			<rect x="616" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path d="m624-184.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1953);stroke-width:.5;stroke:#367bf0"/>
+			<path d="m624-184.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1953);stroke-width:.5;stroke:#367bf1"/>
 		</g>
 		<g id="titlebutton-close-hover-dark" transform="translate(-144 -9)">
 			<g transform="translate(-781 -432.64)">
@@ -960,7 +960,7 @@
 		</g>
 		<g id="titlebutton-maximize-hover-dark" transform="translate(-135 -9)">
 			<g transform="translate(-781 -432.64)">
-				<path transform="translate(908,156)" d="m394 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1879);stroke-width:.5;stroke:#367bf0"/>
+				<path transform="translate(908,156)" d="m394 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1879);stroke-width:.5;stroke:#367bf1"/>
 			</g>
 			<rect x="513" y="-185.64" width="16" height="16" style="fill:none"/>
 			<path d="m519.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#fff"/>
@@ -987,7 +987,7 @@
 			<g transform="translate(-882 -432.64)">
 				<g transform="translate(-132)">
 					<g transform="translate(58)">
-						<path transform="translate(982,139)" d="m394 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1877);stroke-width:.5;stroke:#367bf0"/>
+						<path transform="translate(982,139)" d="m394 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1877);stroke-width:.5;stroke:#367bf1"/>
 					</g>
 				</g>
 			</g>
@@ -1397,7 +1397,7 @@
 		</g>
 		<g id="titlebutton-maximize-darkest" transform="translate(-238 95)">
 			<rect x="616" y="-185.64" width="16" height="16" style="fill:none"/>
-			<path d="m624-184.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#367bf0;stroke-width:.5;stroke:#2656a8"/>
+			<path d="m624-184.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#367bf1;stroke-width:.5;stroke:#2656a8"/>
 		</g>
 		<g id="titlebutton-close-hover-darkest" transform="translate(-144 129)">
 			<g transform="translate(-781 -432.64)">
@@ -1412,7 +1412,7 @@
 		</g>
 		<g id="titlebutton-maximize-hover-darkest" transform="translate(-135 129)">
 			<g transform="translate(-781 -432.64)">
-				<path transform="translate(908,156)" d="m394 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#367bf0;stroke-width:.5;stroke:#2656a8"/>
+				<path transform="translate(908,156)" d="m394 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#367bf1;stroke-width:.5;stroke:#2656a8"/>
 			</g>
 			<rect x="513" y="-185.64" width="16" height="16" style="fill:none"/>
 			<path d="m519.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#fff"/>
@@ -1439,7 +1439,7 @@
 			<g transform="translate(-882 -432.64)">
 				<g transform="translate(-132)">
 					<g transform="translate(58)">
-						<path transform="translate(982,139)" d="m394 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#367bf0;stroke-width:.5;stroke:#2656a8"/>
+						<path transform="translate(982,139)" d="m394 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#367bf1;stroke-width:.5;stroke:#2656a8"/>
 					</g>
 				</g>
 			</g>

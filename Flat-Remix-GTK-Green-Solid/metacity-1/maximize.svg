@@ -54,7 +54,7 @@
       <stop
          id="stop14"
          offset="1"
-         style="stop-color:#367bf0" />
+         style="stop-color:#367bf1" />
     </linearGradient>
     <linearGradient
        id="minimize-button">
@@ -98,7 +98,7 @@
       <stop
          id="stop34"
          offset="1"
-         style="stop-color:#367bf0" />
+         style="stop-color:#367bf1" />
     </linearGradient>
     <linearGradient
        id="minimize-button-dark">
@@ -316,7 +316,7 @@
        id="titlebutton-maximize">
       <path
          id="path663"
-         style="fill:url(#linearGradient1845);stroke:#367bf0;stroke-width:0.5"
+         style="fill:url(#linearGradient1845);stroke:#367bf1;stroke-width:0.5"
          d="m 624,-184.63 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z" />
       <rect
          id="rect665"
