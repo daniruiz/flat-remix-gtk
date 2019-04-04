@@ -1986,13 +1986,13 @@ menu,
   $_menu_bg: if($variant=='light', $base_color, $bg_color);
   margin: 4px;
   padding: 0;
-  border-radius: 0;
+  border-radius: 6px;
   background-color: $_menu_bg;
   border: 1px solid $borders_color;
 
   .csd & {
     padding: 4px 0px;
-    border-radius: 2px;
+    border-radius: 6px;
     border: none;
   }
 
