@@ -240,6 +240,8 @@ button {
   color: #FFF;
   border-color: #2b2e39;
   background-color: #333945; }
+  button:active, button:hover {
+    transition-duration: 0; }
   button separator {
     margin: 4px 1px; }
   button.flat, button.sidebar-button {
@@ -1421,13 +1423,13 @@ menubar,
 menu, .menu {
   margin: 4px;
   padding: 0;
-  border-radius: 0;
+  border-radius: 6px;
   background-color: #383C4A;
   border: 1px solid #2b2e39; }
   .csd menu,
   .csd .menu {
     padding: 4px 0px;
-    border-radius: 2px;
+    border-radius: 6px;
     border: none; }
   menu separator, .csd menu separator, .menu separator, .csd .menu separator {
     margin: 2px 0;
@@ -1555,48 +1557,60 @@ notebook {
       box-shadow: inset -1px 0 #2b2e39; }
     notebook > header.top {
       padding-bottom: 0; }
-      notebook > header.top > tabs > tab {
-        padding: 2px 10px;
-        min-width: 20px;
-        min-height: 20px;
-        outline-offset: -4px;
-        border: 1px solid transparent;
-        border-bottom: none;
-        border-radius: 6px 6px 0 0;
+      notebook > header.top > tabs {
         margin: 0 5px; }
+        notebook > header.top > tabs > tab {
+          padding: 2px 10px;
+          min-width: 20px;
+          min-height: 20px;
+          margin: 0;
+          outline-offset: -4px;
+          border: 1px solid transparent;
+          border-bottom: none;
+          border-radius: 6px 6px 0 0;
+          box-shadow: 4px 3px 0 -3px rgba(255, 255, 255, 0.1); }
     notebook > header.bottom {
       padding-top: 0; }
-      notebook > header.bottom > tabs > tab {
-        padding: 2px 10px;
-        min-width: 20px;
-        min-height: 20px;
-        outline-offset: -4px;
-        border: 1px solid transparent;
-        border-top: none;
-        border-radius: 0 0 6px 6px;
+      notebook > header.bottom > tabs {
         margin: 0 5px; }
+        notebook > header.bottom > tabs > tab {
+          padding: 2px 10px;
+          min-width: 20px;
+          min-height: 20px;
+          margin: 0;
+          outline-offset: -4px;
+          border: 1px solid transparent;
+          border-top: none;
+          border-radius: 0 0 6px 6px;
+          box-shadow: 4px -3px 0 -3px rgba(255, 255, 255, 0.1); }
     notebook > header.right {
       padding-left: 0; }
-      notebook > header.right > tabs > tab {
-        padding: 2px 10px;
-        min-width: 20px;
-        min-height: 20px;
-        outline-offset: -4px;
-        border: 1px solid transparent;
-        border-left: none;
-        border-radius: 0 6px 6px 0;
+      notebook > header.right > tabs {
         margin: 5px 0; }
+        notebook > header.right > tabs > tab {
+          padding: 2px 10px;
+          min-width: 20px;
+          min-height: 20px;
+          margin: 0;
+          outline-offset: -4px;
+          border: 1px solid transparent;
+          border-left: none;
+          border-radius: 0 6px 6px 0;
+          box-shadow: 3px -4px 0 -3px rgba(255, 255, 255, 0.1); }
     notebook > header.left {
       padding-right: 0; }
-      notebook > header.left > tabs > tab {
-        padding: 2px 10px;
-        min-width: 20px;
-        min-height: 20px;
-        outline-offset: -4px;
-        border: 1px solid transparent;
-        border-right: none;
-        border-radius: 6px 0 0 6px;
+      notebook > header.left > tabs {
         margin: 5px 0; }
+        notebook > header.left > tabs > tab {
+          padding: 2px 10px;
+          min-width: 20px;
+          min-height: 20px;
+          margin: 0;
+          outline-offset: -4px;
+          border: 1px solid transparent;
+          border-right: none;
+          border-radius: 6px 0 0 6px;
+          box-shadow: -3px -4px 0 -3px rgba(255, 255, 255, 0.1); }
     notebook > header.top > tabs > arrow.up, notebook > header.bottom > tabs > arrow.up {
       -gtk-icon-source: -gtk-icontheme("pan-end-symbolic"); }
       notebook > header.top > tabs > arrow.up:last-child, notebook > header.bottom > tabs > arrow.up:last-child {
@@ -1640,7 +1654,8 @@ notebook {
         color: #FFF;
         background-color: #2f343f;
         border-color: #2b2e39;
-        font-weight: bold; }
+        font-weight: bold;
+        box-shadow: none; }
       notebook > header > tabs > tab button.flat, notebook > header > tabs > tab button.sidebar-button {
         min-height: 22px;
         min-width: 16px;
@@ -2928,17 +2943,23 @@ terminal-window notebook > header.top,
 .nautilus-window .path-bar-box {
   padding: 0 10px; }
   .nautilus-window .path-bar-box .text-button:checked, .nautilus-window .path-bar-box widget > .text-button:last-child {
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
     color: #000000;
     border-color: transparent;
-    background-color: #ffd86e; }
-    .nautilus-window .path-bar-box .text-button:checked:backdrop, .nautilus-window .path-bar-box widget > .text-button:last-child:backdrop {
-      box-shadow: none; }
+    background-color: #ffd86e;
+    padding: 4px 6px;
+    border: 0; }
   .nautilus-window .path-bar-box.width-maximized {
     background: rgba(47, 52, 63, 0.6);
     border-radius: 100px; }
+.nautilus-window notebook {
+  background: rgba(47, 52, 63, 0.8); }
+  .nautilus-window notebook > header {
+    background: transparent; }
+  .nautilus-window notebook > stack {
+    background: #2f343f; }
+  .nautilus-window notebook tab {
+    color: #FFF; }
 
-.nautilus-window notebook,
 .nautilus-window notebook > stack:not(:only-child) searchbar {
   background-color: #2f343f; }
 
