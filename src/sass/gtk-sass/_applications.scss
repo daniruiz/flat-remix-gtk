@@ -64,10 +64,9 @@ terminal-window,
     padding: 0 10px;
 
     .text-button:checked, widget > .text-button:last-child {
-      box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
       @include button(header-active);
-
-      &:backdrop { box-shadow: none; }
+      padding: 0 6px;
+      border: 0;
     }
 
     &.width-maximized {
