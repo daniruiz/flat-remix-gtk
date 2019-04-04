@@ -74,9 +74,16 @@ terminal-window,
       border-radius: 100px;
     }
   }
+
+  notebook {
+    background: $header_bg;
+
+    > header { background: transparent; }
+    > stack { background: $base_color; }
+    tab { color: $header_fg; }
+  }
 }
 
-.nautilus-window notebook,
 .nautilus-window notebook > stack:not(:only-child) searchbar {
   background-color: $base_color;
 }
