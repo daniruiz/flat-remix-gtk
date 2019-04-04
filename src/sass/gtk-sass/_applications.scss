@@ -65,7 +65,7 @@ terminal-window,
 
     .text-button:checked, widget > .text-button:last-child {
       @include button(header-active);
-      padding: 0 6px;
+      padding: 4px 6px;
       border: 0;
     }
 
