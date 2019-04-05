@@ -1,5 +1,5 @@
 Name:           flat-remix-gtk
-Version: 20190328
+Version: 20190404
 Release:        1
 License:        GPLv3
 Summary:        Flat Remix GTK theme
@@ -41,15 +41,16 @@ Variants:
 %files
 %defattr(-,root,root)
 %doc LICENSE README.md
-%{_datadir}/themes/Flat-Remix-GTK
-%{_datadir}/themes/Flat-Remix-GTK-Dark
-%{_datadir}/themes/Flat-Remix-GTK-Darker
-%{_datadir}/themes/Flat-Remix-GTK-Darker-Solid
-%{_datadir}/themes/Flat-Remix-GTK-Darkest
-%{_datadir}/themes/Flat-Remix-GTK-Darkest-NoBorder
-%{_datadir}/themes/Flat-Remix-GTK-Darkest-Solid
-%{_datadir}/themes/Flat-Remix-GTK-Darkest-Solid-NoBorder
-%{_datadir}/themes/Flat-Remix-GTK-Dark-Solid
+%{_datadir}/themes/Flat-Remix-GTK-Blue
+%{_datadir}/themes/Flat-Remix-GTK-Blue-Dark
+%{_datadir}/themes/Flat-Remix-GTK-Blue-Darker
+%{_datadir}/themes/Flat-Remix-GTK-Blue-Darker-Solid
+%{_datadir}/themes/Flat-Remix-GTK-Blue-Darkest
+%{_datadir}/themes/Flat-Remix-GTK-Blue-Darkest-NoBorder
+%{_datadir}/themes/Flat-Remix-GTK-Blue-Darkest-Solid
+%{_datadir}/themes/Flat-Remix-GTK-Blue-Darkest-Solid-NoBorder
+%{_datadir}/themes/Flat-Remix-GTK-Blue-Dark-Solid
+%{_datadir}/themes/Flat-Remix-GTK-Blue-Solid
 %{_datadir}/themes/Flat-Remix-GTK-Green
 %{_datadir}/themes/Flat-Remix-GTK-Green-Dark
 %{_datadir}/themes/Flat-Remix-GTK-Green-Darker
@@ -70,7 +71,6 @@ Variants:
 %{_datadir}/themes/Flat-Remix-GTK-Red-Darkest-Solid-NoBorder
 %{_datadir}/themes/Flat-Remix-GTK-Red-Dark-Solid
 %{_datadir}/themes/Flat-Remix-GTK-Red-Solid
-%{_datadir}/themes/Flat-Remix-GTK-Solid
 %{_datadir}/themes/Flat-Remix-GTK-Yellow
 %{_datadir}/themes/Flat-Remix-GTK-Yellow-Dark
 %{_datadir}/themes/Flat-Remix-GTK-Yellow-Darker
