@@ -1983,8 +1983,9 @@ menubar,
   }
 }
 
-menu,
-.menu {
+.background.popup { background-color: transparent; }
+
+menu, .menu, .context-menu {
   $_menu_bg: if($variant=='light', $base_color, $bg_color);
   margin: 4px;
   padding: 0;
@@ -3800,7 +3801,7 @@ decoration {
     }
   }
   .csd.popup & {
-    border-radius: 2px;
+    border-radius: 6px;
     box-shadow: 0 3px 6px transparentize(#000, .6),
     0 0 0 1px if($variant == 'light' and $darker == 'false', transparentize(#000, .97), transparent);
   }
