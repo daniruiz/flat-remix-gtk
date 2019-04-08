@@ -1281,19 +1281,11 @@ headerbar,
         -gtk-icon-source: -gtk-icontheme('pan-down-symbolic');
       }
     }
-    .maximized & {
-      background-color: opacify($selection_mode_bg, 1);
-    }
   }
 
   .tiled &, .tiled &:backdrop,
   .maximized &, .maximized &:backdrop {
     border-radius: 0; // squared corners when the window is max'd or tiled
-  }
-
-  .maximized & {
-    background-color: opacify($header_bg, 1);
-    border-color: opacify($header_border, 1);
   }
 
   &.default-decoration,
@@ -1304,10 +1296,6 @@ headerbar,
     padding: 0 3px;
     background-color: opacify($header_bg, 1);
     border-bottom-width: 0;
-
-    .maximized & {
-      background-color: opacify($header_bg, 1);
-    }
   }
 
   separator.titlebutton {
