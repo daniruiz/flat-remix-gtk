@@ -2935,16 +2935,27 @@ terminal-window notebook > header.top,
 .nautilus-window .searchbar-container {
   margin-top: -1px; }
 .nautilus-window .path-bar-box {
-  padding: 0 10px; }
+  padding: 0 8px; }
+  .nautilus-window .path-bar-box .text-button {
+    color: #FFF;
+    outline-offset: -3px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 100px; }
+  .nautilus-window .path-bar-box .text-button:hover {
+    color: #FFF;
+    border-color: transparent;
+    background-color: rgba(56, 56, 56, 0.8); }
   .nautilus-window .path-bar-box .text-button:checked, .nautilus-window .path-bar-box widget > .text-button:last-child {
     color: #000000;
     border-color: transparent;
     background-color: #ffd86e;
-    padding: 4px 6px;
-    border: 0; }
+    padding: 4px;
+    border-color: transparent; }
   .nautilus-window .path-bar-box.width-maximized {
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 100px; }
+    background: rgba(8, 12, 18, 0.81);
+    border-radius: 100px;
+    box-shadow: inset 0 0 0 1px #262626; }
 .nautilus-window notebook {
   background: rgba(0, 0, 0, 0.8); }
   .nautilus-window notebook > header {

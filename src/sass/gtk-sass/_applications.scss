@@ -61,17 +61,20 @@ terminal-window,
   .searchbar-container { margin-top: -1px; }
 
   .path-bar-box {
-    padding: 0 10px;
+    padding: 0 8px;
 
+    .text-button { @include button(header-normal); }
+    .text-button:hover { @include button(header-hover); }
     .text-button:checked, widget > .text-button:last-child {
       @include button(header-active);
-      padding: 4px 6px;
-      border: 0;
+      padding: 4px;
+      border-color: transparent;
     }
 
     &.width-maximized {
-      background: transparentize($header_bg, .2);
+      background: mix($header_bg, #72a2f4, if($variant=='dark' and $darkest=='false', 90%, 95%));
       border-radius: 100px;
+      box-shadow: inset 0 0 0 1px $header_border;
     }
   }
 
