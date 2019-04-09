@@ -861,7 +861,7 @@ headerbar, .titlebar:not(headerbar) {
   .csd headerbar,
   .csd .titlebar:not(headerbar) {
     background-color: rgba(255, 255, 255, 0.8);
-    border-color: rgba(237, 237, 237, 0.8); }
+    border-color: #e3e3e3; }
   headerbar:backdrop, .titlebar:backdrop:not(headerbar) {
     transition: 200ms ease-out;
     color: rgba(0, 0, 0, 0.45); }
@@ -917,7 +917,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   border: none;
   box-shadow: none; }
 .titlebar:not(headerbar) > separator {
-  background-image: linear-gradient(to bottom, rgba(237, 237, 237, 0.8), rgba(237, 237, 237, 0.8)); }
+  background-image: linear-gradient(to bottom, #e3e3e3, #e3e3e3); }
 
 .primary-toolbar:not(.libreoffice-toolbar) separator, headerbar separator.titlebutton, .titlebar:not(headerbar) separator.titlebutton {
   background: none; }
@@ -2907,7 +2907,7 @@ terminal-window notebook > header.top > tabs > tab:checked {
 terminal-window notebook > header.top,
 .mate-terminal notebook > header.top {
   padding-top: 3px;
-  box-shadow: inset 0 1px #ededed, inset 0 -1px #e3e3e3; }
+  box-shadow: inset 0 1px #e3e3e3, inset 0 -1px #e3e3e3; }
   terminal-window notebook > header.top button,
   .mate-terminal notebook > header.top button {
     padding: 0;
