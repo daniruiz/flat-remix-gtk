@@ -2952,6 +2952,8 @@ terminal-window notebook > header.top,
     background-color: #d41919;
     padding: 4px;
     border-color: transparent; }
+  .nautilus-window .path-bar-box widget > .text-button:not(:nth-last-child(2)):not(:last-child):not(:hover) {
+    box-shadow: 5px 0 0 -3px #262626; }
   .nautilus-window .path-bar-box.width-maximized {
     background: rgba(8, 12, 18, 0.81);
     border-radius: 100px;

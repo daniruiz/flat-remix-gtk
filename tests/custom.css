@@ -23,7 +23,4 @@ headerbar .text-button:last-child:not(:first-child) {
 
 headerbar .text-button image:first-child { margin-left: 6px; }
 
-headerbar .text-button:not(:last-child):not(:hover) { box-shadow: 4px 0 0 -3px rgba(0,0,0,.2); }
-headerbar .text-button:nth-last-child(2):not(:hover) { box-shadow: none; }
-
 .app-notification { border-radius: 6px; padding: 5px; margin-top: 10px; }

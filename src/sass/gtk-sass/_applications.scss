@@ -71,6 +71,10 @@ terminal-window,
       border-color: transparent;
     }
 
+    widget > .text-button:not(:nth-last-child(2)):not(:last-child):not(:hover) {
+      box-shadow: 5px 0 0 -3px $header_border;
+    }
+
     &.width-maximized {
       background: mix($header_bg, #72a2f4, if($variant=='dark' and $darkest=='false', 90%, 95%));
       border-radius: 100px;
