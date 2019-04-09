@@ -3,7 +3,7 @@
 }
 
 $ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-$backdrop_transition: 200ms ease-out;
+$transition: 200ms $ease-out-quad;
 $backdrop_opacity: .45;
 $asset_suffix: if($variant=='dark', if($darkest=='true', '-darkest', '-dark'), ''); // use dark/darkest assets
 $darker_asset_suffix: if($darker=='true', '-darkest', $asset_suffix);
@@ -218,7 +218,7 @@ entry {
 
   caret-color: currentColor;
   border-radius: 6px;
-  transition: all 200ms $ease-out-quad;
+  transition: all $transition;
 
   &.search {
     border-radius: 20px;
@@ -372,11 +372,10 @@ $_dot_color: $selected_bg_color;
   }
 }
 
-$button_transition: all 200ms $ease-out-quad;
 button {
   min-height: 22px;
   min-width: 20px;
-  transition: $button_transition;
+  transition: all $transition;
   border: 1px solid;
   border-radius: 6px;
   padding: 3px 6px;
@@ -400,11 +399,11 @@ button {
     transition: none;
 
     &:hover {
-      transition: $button_transition;
+      transition: all $transition;
       transition-duration: 350ms;
 
       &:active {
-        transition: $button_transition;
+        transition: all $transition;
       }
     }
   }
@@ -1237,10 +1236,8 @@ headerbar,
     border-color: $header_border;
   }
 
-  &:backdrop {
-    transition: $backdrop_transition;
-    color: rgba($header_fg, $backdrop_opacity);
-  }
+  transition: color $transition;
+  &:backdrop { color: rgba($header_fg, $backdrop_opacity); }
 
   .title {
     padding-left: 12px;
@@ -1417,7 +1414,10 @@ headerbar {
 
     @include button(header-normal);
 
-    &:backdrop { opacity: $backdrop_opacity; }
+    &:backdrop {
+      opacity: $backdrop_opacity;
+      transition: all $transition;
+    }
 
     &:hover {
       @include button(header-hover);
@@ -1425,12 +1425,15 @@ headerbar {
     &:active, &:checked {
       @include button(header-active);
       background-clip: if($darker=='false' and $variant=='light', border-box, padding-box);
+      &:backdrop { @include button(header-hover) }
     }
     &:disabled {
       @include button(header-insensitive);
+      &:backdrop { @include button(header-normal) }
     }
     &:disabled:active, &:disabled:checked {
       @include button(header-insensitive-active);
+      &:backdrop { @include button(header-normal) }
     }
   }
 
@@ -1684,18 +1687,14 @@ headerbar {
       background-color: if($variant=='light' and $darker=='false', opacify($header_button_border, 0.05), $header_button_border);
     }
 
-    &:backdrop {
-      opacity: $backdrop_opacity;
-      transition: $backdrop_transition;
-    }
+    transition: all $transition;
+    &:backdrop { opacity: $backdrop_opacity; }
   }
 
   // Headerbar Scale
   scale {
-    &:backdrop {
-      opacity: $backdrop_opacity;
-      transition: $backdrop_transition;
-    }
+    transition: all $transition;
+    &:backdrop { opacity: $backdrop_opacity; }
 
     slider {
       $_slider_border: if($variant=='light' and $darker=='false', opacify($header_button_border, 0.2), opacify($header_button_border, 0.3));
@@ -2709,7 +2708,7 @@ scale {
     border: 1px solid $_slider_border;
     border-radius: 100%;
 
-    transition: $button_transition;
+    transition: all $transition;
     transition-property: background, border;
 
     &:hover {
@@ -3378,7 +3377,7 @@ placesview {
   }
 
   .server-list-button:checked > image {
-    transition: 200ms $ease-out-quad;
+    transition: all $transition;
     -gtk-icon-transform: rotate(-0.5turn);
   }
 
@@ -3769,7 +3768,7 @@ decoration {
                     transparentize(#000, .85),
                     transparentize(if($darkest=='true', if($windowOutline=='true', #CCC, #555), #000), if($windowOutline=='true', .5, .75)));
 
-    transition: $backdrop_transition;
+    transition: all $transition;
   }
   .fullscreen &,
   .tiled & {

@@ -858,13 +858,13 @@ headerbar, .titlebar:not(headerbar) {
   border-width: 0 0 1px;
   color: #FFF;
   background-color: black;
-  box-shadow: inset 0 1px #080808; }
+  box-shadow: inset 0 1px #080808;
+  transition: color 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
   .csd headerbar,
   .csd .titlebar:not(headerbar) {
     background-color: black;
     border-color: #262626; }
   headerbar:backdrop, .titlebar:backdrop:not(headerbar) {
-    transition: 200ms ease-out;
     color: rgba(255, 255, 255, 0.45); }
   headerbar .title, .titlebar:not(headerbar) .title {
     padding-left: 12px;
@@ -976,7 +976,8 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   border-color: rgba(0, 0, 0, 0);
   border-radius: 100px; }
   .primary-toolbar button:backdrop, headerbar button:backdrop {
-    opacity: 0.45; }
+    opacity: 0.45;
+    transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
   .primary-toolbar button:hover, headerbar button:hover {
     color: #FFF;
     border-color: transparent;
@@ -986,15 +987,31 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
     border-color: transparent;
     background-color: #d41919;
     background-clip: padding-box; }
+    .primary-toolbar button:active:backdrop, headerbar button:active:backdrop, .primary-toolbar button:checked:backdrop, headerbar button:checked:backdrop {
+      color: #FFF;
+      border-color: transparent;
+      background-color: #383838; }
   .primary-toolbar button:disabled, headerbar button:disabled {
     background-color: rgba(0, 0, 0, 0);
     border-color: rgba(0, 0, 0, 0); }
     .primary-toolbar button:disabled label, headerbar button:disabled label, .primary-toolbar button:disabled, headerbar button:disabled {
       color: rgba(255, 255, 255, 0.55); }
+    .primary-toolbar button:disabled:backdrop, headerbar button:disabled:backdrop {
+      color: #FFF;
+      outline-offset: -3px;
+      background-color: rgba(0, 0, 0, 0);
+      border-color: rgba(0, 0, 0, 0);
+      border-radius: 100px; }
   .primary-toolbar button:disabled:active, headerbar button:disabled:active, .primary-toolbar button:disabled:checked, headerbar button:disabled:checked {
     color: rgba(255, 255, 255, 0.75);
     border-color: rgba(212, 25, 25, 0.65);
     background-color: rgba(212, 25, 25, 0.65); }
+    .primary-toolbar button:disabled:active:backdrop, headerbar button:disabled:active:backdrop, .primary-toolbar button:disabled:checked:backdrop, headerbar button:disabled:checked:backdrop {
+      color: #FFF;
+      outline-offset: -3px;
+      background-color: rgba(0, 0, 0, 0);
+      border-color: rgba(0, 0, 0, 0);
+      border-radius: 100px; }
 .selection-mode.primary-toolbar button, headerbar.selection-mode button, .selection-mode.primary-toolbar button.flat, headerbar.selection-mode button.flat, .selection-mode.primary-toolbar button.sidebar-button, headerbar.selection-mode button.sidebar-button {
   border-color: transparent;
   background-color: transparent;
@@ -1241,30 +1258,32 @@ headerbar spinbutton:not(.vertical) > entry + button:not(:active):hover {
   border-bottom-right-radius: 0; }
 .primary-toolbar switch:backdrop, headerbar switch:backdrop {
   opacity: 0.45; }
-.primary-toolbar progressbar trough, headerbar progressbar trough {
-  background-color: transparent; }
-.primary-toolbar progressbar:backdrop, headerbar progressbar:backdrop {
-  opacity: 0.45;
-  transition: 200ms ease-out; }
-.primary-toolbar scale:backdrop, headerbar scale:backdrop {
-  opacity: 0.45;
-  transition: 200ms ease-out; }
-.primary-toolbar scale slider, headerbar scale slider {
-  background-color: #1a1a1a;
-  border-color: rgba(0, 0, 0, 0.3); }
-  .primary-toolbar scale slider:hover, headerbar scale slider:hover {
-    background-color: #262626;
+.primary-toolbar progressbar, headerbar progressbar {
+  transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+  .primary-toolbar progressbar trough, headerbar progressbar trough {
+    background-color: transparent; }
+  .primary-toolbar progressbar:backdrop, headerbar progressbar:backdrop {
+    opacity: 0.45; }
+.primary-toolbar scale, headerbar scale {
+  transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+  .primary-toolbar scale:backdrop, headerbar scale:backdrop {
+    opacity: 0.45; }
+  .primary-toolbar scale slider, headerbar scale slider {
+    background-color: #1a1a1a;
     border-color: rgba(0, 0, 0, 0.3); }
-  .primary-toolbar scale slider:active, headerbar scale slider:active {
-    background-color: #d41919;
-    border-color: #d41919; }
-  .primary-toolbar scale slider:disabled, headerbar scale slider:disabled {
-    background-color: #121212;
-    border-color: rgba(0, 0, 0, 0.3); }
-.primary-toolbar scale trough, headerbar scale trough {
-  background-color: #4d4d4d; }
-  .primary-toolbar scale trough:disabled, headerbar scale trough:disabled {
-    background-color: rgba(77, 77, 77, 0.9); }
+    .primary-toolbar scale slider:hover, headerbar scale slider:hover {
+      background-color: #262626;
+      border-color: rgba(0, 0, 0, 0.3); }
+    .primary-toolbar scale slider:active, headerbar scale slider:active {
+      background-color: #d41919;
+      border-color: #d41919; }
+    .primary-toolbar scale slider:disabled, headerbar scale slider:disabled {
+      background-color: #121212;
+      border-color: rgba(0, 0, 0, 0.3); }
+  .primary-toolbar scale trough, headerbar scale trough {
+    background-color: #4d4d4d; }
+    .primary-toolbar scale trough:disabled, headerbar scale trough:disabled {
+      background-color: rgba(77, 77, 77, 0.9); }
 
 .path-bar button.text-button {
   padding-left: 0px;
@@ -2499,7 +2518,7 @@ placessidebar row {
 placesview .server-list-button > image {
   -gtk-icon-transform: rotate(0turn); }
 placesview .server-list-button:checked > image {
-  transition: 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   -gtk-icon-transform: rotate(-0.5turn); }
 placesview > actionbar > revealer > box > label {
   padding-left: 8px;
@@ -2722,7 +2741,7 @@ decoration {
   margin: 10px; }
   decoration:backdrop {
     box-shadow: 0 2px 11px 3px transparent, 0 0 0 3px rgba(204, 204, 204, 0.5);
-    transition: 200ms ease-out; }
+    transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
   .fullscreen decoration, .tiled decoration {
     border-radius: 0; }
   .popup decoration {
@@ -2953,6 +2972,10 @@ terminal-window notebook > header.top,
     background-color: #d41919;
     padding: 4px;
     border-color: transparent; }
+    .nautilus-window .path-bar-box .text-button:checked:backdrop, .nautilus-window .path-bar-box widget > .text-button:last-child:backdrop {
+      color: #FFF;
+      border-color: transparent;
+      background-color: #383838; }
   .nautilus-window .path-bar-box widget > .text-button:not(:nth-last-child(2)):not(:last-child):not(:hover) {
     box-shadow: 5px 0 0 -3px #262626; }
   .nautilus-window .path-bar-box.width-maximized {

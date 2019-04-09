@@ -69,6 +69,7 @@ terminal-window,
       @include button(header-active);
       padding: 4px;
       border-color: transparent;
+      &:backdrop { @include button(header-hover) }
     }
 
     widget > .text-button:not(:nth-last-child(2)):not(:last-child):not(:hover) {
