@@ -43,3 +43,5 @@ headerbar .text-button:not(:last-child):not(:hover) {
 headerbar .text-button:nth-last-child(2):not(:hover) { box-shadow: none; }
 
 .menu { border-radius: 6px; }
+
+.app-notification { border-radius: 6px; padding: 5px; margin-top: 10px; }
