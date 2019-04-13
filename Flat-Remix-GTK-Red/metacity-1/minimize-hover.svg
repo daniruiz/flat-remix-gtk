@@ -332,7 +332,7 @@
              transform="translate(-81,-967)">
             <path
                id="path696"
-               style="color:#000000;text-indent:0;text-decoration:none;text-decoration-line:none;text-transform:none;fill:#000000"
+               style="color:#000000;text-indent:0;text-decoration:none;text-decoration-line:none;text-transform:none;opacity:0.5;fill:#000000"
                d="m 86,974 v 2 h 6 v -2 z" />
           </g>
         </g>
