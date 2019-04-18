@@ -2355,14 +2355,13 @@ row.activatable:selected.has-open-popup, row.activatable:selected:hover {
   background-color: #15836e; }
 
 .app-notification {
-  padding: 10px;
+  padding: 5px;
+  margin-top: 10px;
   color: #FFF;
   background-color: #1a1a1a;
   background-clip: border-box;
-  border-radius: 0 0 6px 6px;
-  border-width: 0 1px 1px 1px;
-  border-style: solid;
-  border-color: black; }
+  border-radius: 6px;
+  border: 1px solid #cfd6e6; }
   .app-notification border {
     border: none; }
   .app-notification button {
