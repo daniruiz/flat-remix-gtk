@@ -2361,7 +2361,7 @@ row.activatable:selected.has-open-popup, row.activatable:selected:hover {
   background-color: #1a1a1a;
   background-clip: border-box;
   border-radius: 6px;
-  border: 1px solid #cfd6e6; }
+  border: 1px solid black; }
   .app-notification border {
     border: none; }
   .app-notification button {

@@ -3067,7 +3067,7 @@ row {
   background-color: $dark_sidebar_bg;
   background-clip: border-box;
   border-radius: 6px;
-  border: 1px solid $button_border;
+  border: 1px solid darken($dark_sidebar_bg, 10%);
 
   border {
     border: none;

@@ -2357,7 +2357,7 @@ row.activatable:selected.has-open-popup, row.activatable:selected:hover {
   background-color: rgba(26, 26, 26, 0.93);
   background-clip: border-box;
   border-radius: 6px;
-  border: 1px solid #cfd6e6; }
+  border: 1px solid rgba(0, 0, 0, 0.93); }
   .app-notification border {
     border: none; }
   .app-notification button {
