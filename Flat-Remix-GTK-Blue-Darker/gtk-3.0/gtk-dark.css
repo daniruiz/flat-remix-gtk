@@ -898,17 +898,17 @@ headerbar, .titlebar:not(headerbar) {
     border-bottom-width: 0; }
 
 .titlebar {
-  border-radius: 3px 3px 0 0; }
+  border-radius: 6px 6px 0 0; }
 
 headerbar entry, headerbar button, headerbar separator {
   margin-top: 6px;
   margin-bottom: 6px; }
 separator:first-child + headerbar, separator:first-child + headerbar:backdrop, headerbar:first-child, headerbar:first-child:backdrop {
-  border-top-left-radius: 3px; }
+  border-top-left-radius: 6px; }
   .maximized separator:first-child + headerbar, .tiled separator:first-child + headerbar, .maximized separator:first-child + headerbar:backdrop, .tiled separator:first-child + headerbar:backdrop, .maximized headerbar:first-child, .tiled headerbar:first-child, .maximized headerbar:first-child:backdrop, .tiled headerbar:first-child:backdrop {
     border-radius: 0; }
 headerbar:last-child, headerbar:last-child:backdrop {
-  border-top-right-radius: 3px; }
+  border-top-right-radius: 6px; }
   .maximized headerbar:last-child, .tiled headerbar:last-child, .maximized headerbar:last-child:backdrop, .tiled headerbar:last-child:backdrop {
     border-radius: 0; }
 
@@ -2734,7 +2734,7 @@ stackswitcher button.circular, stackswitcher button.nautilus-circular-button.ima
   box-shadow: inset 0 0 0 1px #ff6600; }
 
 decoration {
-  border-radius: 3px 3px 0 0;
+  border-radius: 6px 6px 0 0;
   border-width: 0px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.05);
   margin: 10px; }
@@ -2747,7 +2747,7 @@ decoration {
     box-shadow: none;
     border-radius: 0; }
   .ssd decoration {
-    border-radius: 3px 3px 0 0;
+    border-radius: 6px 6px 0 0;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05); }
     .ssd decoration.maximized {
       border-radius: 0; }
@@ -3168,7 +3168,7 @@ workbench.csd > stack.titlebar:not(headerbar) {
   border: none;
   box-shadow: none; }
   workbench.csd > stack.titlebar:not(headerbar) headerbar, workbench.csd > stack.titlebar:not(headerbar) headerbar:first-child, workbench.csd > stack.titlebar:not(headerbar) headerbar:last-child {
-    border-radius: 3px 3px 0 0; }
+    border-radius: 6px 6px 0 0; }
 
 editortweak .linked > entry.search:focus + .gb-linked-scroller {
   border-top-color: #367bf0; }
