@@ -1668,7 +1668,6 @@ notebook {
         color: #FFF;
         background-color: #2f343f;
         border-color: #242730;
-        font-weight: bold;
         box-shadow: none; }
       notebook > header > tabs > tab button.flat, notebook > header > tabs > tab button.sidebar-button {
         min-height: 22px;
