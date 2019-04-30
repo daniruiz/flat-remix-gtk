@@ -47,7 +47,7 @@ $header_bg: transparentize(if($darker=='false', $base_color, #000), if($transpar
 
 $header_border: darken($bg_color, 9%);
 @if $variant == 'dark' { $header_border: darken($bg_color, 9%); }
-@if $darkest == 'true' or $darker == 'true' { $header_border: lighten($darkest_bg_color, 5%); }
+@if $darkest == 'true' or $darker == 'true' { $header_border: lighten($darkest_bg_color, 3%); }
 
 $header_fg: if($variant == 'light', #000, #FFF);
 $header_fg: if($darker == 'true', #FFF, $header_fg);
