@@ -862,7 +862,7 @@ headerbar, .titlebar:not(headerbar) {
   .csd headerbar,
   .csd .titlebar:not(headerbar) {
     background-color: rgba(0, 0, 0, 0.8);
-    border-color: #262626; }
+    border-color: #1a1a1a; }
   headerbar:backdrop, .titlebar:backdrop:not(headerbar) {
     color: rgba(255, 255, 255, 0.45); }
   headerbar .title, .titlebar:not(headerbar) .title {
@@ -917,7 +917,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   border: none;
   box-shadow: none; }
 .titlebar:not(headerbar) > separator {
-  background-image: linear-gradient(to bottom, #262626, #262626); }
+  background-image: linear-gradient(to bottom, #1a1a1a, #1a1a1a); }
 
 .primary-toolbar:not(.libreoffice-toolbar) separator, headerbar separator.titlebutton, .titlebar:not(headerbar) separator.titlebutton {
   background: none; }
@@ -1580,8 +1580,9 @@ notebook {
           outline-offset: -4px;
           border: 1px solid transparent;
           border-bottom: none;
-          border-radius: 6px 6px 0 0;
-          box-shadow: 4px 3px 0 -3px rgba(92, 97, 108, 0.1); }
+          border-radius: 6px 6px 0 0; }
+          notebook > header.top > tabs > tab:not(:checked) {
+            box-shadow: 4px 3px 0 -3px #e3e3e3; }
     notebook > header.bottom {
       padding-top: 0; }
       notebook > header.bottom > tabs {
@@ -1594,8 +1595,9 @@ notebook {
           outline-offset: -4px;
           border: 1px solid transparent;
           border-top: none;
-          border-radius: 0 0 6px 6px;
-          box-shadow: 4px -3px 0 -3px rgba(92, 97, 108, 0.1); }
+          border-radius: 0 0 6px 6px; }
+          notebook > header.bottom > tabs > tab:not(:checked) {
+            box-shadow: 4px -3px 0 -3px #e3e3e3; }
     notebook > header.right {
       padding-left: 0; }
       notebook > header.right > tabs {
@@ -1608,8 +1610,9 @@ notebook {
           outline-offset: -4px;
           border: 1px solid transparent;
           border-left: none;
-          border-radius: 0 6px 6px 0;
-          box-shadow: 3px -4px 0 -3px rgba(92, 97, 108, 0.1); }
+          border-radius: 0 6px 6px 0; }
+          notebook > header.right > tabs > tab:not(:checked) {
+            box-shadow: 3px -4px 0 -3px #e3e3e3; }
     notebook > header.left {
       padding-right: 0; }
       notebook > header.left > tabs {
@@ -1622,8 +1625,9 @@ notebook {
           outline-offset: -4px;
           border: 1px solid transparent;
           border-right: none;
-          border-radius: 6px 0 0 6px;
-          box-shadow: -3px -4px 0 -3px rgba(92, 97, 108, 0.1); }
+          border-radius: 6px 0 0 6px; }
+          notebook > header.left > tabs > tab:not(:checked) {
+            box-shadow: -3px -4px 0 -3px #e3e3e3; }
     notebook > header.top > tabs > arrow.up, notebook > header.bottom > tabs > arrow.up {
       -gtk-icon-source: -gtk-icontheme("pan-end-symbolic"); }
       notebook > header.top > tabs > arrow.up:last-child, notebook > header.bottom > tabs > arrow.up:last-child {
@@ -1658,16 +1662,17 @@ notebook {
       box-shadow: inset 1px 0 #e3e3e3; }
     notebook > header > tabs > tab {
       color: rgba(92, 97, 108, 0.55);
-      background-color: rgba(255, 255, 255, 0); }
+      background-color: transparent;
+      transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
       notebook > header > tabs > tab:hover:not(:checked) {
         color: rgba(92, 97, 108, 0.775);
-        background-color: rgba(255, 255, 255, 0.5);
-        border-color: #e3e3e3; }
+        background-color: #FFF;
+        border-color: #e3e3e3;
+        transition: none; }
       notebook > header > tabs > tab:checked {
         color: #5c616c;
         background-color: #FFF;
-        border-color: #e3e3e3;
-        box-shadow: none; }
+        border-color: #e3e3e3; }
       notebook > header > tabs > tab button.flat, notebook > header > tabs > tab button.sidebar-button {
         min-height: 22px;
         min-width: 16px;
@@ -2920,7 +2925,7 @@ terminal-window notebook > header.top > tabs > tab:checked {
 terminal-window notebook > header.top,
 .mate-terminal notebook > header.top {
   padding-top: 3px;
-  box-shadow: inset 0 1px #262626, inset 0 -1px #e3e3e3; }
+  box-shadow: inset 0 1px #1a1a1a, inset 0 -1px #e3e3e3; }
   terminal-window notebook > header.top button,
   .mate-terminal notebook > header.top button {
     padding: 0;
@@ -2974,19 +2979,26 @@ terminal-window notebook > header.top,
       border-color: transparent;
       background-color: rgba(56, 56, 56, 0.8); }
   .nautilus-window .path-bar-box widget > .text-button:not(:nth-last-child(2)):not(:last-child):not(:hover) {
-    box-shadow: 5px 0 0 -3px #262626; }
+    box-shadow: 5px 0 0 -3px #1a1a1a; }
   .nautilus-window .path-bar-box.width-maximized {
     background: rgba(8, 12, 18, 0.81);
     border-radius: 100px;
-    box-shadow: inset 0 0 0 1px #262626; }
+    box-shadow: inset 0 0 0 1px #1a1a1a; }
 .nautilus-window notebook {
   background: rgba(0, 0, 0, 0.8); }
-  .nautilus-window notebook > header {
-    background: transparent; }
+  .nautilus-window notebook > header.top {
+    background: transparent;
+    box-shadow: inset 0 -1px #1a1a1a; }
+    .nautilus-window notebook > header.top > tabs > tab:not(:checked):not(:hover) {
+      color: #FFF;
+      box-shadow: 4px 3px 0 -3px #1a1a1a; }
+      .nautilus-window notebook > header.top > tabs > tab:not(:checked):not(:hover):backdrop {
+        color: rgba(255, 255, 255, 0.45);
+        transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+    .nautilus-window notebook > header.top > tabs > tab:not(:checked):hover {
+      border-color: #1a1a1a; }
   .nautilus-window notebook > stack {
     background: #FFF; }
-  .nautilus-window notebook tab {
-    color: #FFF; }
 
 .nautilus-window notebook > stack:not(:only-child) searchbar {
   background-color: #FFF; }

@@ -86,9 +86,22 @@ terminal-window,
   notebook {
     background: $header_bg;
 
-    > header { background: transparent; }
+    > header.top {
+      background: transparent;
+      box-shadow: inset 0  -1px $header_border;
+      > tabs > tab:not(:checked) {
+        &:not(:hover) {
+          color: $header_fg;
+          box-shadow: 4px 3px 0 -3px $header_border;
+          &:backdrop {
+            color: rgba($header_fg, $backdrop_opacity);
+            transition: all $transition;
+          }
+        }
+        &:hover { border-color: $header_border; }
+      }
+    }
     > stack { background: $base_color; }
-    tab { color: $header_fg; }
   }
 }
 

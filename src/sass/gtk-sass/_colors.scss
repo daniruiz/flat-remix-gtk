@@ -18,7 +18,9 @@ $fg_color: if($variant =='light', #5c616c, #FFF);
 $selected_fg_color: #ffffff !default;
 $selected_bg_color: #367bf0 !default;
 $selected_borders_color: darken($selected_bg_color, 20%);
-$borders_color: if($variant == 'light', darken($bg_color, 9%), if($darkest == 'true', lighten($bg_color, 5%), darken($bg_color,9%)));
+
+$borders_color: darken($bg_color, 9%);
+@if $darkest == 'true' { $borders_color: lighten($bg_color, 5%); }
 
 $link_color: if($variant == 'light', darken($selected_bg_color,10%),
                                      lighten($selected_bg_color,20%));
@@ -45,9 +47,8 @@ $insensitive_bg_color: if($variant == 'light', mix($bg_color, $base_color, 40%),
 
 $header_bg: transparentize(if($darker=='false', $base_color, #000), if($transparency=='false', 0, .2));
 
-$header_border: darken($bg_color, 9%);
-@if $variant == 'dark' { $header_border: darken($bg_color, 9%); }
-@if $darkest == 'true' or $darker == 'true' { $header_border: lighten($darkest_bg_color, 3%); }
+$header_border: $borders_color;
+@if $darker == 'true' { $header_border: $darkest_bg_color; }
 
 $header_fg: if($variant == 'light', #000, #FFF);
 $header_fg: if($darker == 'true', #FFF, $header_fg);

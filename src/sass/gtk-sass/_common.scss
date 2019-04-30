@@ -2210,19 +2210,19 @@ notebook {
             border: 1px solid transparent;
             border-#{$_bpos}: none;
 
-            // tab border radius
+            // tab border radius and separator
             @if $_pos==top {
               border-radius: 6px 6px 0 0;
-              box-shadow: 4px 3px 0 -3px rgba($fg_color, .1);
+              &:not(:checked) { box-shadow: 4px 3px 0 -3px $borders_color; }
             } @else if $_pos==bottom {
               border-radius: 0 0 6px 6px;
-              box-shadow: 4px -3px 0 -3px rgba($fg_color, .1);
+              &:not(:checked) { box-shadow: 4px -3px 0 -3px $borders_color; }
             } @else if $_pos==left {
               border-radius: 6px 0 0 6px;
-              box-shadow: -3px -4px 0 -3px rgba($fg_color, .1);
+              &:not(:checked) { box-shadow: -3px -4px 0 -3px $borders_color; }
             } @else if $_pos==right {
               border-radius: 0 6px 6px 0;
-              box-shadow: 3px -4px 0 -3px rgba($fg_color, .1);
+              &:not(:checked) { box-shadow: 3px -4px 0 -3px $borders_color; }
             }
           }
         }
@@ -2288,18 +2288,19 @@ notebook {
 
     > tabs > tab {
       color: $insensitive_fg_color;
-      background-color: transparentize($base_color, 1);
+      background-color: transparent;
+      transition: all $transition;
 
       &:hover:not(:checked) {
         color: mix($fg_color, $insensitive_fg_color, 50%);
-        background-color: transparentize($base_color, 0.5);
+        background-color: $base_color;
         border-color: $borders_color;
+        transition: none;
       }
       &:checked {
         color: $fg_color;
         background-color: $base_color;
         border-color: $borders_color;
-        box-shadow: none;
       }
       // close button
       button.flat {
