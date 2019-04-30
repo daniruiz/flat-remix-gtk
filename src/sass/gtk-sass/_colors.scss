@@ -9,7 +9,7 @@ $darkest_base_color: #000;
 @if $variant=='dark' and $darkest=='true' { $base_color: $darkest_base_color; }
 $text_color: if($variant == 'light', #5c616c, #FFF);
 $bg_color: #fafafa;
-$darkest_bg_color: lighten($darkest_base_color, 10%);
+$darkest_bg_color: lighten($darkest_base_color, 5%);
 @if $variant=='light' { $bg_color: #fafafa; }
 @if $variant=='dark' and $darkest=='false' { $bg_color: #383C4A; }
 @if $variant=='dark' and $darkest=='true' { $bg_color: $darkest_bg_color; }

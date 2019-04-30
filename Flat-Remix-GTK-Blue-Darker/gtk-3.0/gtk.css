@@ -862,7 +862,7 @@ headerbar, .titlebar:not(headerbar) {
   .csd headerbar,
   .csd .titlebar:not(headerbar) {
     background-color: rgba(0, 0, 0, 0.8);
-    border-color: #1a1a1a; }
+    border-color: #0d0d0d; }
   headerbar:backdrop, .titlebar:backdrop:not(headerbar) {
     color: rgba(255, 255, 255, 0.45); }
   headerbar .title, .titlebar:not(headerbar) .title {
@@ -917,7 +917,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   border: none;
   box-shadow: none; }
 .titlebar:not(headerbar) > separator {
-  background-image: linear-gradient(to bottom, #1a1a1a, #1a1a1a); }
+  background-image: linear-gradient(to bottom, #0d0d0d, #0d0d0d); }
 
 .primary-toolbar:not(.libreoffice-toolbar) separator, headerbar separator.titlebutton, .titlebar:not(headerbar) separator.titlebutton {
   background: none; }
@@ -2925,7 +2925,7 @@ terminal-window notebook > header.top > tabs > tab:checked {
 terminal-window notebook > header.top,
 .mate-terminal notebook > header.top {
   padding-top: 3px;
-  box-shadow: inset 0 1px #1a1a1a, inset 0 -1px #e3e3e3; }
+  box-shadow: inset 0 1px #0d0d0d, inset 0 -1px #e3e3e3; }
   terminal-window notebook > header.top button,
   .mate-terminal notebook > header.top button {
     padding: 0;
@@ -2979,24 +2979,24 @@ terminal-window notebook > header.top,
       border-color: transparent;
       background-color: rgba(56, 56, 56, 0.8); }
   .nautilus-window .path-bar-box widget > .text-button:not(:nth-last-child(2)):not(:last-child):not(:hover) {
-    box-shadow: 5px 0 0 -3px #1a1a1a; }
+    box-shadow: 5px 0 0 -3px #0d0d0d; }
   .nautilus-window .path-bar-box.width-maximized {
     background: rgba(8, 12, 18, 0.81);
     border-radius: 100px;
-    box-shadow: inset 0 0 0 1px #1a1a1a; }
+    box-shadow: inset 0 0 0 1px #0d0d0d; }
 .nautilus-window notebook {
   background: rgba(0, 0, 0, 0.8); }
   .nautilus-window notebook > header.top {
     background: transparent;
-    box-shadow: inset 0 -1px #1a1a1a; }
+    box-shadow: inset 0 -1px #0d0d0d; }
     .nautilus-window notebook > header.top > tabs > tab:not(:checked):not(:hover) {
       color: #FFF;
-      box-shadow: 4px 3px 0 -3px #1a1a1a; }
+      box-shadow: 4px 3px 0 -3px #0d0d0d; }
       .nautilus-window notebook > header.top > tabs > tab:not(:checked):not(:hover):backdrop {
         color: rgba(255, 255, 255, 0.45);
         transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
     .nautilus-window notebook > header.top > tabs > tab:not(:checked):hover {
-      border-color: #1a1a1a; }
+      border-color: #0d0d0d; }
   .nautilus-window notebook > stack {
     background: #FFF; }
 
