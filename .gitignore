@@ -1,2 +1,4 @@
-.idea
-.sass-cache
+\.idea
+\.sass-cache
+Flat-Remix-GTK*/gtk-2\.0/assets/\.gitkeep
+Flat-Remix-GTK*/gtk-3\.0/assets/\.gitkeep
