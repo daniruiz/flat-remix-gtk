@@ -69,8 +69,6 @@ function generate_assets {
 
 	for theme in "$TMP/$variant"*
 	do
-		mkdir -p "$theme"/gtk-2.0/assets/
-		mkdir -p "$theme"/gtk-3.0/assets/
 		case "$theme" in
 			*Darkest*)
 				cp "$TMP"/assets-renderer/"$variant"/gtk2/assets-darkest/* "$theme"/gtk-2.0/assets/
