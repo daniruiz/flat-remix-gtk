@@ -6,12 +6,12 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   id="svg1822"
+   id="svg1824"
    version="1.1"
    height="16"
    width="16">
   <metadata
-     id="metadata1826">
+     id="metadata1828">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -296,7 +296,7 @@
        x1="165"
        gradientTransform="translate(20)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1828"
+       id="linearGradient1830"
        xlink:href="#app-menu" />
     <linearGradient
        y2="99"
@@ -305,35 +305,31 @@
        x1="165"
        gradientTransform="translate(20)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1830"
+       id="linearGradient1832"
        xlink:href="#app-menu-dark" />
   </defs>
   <g
-     id="g1820"
-     transform="translate(-378,56.639999)">
+     transform="translate(-513,185.64)"
+     id="titlebutton-maximize-hover-darkest">
     <g
-       transform="translate(-135,129)"
-       id="titlebutton-maximize-hover-darkest">
-      <g
-         id="g1696"
-         transform="translate(-781,-432.64)">
-        <path
-           id="path1694"
-           style="fill:#367bf1;stroke:#2656a8;stroke-width:0.5"
-           d="m 394,92 c -3.866,0 -7,3.134 -7,7 0,3.866 3.134,7 7,7 3.866,0 7,-3.134 7,-7 0,-3.866 -3.134,-7 -7,-7 z"
-           transform="translate(908,156)" />
-      </g>
-      <rect
-         id="rect1698"
-         style="fill:none"
-         height="16"
-         width="16"
-         y="-185.64"
-         x="513" />
+       id="g1700"
+       transform="translate(-781,-432.64)">
       <path
-         id="path1700"
-         style="opacity:0.5;fill-rule:evenodd"
-         d="m 519.8,-180.64 h 3.3817 c 0.4503,0 0.81623,0.36847 0.81876,0.8188 v 3.3817 z m 2.4074,6.0069 h -3.3951 c -0.45035,0 -0.81876,-0.36842 -0.81876,-0.81875 v -3.3951 l 4.2138,4.2138" />
+         id="path1698"
+         style="fill:#367bf1;stroke:#2656a8;stroke-width:0.5"
+         d="m 394,92 c -3.866,0 -7,3.134 -7,7 0,3.866 3.134,7 7,7 3.866,0 7,-3.134 7,-7 0,-3.866 -3.134,-7 -7,-7 z"
+         transform="translate(908,156)" />
     </g>
+    <rect
+       id="rect1702"
+       style="fill:none"
+       height="16"
+       width="16"
+       y="-185.64"
+       x="513" />
+    <path
+       id="path1704"
+       style="opacity:0.5;fill-rule:evenodd"
+       d="m 519.8,-180.64 h 3.3817 c 0.4503,0 0.81623,0.36847 0.81876,0.8188 v 3.3817 z m 2.4074,6.0069 h -3.3951 c -0.45035,0 -0.81876,-0.36842 -0.81876,-0.81875 v -3.3951 l 4.2138,4.2138" />
   </g>
 </svg>

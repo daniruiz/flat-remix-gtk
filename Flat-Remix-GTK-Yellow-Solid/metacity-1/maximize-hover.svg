@@ -6,12 +6,12 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   id="svg1822"
+   id="svg1824"
    version="1.1"
    height="16"
    width="16">
   <metadata
-     id="metadata1826">
+     id="metadata1828">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -296,7 +296,7 @@
        x1="165"
        gradientTransform="translate(20)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1828"
+       id="linearGradient1830"
        xlink:href="#app-menu" />
     <linearGradient
        y2="99"
@@ -305,45 +305,41 @@
        x1="165"
        gradientTransform="translate(20)"
        gradientUnits="userSpaceOnUse"
-       id="linearGradient1830"
+       id="linearGradient1832"
        xlink:href="#app-menu-dark" />
   </defs>
   <g
-     id="g1820"
-     transform="translate(-136,194.64)">
+     transform="translate(-513,185.64)"
+     id="titlebutton-maximize-hover">
     <g
-       transform="translate(-377,-9)"
-       id="titlebutton-maximize-hover">
+       id="g702"
+       transform="translate(-781,-432.64)">
+      <path
+         id="path694"
+         style="fill:url(#linearGradient1883);stroke:#367bf1;stroke-width:0.5"
+         d="m 152,92 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z"
+         transform="translate(1150,156)" />
       <g
-         id="g689"
-         transform="translate(-781,-432.64)">
-        <path
-           id="path681"
-           style="fill:url(#linearGradient1883);stroke:#367bf1;stroke-width:0.5"
-           d="m 152,92 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 7,7 0 0 0 -7,-7 z"
-           transform="translate(1150,156)" />
+         id="g700"
+         style="fill:#c0e3ff"
+         transform="translate(1294,247)">
         <g
-           id="g687"
+           id="g698"
            style="fill:#c0e3ff"
-           transform="translate(1294,247)">
-          <g
-             id="g685"
-             style="fill:#c0e3ff"
-             transform="translate(-81,-967)">
-            <path
-               id="path683"
-               style="opacity:0.5;fill:#000000;fill-rule:evenodd"
-               d="m 87.8,972 h 3.3817 c 0.4503,0 0.81623,0.36847 0.81876,0.8188 v 3.3817 z m 2.4074,6.0069 h -3.3951 c -0.45035,0 -0.81876,-0.36842 -0.81876,-0.81875 v -3.3951 l 4.2138,4.2138" />
-          </g>
+           transform="translate(-81,-967)">
+          <path
+             id="path696"
+             style="opacity:0.5;fill:#000000;fill-rule:evenodd"
+             d="m 87.8,972 h 3.3817 c 0.4503,0 0.81623,0.36847 0.81876,0.8188 v 3.3817 z m 2.4074,6.0069 h -3.3951 c -0.45035,0 -0.81876,-0.36842 -0.81876,-0.81875 v -3.3951 l 4.2138,4.2138" />
         </g>
       </g>
-      <rect
-         id="rect691"
-         style="fill:none"
-         height="16"
-         width="16"
-         y="-185.64"
-         x="513" />
     </g>
+    <rect
+       id="rect704"
+       style="fill:none"
+       height="16"
+       width="16"
+       y="-185.64"
+       x="513" />
   </g>
 </svg>
