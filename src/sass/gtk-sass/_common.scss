@@ -2219,10 +2219,10 @@ notebook {
               &:not(:checked) { box-shadow: 4px -3px 0 -3px $borders_color; }
             } @else if $_pos==left {
               border-radius: 6px 0 0 6px;
-              &:not(:checked) { box-shadow: -3px -4px 0 -3px $borders_color; }
+              &:not(:checked) { box-shadow: 3px -4px 0 -3px $borders_color; }
             } @else if $_pos==right {
               border-radius: 0 6px 6px 0;
-              &:not(:checked) { box-shadow: 3px -4px 0 -3px $borders_color; }
+              &:not(:checked) { box-shadow: -3px -4px 0 -3px $borders_color; }
             }
           }
         }

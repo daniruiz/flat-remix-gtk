@@ -1616,7 +1616,7 @@ notebook {
           border-left: none;
           border-radius: 0 6px 6px 0; }
           notebook > header.right > tabs > tab:not(:checked) {
-            box-shadow: 3px -4px 0 -3px #e3e3e3; }
+            box-shadow: -3px -4px 0 -3px #e3e3e3; }
     notebook > header.left {
       padding-right: 0; }
       notebook > header.left > tabs {
@@ -1631,7 +1631,7 @@ notebook {
           border-right: none;
           border-radius: 6px 0 0 6px; }
           notebook > header.left > tabs > tab:not(:checked) {
-            box-shadow: -3px -4px 0 -3px #e3e3e3; }
+            box-shadow: 3px -4px 0 -3px #e3e3e3; }
     notebook > header.top > tabs > arrow.up, notebook > header.bottom > tabs > arrow.up {
       -gtk-icon-source: -gtk-icontheme("pan-end-symbolic"); }
       notebook > header.top > tabs > arrow.up:last-child, notebook > header.bottom > tabs > arrow.up:last-child {
