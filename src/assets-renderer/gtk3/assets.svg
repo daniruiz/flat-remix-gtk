@@ -1,60 +1,4 @@
-<svg width="484" height="276" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<defs>
-		<linearGradient id="app-menu">
-			<stop style="stop-color:#5ebdab" offset="0"/>
-			<stop style="stop-color:#19a187" offset="1"/>
-		</linearGradient>
-		<linearGradient id="close-button">
-			<stop style="stop-color:#e15e5e" offset="0"/>
-			<stop style="stop-color:#d41919" offset="1"/>
-		</linearGradient>
-		<linearGradient id="maximize-button">
-			<stop style="stop-color:#72a2f4" offset="0"/>
-			<stop style="stop-color:#367bf1" offset="1"/>
-		</linearGradient>
-		<linearGradient id="minimize-button">
-			<stop style="stop-color:#fea44c" offset="0"/>
-			<stop style="stop-color:#fd7d00" offset="1"/>
-		</linearGradient>
-		<linearGradient id="app-menu-dark">
-			<stop style="stop-color:#47b49f" offset="0"/>
-			<stop style="stop-color:#19a187" offset="1"/>
-		</linearGradient>
-		<linearGradient id="close-button-dark">
-			<stop style="stop-color:#dd4747" offset="0"/>
-			<stop style="stop-color:#d41919" offset="1"/>
-		</linearGradient>
-		<linearGradient id="maximize-button-dark">
-			<stop style="stop-color:#4a88f1" offset="0"/>
-			<stop style="stop-color:#367bf1" offset="1"/>
-		</linearGradient>
-		<linearGradient id="minimize-button-dark">
-			<stop style="stop-color:#fd9733" offset="0"/>
-			<stop style="stop-color:#fd7d00" offset="1"/>
-		</linearGradient>
-		<linearGradient id="linearGradient1827" x1="588" x2="602" y1="-177.63" y2="-177.63" gradientUnits="userSpaceOnUse" xlink:href="#minimize-button"/>
-		<linearGradient id="linearGradient1845" x1="617" x2="631" y1="-177.63" y2="-177.63" gradientUnits="userSpaceOnUse" xlink:href="#maximize-button"/>
-		<linearGradient id="linearGradient1859" x1="588" x2="602" y1="-177.64" y2="-177.64" gradientUnits="userSpaceOnUse" xlink:href="#minimize-button-dark"/>
-		<linearGradient id="linearGradient1861" x1="367" x2="381" y1="99" y2="99" gradientUnits="userSpaceOnUse" xlink:href="#minimize-button-dark"/>
-		<linearGradient id="linearGradient1863" x1="367" x2="381" y1="116" y2="116" gradientUnits="userSpaceOnUse" xlink:href="#minimize-button-dark"/>
-		<linearGradient id="linearGradient1865" x1="1369" x2="1383" y1="255" y2="255" gradientUnits="userSpaceOnUse" xlink:href="#minimize-button"/>
-		<linearGradient id="linearGradient1867" x1="125" x2="139" y1="99" y2="99" gradientUnits="userSpaceOnUse" xlink:href="#minimize-button"/>
-		<linearGradient id="linearGradient1877" x1="387" x2="401" y1="116" y2="116" gradientUnits="userSpaceOnUse" xlink:href="#maximize-button-dark"/>
-		<linearGradient id="linearGradient1879" x1="387" x2="401" y1="99" y2="99" gradientUnits="userSpaceOnUse" xlink:href="#maximize-button-dark"/>
-		<linearGradient id="linearGradient1881" x1="1369" x2="1383" y1="255" y2="255" gradientUnits="userSpaceOnUse" xlink:href="#maximize-button"/>
-		<linearGradient id="linearGradient1883" x1="145" x2="159" y1="99" y2="99" gradientUnits="userSpaceOnUse" xlink:href="#maximize-button"/>
-		<linearGradient id="linearGradient1891" x1="165" x2="179" y1="65" y2="65" gradientUnits="userSpaceOnUse" xlink:href="#close-button"/>
-		<linearGradient id="linearGradient1901" x1="407" x2="421" y1="65" y2="65" gradientUnits="userSpaceOnUse" xlink:href="#close-button-dark"/>
-		<linearGradient id="linearGradient1903" x1="407" x2="421" y1="99" y2="99" gradientUnits="userSpaceOnUse" xlink:href="#close-button-dark"/>
-		<linearGradient id="linearGradient1905" x1="407" x2="421" y1="116" y2="116" gradientUnits="userSpaceOnUse" xlink:href="#close-button-dark"/>
-		<linearGradient id="linearGradient1907" x1="1369" x2="1383" y1="255" y2="255" gradientUnits="userSpaceOnUse" xlink:href="#close-button"/>
-		<linearGradient id="linearGradient1909" x1="165" x2="179" y1="99" y2="99" gradientUnits="userSpaceOnUse" xlink:href="#close-button"/>
-		<linearGradient id="linearGradient1916" x1="165" x2="179" y1="65" y2="65" gradientUnits="userSpaceOnUse" xlink:href="#app-menu"/>
-		<linearGradient id="linearGradient2049" x1="165" x2="179" y1="99" y2="99" gradientTransform="translate(20)" gradientUnits="userSpaceOnUse" xlink:href="#app-menu"/>
-		<linearGradient id="linearGradient1953" x1="617" x2="631" y1="-177.63" y2="-177.63" gradientUnits="userSpaceOnUse" xlink:href="#maximize-button-dark"/>
-		<linearGradient id="linearGradient1963" x1="165" x2="179" y1="99" y2="99" gradientTransform="translate(20)" gradientUnits="userSpaceOnUse" xlink:href="#app-menu-dark"/>
-		<linearGradient id="linearGradient1967" x1="165" x2="179" y1="65" y2="65" gradientUnits="userSpaceOnUse" xlink:href="#app-menu-dark"/>
-	</defs>
+<svg width="484" height="276" version="1.1" xmlns="http://www.w3.org/2000/svg">
 	<rect transform="scale(1,-1)" y="-138" width="121" height="138" rx="0" ry="0" style="color:#000000;fill:#f9fafb"/>
 	<rect x="121" y="-1.4648e-5" width="121" height="138" style="fill:#e7e8eb;stroke-width:0"/>
 	<rect y="138" width="121" height="138" rx="0" ry="0" style="color:#000000;fill:#367bf0"/>
@@ -471,7 +415,7 @@
 		</g>
 	</g>
 	<g id="titlebutton-minimize" transform="translate(-463,242.64)">
-		<path d="m595-184.64a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:url(#linearGradient1827);stroke-width:.5;stroke:#fd7d00"/>
+		<path d="m595-184.64a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:#fd7d00;stroke-width:.5;stroke:#e47100"/>
 		<rect x="587" y="-185.64" width="16" height="16" style="fill:none"/>
 	</g>
 	<g id="checkbox-checked-selectionmode" transform="translate(-462,-83.36)">
@@ -550,21 +494,21 @@
 		<g transform="translate(-678,-432.64)">
 			<g transform="translate(-103)">
 				<g transform="translate(58)">
-					<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1891);stroke-width:.5;stroke:#d41919"/>
+					<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#d41919;stroke-width:.5;stroke:#bf1717"/>
 				</g>
 			</g>
 		</g>
 		<rect x="645" y="-185.64" width="16" height="16" style="fill:none"/>
 	</g>
 	<g id="titlebutton-maximize" transform="translate(-472,242.64)">
-		<path d="m624-184.63a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:url(#linearGradient1845);stroke-width:.5;stroke:#367bf1"/>
+		<path d="m624-184.63a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:#367bf1;stroke-width:.5;stroke:#316fd8"/>
 		<rect x="616" y="-185.64" width="16" height="16" style="fill:none"/>
 	</g>
 	<g id="titlebutton-close-hover" transform="translate(-378,276.64)">
 		<g transform="translate(-781,-432.64)">
 			<g transform="translate(-103)">
 				<g transform="translate(58)">
-					<path transform="translate(1204,156)" d="m172 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1909);stroke-width:.5;stroke:#d41919"/>
+					<path transform="translate(1204,156)" d="m172 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#d41919;stroke-width:.5;stroke:#bf1717"/>
 				</g>
 			</g>
 		</g>
@@ -573,7 +517,7 @@
 	</g>
 	<g id="titlebutton-maximize-hover" transform="translate(-369,276.64)">
 		<g transform="translate(-781,-432.64)">
-			<path transform="translate(1150,156)" d="m152 92a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:url(#linearGradient1883);stroke-width:.5;stroke:#367bf1"/>
+			<path transform="translate(1150,156)" d="m152 92a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:#367bf1;stroke-width:.5;stroke:#316fd8"/>
 			<g transform="translate(1294,247)" style="fill:#c0e3ff">
 				<g transform="translate(-81,-967)" style="fill:#c0e3ff">
 					<path d="m87.8 972h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;fill:#000;opacity:.5"/>
@@ -584,7 +528,7 @@
 	</g>
 	<g id="titlebutton-minimize-hover" transform="translate(-360,276.64)">
 		<g transform="translate(-781,-432.64)">
-			<path transform="translate(1141,156)" d="m132 92a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:url(#linearGradient1867);opacity:.95;stroke-width:.5;stroke:#fd7d00"/>
+			<path transform="translate(1141,156)" d="m132 92a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" style="fill:#fd7d00;opacity:.95;stroke-width:.5;stroke:#e47100"/>
 			<g transform="translate(1265,247)" style="fill:#c0e3ff">
 				<g transform="translate(-81,-967)" style="fill:#c0e3ff">
 					<path d="m86 974.25v1.5h6v-1.5z" style="color:#000000;fill:#000;opacity:.5;stroke-width:.86603;text-decoration-line:none;text-indent:0;text-transform:none"/>
@@ -597,7 +541,7 @@
 		<g transform="translate(-882,-432.64)">
 			<g transform="translate(-103)">
 				<g transform="translate(58)">
-					<circle cx="1376" cy="255" r="7" style="fill:url(#linearGradient1907);stroke-width:.5;stroke:#d41919"/>
+					<circle cx="1376" cy="255" r="7" style="fill:#d41919;stroke-width:.5;stroke:#bf1717"/>
 				</g>
 			</g>
 			<g transform="translate(1323,246.87)" style="fill:#fff">
@@ -616,7 +560,7 @@
 		<g transform="translate(-882,-432.64)">
 			<g transform="translate(-132)">
 				<g transform="translate(58)">
-					<circle cx="1376" cy="255" r="7" style="fill:url(#linearGradient1881);stroke-width:.5;stroke:#367bf1"/>
+					<circle cx="1376" cy="255" r="7" style="fill:#367bf1;stroke-width:.5;stroke:#316fd8"/>
 				</g>
 			</g>
 			<g transform="translate(1294,247)" style="fill:#c0e3ff">
@@ -631,7 +575,7 @@
 		<g transform="translate(-882,-432.64)">
 			<g transform="translate(-161)">
 				<g transform="translate(58)">
-					<circle cx="1376" cy="255" r="7" style="fill:url(#linearGradient1865);stroke-width:.5;stroke:#fd7d00"/>
+					<circle cx="1376" cy="255" r="7" style="fill:#fd7d00;stroke-width:.5;stroke:#e47100"/>
 				</g>
 			</g>
 			<g transform="translate(1265,247)" style="fill:#c0e3ff">
@@ -644,17 +588,17 @@
 	</g>
 	<g id="titlebutton-maximize-backdrop" transform="translate(-472,242.64)" style="opacity:.3">
 		<rect x="616" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
-		<path d="m624-167.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="opacity:1"/>
+		<path d="m624-167.88c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 	</g>
 	<g id="titlebutton-minimize-backdrop" transform="translate(-463,242.64)" style="opacity:.3">
 		<rect x="587" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
-		<path d="m595-167.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="opacity:1"/>
+		<path d="m595-167.89c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 	</g>
 	<g id="titlebutton-close-backdrop" transform="translate(-481,259.64)" style="opacity:.3">
 		<g transform="translate(-678,-432.64)" style="opacity:1">
 			<g transform="translate(-103)" style="opacity:1">
 				<g transform="translate(58)">
-					<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="opacity:1"/>
+					<path d="m1376 247.75c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 				</g>
 			</g>
 		</g>
@@ -934,13 +878,13 @@
 	</g>
 	<g id="titlebutton-minimize-dark" transform="translate(-221,242.64)">
 		<rect x="587" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m595-184.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1859);stroke-width:.5;stroke:#fd7d00"/>
+		<path d="m595-184.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fd7d00;stroke-width:.5;stroke:#b25800"/>
 	</g>
 	<g id="titlebutton-close-dark" transform="translate(-239,242.64)">
 		<g transform="translate(-678,-432.64)">
 			<g transform="translate(-103)">
 				<g transform="translate(58)">
-					<path transform="translate(962,190)" d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1901);stroke-width:.5;stroke:#d41919"/>
+					<path transform="translate(962,190)" d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#d41919;stroke-width:.5;stroke:#951212"/>
 				</g>
 			</g>
 		</g>
@@ -948,13 +892,13 @@
 	</g>
 	<g id="titlebutton-maximize-dark" transform="translate(-230,242.64)">
 		<rect x="616" y="-185.64" width="16" height="16" style="fill:none"/>
-		<path d="m624-184.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1953);stroke-width:.5;stroke:#367bf1"/>
+		<path d="m624-184.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#367bf1;stroke-width:.5;stroke:#2656a8"/>
 	</g>
 	<g id="titlebutton-close-hover-dark" transform="translate(-136,276.64)">
 		<g transform="translate(-781,-432.64)">
 			<g transform="translate(-103)">
 				<g transform="translate(58)">
-					<path transform="translate(962,156)" d="m414 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1903);stroke-width:.5;stroke:#d41919"/>
+					<path transform="translate(962,156)" d="m414 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#d41919;stroke-width:.5;stroke:#951212"/>
 				</g>
 			</g>
 		</g>
@@ -963,14 +907,14 @@
 	</g>
 	<g id="titlebutton-maximize-hover-dark" transform="translate(-127,276.64)">
 		<g transform="translate(-781,-432.64)">
-			<path transform="translate(908,156)" d="m394 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1879);stroke-width:.5;stroke:#367bf1"/>
+			<path transform="translate(908,156)" d="m394 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#367bf1;stroke-width:.5;stroke:#2656a8"/>
 		</g>
 		<rect x="513" y="-185.64" width="16" height="16" style="fill:none"/>
 		<path d="m519.8-180.64h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" style="fill-rule:evenodd;opacity:.5"/>
 	</g>
 	<g id="titlebutton-minimize-hover-dark" transform="translate(-118,276.64)">
 		<g transform="translate(-781,-432.64)">
-			<path transform="translate(899,156)" d="m374 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1861);stroke-width:.5;stroke:#fd7d00"/>
+			<path transform="translate(899,156)" d="m374 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fd7d00;stroke-width:.5;stroke:#b25800"/>
 		</g>
 		<rect x="484" y="-185.64" width="16" height="16" style="fill:none"/>
 		<path d="m489-178.39v1.5h6v-1.5z" style="color:#000000;opacity:.5;stroke-width:.86603;text-decoration-line:none;text-indent:0;text-transform:none"/>
@@ -979,7 +923,7 @@
 		<g transform="translate(-882,-432.64)">
 			<g transform="translate(-103)">
 				<g transform="translate(58)">
-					<path transform="translate(962,139)" d="m414 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1905);stroke-width:.5;stroke:#d41919"/>
+					<path transform="translate(962,139)" d="m414 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#d41919;stroke-width:.5;stroke:#951212"/>
 				</g>
 			</g>
 		</g>
@@ -990,7 +934,7 @@
 		<g transform="translate(-882,-432.64)">
 			<g transform="translate(-132)">
 				<g transform="translate(58)">
-					<path transform="translate(982,139)" d="m394 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1877);stroke-width:.5;stroke:#367bf1"/>
+					<path transform="translate(982,139)" d="m394 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#367bf1;stroke-width:.5;stroke:#2656a8"/>
 				</g>
 			</g>
 		</g>
@@ -1001,7 +945,7 @@
 		<g transform="translate(-882,-432.64)">
 			<g transform="translate(-161)">
 				<g transform="translate(58)">
-					<path transform="translate(1002,139)" d="m374 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1863);stroke-width:.5;stroke:#fd7d00"/>
+					<path transform="translate(1002,139)" d="m374 109c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fd7d00;stroke-width:.5;stroke:#b25800"/>
 				</g>
 			</g>
 		</g>
@@ -1009,18 +953,18 @@
 		<path d="m388-178.39v1.5h6v-1.5z" style="color:#000000;opacity:.5;stroke-width:.86603;text-decoration-line:none;text-indent:0;text-transform:none"/>
 	</g>
 	<g id="titlebutton-maximize-backdrop-dark" transform="translate(-230,242.64)" style="opacity:.3">
-		<path d="m624-167.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fff;opacity:1"/>
+		<path d="m624-167.88c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fbfefe;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 		<rect x="616" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
 	</g>
 	<g id="titlebutton-minimize-backdrop-dark" transform="translate(-221,242.64)" style="opacity:.3">
 		<rect x="587" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
-		<path d="m595-167.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fff;opacity:1"/>
+		<path d="m595-167.89c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fbfefe;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 	</g>
 	<g id="titlebutton-close-backdrop-dark" transform="translate(-239,259.64)" style="opacity:.3">
 		<g transform="translate(-678,-432.64)" style="opacity:1">
 			<g transform="translate(-103)" style="opacity:1">
 				<g transform="translate(58)">
-					<path transform="translate(962,190)" d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fff"/>
+					<path d="m1376 247.75c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fbfefe;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 				</g>
 			</g>
 		</g>
@@ -1030,7 +974,7 @@
 		<g transform="translate(-678,-432.64)">
 			<g transform="translate(-103)">
 				<g transform="translate(58)">
-					<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1916);stroke-width:.5;stroke:#19a187"/>
+					<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#19a187;stroke-width:.5;stroke:#17917a"/>
 				</g>
 			</g>
 		</g>
@@ -1040,7 +984,7 @@
 		<g transform="translate(-678,-432.64)" style="opacity:1">
 			<g transform="translate(-103)" style="opacity:1">
 				<g transform="translate(58)">
-					<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="opacity:1"/>
+					<path d="m1376 247.75c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 				</g>
 			</g>
 		</g>
@@ -1050,7 +994,7 @@
 		<g transform="translate(-781,-432.64)">
 			<g transform="translate(-103)">
 				<g transform="translate(58)">
-					<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient2049);stroke-width:.5;stroke:#19a187"/>
+					<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#19a187;stroke-width:.5;stroke:#17917a"/>
 				</g>
 			</g>
 		</g>
@@ -1061,7 +1005,7 @@
 		<g transform="translate(-781,-432.64)">
 			<g transform="translate(-103)">
 				<g transform="translate(58)">
-					<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient2049);stroke-width:.5;stroke:#19a187"/>
+					<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#19a187;stroke-width:.5;stroke:#17917a"/>
 				</g>
 			</g>
 		</g>
@@ -1072,7 +1016,7 @@
 		<g transform="translate(-678,-432.64)">
 			<g transform="translate(-103)">
 				<g transform="translate(58)">
-					<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1967);stroke-width:.5;stroke:#19a187"/>
+					<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#19a187;stroke-width:.5;stroke:#12715f"/>
 				</g>
 			</g>
 		</g>
@@ -1082,7 +1026,7 @@
 		<g transform="translate(-678,-432.64)" style="opacity:1">
 			<g transform="translate(-103)" style="opacity:1">
 				<g transform="translate(58)">
-					<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fff;opacity:1"/>
+					<path d="m1376 247.75c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fbfefe;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 				</g>
 			</g>
 		</g>
@@ -1092,7 +1036,7 @@
 		<g transform="translate(-781,-432.64)">
 			<g transform="translate(-103)">
 				<g transform="translate(58)">
-					<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1963);stroke-width:.5;stroke:#19a187"/>
+					<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#19a187;stroke-width:.5;stroke:#12715f"/>
 				</g>
 			</g>
 		</g>
@@ -1103,7 +1047,7 @@
 		<g transform="translate(-781,-432.64)">
 			<g transform="translate(-103)">
 				<g transform="translate(58)">
-					<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:url(#linearGradient1963);stroke-width:.5;stroke:#19a187"/>
+					<path transform="translate(1184,156)" d="m192 92c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#19a187;stroke-width:.5;stroke:#12715f"/>
 				</g>
 			</g>
 		</g>
@@ -1459,18 +1403,18 @@
 		<path d="m388-178.39v1.5h6v-1.5z" style="color:#000000;opacity:.5;stroke-width:.86603;text-decoration-line:none;text-indent:0;text-transform:none"/>
 	</g>
 	<g id="titlebutton-maximize-backdrop-darkest" transform="translate(-230,380.64)" style="opacity:.3">
-		<path d="m624-167.63c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fff;opacity:1"/>
+		<path d="m624-167.88c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fff;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 		<rect x="616" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
 	</g>
 	<g id="titlebutton-minimize-backdrop-darkest" transform="translate(-221,380.64)" style="opacity:.3">
 		<rect x="587" y="-168.64" width="16" height="16" style="fill:none;opacity:1"/>
-		<path d="m595-167.64c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fff;opacity:1"/>
+		<path d="m595-167.89c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fff;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 	</g>
 	<g id="titlebutton-close-backdrop-darkest" transform="translate(-239,397.64)" style="opacity:.3">
 		<g transform="translate(-678,-432.64)" style="opacity:1">
 			<g transform="translate(-103)" style="opacity:1">
 				<g transform="translate(58)">
-					<path transform="translate(962,190)" d="m414 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fff"/>
+					<path d="m1376 247.75c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fff;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 				</g>
 			</g>
 		</g>
@@ -1490,7 +1434,7 @@
 		<g transform="translate(-678,-432.64)" style="opacity:1">
 			<g transform="translate(-103)" style="opacity:1">
 				<g transform="translate(58)">
-					<path transform="translate(1204,190)" d="m172 58c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" style="fill:#fff;opacity:1"/>
+					<path d="m1376 247.75c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fff;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:1;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 				</g>
 			</g>
 		</g>
