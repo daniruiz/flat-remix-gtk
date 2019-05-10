@@ -7,11 +7,7 @@
 <hr/>
 
 # Themes
-
-#### Flat Remix ![Screenshot Flat-Remix](https://github.com/daniruiz/flat-remix-gtk/raw/master/assets/2.png)
-#### Flat Remix Darker ![Screenshot Flat-Remix-Darker](https://github.com/daniruiz/flat-remix-gtk/raw/master/assets/3.png)
-#### Flat Remix Dark ![Screenshot Flat-Remix-Dark](https://github.com/daniruiz/flat-remix-gtk/raw/master/assets/4.png)
-#### Flat Remix Darkest ![Screenshot Flat-Remix-Darkest](https://github.com/daniruiz/flat-remix-gtk/raw/master/assets/5.png)
+![Screenshot Flat-Remix](https://github.com/daniruiz/flat-remix-gtk/raw/master/assets/blue/gtk-blue.png)
 
 ## Variants
  - **Solid:** theme without transparency
