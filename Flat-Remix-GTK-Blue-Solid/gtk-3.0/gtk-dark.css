@@ -8,11 +8,11 @@
   -GtkWidget-text-handle-height: 20;
   -GtkDialog-button-spacing: 4;
   -GtkDialog-action-area-border: 0;
-  outline-color: alpha(currentColor,0.3);
-  outline-style: dashed;
-  outline-offset: -3px;
-  outline-width: 1px;
-  -gtk-outline-radius: 2px; }
+  outline-color: alpha(currentColor,0.07);
+  outline-style: solid;
+  outline-offset: -2px;
+  outline-width: 2px;
+  -gtk-outline-radius: 6px; }
 
 .background {
   color: #FFF;
