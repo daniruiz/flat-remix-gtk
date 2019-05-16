@@ -103,30 +103,6 @@ terminal-window,
     }
     > stack { background: $base_color; }
   }
-
-  placessidebar { min-width: 250px; }
-
-  > grid > paned > separator { background: $dark_sidebar_bg; }
-
-  headerbar {
-    background: linear-gradient(to right, transparent 250px, $header_bg 0);
-    // linear-gradients with 3 colos or more glitches so I had to use box-shadow instead
-    box-shadow: inset 260px -10px 0 -10px $dark_sidebar_bg, inset 51px -10px 0 -10px darken($dark_sidebar_bg, 10%);
-    padding-left: 43px;
-  }
-
-  headerbar > .horizontal.raised.linked {
-    margin-right: 150px;
-
-    > button {
-      color: white;
-
-      &:hover {
-        background: darken($dark_sidebar_bg, 10%);
-        border-color: darken($dark_sidebar_bg, 10%);
-      }
-    }
-  }
 }
 
 .nautilus-window notebook > stack:not(:only-child) searchbar {

@@ -3000,21 +3000,6 @@ terminal-window notebook > header.top,
       border-color: #1a1a1a; }
   .nautilus-window notebook > stack {
     background: #000; }
-.nautilus-window placessidebar {
-  min-width: 250px; }
-.nautilus-window > grid > paned > separator {
-  background: rgba(26, 26, 26, 0.975); }
-.nautilus-window headerbar {
-  background: linear-gradient(to right, transparent 250px, rgba(0, 0, 0, 0.8) 0);
-  box-shadow: inset 260px -10px 0 -10px rgba(26, 26, 26, 0.975), inset 51px -10px 0 -10px rgba(0, 0, 0, 0.975);
-  padding-left: 43px; }
-.nautilus-window headerbar > .horizontal.raised.linked {
-  margin-right: 150px; }
-  .nautilus-window headerbar > .horizontal.raised.linked > button {
-    color: white; }
-    .nautilus-window headerbar > .horizontal.raised.linked > button:hover {
-      background: rgba(0, 0, 0, 0.975);
-      border-color: rgba(0, 0, 0, 0.975); }
 
 .nautilus-window notebook > stack:not(:only-child) searchbar {
   background-color: #000; }
