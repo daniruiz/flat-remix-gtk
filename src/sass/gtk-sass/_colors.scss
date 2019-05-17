@@ -79,16 +79,17 @@ $osd_borders_color: transparentize(#000, 0.3);
 $panel_bg: darken($dark_sidebar_bg, 4.7%);
 $panel_fg: $dark_sidebar_fg;
 
-$entry_bg: if($variant=='light', $base_color, lighten($base_color, 0%));
-$entry_border: if($variant == 'light', #cfd6e6, darken($borders_color, 0%));
-
-$header_entry_bg: if($darker == 'true' or $variant == 'dark', transparentize(lighten($header_bg, 22%), 0.6), transparentize($base_color, 0.1));
-$header_entry_border: if($variant=='light' and $darker=='false', darken($header_bg, 20%), lighten($header_bg, 30%));
+$entry_bg: $base_color;
+$entry_border: $borders_color;
 
 $button_bg: if($variant == 'light', lighten($bg_color, 2%), lighten($base_color, 2%));
-$button_border: $entry_border;
+$button_border: $borders_color;
 
-$header_button_bg: if($darker == 'true' or $variant == 'dark', transparentize(lighten($header_bg, 22%), 0), #FFF);
-$header_button_border: if($variant == 'light' and $darker == 'false', $header_entry_border, transparent);
+$header_button_bg: if($variant == 'light' and $darker == 'false', $base_color, lighten(opacify($header_bg, 1), 22%));
+$header_button_border: if($variant == 'light' and $darker == 'false', darken($header_bg, 20%), $header_button_bg);
+
+$header_entry_bg: $header_button_bg;
+$header_entry_border: $header_button_border;
+
 $trough_bg: if($variant=='light' and $darker=='false', opacify($header_entry_border, 0.05), $header_entry_border);
 
