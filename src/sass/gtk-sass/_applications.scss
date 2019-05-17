@@ -77,7 +77,7 @@ terminal-window,
     }
 
     widget > .text-button:not(:nth-last-child(2)):not(:last-child):not(:hover) {
-      box-shadow: 5px 0 0 -3px $header_border;
+      box-shadow: 5px 0 0 -3px transparentize($header_fg, .85);
     }
 
     &.width-maximized {
