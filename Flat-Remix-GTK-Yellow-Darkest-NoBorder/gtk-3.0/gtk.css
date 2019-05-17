@@ -1,7 +1,7 @@
 * {
   background-clip: padding-box;
   -GtkToolButton-icon-spacing: 4;
-  -GtkTextView-error-underline-color: #d31919;
+  -GtkTextView-error-underline-color: #D31919;
   -GtkScrolledWindow-scrollbar-spacing: 0;
   -GtkToolItemGroup-expander-size: 11;
   -GtkWidget-text-handle-width: 20;
@@ -15,7 +15,7 @@
   -gtk-outline-radius: 6px; }
 
 .background {
-  color: #FFF;
+  color: white;
   background-color: rgba(13, 13, 13, 0.999); }
 
 *:disabled {
@@ -23,13 +23,13 @@
 
 .gtkstyle-fallback {
   background-color: #0d0d0d;
-  color: #FFF; }
+  color: white; }
   .gtkstyle-fallback:hover {
     background-color: #262626;
-    color: #FFF; }
+    color: white; }
   .gtkstyle-fallback:active {
     background-color: black;
-    color: #FFF; }
+    color: white; }
   .gtkstyle-fallback:disabled {
     background-color: #121212;
     color: rgba(255, 255, 255, 0.45); }
@@ -41,8 +41,8 @@
 .view text,
 iconview text,
 textview text {
-  color: #FFF;
-  background-color: #000; }
+  color: white;
+  background-color: black; }
   .view:selected, iconview:selected, .view:selected:focus, iconview:selected:focus,
   .view text:selected,
   iconview text:selected,
@@ -67,7 +67,7 @@ flowbox flowboxchild {
     outline-offset: -2px; }
 
 label.separator, popover label.separator, popover.background label.separator {
-  color: #FFF; }
+  color: white; }
 label selection {
   color: black;
   background-color: #ffd86e; }
@@ -79,7 +79,7 @@ label:disabled {
   margin: 0 -2px; }
 
 assistant .sidebar {
-  background-color: #000;
+  background-color: black;
   border-top: 1px solid #1a1a1a; }
 assistant.csd .sidebar {
   border-top-style: none; }
@@ -90,10 +90,10 @@ assistant .sidebar label.highlight {
   color: black; }
 
 textview {
-  background-color: #000; }
+  background-color: black; }
 
 popover.osd, popover.magnifier, .csd popover.osd, .csd popover.magnifier, popover.background.osd, popover.background.magnifier, .csd popover.background.osd, .csd popover.background.magnifier, .osd .scale-popup, .osd {
-  color: #FFF;
+  color: white;
   border: none;
   background-color: rgba(26, 26, 26, 0.975);
   background-clip: padding-box;
@@ -119,9 +119,9 @@ entry {
   caret-color: currentColor;
   border-radius: 6px;
   transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  color: #FFF;
+  color: white;
   border-color: #1a1a1a;
-  background-color: #000; }
+  background-color: black; }
   entry.search {
     border-radius: 20px; }
   entry image {
@@ -140,58 +140,58 @@ entry {
     border-radius: 0; }
   entry:focus {
     background-clip: border-box;
-    color: #FFF;
+    color: white;
     border-color: #1a1a1a;
-    background-color: #000;
+    background-color: black;
     box-shadow: inset 1px 0 #ffd86e, inset -1px 0 #ffd86e, inset 0 1px #ffd86e, inset 0 -1px #ffd86e; }
   entry:disabled {
     color: rgba(255, 255, 255, 0.45);
     border-color: rgba(26, 26, 26, 0.55);
     background-color: rgba(0, 0, 0, 0.55); }
   entry.warning {
-    color: #FFF;
+    color: white;
     border-color: #1a1a1a;
     background-color: #993d00; }
     entry.warning image {
-      color: #FFF; }
+      color: white; }
     entry.warning:focus {
-      color: #FFF;
-      background-color: #ff6600;
+      color: white;
+      background-color: #F60;
       box-shadow: none; }
     entry.warning selection, entry.warning selection:focus {
-      background-color: #FFF;
-      color: #ff6600; }
+      background-color: white;
+      color: #F60; }
   entry.error {
-    color: #FFF;
+    color: white;
     border-color: #1a1a1a;
     background-color: #7f0f0f; }
     entry.error image {
-      color: #FFF; }
+      color: white; }
     entry.error:focus {
-      color: #FFF;
-      background-color: #d31919;
+      color: white;
+      background-color: #D31919;
       box-shadow: none; }
     entry.error selection, entry.error selection:focus {
-      background-color: #FFF;
-      color: #d31919; }
+      background-color: white;
+      color: #D31919; }
   entry.search-missing {
-    color: #FFF;
+    color: white;
     border-color: #1a1a1a;
     background-color: #7f0f0f; }
     entry.search-missing image {
-      color: #FFF; }
+      color: white; }
     entry.search-missing:focus {
-      color: #FFF;
-      background-color: #d31919;
+      color: white;
+      background-color: #D31919;
       box-shadow: none; }
     entry.search-missing selection, entry.search-missing selection:focus {
-      background-color: #FFF;
-      color: #d31919; }
+      background-color: white;
+      color: #D31919; }
   entry:drop(active):focus, entry:drop(active) {
-    border-color: #ff6600;
+    border-color: #F60;
     box-shadow: none; }
   .osd entry {
-    color: #FFF;
+    color: white;
     border-color: rgba(0, 0, 0, 0.375);
     background-color: rgba(82, 82, 82, 0.375); }
     .osd entry image, .osd entry image:hover {
@@ -219,7 +219,7 @@ entry {
 treeview entry.flat, treeview entry {
   border-radius: 0;
   background-image: none;
-  background-color: #000; }
+  background-color: black; }
   treeview entry.flat:focus, treeview entry:focus {
     border-color: #ffd86e; }
 
@@ -237,7 +237,7 @@ button {
   padding: 3px 6px;
   min-width: 18px;
   min-height: 22px;
-  color: #FFF;
+  color: white;
   border-color: #1a1a1a;
   background-color: #050505; }
   button:active, button:hover {
@@ -255,7 +255,7 @@ button {
       button.flat:hover:active, button.sidebar-button:hover:active {
         transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
   button:hover {
-    color: #FFF;
+    color: white;
     border-color: #1a1a1a;
     background-color: #121212;
     -gtk-icon-effect: highlight; }
@@ -269,7 +269,7 @@ button {
       color: inherit;
       opacity: 0.6; }
   button:active {
-    color: #FFF; }
+    color: white; }
   button:active:hover, button:checked {
     color: black; }
   button.flat:disabled, button.sidebar-button:disabled {
@@ -306,11 +306,11 @@ button {
       padding-right: 8px;
       padding-left: 8px; }
   button:drop(active), combobox:drop(active) button.combo {
-    color: #ff6600;
-    border-color: #ff6600;
+    color: #F60;
+    border-color: #F60;
     box-shadow: none; }
   button.osd {
-    color: #FFF;
+    color: white;
     background-color: rgba(26, 26, 26, 0.975);
     border-color: rgba(5, 5, 5, 0.975); }
     button.osd.image-button {
@@ -328,11 +328,11 @@ button {
       border-color: rgba(0, 0, 0, 0.375);
       background-color: rgba(82, 82, 82, 0.225); }
   .osd button {
-    color: #FFF;
+    color: white;
     border-color: rgba(0, 0, 0, 0.375);
     background-color: rgba(82, 82, 82, 0.375); }
     .osd button:hover {
-      color: #FFF;
+      color: white;
       border-color: rgba(0, 0, 0, 0.375);
       background-color: rgba(99, 99, 99, 0.475); }
     .osd button:active, .osd button:checked {
@@ -350,7 +350,7 @@ button {
       background-image: none;
       box-shadow: none; }
       .osd button.flat:hover, .osd button.sidebar-button:hover {
-        color: #FFF;
+        color: white;
         border-color: rgba(0, 0, 0, 0.375);
         background-color: rgba(99, 99, 99, 0.475); }
       .osd button.flat:disabled, .osd button.sidebar-button:disabled {
@@ -396,22 +396,22 @@ button {
         color: rgba(255, 255, 255, 0.45); }
   button.destructive-action {
     background-clip: border-box;
-    color: #FFF;
-    background-color: #d31919;
-    border-color: #d31919; }
+    color: white;
+    background-color: #D31919;
+    border-color: #D31919; }
     button.destructive-action.flat, button.destructive-action.sidebar-button {
       border-color: transparent;
       background-color: transparent;
       background-image: none;
-      color: #d31919; }
+      color: #D31919; }
     button.destructive-action:hover {
       background-clip: border-box;
-      color: #FFF;
+      color: white;
       background-color: #e73838;
       border-color: #e73838; }
     button.destructive-action:active, button.destructive-action:checked {
       background-clip: border-box;
-      color: #FFF;
+      color: white;
       background-color: #a51414;
       border-color: #a51414; }
     button.destructive-action.flat:disabled, button.destructive-action.sidebar-button:disabled {
@@ -458,11 +458,11 @@ button {
     border-width: 1px; }
 
 .inline-toolbar toolbutton > button {
-  color: #FFF;
+  color: white;
   border-color: #1a1a1a;
   background-color: #050505; }
   .inline-toolbar toolbutton > button:hover {
-    color: #FFF;
+    color: white;
     border-color: #1a1a1a;
     background-color: #121212; }
   .inline-toolbar toolbutton > button:active, .inline-toolbar toolbutton > button:checked {
@@ -689,7 +689,7 @@ modelbutton.flat {
     background-color: #252525; }
   menuitem.button.flat:checked,
   modelbutton.flat:checked {
-    color: #FFF; }
+    color: white; }
   menuitem.button.flat check:last-child,
   menuitem.button.flat radio:last-child,
   modelbutton.flat check:last-child,
@@ -751,7 +751,7 @@ spinbutton:not(.vertical) > entry + button:not(:active):hover {
 spinbutton:not(.vertical) > entry:focus + button {
   border-left-color: #1a1a1a; }
 spinbutton:not(.vertical) > entry:drop(active) + button {
-  border-left-color: #ff6600; }
+  border-left-color: #F60; }
 .osd spinbutton:not(.vertical) > button:hover:not(:active),
 .osd spinbutton:not(.vertical) > button:hover + button {
   box-shadow: inset 1px 0 rgba(0, 0, 0, 0.375); }
@@ -770,7 +770,7 @@ spinbutton.vertical button.up {
 spinbutton.vertical > entry:focus + button {
   border-top-color: #1a1a1a; }
 spinbutton.vertical > entry:drop(active) + button {
-  border-top-color: #ff6600; }
+  border-top-color: #F60; }
 
 combobox button.combo {
   min-width: 0;
@@ -825,7 +825,7 @@ toolbar, .inline-toolbar {
     margin-right: 0; }
 
 .primary-toolbar:not(.libreoffice-toolbar) {
-  color: #FFF;
+  color: white;
   background-color: black;
   box-shadow: none;
   border-width: 0 0 1px 0;
@@ -856,7 +856,7 @@ headerbar, .titlebar:not(headerbar) {
   min-height: 42px;
   padding: 0 7px;
   border-width: 0 0 1px;
-  color: #FFF;
+  color: white;
   background-color: black;
   box-shadow: inset 0 1px rgba(8, 8, 8, 0.8);
   transition: color 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
@@ -924,7 +924,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   background: none; }
 
 .primary-toolbar entry, headerbar entry {
-  color: #FFF;
+  color: white;
   border-color: #383838;
   background-color: #383838; }
   .primary-toolbar entry image, headerbar entry image, .primary-toolbar entry image:hover, headerbar entry image:hover {
@@ -950,27 +950,27 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
     background-image: none;
     background-color: transparent; }
   .primary-toolbar entry.warning, headerbar entry.warning {
-    color: #FFF;
+    color: white;
     border-color: #383838;
     background-color: rgba(177, 71, 0, 0.92); }
     .primary-toolbar entry.warning:focus, headerbar entry.warning:focus {
-      color: #FFF;
-      background-color: #ff6600; }
+      color: white;
+      background-color: #F60; }
     .primary-toolbar entry.warning selection, headerbar entry.warning selection, .primary-toolbar entry.warning selection:focus, headerbar entry.warning selection:focus {
-      background-color: #FFF;
-      color: #ff6600; }
+      background-color: white;
+      color: #F60; }
   .primary-toolbar entry.error, headerbar entry.error {
-    color: #FFF;
+    color: white;
     border-color: #383838;
     background-color: rgba(146, 17, 17, 0.92); }
     .primary-toolbar entry.error:focus, headerbar entry.error:focus {
-      color: #FFF;
-      background-color: #d31919; }
+      color: white;
+      background-color: #D31919; }
     .primary-toolbar entry.error selection, headerbar entry.error selection, .primary-toolbar entry.error selection:focus, headerbar entry.error selection:focus {
-      background-color: #FFF;
-      color: #d31919; }
+      background-color: white;
+      color: #D31919; }
 .primary-toolbar button, headerbar button {
-  color: #FFF;
+  color: white;
   outline-offset: -3px;
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
@@ -979,7 +979,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
     opacity: 0.45;
     transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
   .primary-toolbar button:hover, headerbar button:hover {
-    color: #FFF;
+    color: white;
     border-color: #383838;
     background-color: #383838; }
   .primary-toolbar button:active, headerbar button:active, .primary-toolbar button:checked, headerbar button:checked {
@@ -988,7 +988,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
     background-color: #ffd86e;
     background-clip: padding-box; }
     .primary-toolbar button:active:backdrop, headerbar button:active:backdrop, .primary-toolbar button:checked:backdrop, headerbar button:checked:backdrop {
-      color: #FFF;
+      color: white;
       border-color: #383838;
       background-color: #383838; }
   .primary-toolbar button:disabled, headerbar button:disabled {
@@ -997,7 +997,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
     .primary-toolbar button:disabled label, headerbar button:disabled label, .primary-toolbar button:disabled, headerbar button:disabled {
       color: rgba(255, 255, 255, 0.55); }
     .primary-toolbar button:disabled:backdrop, headerbar button:disabled:backdrop {
-      color: #FFF;
+      color: white;
       outline-offset: -3px;
       background-color: rgba(0, 0, 0, 0);
       border-color: rgba(0, 0, 0, 0);
@@ -1007,7 +1007,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
     border-color: rgba(255, 216, 110, 0.65);
     background-color: rgba(255, 216, 110, 0.65); }
     .primary-toolbar button:disabled:active:backdrop, headerbar button:disabled:active:backdrop, .primary-toolbar button:disabled:checked:backdrop, headerbar button:disabled:checked:backdrop {
-      color: #FFF;
+      color: white;
       outline-offset: -3px;
       background-color: rgba(0, 0, 0, 0);
       border-color: rgba(0, 0, 0, 0);
@@ -1025,7 +1025,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
   border-style: solid; }
 .primary-toolbar .linked:not(.vertical):not(.path-bar) > entry + button, headerbar .linked:not(.vertical):not(.path-bar) > entry + button, .primary-toolbar .linked:not(.vertical):not(.path-bar) > entry + button:backdrop, headerbar .linked:not(.vertical):not(.path-bar) > entry + button:backdrop {
   background-color: #383838;
-  color: #FFF; }
+  color: white; }
 .primary-toolbar .linked:not(.vertical):not(.path-bar) > entry + button, headerbar .linked:not(.vertical):not(.path-bar) > entry + button, .primary-toolbar .linked:not(.vertical):not(.path-bar) > entry + button:hover, headerbar .linked:not(.vertical):not(.path-bar) > entry + button:hover, .primary-toolbar .linked:not(.vertical):not(.path-bar) > entry + button:active, headerbar .linked:not(.vertical):not(.path-bar) > entry + button:active, .primary-toolbar .linked:not(.vertical):not(.path-bar) > entry + button:checked, headerbar .linked:not(.vertical):not(.path-bar) > entry + button:checked, .primary-toolbar .linked:not(.vertical):not(.path-bar) > entry + button:disabled, headerbar .linked:not(.vertical):not(.path-bar) > entry + button:disabled {
   border-radius: 0 6px 6px 0;
   border-color: #383838;
@@ -1051,7 +1051,7 @@ headerbar .linked:not(.vertical):not(.path-bar) > button:not(:checked):not(:acti
 .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button,
 .primary-toolbar .linked:not(.vertical).path-bar > button,
 headerbar .linked:not(.vertical).path-bar > button {
-  color: #FFF;
+  color: white;
   border-color: #383838;
   background-color: #383838; }
   .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:hover, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:hover,
@@ -1167,22 +1167,22 @@ headerbar button.suggested-action:backdrop {
   opacity: 0.45; }
 .primary-toolbar button.destructive-action, headerbar button.destructive-action {
   background-clip: border-box;
-  color: #FFF;
-  background-color: #d31919;
-  border-color: #d31919; }
+  color: white;
+  background-color: #D31919;
+  border-color: #D31919; }
   .primary-toolbar button.destructive-action.flat, headerbar button.destructive-action.flat, .primary-toolbar button.destructive-action.sidebar-button, headerbar button.destructive-action.sidebar-button {
     border-color: transparent;
     background-color: transparent;
     background-image: none;
-    color: #d31919; }
+    color: #D31919; }
   .primary-toolbar button.destructive-action:hover, headerbar button.destructive-action:hover {
     background-clip: border-box;
-    color: #FFF;
+    color: white;
     background-color: #e73838;
     border-color: #e73838; }
   .primary-toolbar button.destructive-action:active, headerbar button.destructive-action:active, .primary-toolbar button.destructive-action:checked, headerbar button.destructive-action:checked {
     background-clip: border-box;
-    color: #FFF;
+    color: white;
     background-color: #a51414;
     border-color: #a51414; }
   .primary-toolbar button.destructive-action.flat:disabled, headerbar button.destructive-action.flat:disabled, .primary-toolbar button.destructive-action.sidebar-button:disabled, headerbar button.destructive-action.sidebar-button:disabled, .primary-toolbar button.destructive-action:disabled, headerbar button.destructive-action:disabled {
@@ -1198,7 +1198,7 @@ headerbar button.destructive-action:backdrop {
   color: black;
   caret-color: black; }
 .primary-toolbar spinbutton:not(.vertical) button, headerbar spinbutton:not(.vertical) button, .primary-toolbar spinbutton:not(.vertical) button:disabled, headerbar spinbutton:not(.vertical) button:disabled {
-  color: #FFF;
+  color: white;
   border-color: #383838;
   background-color: #383838; }
 .primary-toolbar spinbutton:not(.vertical) button:hover, headerbar spinbutton:not(.vertical) button:hover {
@@ -1228,7 +1228,7 @@ headerbar spinbutton:not(.vertical) > entry + button:not(:active):hover {
 .primary-toolbar combobox:disabled, headerbar combobox:disabled {
   color: rgba(255, 255, 255, 0.4); }
 .primary-toolbar combobox > .linked > button.combo, headerbar combobox > .linked > button.combo {
-  color: #FFF;
+  color: white;
   border-color: #383838;
   background-color: #383838; }
   .primary-toolbar combobox > .linked > button.combo image, headerbar combobox > .linked > button.combo image, .primary-toolbar combobox > .linked > button.combo image:hover, headerbar combobox > .linked > button.combo image:hover {
@@ -1347,7 +1347,7 @@ treeview.view {
     treeview.view.expander:dir(rtl) {
       -gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl"); }
     treeview.view.expander:hover {
-      color: #FFF; }
+      color: white; }
     treeview.view.expander:selected {
       color: #4d4121; }
       treeview.view.expander:selected:hover {
@@ -1363,7 +1363,7 @@ treeview.view {
       box-shadow: none;
       background-color: black; }
   treeview.view.trough {
-    color: #FFF;
+    color: white;
     background-color: #1a1a1a;
     border-radius: 6px;
     border-width: 0; }
@@ -1378,19 +1378,19 @@ treeview.view {
     padding: 3px 6px;
     font-weight: bold;
     color: #cccccc;
-    background-color: #000;
+    background-color: black;
     background-image: none;
     border-style: none solid none none;
     border-radius: 0;
-    border-image: linear-gradient(to bottom, #000 20%, rgba(255, 255, 255, 0.11) 20%, rgba(255, 255, 255, 0.11) 80%, #000 80%) 0 1 0 0/0 1px 0 0 stretch; }
+    border-image: linear-gradient(to bottom, black 20%, rgba(255, 255, 255, 0.11) 20%, rgba(255, 255, 255, 0.11) 80%, black 80%) 0 1 0 0/0 1px 0 0 stretch; }
     treeview.view header button:hover {
       color: #ffd86e; }
     treeview.view header button:active {
-      color: #FFF; }
+      color: white; }
     treeview.view header button:active, treeview.view header button:hover {
-      background-color: #000; }
+      background-color: black; }
     treeview.view header button:active:hover {
-      color: #FFF; }
+      color: white; }
     treeview.view header button:disabled {
       border-color: #0d0d0d;
       background-image: none; }
@@ -1414,7 +1414,7 @@ menubar,
   -GtkWidget-window-dragging: true;
   padding: 0px;
   background-color: black;
-  color: #FFF; }
+  color: white; }
   menubar:backdrop,
   .menubar:backdrop {
     color: rgba(255, 255, 255, 0.45); }
@@ -1557,7 +1557,7 @@ notebook {
         padding-top: 0;
         padding-bottom: 0; }
   notebook > stack:not(:only-child) {
-    background-color: #000; }
+    background-color: black; }
   notebook > header {
     padding: 2px;
     background-color: #0d0d0d; }
@@ -1650,7 +1650,7 @@ notebook {
       notebook > header > tabs > arrow:hover {
         color: rgba(255, 255, 255, 0.725); }
       notebook > header > tabs > arrow:active {
-        color: #FFF; }
+        color: white; }
       notebook > header > tabs > arrow:disabled {
         color: rgba(255, 255, 255, 0.15); }
     notebook > header.top > tabs > tab:hover:not(:checked) {
@@ -1667,12 +1667,12 @@ notebook {
       transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
       notebook > header > tabs > tab:hover:not(:checked) {
         color: rgba(255, 255, 255, 0.725);
-        background-color: #000;
+        background-color: black;
         border-color: #1a1a1a;
         transition: none; }
       notebook > header > tabs > tab:checked {
-        color: #FFF;
-        background-color: #000;
+        color: white;
+        background-color: black;
         border-color: #1a1a1a; }
       notebook > header > tabs > tab button.flat, notebook > header > tabs > tab button.sidebar-button {
         min-height: 22px;
@@ -2221,21 +2221,21 @@ levelbar block:not(.empty) {
   background-color: #ffd86e;
   border-radius: 2px; }
 levelbar block.low {
-  border-color: #ff6600;
-  background-color: #ff6600; }
+  border-color: #F60;
+  background-color: #F60; }
 levelbar block.high {
   border-color: #ffd86e;
   background-color: #ffd86e; }
 levelbar block.full {
-  border-color: #19a187;
-  background-color: #19a187; }
+  border-color: #19A187;
+  background-color: #19A187; }
 levelbar block.empty {
-  background-color: #000;
-  border-color: #000; }
+  background-color: black;
+  border-color: black; }
 
 printdialog paper {
   border: 1px solid #1a1a1a;
-  background: #000;
+  background: black;
   padding: 0; }
 printdialog .dialog-action-box {
   margin: 12px; }
@@ -2335,7 +2335,7 @@ separator {
   min-height: 1px; }
 
 list {
-  background-color: #000;
+  background-color: black;
   border-color: #1a1a1a; }
   list row {
     padding: 2px; }
@@ -2345,7 +2345,7 @@ row:not(:hover) {
 row.activatable.has-open-popup, row.activatable:hover {
   background-color: rgba(255, 255, 255, 0.03); }
 row.activatable:active {
-  color: #FFF; }
+  color: white; }
 row.activatable:disabled {
   color: rgba(255, 255, 255, 0.45); }
   row.activatable:disabled image {
@@ -2358,7 +2358,7 @@ row.activatable:selected.has-open-popup, row.activatable:selected:hover {
 .app-notification {
   padding: 5px;
   margin-top: 10px;
-  color: #FFF;
+  color: white;
   background-color: rgba(26, 26, 26, 0.975);
   background-clip: border-box;
   border-radius: 6px;
@@ -2366,13 +2366,13 @@ row.activatable:selected.has-open-popup, row.activatable:selected:hover {
   .app-notification border {
     border: none; }
   .app-notification button {
-    color: #FFF;
+    color: white;
     border-color: rgba(0, 0, 0, 0.375);
     background-color: rgba(82, 82, 82, 0.375); }
     .app-notification button.flat, .app-notification button.sidebar-button {
       border-color: rgba(255, 216, 110, 0); }
     .app-notification button:hover {
-      color: #FFF;
+      color: white;
       border-color: rgba(0, 0, 0, 0.375);
       background-color: rgba(99, 99, 99, 0.475); }
     .app-notification button:active, .app-notification button:checked {
@@ -2397,25 +2397,25 @@ expander arrow {
     -gtk-icon-source: -gtk-icontheme("pan-down-symbolic"); }
 
 calendar {
-  color: #FFF;
+  color: white;
   border: 1px solid #1a1a1a;
   border-radius: 6px;
   padding: 2px; }
   calendar:selected {
     border-radius: 1.5px; }
   calendar.header {
-    color: #FFF;
+    color: white;
     border: none; }
   calendar.button {
     color: rgba(255, 255, 255, 0.45); }
     calendar.button:hover {
-      color: #FFF; }
+      color: white; }
     calendar.button:disabled {
       color: rgba(255, 255, 255, 0.45); }
   calendar:indeterminate {
     color: alpha(currentColor,0.55); }
   calendar.highlight {
-    color: #FFF; }
+    color: white; }
 
 messagedialog .titlebar {
   min-height: 20px;
@@ -2505,16 +2505,16 @@ placessidebar row {
   placessidebar row.sidebar-placeholder-row {
     padding: 0 8px;
     min-height: 2px;
-    background-image: linear-gradient(to bottom, #ff6600, #ff6600);
+    background-image: linear-gradient(to bottom, #F60, #F60);
     background-clip: content-box; }
   placessidebar row.sidebar-new-bookmark-row {
     color: #ffd86e; }
   placessidebar row:drop(active):not(:disabled) {
-    box-shadow: inset 0 1px #ff6600, inset 0 -1px #ff6600; }
+    box-shadow: inset 0 1px #F60, inset 0 -1px #F60; }
     placessidebar row:drop(active):not(:disabled), placessidebar row:drop(active):not(:disabled) label, placessidebar row:drop(active):not(:disabled) image {
-      color: #ff6600; }
+      color: #F60; }
     placessidebar row:drop(active):not(:disabled):selected {
-      background-color: #ff6600; }
+      background-color: #F60; }
       placessidebar row:drop(active):not(:disabled):selected, placessidebar row:drop(active):not(:disabled):selected label, placessidebar row:drop(active):not(:disabled):selected image {
         color: black; }
 
@@ -2621,7 +2621,7 @@ tooltip {
     background-color: transparent; }
   tooltip * {
     background-color: transparent;
-    color: #FFF; }
+    color: white; }
 
 colorswatch, colorswatch:drop(active) {
   border-style: none; }
@@ -2669,11 +2669,11 @@ colorswatch:disabled {
 colorswatch#add-color-button {
   border-style: solid;
   border-width: 1px;
-  color: #FFF;
+  color: white;
   border-color: #1a1a1a;
   background-color: #050505; }
   colorswatch#add-color-button:hover {
-    color: #FFF;
+    color: white;
     border-color: #1a1a1a;
     background-color: #121212; }
   colorswatch#add-color-button overlay {
@@ -2691,12 +2691,12 @@ colorchooser .popover.osd {
   border-radius: 6px; }
 
 .content-view {
-  background-color: #000; }
+  background-color: black; }
   .content-view:hover {
     -gtk-icon-effect: highlight; }
 
 .scale-popup button:hover {
-  color: #FFF;
+  color: white;
   border-color: #1a1a1a;
   background-color: #121212; }
 
@@ -2722,8 +2722,8 @@ button.circular-button {
   min-width: 16px;
   min-height: 20px;
   padding: 3px 6px 4px 6px;
-  color: #FFF;
-  background-color: #000;
+  color: white;
+  background-color: black;
   border: 1px solid #1a1a1a;
   border-radius: 2.5px;
   box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.15); }
@@ -2735,12 +2735,12 @@ stackswitcher button.circular, stackswitcher button.nautilus-circular-button.ima
 
 *:drop(active):focus,
 *:drop(active) {
-  box-shadow: inset 0 0 0 1px #ff6600; }
+  box-shadow: inset 0 0 0 1px #F60; }
 
 decoration {
   border-radius: 6px 6px 0 0;
   border-width: 0px;
-  box-shadow: 0 2px 8px 0 #000, 0 0 0 1px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 2px 8px 0 black, 0 0 0 1px rgba(255, 255, 255, 0.05);
   margin: 10px; }
   decoration:backdrop {
     box-shadow: 0 2px 8px 0 transparent, 0 0 0 3px rgba(85, 85, 85, 0.25);
@@ -2785,7 +2785,7 @@ headerbar button.titlebutton,
   background-color: rgba(0, 0, 0, 0); }
   headerbar button.titlebutton:hover,
   .titlebar button.titlebutton:hover {
-    color: #FFF;
+    color: white;
     border-color: #383838;
     background-color: #383838; }
   headerbar button.titlebutton:active, headerbar button.titlebutton:checked,
@@ -2937,10 +2937,10 @@ terminal-window notebook > header.top,
   border-radius: 2px; }
 
 .nautilus-desktop.nautilus-canvas-item, .nemo-desktop.nemo-canvas-item, .caja-desktop {
-  color: #FFF;
+  color: white;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.6); }
   .nautilus-desktop.nautilus-canvas-item:active, .nemo-desktop.nemo-canvas-item:active, .caja-desktop:active {
-    color: #FFF; }
+    color: white; }
   .nautilus-desktop.nautilus-canvas-item:selected, .nemo-desktop.nemo-canvas-item:selected, .caja-desktop:selected {
     color: black;
     text-shadow: none; }
@@ -2960,13 +2960,13 @@ terminal-window notebook > header.top,
 .nautilus-window .path-bar-box {
   padding: 0 8px; }
   .nautilus-window .path-bar-box .text-button {
-    color: #FFF;
+    color: white;
     outline-offset: -3px;
     background-color: rgba(0, 0, 0, 0);
     border-color: rgba(0, 0, 0, 0);
     border-radius: 100px; }
   .nautilus-window .path-bar-box .text-button:hover {
-    color: #FFF;
+    color: white;
     border-color: #383838;
     background-color: #383838; }
   .nautilus-window .path-bar-box .text-button:checked, .nautilus-window .path-bar-box widget > .text-button:last-child {
@@ -2976,7 +2976,7 @@ terminal-window notebook > header.top,
     padding: 4px;
     border-color: transparent; }
     .nautilus-window .path-bar-box .text-button:checked:backdrop, .nautilus-window .path-bar-box widget > .text-button:last-child:backdrop {
-      color: #FFF;
+      color: white;
       border-color: #383838;
       background-color: #383838; }
   .nautilus-window .path-bar-box .image-button > box > image:first-child {
@@ -2995,7 +2995,7 @@ terminal-window notebook > header.top,
     background: transparent;
     box-shadow: inset 0 -1px #1a1a1a; }
     .nautilus-window notebook > header.top > tabs > tab:not(:checked):not(:hover) {
-      color: #FFF;
+      color: white;
       box-shadow: 4px 3px 0 -3px #1a1a1a; }
       .nautilus-window notebook > header.top > tabs > tab:not(:checked):not(:hover):backdrop {
         color: rgba(255, 255, 255, 0.45);
@@ -3003,10 +3003,10 @@ terminal-window notebook > header.top,
     .nautilus-window notebook > header.top > tabs > tab:not(:checked):hover {
       border-color: #1a1a1a; }
   .nautilus-window notebook > stack {
-    background: #000; }
+    background: black; }
 
 .nautilus-window notebook > stack:not(:only-child) searchbar {
-  background-color: #000; }
+  background-color: black; }
 
 .disk-space-display {
   border-style: solid;
@@ -3023,7 +3023,7 @@ terminal-window notebook > header.top,
 
 @keyframes needs_attention_keyframes {
   0% {
-    color: #FFF;
+    color: white;
     border-color: #383838;
     background-color: #383838; }
   100% {
@@ -3038,8 +3038,8 @@ terminal-window notebook > header.top,
   animation-iteration-count: 3; }
 
 .conflict-row.activatable, .conflict-row.activatable:active {
-  color: #FFF;
-  background-color: #d31919; }
+  color: white;
+  background-color: #D31919; }
 .conflict-row.activatable:hover {
   background-color: #e73838; }
 .conflict-row.activatable:selected {
@@ -3049,16 +3049,16 @@ terminal-window notebook > header.top,
 .nemo-window .nemo-places-sidebar.frame {
   border-width: 0; }
 .nemo-window notebook {
-  background-color: #000; }
+  background-color: black; }
 .nemo-window .nemo-window-pane widget.entry {
   border: 1px solid;
   border-radius: 6px;
-  color: #FFF;
+  color: white;
   border-color: #1a1a1a;
-  background-color: #000;
+  background-color: black;
   box-shadow: inset 1px 0 #ffd86e, inset -1px 0 #ffd86e, inset 0 1px #ffd86e, inset 0 -1px #ffd86e; }
 .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button {
-  color: #FFF;
+  color: white;
   border-color: #383838;
   background-color: #383838; }
   .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:not(:last-child):not(:only-child) {
@@ -3091,7 +3091,7 @@ terminal-window notebook > header.top,
 
 .open-document-selector-treeview.view, iconview.open-document-selector-treeview {
   padding: 3px 6px 3px 6px;
-  border-color: #000; }
+  border-color: black; }
   .open-document-selector-treeview.view:hover, iconview.open-document-selector-treeview:hover {
     background-color: #121212; }
     .open-document-selector-treeview.view:hover:selected, iconview.open-document-selector-treeview:hover:selected {
@@ -3099,7 +3099,7 @@ terminal-window notebook > header.top,
       background-color: #ffd86e; }
 
 .open-document-selector-name-label {
-  color: #FFF; }
+  color: white; }
 
 .open-document-selector-path-label {
   color: gray;
@@ -3122,7 +3122,7 @@ terminal-window notebook > header.top,
   .gedit-document-panel row:hover:not(:selected) button:hover {
     color: #ff4d4d; }
   .gedit-document-panel row:hover:not(:selected) button:active {
-    color: #FFF; }
+    color: white; }
 .gedit-document-panel row:hover:selected button:hover {
   color: #ff6666;
   background: none;
@@ -3134,7 +3134,7 @@ terminal-window notebook > header.top,
 .gedit-document-panel-dragged-row {
   border: 1px solid #1a1a1a;
   background-color: black;
-  color: #FFF; }
+  color: white; }
 
 .gedit-side-panel-paned statusbar {
   border-top: 1px solid #1a1a1a;
@@ -3189,7 +3189,7 @@ editortweak .linked > entry.search:focus + .gb-linked-scroller {
   border-top-color: #ffd86e; }
 
 layouttab {
-  background-color: #000; }
+  background-color: black; }
 
 layout {
   border: 1px solid #1a1a1a;
@@ -3219,7 +3219,7 @@ docktabstrip {
       opacity: 1; }
     docktabstrip docktab:checked {
       border-color: #1a1a1a;
-      background-color: #000; }
+      background-color: black; }
 
 dockbin {
   border: 1px solid #1a1a1a;
@@ -3260,7 +3260,7 @@ entry.search.preferences-search {
   border-radius: 0; }
 
 preferences stacksidebar.sidebar list {
-  background-image: linear-gradient(to bottom, #000, #000); }
+  background-image: linear-gradient(to bottom, black, black); }
 preferences stacksidebar.sidebar list separator {
   background-color: transparent; }
 
@@ -3281,7 +3281,7 @@ gstyleslidein #scale_box button.toggle:checked,
 gstyleslidein #strings_controls button.toggle:checked,
 gstyleslidein #palette_controls button.toggle:checked,
 gstyleslidein #components_controls button.toggle:checked {
-  color: #FFF; }
+  color: white; }
 
 configurationview entry.flat {
   background: none; }
@@ -3337,7 +3337,7 @@ button.documents-favorite:active:hover {
 
 .tweak-categories,
 .tweak-category:not(:selected):not(:hover) {
-  background-image: linear-gradient(to bottom, #000, #000); }
+  background-image: linear-gradient(to bottom, black, black); }
 
 .tr-workarea undershoot,
 .tr-workarea overshoot {
@@ -3418,7 +3418,7 @@ panel-toplevel.background menubar {
 panel-toplevel.background menubar,
 panel-toplevel.background #PanelApplet label,
 panel-toplevel.background #PanelApplet image {
-  color: #FFF; }
+  color: white; }
 .mate-panel-menu-bar button label, .mate-panel-menu-bar button image,
 .mate-panel-menu-bar #tasklist-button label,
 .mate-panel-menu-bar #tasklist-button image,
@@ -3457,13 +3457,13 @@ panel-toplevel.background na-tray-applet {
     color: white;
     background-color: rgba(0, 0, 0, 0.17); }
   #tasklist-button:checked {
-    color: #FFF;
+    color: white;
     background-color: rgba(0, 0, 0, 0.25);
     box-shadow: inset 0 -2px #ffd86e; }
 
 .mate-panel-menu-bar button:not(#tasklist-button),
 panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel button.flat, .xfce4-panel.panel button.sidebar-button {
-  color: #FFF;
+  color: white;
   border-radius: 0;
   border: none;
   background-color: rgba(14, 14, 14, 0); }
@@ -3502,7 +3502,7 @@ panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel butto
   border-radius: 6px;
   padding-left: 4px;
   padding-right: 4px;
-  color: #FFF;
+  color: white;
   border-color: #383838;
   background-color: #383838; }
   .marlin-pathbar.pathbar image, .marlin-pathbar.pathbar image:hover {
@@ -3522,21 +3522,21 @@ panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel butto
   border: 1px solid rgba(0, 0, 0, 0.35);
   border-radius: 6px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  background-image: linear-gradient(to bottom, #FFF, #FFF);
+  background-image: linear-gradient(to bottom, white, white);
   background-color: transparent; }
   .gala-notification .title, .gala-notification .label {
-    color: #5c616c; }
+    color: #5C616C; }
 
 .panel {
   background-color: transparent;
-  color: #FFF;
+  color: white;
   font-weight: bold;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
   -gtk-icon-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
   .panel * {
     text-shadow: none; }
   .panel .maximized {
-    background-color: #000; }
+    background-color: black; }
   .panel-shadow {
     background-image: none;
     background-color: transparent; }
@@ -3559,7 +3559,7 @@ panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel butto
 
 .composited-indicator {
   background-color: transparent;
-  color: #FFF;
+  color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
   -gtk-icon-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
   .composited-indicator > GtkWidget > GtkWidget:first-child {
@@ -3626,7 +3626,7 @@ toolbar.bottom-toolbar, .bottom-toolbar.inline-toolbar {
 .source-list.view,
 iconview.source-list {
   background-color: #0d0d0d;
-  color: #FFF;
+  color: white;
   -gtk-icon-style: regular; }
 
 .source-list.category-expander {
@@ -3671,7 +3671,7 @@ iconview.source-list:selected:focus,
   color: #ffd86e; }
 
 .source-list.category-expander {
-  color: #FFF;
+  color: white;
   -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
   -GtkTreeView-expander-size: 16; }
 
@@ -3684,7 +3684,7 @@ iconview.source-list:selected:focus,
   -gtk-icon-source: -gtk-icontheme("pan-down-symbolic"); }
 
 GraniteWidgetsWelcome {
-  background-color: #000; }
+  background-color: black; }
 
 GraniteWidgetsWelcome label {
   color: #868686;
@@ -3708,7 +3708,7 @@ GraniteWidgetsPopOver {
   margin: 0; }
 
 .popover_bg {
-  background-image: linear-gradient(to bottom, #000, #000);
+  background-image: linear-gradient(to bottom, black, black);
   border: 1px solid rgba(0, 0, 0, 0.3); }
 
 GraniteWidgetsPopOver .sidebar.view, GraniteWidgetsPopOver iconview.sidebar,
@@ -3762,7 +3762,7 @@ filechooser placessidebar.sidebar,
   filechooser placessidebar.sidebar row.sidebar-row,
   .nautilus-window placessidebar.sidebar row.sidebar-row {
     border: none;
-    color: #FFF; }
+    color: white; }
     filechooser placessidebar.sidebar row.sidebar-row .sidebar-icon,
     .nautilus-window placessidebar.sidebar row.sidebar-row .sidebar-icon {
       color: #FFF; }
@@ -3795,10 +3795,10 @@ filechooser placessidebar.sidebar,
       background-image: linear-gradient(to left, #ffca3b 41px, transparent 0); }
     filechooser placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button,
     .nautilus-window placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button {
-      color: #FFF; }
+      color: white; }
       filechooser placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button:hover,
       .nautilus-window placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button:hover {
-        color: #FFF;
+        color: white;
         border-color: rgba(0, 0, 0, 0.375);
         background-color: rgba(99, 99, 99, 0.475); }
       filechooser placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button:active,
@@ -3819,10 +3819,10 @@ filechooser placessidebar.sidebar,
     .nautilus-window placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled),
     .nautilus-window placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) label,
     .nautilus-window placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) .sidebar-icon {
-      color: #ff6600; }
+      color: #F60; }
     filechooser placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected,
     .nautilus-window placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected {
-      background-color: #ff6600; }
+      background-color: #F60; }
       filechooser placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected, filechooser placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected label, filechooser placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected .sidebar-icon,
       .nautilus-window placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected,
       .nautilus-window placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected label,
@@ -3836,18 +3836,18 @@ filechooser.maximized placessidebar.sidebar,
   background-color: #1a1a1a; }
 
 .nemo-window .sidebar {
-  color: #FFF;
+  color: white;
   background-color: rgba(26, 26, 26, 0.975); }
   .nemo-window .sidebar .view, .nemo-window .sidebar iconview, .nemo-window .sidebar row {
     background-color: transparent;
-    color: #FFF; }
+    color: white; }
     .nemo-window .sidebar .view.cell:selected, .nemo-window .sidebar iconview.cell:selected, .nemo-window .sidebar row.cell:selected {
       background-color: #ffd86e;
       color: black; }
     .nemo-window .sidebar .view.expander, .nemo-window .sidebar iconview.expander, .nemo-window .sidebar row.expander {
       color: rgba(143, 143, 143, 0.9875); }
       .nemo-window .sidebar .view.expander:hover, .nemo-window .sidebar iconview.expander:hover, .nemo-window .sidebar row.expander:hover {
-        color: #FFF; }
+        color: white; }
   .nemo-window .sidebar separator {
     background-color: transparent; }
 
@@ -3855,25 +3855,25 @@ filechooser.maximized placessidebar.sidebar,
 .caja-side-pane > notebook > stack > widget > box,
 .caja-side-pane text,
 .caja-side-pane treeview {
-  color: #FFF;
-  caret-color: #FFF;
+  color: white;
+  caret-color: white;
   background-color: #1a1a1a; }
 .caja-side-pane > box button:not(:active):not(:checked) {
-  color: #FFF; }
+  color: white; }
 .caja-side-pane .frame {
   border-color: #0d0d0d; }
 .caja-side-pane junction {
   background-color: rgba(13, 13, 13, 0.975); }
 
 filechooser actionbar {
-  color: #FFF;
+  color: white;
   background-color: rgba(26, 26, 26, 0.975);
   border-color: rgba(0, 0, 0, 0.975); }
   filechooser actionbar label, filechooser actionbar combobox {
-    color: #FFF; }
+    color: white; }
 
 .gedit-bottom-panel-paned {
-  background-color: #000; }
+  background-color: black; }
 
 .gedit-side-panel-paned > separator {
   background-image: linear-gradient(to bottom, rgba(13, 13, 13, 0.975), rgba(13, 13, 13, 0.975)); }
@@ -3886,7 +3886,7 @@ filechooser actionbar {
   .maximized .gedit-document-panel {
     background-color: #1a1a1a; }
   .gedit-document-panel row {
-    color: #FFF;
+    color: white;
     background-color: rgba(255, 255, 255, 0); }
     .gedit-document-panel row:hover {
       background-color: rgba(255, 255, 255, 0.15); }
@@ -3899,14 +3899,14 @@ filechooser actionbar {
       color: black;
       background-color: #ffd86e; }
     .gedit-document-panel row:hover:not(:selected) button:active {
-      color: #FFF; }
+      color: white; }
 
 filechooser actionbar button {
-  color: #FFF;
+  color: white;
   border-color: rgba(0, 0, 0, 0.375);
   background-color: rgba(82, 82, 82, 0.375); }
   .caja-side-pane > box button:hover:not(:active), filechooser actionbar button:hover {
-    color: #FFF;
+    color: white;
     border-color: rgba(0, 0, 0, 0.375);
     background-color: rgba(99, 99, 99, 0.475); }
   filechooser actionbar button:active, filechooser actionbar button:checked {
@@ -3919,7 +3919,7 @@ filechooser actionbar button {
     background-color: rgba(82, 82, 82, 0.225); }
 
 filechooser actionbar entry {
-  color: #FFF;
+  color: white;
   border-color: rgba(0, 0, 0, 0.375);
   background-color: rgba(82, 82, 82, 0.375); }
   filechooser actionbar entry image, filechooser actionbar entry image:hover {
@@ -3955,30 +3955,30 @@ filechooser placessidebar.sidebar scrollbar,
   .nautilus-window placessidebar.sidebar scrollbar trough, .nemo-window .sidebar scrollbar trough, .caja-side-pane scrollbar trough {
     background-color: rgba(13, 13, 13, 0.975); }
 
-@define-color theme_fg_color #FFF;
-@define-color theme_text_color #FFF;
+@define-color theme_fg_color white;
+@define-color theme_text_color white;
 @define-color theme_bg_color #0d0d0d;
-@define-color theme_base_color #000;
+@define-color theme_base_color black;
 @define-color theme_selected_bg_color #ffd86e;
 @define-color theme_selected_fg_color black;
-@define-color fg_color #FFF;
-@define-color text_color #FFF;
+@define-color fg_color white;
+@define-color text_color white;
 @define-color bg_color #0d0d0d;
-@define-color base_color #000;
+@define-color base_color black;
 @define-color selected_bg_color #ffd86e;
 @define-color selected_fg_color black;
 @define-color insensitive_bg_color #121212;
 @define-color insensitive_fg_color alpha(white, 0.5);
-@define-color insensitive_base_color #000;
-@define-color theme_unfocused_fg_color #FFF;
-@define-color theme_unfocused_text_color #FFF;
+@define-color insensitive_base_color black;
+@define-color theme_unfocused_fg_color white;
+@define-color theme_unfocused_text_color white;
 @define-color theme_unfocused_bg_color #0d0d0d;
-@define-color theme_unfocused_base_color #000;
+@define-color theme_unfocused_base_color black;
 @define-color borders #1a1a1a;
 @define-color unfocused_borders #1a1a1a;
-@define-color warning_color #ff6600;
-@define-color error_color #d31919;
-@define-color success_color #19a187;
+@define-color warning_color #F60;
+@define-color error_color #D31919;
+@define-color success_color #19A187;
 @define-color placeholder_text_color #A8A8A8;
 @define-color link_color #fff3d4;
-@define-color content_view_bg #000;
+@define-color content_view_bg black;
