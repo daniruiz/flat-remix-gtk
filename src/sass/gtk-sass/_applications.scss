@@ -71,6 +71,10 @@ terminal-window,
       border-color: transparent;
       &:backdrop { @include button(header-hover) }
     }
+    .image-button > box > image {
+      &:first-child { margin-left: 5px; }
+      &:last-child { margin-right: 5px; }
+    }
 
     widget > .text-button:not(:nth-last-child(2)):not(:last-child):not(:hover) {
       box-shadow: 5px 0 0 -3px $header_border;

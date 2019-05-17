@@ -2978,6 +2978,10 @@ terminal-window notebook > header.top,
       color: #FFF;
       border-color: transparent;
       background-color: #383838; }
+  .nautilus-window .path-bar-box .image-button > box > image:first-child {
+    margin-left: 5px; }
+  .nautilus-window .path-bar-box .image-button > box > image:last-child {
+    margin-right: 5px; }
   .nautilus-window .path-bar-box widget > .text-button:not(:nth-last-child(2)):not(:last-child):not(:hover) {
     box-shadow: 5px 0 0 -3px #0d0d0d; }
   .nautilus-window .path-bar-box.width-maximized {
