@@ -31,6 +31,7 @@ filechooser,
   placessidebar.sidebar {
 
     background-color: transparent;
+    box-shadow: inset 0 8px 4px -8px rgba(0,0,0,.5);
     &:dir(ltr) {
       background-image: linear-gradient(to right, darken($dark_sidebar_bg, 10%) 41px, $dark_sidebar_bg 0);
     }

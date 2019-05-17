@@ -3758,7 +3758,8 @@ filechooser.csd.background, filechooser placessidebar list,
   background-color: transparent; }
 filechooser placessidebar.sidebar,
 .nautilus-window placessidebar.sidebar {
-  background-color: transparent; }
+  background-color: transparent;
+  box-shadow: inset 0 8px 4px -8px rgba(0, 0, 0, 0.5); }
   filechooser placessidebar.sidebar:dir(ltr),
   .nautilus-window placessidebar.sidebar:dir(ltr) {
     background-image: linear-gradient(to right, black 41px, #1a1a1a 0); }
