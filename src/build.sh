@@ -6,7 +6,7 @@ TMP='/tmp/flat-remix-gtk'
 ASSETS_DIR=../assets-renderer/gtk3/assets
 VARIANTS=(Blue Red Green Yellow)
 VARIANT_COLORS=('#367bf0' '#d41919' '#17917a' '#ffd86e')
-VARIANT_SELECTED_FONT_COLORS=('#ffffff' '#ffffff' '#ffffff' '#000000' )
+VARIANT_SELECTED_FONT_COLORS=('white' 'white' 'white' 'black' )
 DEFAULT_COLOR='#367bf0'
 
 

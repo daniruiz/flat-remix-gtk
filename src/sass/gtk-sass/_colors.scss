@@ -37,7 +37,7 @@ $success_color: #19a187;
 $destructive_color: #d31919;
 $suggested_color: $selected_bg_color;
 $destructive_fg_color: #FFF;
-$suggested_fg_color: #FFF;
+$suggested_fg_color: $selected_fg_color;
 
 $drop_target_color: #ff6600;
 
