@@ -1413,8 +1413,7 @@ treeview.view {
 
 menubar,
 .menubar {
-  -GtkWidget-window-dragging: true;
-  padding: 0px;
+  padding: 0;
   background-color: #2f343f;
   color: white; }
   menubar:backdrop,
@@ -1422,9 +1421,18 @@ menubar,
     color: rgba(255, 255, 255, 0.45); }
   menubar > menuitem,
   .menubar > menuitem {
-    padding: 4px 8px;
-    border: solid transparent;
-    border-width: 0; }
+    min-height: 16px;
+    padding: 4px 8px; }
+    menubar > menuitem menu, menubar > menuitem .csd menu,
+    .menubar > menuitem menu,
+    .menubar > menuitem .csd menu {
+      border-radius: 0;
+      padding: 0; }
+      menubar > menuitem menu menu, menubar > menuitem .csd menu menu,
+      .menubar > menuitem menu menu,
+      .menubar > menuitem .csd menu menu {
+        border-radius: 0;
+        padding: 0; }
     menubar > menuitem:hover,
     .menubar > menuitem:hover {
       background-color: #17917a;
@@ -1433,20 +1441,24 @@ menubar,
     .menubar > menuitem:disabled {
       color: rgba(255, 255, 255, 0.4);
       border-color: transparent; }
+  menubar .csd.popup decoration,
+  .menubar .csd.popup decoration {
+    border-radius: 0; }
 
 .background.popup {
   background-color: transparent; }
 
 menu, .menu, .context-menu, popover.touch-selection, .csd popover.touch-selection, popover.background.touch-selection, .csd popover.background.touch-selection {
-  margin: 4px;
-  padding: 0;
-  border-radius: 6px;
+  padding: 4px 0;
   background-color: #383C4A;
   border: 1px solid #242730; }
-  .csd menu, .csd .menu, .csd .context-menu, .csd popover.touch-selection, .csd popover.background.touch-selection {
-    padding: 4px 0px;
-    border-radius: 6px;
-    border: none; }
+  .csd menu,
+  .csd .menu,
+  .csd .context-menu,
+  .csd popover.touch-selection,
+  .csd popover.background.touch-selection {
+    border: none;
+    border-radius: 6px; }
   menu separator, .csd menu separator, .menu separator, .csd .menu separator, .context-menu separator, popover.touch-selection separator, .csd popover.touch-selection separator, popover.background.touch-selection separator, .csd popover.background.touch-selection separator, .csd .context-menu separator, .csd popover.touch-selection separator, .csd popover.background.touch-selection separator {
     margin: 2px 0;
     background-color: #383C4A; }
@@ -1455,7 +1467,8 @@ menu, .menu, .context-menu, popover.touch-selection, .csd popover.touch-selectio
   menu menuitem, .menu menuitem, .context-menu menuitem, popover.touch-selection menuitem, .csd popover.touch-selection menuitem, popover.background.touch-selection menuitem, .csd popover.background.touch-selection menuitem {
     min-height: 16px;
     min-width: 40px;
-    padding: 5px; }
+    padding: 4px 6px;
+    text-shadow: none; }
     menu menuitem:hover, .menu menuitem:hover, .context-menu menuitem:hover, popover.touch-selection menuitem:hover, .csd popover.background.touch-selection menuitem:hover {
       color: white;
       background-color: #17917a; }
@@ -1470,33 +1483,28 @@ menu, .menu, .context-menu, popover.touch-selection, .csd popover.touch-selectio
       menu menuitem arrow:dir(rtl), .menu menuitem arrow:dir(rtl), .context-menu menuitem arrow:dir(rtl), popover.touch-selection menuitem arrow:dir(rtl), .csd popover.background.touch-selection menuitem arrow:dir(rtl) {
         -gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl");
         margin-right: 10px; }
-    menuitem accelerator {
-      color: alpha(currentColor,0.55); }
-    menuitem check, menuitem radio {
-      min-height: 16px;
-      min-width: 16px; }
-      menuitem check:dir(ltr), menuitem radio:dir(ltr) {
-        margin-right: 6px;
-        margin-left: 2px; }
-      menuitem check:dir(rtl), menuitem radio:dir(rtl) {
-        margin-left: 6px;
-        margin-right: 2px; }
+    menu menuitem label:dir(rtl), menu menuitem label:dir(ltr), .menu menuitem label:dir(rtl), .menu menuitem label:dir(ltr), .context-menu menuitem label:dir(rtl), popover.touch-selection menuitem label:dir(rtl), .csd popover.background.touch-selection menuitem label:dir(rtl), .context-menu menuitem label:dir(ltr), popover.touch-selection menuitem label:dir(ltr), .csd popover.background.touch-selection menuitem label:dir(ltr) {
+      color: inherit; }
   menu > arrow, .menu > arrow, .context-menu > arrow, popover.touch-selection > arrow, .csd popover.touch-selection > arrow, popover.background.touch-selection > arrow, .csd popover.background.touch-selection > arrow {
     border-color: transparent;
     background-color: transparent;
     background-image: none;
-    min-width: 16px;
     min-height: 16px;
+    min-width: 16px;
     padding: 4px;
     background-color: #383C4A;
     border-radius: 0; }
     menu > arrow.top, .menu > arrow.top, .context-menu > arrow.top, popover.touch-selection > arrow.top, .csd popover.touch-selection > arrow.top {
       margin-top: -6px;
       border-bottom: 1px solid #444852;
+      border-top-right-radius: 6px;
+      border-top-left-radius: 6px;
       -gtk-icon-source: -gtk-icontheme("pan-up-symbolic"); }
     menu > arrow.bottom, .menu > arrow.bottom, .context-menu > arrow.bottom, popover.touch-selection > arrow.bottom, .csd popover.touch-selection > arrow.bottom {
       margin-bottom: -6px;
       border-top: 1px solid #444852;
+      border-top-right-radius: 6px;
+      border-top-left-radius: 6px;
       -gtk-icon-source: -gtk-icontheme("pan-down-symbolic"); }
     menu > arrow:hover, .menu > arrow:hover, .context-menu > arrow:hover, popover.touch-selection > arrow:hover, .csd popover.touch-selection > arrow:hover {
       background-color: #444852; }
@@ -1504,6 +1512,19 @@ menu, .menu, .context-menu, popover.touch-selection, .csd popover.touch-selectio
       color: transparent;
       background-color: transparent;
       border-color: transparent; }
+
+menuitem accelerator {
+  color: alpha(currentColor,0.55); }
+menuitem check,
+menuitem radio {
+  min-height: 16px;
+  min-width: 16px; }
+  menuitem check:dir(ltr),
+  menuitem radio:dir(ltr) {
+    margin-right: 7px; }
+  menuitem check:dir(rtl),
+  menuitem radio:dir(rtl) {
+    margin-left: 7px; }
 
 popover, popover.background {
   padding: 2px;
