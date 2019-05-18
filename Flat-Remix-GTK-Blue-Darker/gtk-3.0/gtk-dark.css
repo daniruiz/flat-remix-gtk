@@ -3046,6 +3046,10 @@ terminal-window notebook > header.top,
   color: white;
   background-color: #367bf0; }
 
+.thunar scrolledwindow treeview {
+  background: rgba(53, 57, 69, 0.95);
+  color: white; }
+
 .nemo-window .nemo-places-sidebar.frame {
   border-width: 0; }
 .nemo-window notebook {

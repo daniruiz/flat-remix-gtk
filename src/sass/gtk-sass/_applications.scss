@@ -167,6 +167,13 @@ $disk_space_free: darken($bg_color, 3%);
     background-color: $selected_bg_color;
   }
 }
+//
+// Thunar
+//
+.thunar scrolledwindow treeview {
+  background: $dark_sidebar_bg;
+  color: white;
+}
 
 //
 // Nemo
