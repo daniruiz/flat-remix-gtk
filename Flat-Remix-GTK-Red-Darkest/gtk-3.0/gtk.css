@@ -875,11 +875,11 @@ headerbar, .titlebar:not(headerbar) {
     padding-right: 12px; }
   headerbar.selection-mode, .selection-mode.titlebar:not(headerbar) {
     color: white;
-    background-color: rgba(212, 25, 25, 0.95);
-    border-color: rgba(194, 23, 23, 0.95);
+    background-color: rgba(212, 25, 25, 0.8);
+    border-color: rgba(194, 23, 23, 0.8);
     box-shadow: none; }
     headerbar.selection-mode:backdrop, .selection-mode.titlebar:backdrop:not(headerbar) {
-      background-color: rgba(212, 25, 25, 0.95);
+      background-color: rgba(212, 25, 25, 0.8);
       color: rgba(255, 255, 255, 0.45); }
     headerbar.selection-mode .selection-menu, .selection-mode.titlebar:not(headerbar) .selection-menu {
       box-shadow: none;

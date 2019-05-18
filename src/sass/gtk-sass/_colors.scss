@@ -33,7 +33,7 @@ $link_color: if($variant == 'light', darken($selected_bg_color, 10%),
 $link_visited_color: if($variant == 'light', darken($selected_bg_color, 20%),
         lighten($selected_bg_color, 10%));
 
-$selection_mode_bg: if($transparency == 'true', transparentize($selected_bg_color, 0.05), $selected_bg_color);
+$selection_mode_bg: transparentize($selected_bg_color, if($transparency=='false', 0, .2));
 $selection_mode_fg: $selected_fg_color;
 $warning_color: #F60;
 $error_color: #D31919;
