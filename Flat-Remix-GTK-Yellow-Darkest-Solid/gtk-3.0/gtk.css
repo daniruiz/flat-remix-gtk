@@ -2364,12 +2364,13 @@ row.activatable:selected.has-open-popup, row.activatable:selected:hover {
 
 .app-notification {
   padding: 5px;
-  margin-top: 10px;
+  margin: 20px;
   color: white;
   background-color: #1a1a1a;
   background-clip: border-box;
   border-radius: 6px;
-  border: 1px solid black; }
+  border: 1px solid black;
+  box-shadow: 0 2px 8px 0 black; }
   .app-notification border {
     border: none; }
   .app-notification button {

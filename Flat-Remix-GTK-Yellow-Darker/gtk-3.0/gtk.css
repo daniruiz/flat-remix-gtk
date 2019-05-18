@@ -2363,12 +2363,13 @@ row.activatable:selected.has-open-popup, row.activatable:selected:hover {
 
 .app-notification {
   padding: 5px;
-  margin-top: 10px;
+  margin: 20px;
   color: white;
   background-color: rgba(26, 26, 26, 0.93);
   background-clip: border-box;
   border-radius: 6px;
-  border: 1px solid rgba(0, 0, 0, 0.93); }
+  border: 1px solid rgba(0, 0, 0, 0.93);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4); }
   .app-notification border {
     border: none; }
   .app-notification button {

@@ -3070,12 +3070,13 @@ row {
 //
 .app-notification {
   padding: 5px;
-  margin-top: 10px;
+  margin: 20px;
   color: $dark_sidebar_fg;
   background-color: $dark_sidebar_bg;
   background-clip: border-box;
   border-radius: 6px;
   border: 1px solid darken($dark_sidebar_bg, 10%);
+  box-shadow: 0 2px 8px 0 if($darkest=='true', black, transparentize(black, .6));
 
   border {
     border: none;
