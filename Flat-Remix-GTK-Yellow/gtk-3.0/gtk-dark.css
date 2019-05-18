@@ -855,15 +855,13 @@ actionbar {
 headerbar, .titlebar:not(headerbar) {
   min-height: 42px;
   padding: 0 7px;
-  border-width: 0 0 1px;
   color: white;
   background-color: #2f343f;
   box-shadow: inset 0 1px rgba(54, 59, 72, 0.8);
   transition: color 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
   .csd headerbar,
   .csd .titlebar:not(headerbar) {
-    background-color: rgba(47, 52, 63, 0.8);
-    border-color: #242730; }
+    background-color: rgba(47, 52, 63, 0.8); }
   headerbar:backdrop, .titlebar:backdrop:not(headerbar) {
     color: rgba(255, 255, 255, 0.45); }
   headerbar .title, .titlebar:not(headerbar) .title {
@@ -876,7 +874,6 @@ headerbar, .titlebar:not(headerbar) {
   headerbar.selection-mode, .selection-mode.titlebar:not(headerbar) {
     color: black;
     background-color: rgba(255, 216, 110, 0.8);
-    border-color: rgba(255, 211, 90, 0.8);
     box-shadow: none; }
     headerbar.selection-mode:backdrop, .selection-mode.titlebar:backdrop:not(headerbar) {
       background-color: rgba(255, 216, 110, 0.8);
@@ -894,13 +891,11 @@ headerbar, .titlebar:not(headerbar) {
   .tiled headerbar, .tiled headerbar:backdrop, .maximized headerbar, .maximized headerbar:backdrop, .tiled .titlebar:not(headerbar), .tiled .titlebar:backdrop:not(headerbar), .maximized .titlebar:not(headerbar), .maximized .titlebar:backdrop:not(headerbar) {
     border-radius: 0; }
   .maximized headerbar, .maximized .titlebar:not(headerbar) {
-    background-color: #2f343f;
-    border-color: #242730; }
+    background-color: #2f343f; }
   headerbar.default-decoration, .csd headerbar.default-decoration, headerbar.default-decoration:backdrop, .csd headerbar.default-decoration:backdrop, .default-decoration.titlebar:not(headerbar), .csd .default-decoration.titlebar:not(headerbar), .default-decoration.titlebar:backdrop:not(headerbar), .csd .default-decoration.titlebar:backdrop:not(headerbar) {
     min-height: 28px;
     padding: 0 3px;
-    background-color: #2f343f;
-    border-bottom-width: 0; }
+    background-color: #2f343f; }
     .maximized headerbar.default-decoration, .maximized .csd headerbar.default-decoration, .maximized headerbar.default-decoration:backdrop, .maximized .csd headerbar.default-decoration:backdrop, .maximized .default-decoration.titlebar:not(headerbar), .maximized .csd .default-decoration.titlebar:not(headerbar), .maximized .default-decoration.titlebar:backdrop:not(headerbar), .maximized .csd .default-decoration.titlebar:backdrop:not(headerbar) {
       background-color: #2f343f; }
 
