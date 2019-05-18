@@ -2,13 +2,19 @@
 #   gmake PREFIX=/usr/local install
 
 PREFIX ?= /usr
-IGNORE ?= 
+IGNORE ?=
 THEMES ?= $(patsubst %/index.theme,%,$(wildcard ./*/index.theme))
 
 # excludes IGNORE from THEMES list
 THEMES := $(filter-out $(IGNORE), $(THEMES))
 
 all:
+
+build:
+	cd src && ./build.sh
+
+build-sass:
+	cd src && ./build.sh --no-assets
 
 install:
 	mkdir -p $(DESTDIR)$(PREFIX)/share/themes
