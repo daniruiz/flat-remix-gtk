@@ -67,60 +67,6 @@
 		</g>
 		<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#fff"/>
 	</g>
-	<g id="switch-active" transform="translate(-1002,-333)">
-		<g transform="translate(885,450)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#fff"/>
-				</g>
-			</g>
-		</g>
-		<g transform="translate(-1.0003)">
-			<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#fff"/>
-			<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#fff"/>
-		</g>
-	</g>
-	<g id="switch" transform="translate(-1002,-328)">
-		<g transform="matrix(-1,0,0,1,1177,420)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#cfd6e6"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#fff"/>
-				</g>
-			</g>
-		</g>
-		<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#5c616c;opacity:.6;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
-	<g id="switch-active-insensitive" transform="translate(-939,-333)" style="opacity:.55">
-		<g transform="translate(885,450)" style="opacity:1">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#fff"/>
-				</g>
-			</g>
-		</g>
-		<g transform="translate(-1.0003)">
-			<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#fff;opacity:1"/>
-			<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#fff;opacity:1"/>
-		</g>
-	</g>
-	<g id="switch-insensitive" transform="translate(-939,-328)" style="opacity:.55">
-		<g transform="matrix(-1,0,0,1,1177,420)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#cfd6e6"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#fff"/>
-				</g>
-			</g>
-		</g>
-		<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#5c616c;opacity:.6;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
 	<g id="checkbox-unchecked" transform="translate(-14,56.64)">
 		<g transform="translate(0,-30)">
 			<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
@@ -209,60 +155,6 @@
 				<rect x="52.66" y="127.6" width="27.304" height="26.836" rx="13.224" ry="13.246" style="color:#000000;fill:#fff;stroke-linejoin:round;stroke-width:2.0822;stroke:#cfd6e6"/>
 			</g>
 		</g>
-	</g>
-	<g id="switch-active-selected" transform="translate(-1002,-195)">
-		<g transform="translate(885,450)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#367bf0"/>
-				</g>
-			</g>
-		</g>
-		<g transform="translate(-1.0003)">
-			<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#367bf0"/>
-			<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#367bf0"/>
-		</g>
-	</g>
-	<g id="switch-selected" transform="translate(-1002,-190)">
-		<g transform="matrix(-1,0,0,1,1177,420)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="opacity:.2"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#fff"/>
-				</g>
-			</g>
-		</g>
-		<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#fff;opacity:.6;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
-	<g id="switch-active-insensitive-selected" transform="translate(-939,-195)" style="opacity:.55">
-		<g transform="translate(885,450)" style="opacity:1">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#367bf0"/>
-				</g>
-			</g>
-		</g>
-		<g transform="translate(-1.0003)">
-			<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#367bf0;opacity:1"/>
-			<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#367bf0;opacity:1"/>
-		</g>
-	</g>
-	<g id="switch-insensitive-selected" transform="translate(-939,-190)" style="opacity:.55">
-		<g transform="matrix(-1,0,0,1,1177,420)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="opacity:.2"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#fff"/>
-				</g>
-			</g>
-		</g>
-		<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#fff;opacity:.6;text-decoration-line:none;text-indent:0;text-transform:none"/>
 	</g>
 	<g id="checkbox-checked-selected" transform="translate(-14,194.64)">
 		<g transform="translate(19)">
@@ -431,64 +323,6 @@
 			<path d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z" style="fill:#cfd6e6;opacity:.4"/>
 		</g>
 		<rect x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
-	</g>
-	<g id="switch-active-header" transform="translate(-881,-333)">
-		<g transform="translate(885,450)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#fff"/>
-				</g>
-			</g>
-		</g>
-		<g transform="translate(-1.0003)">
-			<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#fff"/>
-			<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#fff"/>
-		</g>
-	</g>
-	<g id="switch-header" transform="translate(-881,-328)">
-		<g transform="matrix(-1,0,0,1,1177,420)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff;opacity:.9"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#cfd6e6"/>
-				</g>
-			</g>
-		</g>
-		<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#5c616c;opacity:.6;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
-	<g id="switch-active-insensitive-header" transform="translate(-818,-333)" style="opacity:.55">
-		<g transform="translate(885,450)" style="opacity:1">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#fff"/>
-				</g>
-			</g>
-		</g>
-		<g transform="translate(-1.0003)">
-			<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:url(#linearGradient6561);opacity:1"/>
-			<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:url(#linearGradient6563);opacity:1"/>
-		</g>
-		<g transform="translate(-1.0011)">
-			<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#fff"/>
-			<rect transform="matrix(.70711 .70711 -.70711 .70711 0 0)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#fff"/>
-		</g>
-	</g>
-	<g id="switch-insensitive-header" transform="translate(-818,-328)" style="opacity:.55">
-		<g transform="matrix(-1,0,0,1,1177,420)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#cfd6e6"/>
-				</g>
-			</g>
-		</g>
-		<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#5c616c;opacity:.6;text-decoration-line:none;text-indent:0;text-transform:none"/>
 	</g>
 	<g id="titlebutton-close" transform="translate(-481,242.64)">
 		<g transform="translate(-678,-432.64)">
@@ -665,60 +499,6 @@
 		</g>
 		<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#2b303b"/>
 	</g>
-	<g id="switch-active-dark" transform="translate(-760,-333)">
-		<g transform="translate(885,450)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#353a47"/>
-				</g>
-			</g>
-		</g>
-		<g transform="translate(-1.0003)">
-			<rect transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#353a47"/>
-			<rect transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#353a47"/>
-		</g>
-	</g>
-	<g id="switch-dark" transform="translate(-760,-328)">
-		<g transform="matrix(-1,0,0,1,1177,420)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#5b627b"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#353a47"/>
-				</g>
-			</g>
-		</g>
-		<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#353a47;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
-	<g id="switch-active-insensitive-dark" transform="translate(-697,-333)" style="opacity:.55">
-		<g transform="translate(885,450)" style="opacity:1">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#353a47"/>
-				</g>
-			</g>
-		</g>
-		<g transform="translate(-1.0003)">
-			<rect transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#353a47;opacity:1"/>
-			<rect transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#353a47;opacity:1"/>
-		</g>
-	</g>
-	<g id="switch-insensitive-dark" transform="translate(-697,-328)" style="opacity:.55">
-		<g transform="matrix(-1,0,0,1,1177,420)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#5b627b"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#353a47"/>
-				</g>
-			</g>
-		</g>
-		<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#353a47;opacity:1;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
 	<g id="checkbox-unchecked-dark" transform="translate(228,56.64)">
 		<g transform="translate(0,-30)">
 			<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
@@ -821,60 +601,6 @@
 			<path d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z" style="fill:#5f6578;opacity:.55"/>
 		</g>
 		<rect x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
-	</g>
-	<g id="switch-active-header-dark" transform="translate(-639,-333)">
-		<g transform="translate(885,450)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#2d323f"/>
-				</g>
-			</g>
-		</g>
-		<g transform="translate(-1.0003)">
-			<rect transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#2d323f"/>
-			<rect transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#2d323f"/>
-		</g>
-	</g>
-	<g id="switch-header-dark" transform="translate(-639,-328)">
-		<g transform="matrix(-1,0,0,1,1177,420)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#5b627b"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#2d323f"/>
-				</g>
-			</g>
-		</g>
-		<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#2d323f;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
-	<g id="switch-active-insensitive-header-dark" transform="translate(-576,-333)" style="opacity:.55">
-		<g transform="translate(885,450)" style="opacity:1">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#2d323f"/>
-				</g>
-			</g>
-		</g>
-		<g transform="translate(-1.0003)">
-			<rect transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#2d323f;opacity:1"/>
-			<rect transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#2d323f;opacity:1"/>
-		</g>
-	</g>
-	<g id="switch-insensitive-header-dark" transform="translate(-576,-328)" style="opacity:.55">
-		<g transform="matrix(-1,0,0,1,1177,420)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#5b627b"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#2d323f;opacity:1"/>
-				</g>
-			</g>
-		</g>
-		<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#2d323f;opacity:1;text-decoration-line:none;text-indent:0;text-transform:none"/>
 	</g>
 	<g id="titlebutton-minimize-dark" transform="translate(-221,242.64)">
 		<rect x="587" y="-185.64" width="16" height="16" style="fill:none"/>
@@ -1115,60 +841,6 @@
 		</g>
 		<rect transform="rotate(-90)" x="-9.3622" y="139" width="2" height="8" ry="0" style="fill:#2b303b"/>
 	</g>
-	<g id="switch-active-darkest" transform="translate(-760,-195)">
-		<g transform="translate(885,450)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
-				</g>
-			</g>
-		</g>
-		<g transform="translate(-1.0003)">
-			<rect transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#1a1a1a"/>
-			<rect transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#1a1a1a"/>
-		</g>
-	</g>
-	<g id="switch-darkest" transform="translate(-760,-190)">
-		<g transform="matrix(-1,0,0,1,1177,420)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
-				</g>
-			</g>
-		</g>
-		<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#1a1a1a;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
-	<g id="switch-active-insensitive-darkest" transform="translate(-697,-195)" style="opacity:.55">
-		<g transform="translate(885,450)" style="opacity:1">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
-				</g>
-			</g>
-		</g>
-		<g transform="translate(-1.0003)">
-			<rect transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#1a1a1a;opacity:1"/>
-			<rect transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#1a1a1a;opacity:1"/>
-		</g>
-	</g>
-	<g id="switch-insensitive-darkest" transform="translate(-697,-190)" style="opacity:.55">
-		<g transform="matrix(-1,0,0,1,1177,420)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
-				</g>
-			</g>
-		</g>
-		<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#1a1a1a;opacity:1;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
 	<g id="checkbox-unchecked-darkest" transform="translate(228,194.64)">
 		<g transform="translate(0,-30)">
 			<rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
@@ -1271,60 +943,6 @@
 			<path d="m491.36 188.95-9.5312 9.5625-4.7812-4.7812-3.1876 3.1875 4.7813 4.7812 3.1875 3.1875 3.1562-3.1875 9.5626-9.5625z" style="fill:#5f6578;opacity:.55"/>
 		</g>
 		<rect x="462" y="179.36" width="40" height="40" rx="2" ry="2" style="fill:none;stroke-width:0"/>
-	</g>
-	<g id="switch-active-header-darkest" transform="translate(-639,-195)">
-		<g transform="translate(885,450)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
-				</g>
-			</g>
-		</g>
-		<g transform="translate(-1.0003)">
-			<rect transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#1a1a1a"/>
-			<rect transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#1a1a1a"/>
-		</g>
-	</g>
-	<g id="switch-header-darkest" transform="translate(-639,-190)">
-		<g transform="matrix(-1,0,0,1,1177,420)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
-				</g>
-			</g>
-		</g>
-		<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#1a1a1a;text-decoration-line:none;text-indent:0;text-transform:none"/>
-	</g>
-	<g id="switch-active-insensitive-header-darkest" transform="translate(-576,-195)" style="opacity:.55">
-		<g transform="translate(885,450)" style="opacity:1">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#367bf0"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#1a1a1a"/>
-				</g>
-			</g>
-		</g>
-		<g transform="translate(-1.0003)">
-			<rect transform="rotate(45)" x="977.55" y="-456.09" width="5" height="2" rx=".66666" ry=".66666" style="fill:#1a1a1a;opacity:1"/>
-			<rect transform="rotate(45)" x="980.55" y="-462.09" width="2" height="8" ry="0" style="fill:#1a1a1a;opacity:1"/>
-		</g>
-	</g>
-	<g id="switch-insensitive-header-darkest" transform="translate(-576,-190)" style="opacity:.55">
-		<g transform="matrix(-1,0,0,1,1177,420)">
-			<g transform="translate(120,-117)">
-				<g transform="translate(0,-1004.4)">
-					<rect y="1029.4" width="52" height="24" style="opacity:0"/>
-					<rect x="1" y="1031.4" width="50" height="20" rx="11" ry="11" style="fill:#fff"/>
-					<circle cx="41" cy="1041.4" r="9" style="fill:#1a1a1a;opacity:1"/>
-				</g>
-			</g>
-		</g>
-		<path d="m1043 337h0.75c0.01-9e-5 0.016-3.5e-4 0.023 0 0.1912 8e-3 0.3824 0.0964 0.5156 0.23437l1.711 1.7109 1.7343-1.7109c0.1993-0.17287 0.335-0.22912 0.5157-0.23437h0.75v0.75c0 0.21485-0.026 0.41298-0.1875 0.5625l-1.711 1.7109 1.6875 1.6875c0.1412 0.14113 0.211 0.34009 0.211 0.53907v0.75h-0.75c-0.199-1e-5 -0.398-0.0698-0.5391-0.21094l-1.7109-1.7109-1.711 1.7109c-0.1411 0.14114-0.3401 0.21094-0.539 0.21094h-0.75v-0.75c0-0.19897 0.07-0.39794 0.2109-0.53907l1.7109-1.6875-1.7109-1.7109c-0.1581-0.14598-0.2274-0.35194-0.2109-0.5625v-0.75z" style="color:#bebebe;enable-background:new;fill:#1a1a1a;opacity:1;text-decoration-line:none;text-indent:0;text-transform:none"/>
 	</g>
 	<g id="titlebutton-minimize-darkest" transform="translate(-221,380.64)">
 		<rect x="587" y="-185.64" width="16" height="16" style="fill:none"/>

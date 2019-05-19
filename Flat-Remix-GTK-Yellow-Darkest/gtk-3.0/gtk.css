@@ -905,6 +905,9 @@ headerbar, .titlebar:not(headerbar) {
 headerbar entry, headerbar button, headerbar separator {
   margin-top: 6px;
   margin-bottom: 6px; }
+headerbar switch {
+  margin-top: 8px;
+  margin-bottom: 8px; }
 separator:first-child + headerbar, separator:first-child + headerbar:backdrop, headerbar:first-child, headerbar:first-child:backdrop {
   border-top-left-radius: 6px; }
   .maximized separator:first-child + headerbar, .tiled separator:first-child + headerbar, .maximized separator:first-child + headerbar:backdrop, .tiled separator:first-child + headerbar:backdrop, .maximized headerbar:first-child, .tiled headerbar:first-child, .maximized headerbar:first-child:backdrop, .tiled headerbar:first-child:backdrop {
@@ -1776,68 +1779,47 @@ scrollbar {
     min-height: 40px; }
 
 switch {
-  font-size: 1px;
-  min-width: 52px;
-  min-height: 24px;
-  background-size: 52px 24px;
-  background-repeat: no-repeat;
-  background-position: center center; }
-  switch slider {
-    min-width: 1px;
-    min-height: 1px; }
-  switch, switch slider {
-    outline-color: transparent;
+  font-weight: bold;
+  font-size: smaller;
+  outline-offset: -4px;
+  border: 1px solid #1a1a1a;
+  border-radius: 100px;
+  color: white;
+  background-color: white;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+  /* only show i / o for the accessible theme */ }
+  switch:checked {
+    color: black;
+    border-color: #ffbd08;
+    background-color: #ffd86e;
+    text-shadow: 0 1px rgba(255, 189, 8, 0.5), 0 0 2px rgba(255, 255, 255, 0.6); }
+  switch:disabled {
     color: transparent;
-    border: none;
+    border-color: #1a1a1a;
+    background-color: #121212;
+    text-shadow: none; }
+  switch slider {
+    margin: -1px;
+    min-width: 24px;
+    min-height: 24px;
+    border: 1px solid #1a1a1a;
+    border-radius: 50%;
+    background-color: #050505;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    border: 0;
+    margin: 2px;
+    min-width: 20px;
+    min-height: 20px;
+    box-shadow: 0 0 2px black; }
+  switch image {
+    color: transparent; }
+  switch:checked slider {
+    border-color: #0d0d0d;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
+  switch:disabled slider {
+    border: 1px solid #1a1a1a;
+    background-color: #121212;
     box-shadow: none; }
-
-switch {
-  background-image: -gtk-scaled(url("assets/switch-darkest.png"), url("assets/switch-darkest@2.png")); }
-
-menuitem:hover switch,
-row:selected switch,
-infobar switch {
-  background-image: -gtk-scaled(url("assets/switch-selected.png"), url("assets/switch-selected@2.png")); }
-
-headerbar switch,
-.primary-toolbar switch {
-  background-image: -gtk-scaled(url("assets/switch-header-darkest.png"), url("assets/switch-header-darkest@2.png")); }
-
-switch:checked {
-  background-image: -gtk-scaled(url("assets/switch-active-darkest.png"), url("assets/switch-active-darkest@2.png")); }
-
-menuitem:hover switch:checked,
-row:selected switch:checked,
-infobar switch:checked {
-  background-image: -gtk-scaled(url("assets/switch-active-selected.png"), url("assets/switch-active-selected@2.png")); }
-
-headerbar switch:checked,
-.primary-toolbar switch:checked {
-  background-image: -gtk-scaled(url("assets/switch-active-header-darkest.png"), url("assets/switch-active-header-darkest@2.png")); }
-
-switch:disabled {
-  background-image: -gtk-scaled(url("assets/switch-insensitive-darkest.png"), url("assets/switch-insensitive-darkest@2.png")); }
-
-menuitem:hover switch:disabled,
-row:selected switch:disabled,
-infobar switch:disabled {
-  background-image: -gtk-scaled(url("assets/switch-insensitive-selected.png"), url("assets/switch-insensitive-selected@2.png")); }
-
-headerbar switch:disabled,
-.primary-toolbar switch:disabled {
-  background-image: -gtk-scaled(url("assets/switch-insensitive-header-darkest.png"), url("assets/switch-insensitive-header-darkest@2.png")); }
-
-switch:checked:disabled {
-  background-image: -gtk-scaled(url("assets/switch-active-insensitive-darkest.png"), url("assets/switch-active-insensitive-darkest@2.png")); }
-
-menuitem:hover switch:checked:disabled,
-row:selected switch:checked:disabled,
-infobar switch:checked:disabled {
-  background-image: -gtk-scaled(url("assets/switch-active-insensitive-selected.png"), url("assets/switch-active-insensitive-selected@2.png")); }
-
-headerbar switch:checked:disabled,
-.primary-toolbar switch:checked:disabled {
-  background-image: -gtk-scaled(url("assets/switch-active-insensitive-header-darkest.png"), url("assets/switch-active-insensitive-header-darkest@2.png")); }
 
 .check,
 check,
