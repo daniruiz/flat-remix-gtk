@@ -3610,6 +3610,9 @@ panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel butto
 .menu .spinner {
   opacity: 1; }
 
+.budgie-menu scrolledwindow list {
+  background: transparent; }
+
 .overlay-bar {
   background-color: #17917a;
   border-color: #17917a;
