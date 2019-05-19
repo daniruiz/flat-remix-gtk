@@ -17,9 +17,9 @@
 
 #### Manual installation
 
-1. Download and uncompress the zip file.
-1. Move "Flat Remix GTK" folder to ".themes" in your home directory.
-1. Run ```gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK-Blue"``` or select "Flat-Remix-GTK-Blue" via your desktop specific tweaks application.
+1. Download and extract the zip file.
+1. Move "Flat-Remix-GTK-Blue" folder to ".themes" in your home directory.
+1. Run `gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK-Blue"` or select `Flat-Remix-GTK-Blue` via your desktop specific tweaks application.
 
 #### Terminal installation
 
