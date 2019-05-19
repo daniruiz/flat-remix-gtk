@@ -107,6 +107,7 @@ terminal-window,
     }
     > stack { background: $base_color; }
   }
+  &.maximized notebook { background: opacify($header_bg, 1); }
 }
 
 .nautilus-window notebook > stack:not(:only-child) searchbar {

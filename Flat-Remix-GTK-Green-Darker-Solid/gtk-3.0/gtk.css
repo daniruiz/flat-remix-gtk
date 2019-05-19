@@ -3023,6 +3023,8 @@ terminal-window notebook > header.top,
       border-color: #0d0d0d; }
   .nautilus-window notebook > stack {
     background: white; }
+.nautilus-window.maximized notebook {
+  background: black; }
 
 .nautilus-window notebook > stack:not(:only-child) searchbar {
   background-color: white; }

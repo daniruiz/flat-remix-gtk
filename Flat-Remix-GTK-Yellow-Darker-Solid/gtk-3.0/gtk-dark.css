@@ -3005,6 +3005,8 @@ terminal-window notebook > header.top,
       border-color: #242730; }
   .nautilus-window notebook > stack {
     background: #2F343F; }
+.nautilus-window.maximized notebook {
+  background: #2f343f; }
 
 .nautilus-window notebook > stack:not(:only-child) searchbar {
   background-color: #2F343F; }
