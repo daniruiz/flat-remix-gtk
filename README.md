@@ -21,15 +21,6 @@
 1. Move "Flat-Remix-GTK-Blue" folder to ".themes" in your home directory.
 1. Run `gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK-Blue"` or select `Flat-Remix-GTK-Blue` via your desktop specific tweaks application.
 
-#### Terminal installation
-
-```sh
-cd /tmp && rm -rf flat-remix-gtk &&
-git clone https://github.com/daniruiz/flat-remix-gtk &&
-mkdir -p ~/.themes && cp -r flat-remix-gtk/Flat-Remix-GTK* ~/.themes/ &&
-gsettings set org.gnome.desktop.interface gtk-theme "Flat-Remix-GTK-Blue"
-```
-
 #### Ubuntu based distributions:
 
 ```sh
