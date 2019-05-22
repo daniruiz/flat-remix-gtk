@@ -4,6 +4,8 @@
 PREFIX ?= /usr
 IGNORE ?=
 THEMES ?= $(patsubst %/index.theme,%,$(wildcard ./*/index.theme))
+PKGNAME = flat-remix-gtk
+MAINTAINER = Daniel Ruiz de Alegría <daniel@drasite.com>
 
 # excludes IGNORE from THEMES list
 THEMES := $(filter-out $(IGNORE), $(THEMES))
@@ -49,17 +51,26 @@ aur_release: _get_version _get_tag
 	git commit aur -m "$(VERSION)"
 	git push origin master
 
+	$(MAKE) launchpad_release
+
 copr_release: _get_version _get_tag
-	sed "s/$(TAG)/$(VERSION)/g" -i flat-remix-gtk.spec
-	git commit flat-remix-gtk.spec -m "Update flat-remix-gtk.spec version $(VERSION)"
+	sed "s/$(TAG)/$(VERSION)/g" -i $(PKGNAME).spec
+	git commit $(PKGNAME).spec -m "Update $(PKGNAME).spec version $(VERSION)"
 	git push origin master
+
+launchpad_release: _get_version _get_tag
+	cp -a Flat-Remix* Makefile deb/$(PKGNAME)
+	sed "s/$(TAG)/$(VERSION)/g" -i deb/$(PKGNAME)/debian/changelog-template
+	cd deb/$(PKGNAME)/debian/ && echo " -- $(MAINTAINER)  $$(date -R)" | cat changelog-template - > changelog
+	cd deb/$(PKGNAME) && debuild -S -d
+	dput ppa deb/$(PKGNAME)_$(VERSION)_source.changes
 
 undo_release: _get_tag
 	-git tag -d $(TAG)
 	-git push --delete origin $(TAG)
 
 
-.PHONY: $(THEMES) all install uninstall _get_version dist release undo_release
+.PHONY: all build build-sass install uninstall _get_version _get_tag dist release aur_release copr_release launchpad_release undo_release
 
 # .BEGIN is ignored by GNU make so we can use it as a guard
 .BEGIN:
