@@ -1,13 +1,13 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Flat-Remix-GTK-Darker
+Name=Flat-Remix-GTK-Yellow-Darker
 Comment=Flat Remix GTK theme is a pretty simple gtk window theme inspired on material design following a modern design using "flat" colors with high contrasts and sharp borders.
 Encoding=UTF-8
 
 
 [X-GNOME-Metatheme]
-GtkTheme=Flat-Remix-GTK-Darker
-MetacityTheme=Flat-Remix-Darker
-IconTheme=Flat-Remix
+GtkTheme=Flat-Remix-GTK-Yellow-Darker
+MetacityTheme=Flat-Remix-GTK-Yellow-Darker
+IconTheme=gnome
 CursorTheme=DMZ-Black
 ButtonLayout=menu:minimize,maximize,close

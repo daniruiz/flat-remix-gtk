@@ -16,8 +16,10 @@ function generate_variant_template {
 	for theme in variant-templates/*
 	do
 		basename=$(basename $theme)
-		cp -a "$theme" "$TMP/${variant}${basename#Flat-Remix-GTK}"
-		sed "s/${DEFAULT_COLOR}/${variant_color}/gi" -i $(find "$TMP/${variant}${basename#Flat-Remix-GTK}" -type f)
+		variant_dir="$TMP/${variant}${basename#Flat-Remix-GTK}"
+		cp -a "$theme" "$variant_dir"
+		sed -s "s/Flat-Remix-GTK/${variant}/g" -i "$variant_dir/index.theme"
+		sed "s/${DEFAULT_COLOR}/${variant_color}/gi" -i $(find "$variant_dir" -type f)
 	done
 }
 
