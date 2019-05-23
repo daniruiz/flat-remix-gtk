@@ -5,12 +5,12 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   id="svg1760"
+   id="svg1278"
    version="1.1"
    height="16"
    width="16">
   <metadata
-     id="metadata1766">
+     id="metadata1284">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -21,31 +21,31 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs1764" />
+     id="defs1282" />
   <g
      style="opacity:0.3"
      transform="translate(-645,185.64)"
-     id="titlebutton-appmenu-backdrop">
+     id="titlebutton-appmenu-backdrop-darkest">
     <g
-       id="g1191"
+       id="g1247"
        style="opacity:1"
        transform="translate(-678,-432.64)">
       <g
-         id="g1189"
+         id="g1245"
          style="opacity:1"
          transform="translate(-103)">
         <g
-           id="g1187"
+           id="g1243"
            transform="translate(58)">
           <path
-             id="path1185"
-             style="color:#000000;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;dominant-baseline:auto;white-space:normal;shape-padding:0;opacity:1;isolation:auto;mix-blend-mode:normal;solid-color:#000000;color-rendering:auto;image-rendering:auto;shape-rendering:auto"
+             id="path1241"
+             style="color:#000000;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;dominant-baseline:auto;white-space:normal;shape-padding:0;opacity:1;isolation:auto;mix-blend-mode:normal;solid-color:#000000;fill:#ffffff;color-rendering:auto;image-rendering:auto;shape-rendering:auto"
              d="m 1376,247.75 c -4.0011,0 -7.25,3.2489 -7.25,7.25 0,4.0011 3.2489,7.25 7.25,7.25 4.0011,0 7.25,-3.2489 7.25,-7.25 0,-4.0011 -3.2489,-7.25 -7.25,-7.25 z" />
         </g>
       </g>
     </g>
     <rect
-       id="rect1193"
+       id="rect1249"
        style="opacity:1;fill:none"
        height="16"
        width="16"

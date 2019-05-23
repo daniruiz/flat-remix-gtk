@@ -1,4 +1,4 @@
-titlebutton-appmenu-backdrop
+titlebutton-appmenu-backdrop-darkest
 titlebutton-close-darkest
 titlebutton-close-hover-darkest
 titlebutton-maximize-darkest
