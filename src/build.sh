@@ -1,9 +1,6 @@
 #!/bin/bash
 
-shopt -s globstar
-
 TMP='/tmp/flat-remix-gtk'
-ASSETS_DIR=../assets-renderer/gtk3/assets
 VARIANTS=(Blue Red Green Yellow)
 VARIANT_COLORS=('#367bf0' '#d41919' '#17917a' '#ffd86e')
 VARIANT_SELECTED_FONT_COLORS=('white' 'white' 'white' 'black' )
@@ -15,11 +12,11 @@ function generate_variant_template {
 	variant_color="$2"
 	for theme in variant-templates/*
 	do
-		basename=$(basename $theme)
+		basename="$(basename "$theme")"
 		variant_dir="$TMP/${variant}${basename#Flat-Remix-GTK}"
 		cp -a "$theme" "$variant_dir"
 		sed -s "s/Flat-Remix-GTK/${variant}/g" -i "$variant_dir/index.theme"
-		sed "s/${DEFAULT_COLOR}/${variant_color}/gi" -i $(find "$variant_dir" -type f)
+		find "$variant_dir" -type f -exec sed "s/${DEFAULT_COLOR}/${variant_color}/gi" -i {} \;
 	done
 }
 
@@ -28,13 +25,13 @@ function generate_css_files {(
 	variant_color="$2"
 	variant_selected_font_color="$3"
 	mkdir -p "$TMP/css/$variant"
-	cd sass;
+	cd sass || return
 	for scss in *.scss
 	do
 		echo -e "Generate $variant \t $scss"
 		echo "\$selected_bg_color: $variant_color; \$selected_fg_color: ${variant_selected_font_color};" | \
 				cat - "$scss" | \
-				scss --sourcemap=none -C -q -s "$TMP/css/$variant/$(basename ${scss%%.scss})".css
+				scss --sourcemap=none -C -q -s "$TMP/css/$variant/$(basename "${scss%%.scss}")".css
 	done
 )}
 
@@ -64,7 +61,7 @@ function generate_assets {
 	variant_color="$2"
 	mkdir "$TMP/assets-renderer"
 	cp -r assets-renderer "$TMP/assets-renderer/$variant"
-	sed "s/${DEFAULT_COLOR}/${variant_color}/gi" -i $(find "$TMP/assets-renderer/$variant" -type f)
+	find "$TMP/assets-renderer/$variant" -type f -exec sed "s/${DEFAULT_COLOR}/${variant_color}/gi" -i {} \;
 	"$TMP"/assets-renderer/"$variant"/gtk2/render-assets.sh
 	"$TMP"/assets-renderer/"$variant"/gtk3/render-assets.sh
 	"$TMP"/assets-renderer/"$variant"/metacity/render-assets.sh
@@ -110,7 +107,7 @@ function generate_variant {
 rm -rf "$TMP"
 mkdir -p "$TMP"
 
-for i in $(seq 0 $[${#VARIANTS[*]}-1])
+for i in $(seq 0 $((${#VARIANTS[*]}-1)))
 do
 	variant="Flat-Remix-GTK-${VARIANTS[$i]}"
 	variant_color="${VARIANT_COLORS[$i]}"
