@@ -12,15 +12,26 @@ function generate_variant_template {
 	variant_color="$2"
 	for theme in variant-templates/*
 	do
-		basename="$(basename "$theme")"
-		variant_dir="$TMP/${variant}${basename#Flat-Remix-GTK}"
+		theme_basename="$(basename "$theme")"
+		variant_dir="$TMP/${variant}${theme_basename#Flat-Remix-GTK}"
 		cp -a "$theme" "$variant_dir"
 		sed -s "s/Flat-Remix-GTK/${variant}/g" -i "$variant_dir/index.theme"
 		find "$variant_dir" -type f -exec sed "s/${DEFAULT_COLOR}/${variant_color}/gi" -i {} \;
+		case "$theme_basename" in
+			*Darkest*)
+				cp gtk-3.0-thumbnails/thumbnail-darkest-"${variant##Flat-Remix-GTK-}".png "$variant_dir"/gtk-3.0/thumbnail.png
+				;;
+			*Dark|*Dark-*)
+				cp gtk-3.0-thumbnails/thumbnail-dark-"${variant##Flat-Remix-GTK-}".png "$variant_dir"/gtk-3.0/thumbnail.png
+				;;
+			*)
+				cp gtk-3.0-thumbnails/thumbnail-"${variant##Flat-Remix-GTK-}".png "$variant_dir"/gtk-3.0/thumbnail.png
+				;;
+        esac
 	done
 }
 
-function generate_css_files {(
+function generate_css_files { (
 	variant="$1"
 	variant_color="$2"
 	variant_selected_font_color="$3"
@@ -33,7 +44,7 @@ function generate_css_files {(
 				cat - "$scss" | \
 				scss --sourcemap=none -C -q -s "$TMP/css/$variant/$(basename "${scss%%.scss}")".css
 	done
-)}
+) }
 
 function copy_css_files {
 	variant="$1"
