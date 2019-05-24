@@ -27,7 +27,7 @@
 	<distance name="title_vertical_pad" value="3"/>
 	<border name="title_border" left="10" right="10" top="3" bottom="3"/>
 	<border name="button_border" left="0" right="0" top="0" bottom="0"/>
-	<aspect_ratio name="button" value="1.3" />
+	<aspect_ratio name="button" value="1.15" />
 </frame_geometry>
 
 <frame_geometry name="normal_unfocused" title_scale="medium" rounded_top_left="6" rounded_top_right="6" parent="normal">
