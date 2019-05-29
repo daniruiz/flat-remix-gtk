@@ -1785,16 +1785,13 @@ switch {
   border: 1px solid #242730;
   border-radius: 100px;
   color: transparent;
-  background-color: #2F343F;
-  text-shadow: 0 1px rgba(0, 0, 0, 0.1); }
+  background-color: #2F343F; }
   switch:checked {
     border-color: #790e0e;
-    background-color: #d41919;
-    text-shadow: 0 1px rgba(121, 14, 14, 0.5), 0 0 2px rgba(255, 255, 255, 0.6); }
+    background-color: #d41919; }
   switch:disabled {
     border-color: #242730;
-    background-color: #3c4150;
-    text-shadow: none; }
+    background-color: #3c4150; }
   switch slider {
     margin: -1px;
     min-width: 24px;

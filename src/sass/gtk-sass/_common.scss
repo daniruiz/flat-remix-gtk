@@ -2492,7 +2492,6 @@ switch {
   border-radius: 100px;
   color: transparent;
   background-color: if($darkest=='true', white, $base_color);
-  text-shadow: 0 1px transparentize(black, 0.9);
   @if $variant == 'light' {
     background-color: darken($base_color, 7%);
     border-color: darken($borders_color, 7%);
@@ -2501,14 +2500,11 @@ switch {
   &:checked {
     border-color: $selected_borders_color;
     background-color: $selected_bg_color;
-    text-shadow: 0 1px transparentize($selected_borders_color, 0.5),
-    0 0 2px transparentize(white, 0.4);
   }
 
   &:disabled {
     border-color: $borders_color;
     background-color: $insensitive_bg_color;
-    text-shadow: none;
   }
 
   slider {
