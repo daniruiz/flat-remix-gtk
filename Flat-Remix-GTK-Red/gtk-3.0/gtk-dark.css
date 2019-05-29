@@ -1784,17 +1784,14 @@ switch {
   outline-offset: -4px;
   border: 1px solid #242730;
   border-radius: 100px;
-  color: white;
+  color: transparent;
   background-color: #2F343F;
-  text-shadow: 0 1px rgba(0, 0, 0, 0.1);
-  /* only show i / o for the accessible theme */ }
+  text-shadow: 0 1px rgba(0, 0, 0, 0.1); }
   switch:checked {
-    color: white;
     border-color: #790e0e;
     background-color: #d41919;
     text-shadow: 0 1px rgba(121, 14, 14, 0.5), 0 0 2px rgba(255, 255, 255, 0.6); }
   switch:disabled {
-    color: transparent;
     border-color: #242730;
     background-color: #3c4150;
     text-shadow: none; }
@@ -1806,8 +1803,6 @@ switch {
     border-radius: 50%;
     background-color: #333945;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); }
-  switch image {
-    color: transparent; }
   switch:checked slider {
     border-color: #191b21;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }

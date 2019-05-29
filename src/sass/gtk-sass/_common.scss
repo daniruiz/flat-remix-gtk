@@ -2490,7 +2490,7 @@ switch {
   // similar to the .scale
   border: 1px solid $borders_color;
   border-radius: 100px;
-  color: $fg_color;
+  color: transparent;
   background-color: if($darkest=='true', white, $base_color);
   text-shadow: 0 1px transparentize(black, 0.9);
   @if $variant == 'light' {
@@ -2499,7 +2499,6 @@ switch {
   }
 
   &:checked {
-    color: $selected_fg_color;
     border-color: $selected_borders_color;
     background-color: $selected_bg_color;
     text-shadow: 0 1px transparentize($selected_borders_color, 0.5),
@@ -2507,7 +2506,6 @@ switch {
   }
 
   &:disabled {
-    color: transparent;
     border-color: $borders_color;
     background-color: $insensitive_bg_color;
     text-shadow: none;
@@ -2529,9 +2527,6 @@ switch {
       box-shadow: 0 0 2px black;
     }
   }
-
-  image { color: transparent; }
-  /* only show i / o for the accessible theme */
 
   &:checked slider {
     border-color: darken($borders_color, 5%);

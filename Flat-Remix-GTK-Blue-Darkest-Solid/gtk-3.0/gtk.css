@@ -1784,17 +1784,14 @@ switch {
   outline-offset: -4px;
   border: 1px solid #1a1a1a;
   border-radius: 100px;
-  color: white;
+  color: transparent;
   background-color: white;
-  text-shadow: 0 1px rgba(0, 0, 0, 0.1);
-  /* only show i / o for the accessible theme */ }
+  text-shadow: 0 1px rgba(0, 0, 0, 0.1); }
   switch:checked {
-    color: white;
     border-color: #0d4bb3;
     background-color: #367bf0;
     text-shadow: 0 1px rgba(13, 75, 179, 0.5), 0 0 2px rgba(255, 255, 255, 0.6); }
   switch:disabled {
-    color: transparent;
     border-color: #1a1a1a;
     background-color: #121212;
     text-shadow: none; }
@@ -1811,8 +1808,6 @@ switch {
     min-width: 20px;
     min-height: 20px;
     box-shadow: 0 0 2px black; }
-  switch image {
-    color: transparent; }
   switch:checked slider {
     border-color: #0d0d0d;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5); }
