@@ -70,12 +70,13 @@ function copy_css_files {
 function generate_assets {
 	variant="$1"
 	variant_color="$2"
-	mkdir "$TMP/assets-renderer"
+	mkdir -p "$TMP/assets-renderer"
 	cp -r assets-renderer "$TMP/assets-renderer/$variant"
 	find "$TMP/assets-renderer/$variant" -type f -exec sed "s/${DEFAULT_COLOR}/${variant_color}/gi" -i {} \;
 	"$TMP"/assets-renderer/"$variant"/gtk2/render-assets.sh
 	"$TMP"/assets-renderer/"$variant"/gtk3/render-assets.sh
 	"$TMP"/assets-renderer/"$variant"/metacity/render-assets.sh
+	"$TMP"/assets-renderer/"$variant"/xfwm4/render-assets.sh
 
 	for theme in "$TMP/$variant"*
 	do
@@ -83,18 +84,25 @@ function generate_assets {
 			*Darkest*)
 				cp "$TMP"/assets-renderer/"$variant"/gtk2/assets-darkest/* "$theme"/gtk-2.0/assets/
 				cp "$TMP"/assets-renderer/"$variant"/metacity/metacity-darkest/* "$theme"/metacity-1/
+				if [[ "$theme" == *NoBorder* ]]
+					then cp "$TMP"/assets-renderer/"$variant"/xfwm4/assets-darkest-noBorder/* "$theme"/xfwm4/
+					else cp "$TMP"/assets-renderer/"$variant"/xfwm4/assets-darkest/* "$theme"/xfwm4/
+				fi
 				;;
 			*Dark|*Dark-*)
 				cp "$TMP"/assets-renderer/"$variant"/gtk2/assets-dark/* "$theme"/gtk-2.0/assets/
 				cp "$TMP"/assets-renderer/"$variant"/metacity/metacity-dark/* "$theme"/metacity-1/
+				cp "$TMP"/assets-renderer/"$variant"/xfwm4/assets-dark/* "$theme"/xfwm4/
 				;;
 			*Darker|*Darker-*)
 				cp "$TMP"/assets-renderer/"$variant"/gtk2/assets/* "$theme"/gtk-2.0/assets/
 				cp "$TMP"/assets-renderer/"$variant"/metacity/metacity-darkest/* "$theme"/metacity-1/
+				cp "$TMP"/assets-renderer/"$variant"/xfwm4/assets-darkest-noBorder/* "$theme"/xfwm4/
 				;;
 			*)
 				cp "$TMP"/assets-renderer/"$variant"/gtk2/assets/* "$theme"/gtk-2.0/assets/
 				cp "$TMP"/assets-renderer/"$variant"/metacity/metacity/* "$theme"/metacity-1/
+				cp "$TMP"/assets-renderer/"$variant"/xfwm4/assets/* "$theme"/xfwm4/
 				;;
 		esac
 		cp "$TMP"/assets-renderer/"$variant"/gtk2/menubar-toolbar/* "$theme"/gtk-2.0/menubar-toolbar/
