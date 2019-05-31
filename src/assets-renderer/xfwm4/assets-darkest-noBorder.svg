@@ -57,7 +57,6 @@
 	<use id="menu-pressed" transform="translate(31 -2.0352e-5)" width="100%" height="100%" style="fill:#000000" xlink:href="#menu-active"/>
 	<use id="menu-inactive" transform="translate(62 -2.0352e-5)" width="100%" height="100%" style="fill:#000000" xlink:href="#menu-active"/>
 	<g id="title-1-active" transform="matrix(.17857 0 0 1 9.1072 -415.01)">
-		<rect x="5" y="554.36" width="28" height="28" style="fill:#fff"/>
 		<rect x="5" y="557.36" width="28" height="28"/>
 	</g>
 	<use id="title-2-active" transform="translate(7)" width="100%" height="100%" style="fill:#000000" xlink:href="#title-1-active"/>
@@ -105,21 +104,18 @@
 		<rect x="110" y="629.36" width="16" height="16" style="stroke-width:.57143"/>
 		<path d="m118 630.11c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fff;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;opacity:.3;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 	</g>
-	<g id="top-left-active" transform="translate(3)">
-		<path d="m16 176.35c-4.9341 0-9 4.0659-9 9v22h9z" style="color-rendering:auto;color:#000000;dominant-baseline:auto;fill:#fff;font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-padding:0;shape-rendering:auto;solid-color:#000000;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-		<path d="m16 179.35c-3.324 0-6 2.676-6 6v22h6z"/>
-	</g>
-	<use id="top-left-inactive" transform="translate(10)" width="100%" height="100%" style="fill:#000000" xlink:href="#top-left-active"/>
-	<use id="top-right-active" transform="matrix(-1 0 0 1 49 0)" width="100%" height="100%" style="fill:#000000" xlink:href="#top-left-active"/>
-	<use id="top-right-inactive" transform="matrix(-1 0 0 1 59 0)" width="100%" height="100%" style="fill:#000000" xlink:href="#top-left-active"/>
-	<rect id="right-active" transform="scale(-1,1)" x="-63.844" y="186.84" width="3" height="16" style="fill:#fff;stroke-width:1.7321"/>
-	<rect id="right-inactive" transform="scale(-1,1)" x="-67.844" y="186.84" width="3" height="16" style="fill:#fff;stroke-width:1.7321"/>
-	<rect id="bottom-inactive" transform="matrix(0,-1,-1,0,0,0)" x="-202.84" y="-90.844" width="2.9986" height="16" style="fill:#fff;stroke-width:1.7316"/>
-	<rect id="left-active" transform="scale(-1,1)" x="-55.844" y="186.84" width="3" height="16" style="fill:#fff;stroke-width:1.7321"/>
-	<rect id="left-inactive" transform="scale(-1,1)" x="-59.844" y="186.84" width="3" height="16" style="fill:#fff;stroke-width:1.7321"/>
-	<rect id="bottom-active" transform="matrix(0,-1,-1,0,0,0)" x="-198.84" y="-90.844" width="3" height="16" style="fill:#fff;stroke-width:1.7321"/>
-	<path id="bottom-left-active" d="m70.844 195.84v3h3v-3z" style="fill:#fff;stroke-width:3"/>
-	<path id="bottom-right-active" d="m91.844 195.84v3h3v-2.9999z" style="fill:#fff;stroke-width:3"/>
-	<path id="bottom-right-inactive" d="m91.844 199.84v2.9986l3-0.024v-2.976z" style="fill:#fff;stroke-width:2.9993"/>
-	<path id="bottom-left-inactive" d="m70.844 199.84v2.9986h3v-2.9986z" style="fill:#fff;stroke-width:2.9993"/>
+	<path id="top-left-active" d="m16 179.35c-3.324 0-6 2.676-6 6v22h6z"/>
+	<use id="top-left-inactive" transform="translate(11)" width="100%" height="100%" style="fill:#000000" xlink:href="#top-left-active"/>
+	<use id="top-right-active" transform="matrix(-1 0 0 1 48 -3.5156e-7)" width="100%" height="100%" style="fill:#000000" xlink:href="#top-left-active"/>
+	<use id="top-right-inactive" transform="matrix(-1 0 0 1 59 -3.5156e-7)" width="100%" height="100%" style="fill:#000000" xlink:href="#top-left-active"/>
+	<rect id="right-active" transform="scale(-1,1)" x="-61.719" y="186.84" width="1" height="16"/>
+	<rect id="right-inactive" transform="scale(-1,1)" x="-63.719" y="186.84" width="1" height="16"/>
+	<rect id="bottom-inactive" transform="matrix(0,-1,-1,0,0,0)" x="-202.84" y="-84.719" width=".99999" height="16"/>
+	<rect id="left-active" transform="scale(-1,1)" x="-57.719" y="186.84" width="1" height="16"/>
+	<rect id="left-inactive" transform="scale(-1,1)" x="-59.719" y="186.84" width="1" height="16"/>
+	<rect id="bottom-active" transform="matrix(0,-1,-1,0,0,0)" x="-198.84" y="-84.719" width=".99999" height="16"/>
+	<path id="bottom-left-active" d="m66.719 197.84v0.99998h1v-0.99998z"/>
+	<path id="bottom-right-active" d="m85.719 197.84v0.99998h1v-0.99996z"/>
+	<path id="bottom-right-inactive" d="m85.719 201.84v1l1-8e-3v-0.99246z"/>
+	<path id="bottom-left-inactive" d="m66.719 201.84v1h1v-1z"/>
 </svg>
