@@ -809,6 +809,19 @@ panel-toplevel.background {
 }
 
 //
+// Elementary files
+//
+
+// Fix pathbar placeholder
+headerbar > box.horizontal > entry.pathbar {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 0;
+  margin-bottom: 0;
+  min-height: 16px;
+}
+
+//
 // Gala
 //
 .gala-notification {

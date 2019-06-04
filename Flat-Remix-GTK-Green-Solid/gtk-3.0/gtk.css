@@ -3525,6 +3525,13 @@ panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel butto
   .marlin-pathbar.pathbar:active, .marlin-pathbar.pathbar:checked {
     color: #17917a; }
 
+headerbar > box.horizontal > entry.pathbar {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 0;
+  margin-bottom: 0;
+  min-height: 16px; }
+
 .gala-notification {
   border: 1px solid rgba(0, 0, 0, 0.35);
   border-radius: 6px;
