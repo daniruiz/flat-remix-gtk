@@ -1,38 +1,36 @@
+[20190604]
+ * Fix elementary pathbar; Fixes #26
+ * Add xfwm4 theme themerc files
+ * Add xfwm4 darkest variant window outline
+ * Add darkest xfwm4 assets
+ * Add dark xfwm4 assets
+ * Add light variants xfwm4 theme
+ * Add light xfwm4 assets
+ * Remove switch text-shadow
+ * Remove switch labels
+
 [20190526]
- * Add makefile CHANGELOG autogeneration function
  * Add gtk-3.0 and metacity thumbnails; Fixes #29
  * Symling metacity-theme-3.xml to metacity-theme-1.xml; Fixes #36
  * Adjust metacity title buttons separation
  * Fix metacity themes; Fixes #35, fixes #37
- * Improve build.sh script
  * Fix index.theme
- * Add launchpad automated release
- * Make color variant logos more visible
- * Remove terminal installation
 
 [20190519]
- * Update flat-remix-gtk.spec version 20190519
- * 20190519
  * Fix nautilus maximized window tabs transparency
  * Replace switch assets witch css
  * Fix Budgie menu; Fixes #40
- * Update Manual installation instructions
- * Replace Flat-Remix-GTK reference with Flat-Remix-GTK-Blue in README.md
  * Don't round the non-csd menu corners; Update menu styles from Adwaita
  * Remove headerbar border
  * Add app-notification shadow
  * Change selection mode header background opacity
- * Add make build and build-sass functions
  * Revert "Enable full screen window transparency"
  * Change thunar sidebar background to dark; Fixes #3
  * Fix nautilus path-bar button separator too light on light variant
- * Sass code cleanup
  * Fix white text on some yellow variant buttons; Fixes #42
  * Improve header elements background and border colors
  * Add inset shadow to nautilus places sidebar
- * Revert nautilus preview images
  * Add padding to nautilus path-bar .image-button
  * Revert "Add new nautilus full sidebar design"
  * Change focus outline style
- * Fix Makefile release version difference
 
