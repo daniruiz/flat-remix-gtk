@@ -8,6 +8,6 @@ Encoding=UTF-8
 [X-GNOME-Metatheme]
 GtkTheme=Flat-Remix-GTK-Red-Darker-Solid
 MetacityTheme=Flat-Remix-GTK-Red-Darker-Solid
-IconTheme=gnome
+IconTheme=Flat-Remix-Red
 CursorTheme=DMZ-Black
 ButtonLayout=menu:minimize,maximize,close
