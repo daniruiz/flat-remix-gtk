@@ -1,3 +1,7 @@
+[20190613]
+ * Make popover border lighter to differenciate it with the app background for darkest themes
+ * Change default IconTheme for each theme
+
 [20190604]
  * Fix elementary pathbar; Fixes #26
  * Add xfwm4 theme themerc files
