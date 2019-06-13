@@ -1540,7 +1540,7 @@ popover, popover.background {
   box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.07); }
   .csd popover, popover,
   .csd popover.background, popover.background {
-    border: 1px solid #d6d6d6; }
+    border: 1px solid #e3e3e3; }
   popover separator, popover.background separator {
     background-color: white; }
   popover > list,
