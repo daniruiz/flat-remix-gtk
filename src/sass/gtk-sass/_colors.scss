@@ -83,8 +83,8 @@ $osd_insensitive_bg_color: darken($osd_bg_color, 3%);
 $osd_insensitive_fg_color: mix($osd_fg_color, opacify($osd_bg_color, 1), 30%);
 $osd_borders_color: transparentize(black, 0.3);
 
-$panel_bg: darken($dark_sidebar_bg, 4.7%);
-$panel_fg: $dark_sidebar_fg;
+$panel_bg: transparentize($header_bg, if($transparency=='true', .3, 0));
+$panel_fg: $header_fg;
 
 $entry_bg: $base_color;
 $entry_border: $borders_color;
@@ -99,3 +99,9 @@ $header_entry_bg: $header_button_bg;
 $header_entry_border: $header_button_border;
 
 $trough_bg: if($variant=='light' and $darker=='false', opacify($header_entry_border, 0.05), $header_entry_border);
+
+$tooltip_bg_color: #fbeaa0;
+$tooltip_fg_color: #4a4a4a;
+$tooltip_border_color: #d0d0d0;
+
+$separator_color: if($variant == 'light', #cfcfcf, darken($bg_color, 6%));
