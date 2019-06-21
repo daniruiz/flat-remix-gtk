@@ -1,5 +1,8 @@
+[20190622]
+ * Add cinnamon themes
+
 [20190613]
- * Make popover border lighter to differentiate it with the app background for darkest themes
+ * Make popover border lighter to differenciate it with the app background for darkest themes
  * Change default IconTheme for each theme
 
 [20190604]
