@@ -3428,7 +3428,7 @@ MsdOsdWindow.background.osd {
 .mate-panel-menu-bar, .mate-panel-menu-bar menubar,
 panel-toplevel.background,
 panel-toplevel.background menubar {
-  background-color: #0e0e0e; }
+  background-color: black; }
 .mate-panel-menu-bar menubar,
 .mate-panel-menu-bar #PanelApplet label,
 .mate-panel-menu-bar #PanelApplet image,
@@ -3450,7 +3450,7 @@ panel-toplevel.background .wnck-pager {
   background-color: black; }
   .mate-panel-menu-bar .wnck-pager:hover,
   panel-toplevel.background .wnck-pager:hover {
-    background-color: #1a1a1a; }
+    background-color: #0d0d0d; }
   .mate-panel-menu-bar .wnck-pager:selected,
   panel-toplevel.background .wnck-pager:selected {
     color: #95b9f7;
@@ -3461,7 +3461,7 @@ panel-toplevel.background na-tray-applet {
   -NaTrayApplet-icon-size: 16px; }
 
 .xfce4-panel.panel {
-  background-color: #0e0e0e;
+  background-color: black;
   text-shadow: none;
   -gtk-icon-shadow: none; }
 
@@ -3469,7 +3469,7 @@ panel-toplevel.background na-tray-applet {
   color: rgba(255, 255, 255, 0.8);
   border-radius: 0;
   border: none;
-  background-color: rgba(14, 14, 14, 0); }
+  background-color: rgba(0, 0, 0, 0); }
   #tasklist-button:hover {
     color: white;
     background-color: rgba(0, 0, 0, 0.17); }
@@ -3483,11 +3483,11 @@ panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel butto
   color: white;
   border-radius: 0;
   border: none;
-  background-color: rgba(14, 14, 14, 0); }
+  background-color: rgba(0, 0, 0, 0); }
   .mate-panel-menu-bar button:hover:not(#tasklist-button),
   panel-toplevel.background button:hover:not(#tasklist-button), .xfce4-panel.panel button.flat:hover, .xfce4-panel.panel button.sidebar-button:hover {
     border: none;
-    background-color: #272727; }
+    background-color: #1a1a1a; }
   .mate-panel-menu-bar button:active:not(#tasklist-button),
   panel-toplevel.background button:active:not(#tasklist-button), .xfce4-panel.panel button.flat:active, .xfce4-panel.panel button.sidebar-button:active, .mate-panel-menu-bar button:checked:not(#tasklist-button),
   panel-toplevel.background button:checked:not(#tasklist-button), .xfce4-panel.panel button.flat:checked, .xfce4-panel.panel button.sidebar-button:checked {

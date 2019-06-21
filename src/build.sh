@@ -71,6 +71,21 @@ function copy_css_files {
 	cp "$TMP/css/${variant_name}/gtk-darkest-solid.css" "$TMP/${variant_name}-Darkest-Solid/gtk-3.0/gtk.css"
 	cp "$TMP/css/${variant_name}/gtk-darkest-noBorder.css" "$TMP/${variant_name}-Darkest-NoBorder/gtk-3.0/gtk.css"
 	cp "$TMP/css/${variant_name}/gtk-darkest-solid-noBorder.css" "$TMP/${variant_name}-Darkest-Solid-NoBorder/gtk-3.0/gtk.css"
+
+
+	cp "$TMP/css/${variant_name}/cinnamon.css" "$TMP/${variant_name}/cinnamon/cinnamon.css"
+	cp "$TMP/css/${variant_name}/cinnamon-solid.css" "$TMP/${variant_name}-Solid/cinnamon/cinnamon.css"
+
+	cp "$TMP/css/${variant_name}/cinnamon-darker.css" "$TMP/${variant_name}-Darker/cinnamon/cinnamon.css"
+	cp "$TMP/css/${variant_name}/cinnamon-darker-solid.css" "$TMP/${variant_name}-Darker-Solid/cinnamon/cinnamon.css"
+
+	cp "$TMP/css/${variant_name}/cinnamon-dark.css" "$TMP/${variant_name}-Dark/cinnamon/cinnamon.css"
+	cp "$TMP/css/${variant_name}/cinnamon-dark-solid.css" "$TMP/${variant_name}-Dark-Solid/cinnamon/cinnamon.css"
+
+	cp "$TMP/css/${variant_name}/cinnamon-darkest.css" "$TMP/${variant_name}-Darkest/cinnamon/cinnamon.css"
+	cp "$TMP/css/${variant_name}/cinnamon-darkest.css" "$TMP/${variant_name}-Darkest-NoBorder/cinnamon/cinnamon.css"
+	cp "$TMP/css/${variant_name}/cinnamon-darkest-solid.css" "$TMP/${variant_name}-Darkest-Solid/cinnamon/cinnamon.css"
+	cp "$TMP/css/${variant_name}/cinnamon-darkest-solid.css" "$TMP/${variant_name}-Darkest-Solid-NoBorder/cinnamon/cinnamon.css"
 }
 
 function generate_assets {
@@ -101,8 +116,8 @@ function generate_assets {
 				cp "$TMP"/assets-renderer/"$variant_name"/xfwm4/assets-dark/* "$theme"/xfwm4/
 				;;
 			*Darker|*Darker-*)
-				cp "$TMP"/assets-renderer/"$varivariant_nameant"/gtk2/assets/* "$theme"/gtk-2.0/assets/
-				cp "$TMP"/assets-renderer/"$varivariant_nameant"/metacity/metacity-darkest/* "$theme"/metacity-1/
+				cp "$TMP"/assets-renderer/"$variant_name"/gtk2/assets/* "$theme"/gtk-2.0/assets/
+				cp "$TMP"/assets-renderer/"$variant_name"/metacity/metacity-darkest/* "$theme"/metacity-1/
 				cp "$TMP"/assets-renderer/"$variant_name"/xfwm4/assets-darkest-noBorder/* "$theme"/xfwm4/
 				;;
 			*)
@@ -113,6 +128,7 @@ function generate_assets {
 		esac
 		cp "$TMP"/assets-renderer/"$variant_name"/gtk2/menubar-toolbar/* "$theme"/gtk-2.0/menubar-toolbar/
 		cp "$TMP"/assets-renderer/"$variant_name"/gtk3/assets/* "$theme"/gtk-3.0/assets/
+		cp "$TMP"/assets-renderer/"$variant_name"/cinnamon/* "$theme"/cinnamon/assets/
 	done
 }
 
