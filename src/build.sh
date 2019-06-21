@@ -19,15 +19,23 @@ function generate_variant_template {
 		find "$variant_dir" -type f -exec sed "s/${DEFAULT_COLOR}/${variant_color}/gi" -i {} \;
 		case "$theme_basename" in
 			*Darkest*)
-				cp gtk-3.0-thumbnails/thumbnail-darkest-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/gtk-3.0/thumbnail.png
+				cp thumbnails/gtk-3.0/thumbnail-darkest-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/gtk-3.0/thumbnail.png
+				cp thumbnails/cinnamon/thumbnail-darkest-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/cinnamon/thumbnail.png
 				icon_variant='-Dark'
 				;;
 			*Dark|*Dark-*)
-				cp gtk-3.0-thumbnails/thumbnail-dark-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/gtk-3.0/thumbnail.png
+				cp thumbnails/gtk-3.0/thumbnail-dark-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/gtk-3.0/thumbnail.png
+				cp thumbnails/cinnamon/thumbnail-dark-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/cinnamon/thumbnail.png
 				icon_variant='-Dark'
 				;;
+			*Darker)
+				cp thumbnails/gtk-3.0/thumbnail-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/gtk-3.0/thumbnail.png
+				cp thumbnails/cinnamon/thumbnail-darker-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/cinnamon/thumbnail.png
+                icon_variant=''
+				;;
 			*)
-				cp gtk-3.0-thumbnails/thumbnail-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/gtk-3.0/thumbnail.png
+				cp thumbnails/gtk-3.0/thumbnail-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/gtk-3.0/thumbnail.png
+				cp thumbnails/cinnamon/thumbnail-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/cinnamon/thumbnail.png
 				icon_variant=''
 				;;
 		esac
