@@ -190,7 +190,7 @@
   // pushed header-bar button
   //
     color: $selected_fg_color;
-    border-color: if($darker=='false' and $variant=='light', $selected_bg_color, transparent);
+    border-color: $selected_bg_color;
     background-color: $selected_bg_color;
   }
 

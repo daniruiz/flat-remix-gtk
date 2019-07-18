@@ -989,7 +989,7 @@ window > .titlebar:not(headerbar), window > .titlebar:not(headerbar):backdrop, w
     background-color: #383838; }
   .primary-toolbar button:active, headerbar button:active, .primary-toolbar button:checked, headerbar button:checked {
     color: white;
-    border-color: transparent;
+    border-color: #367bf0;
     background-color: #367bf0;
     background-clip: padding-box; }
     .primary-toolbar button:active:backdrop, headerbar button:active:backdrop, .primary-toolbar button:checked:backdrop, headerbar button:checked:backdrop {
@@ -1069,7 +1069,7 @@ headerbar .linked:not(.vertical).path-bar > button {
   .primary-toolbar .linked:not(.vertical).path-bar > button:checked,
   headerbar .linked:not(.vertical).path-bar > button:checked {
     color: white;
-    border-color: transparent;
+    border-color: #367bf0;
     background-color: #367bf0; }
   .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:disabled, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:disabled,
   .primary-toolbar .linked:not(.vertical).path-bar > button:disabled,
@@ -1210,7 +1210,7 @@ headerbar button.destructive-action:backdrop {
   background-color: #5e5e5e; }
 .primary-toolbar spinbutton:not(.vertical) button:active, headerbar spinbutton:not(.vertical) button:active, .primary-toolbar spinbutton:not(.vertical) button:checked, headerbar spinbutton:not(.vertical) button:checked {
   color: white;
-  border-color: transparent;
+  border-color: #367bf0;
   background-color: #367bf0; }
 .primary-toolbar spinbutton:not(.vertical) button:disabled, headerbar spinbutton:not(.vertical) button:disabled {
   color: rgba(255, 255, 255, 0.6); }
@@ -2790,7 +2790,7 @@ headerbar button.titlebutton,
   .titlebar button.titlebutton:active,
   .titlebar button.titlebutton:checked {
     color: white;
-    border-color: transparent;
+    border-color: #367bf0;
     background-color: #367bf0; }
   headerbar button.titlebutton.close, headerbar button.titlebutton.maximize, headerbar button.titlebutton.minimize,
   .titlebar button.titlebutton.close,
@@ -2969,7 +2969,7 @@ terminal-window notebook > header.top,
     background-color: #383838; }
   .nautilus-window .path-bar-box .text-button:checked, .nautilus-window .path-bar-box widget > .text-button:last-child {
     color: white;
-    border-color: transparent;
+    border-color: #367bf0;
     background-color: #367bf0;
     padding: 4px;
     border-color: transparent; }
@@ -3028,7 +3028,7 @@ terminal-window notebook > header.top,
     background-color: #383838; }
   100% {
     color: white;
-    border-color: transparent;
+    border-color: #367bf0;
     background-color: #367bf0; } }
 .nautilus-operations-button-needs-attention {
   animation: needs_attention_keyframes 2s ease-in-out; }
@@ -3071,7 +3071,7 @@ terminal-window notebook > header.top,
     background-color: #5e5e5e; }
   .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:active, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:checked {
     color: white;
-    border-color: transparent;
+    border-color: #367bf0;
     background-color: #367bf0; }
   .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:disabled {
     color: rgba(255, 255, 255, 0.6); }
