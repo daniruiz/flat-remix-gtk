@@ -1,3 +1,7 @@
+[20190718]
+ * Remove headerbar entry linking styles; Fixes #51
+ * Fix stack switcher smaller active button
+
 [20190622]
  * Add cinnamon themes
 
