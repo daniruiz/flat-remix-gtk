@@ -65,7 +65,7 @@ release: _get_version
 	$(MAKE) launchpad_release
 	git tag -f $(VERSION)
 	git push origin --tags
-	dist VERSION=$(VERSION)
+	$(MAKE) dist
 
 aur_release: _get_version _get_tag
 	cd aur; \
