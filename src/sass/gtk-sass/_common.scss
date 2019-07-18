@@ -325,17 +325,6 @@ entry {
     background-color: transparent;
     box-shadow: none;
   }
-
-  // linked entries
-  .linked:not(.vertical) > &,
-  .linked:not(.vertical) > &:focus {
-    @extend %linked;
-  }
-
-  .linked.vertical > &,
-  .linked.vertical > &:focus {
-    @extend %linked_vertical;
-  }
 }
 
 treeview entry {
@@ -1481,34 +1470,7 @@ headerbar {
       border-style: solid;
     }
   }
-  .linked:not(.vertical):not(.path-bar) > entry {
-    + button {
-      &, &:backdrop {
-        background-color: $header_entry_bg;
-        color: $header_fg;
-      }
 
-      &, &:hover, &:active, &:checked, &:disabled {
-        border-radius: 0 6px 6px 0;
-        border-color: $header_entry_border;
-        border-left-style: none;
-      }
-
-      &:active, &:checked {
-        background-color: $selected_bg_color;
-        border-color: $selected_bg_color;
-        color: $selected_fg_color;
-      }
-
-      &:backdrop { opacity: $backdrop_opacity; }
-    }
-
-    &:focus + button {
-      color: $selected_fg_color;
-      border-color: if($darker=='false' and $variant=='light', $selected_bg_color, transparent);
-      background-color: $selected_bg_color;
-    }
-  }
   .linked:not(.vertical):not(.path-bar) {
     $_uncolored_button: 'button:not(:checked):not(:active):not(.suggested-action):not(.destructive-action)';
 
