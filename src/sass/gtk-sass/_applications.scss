@@ -952,4 +952,49 @@ headerbar > box.horizontal > entry.pathbar {
 //
 // Budgie
 //
-.budgie-menu scrolledwindow list { background: transparent; }
+.budgie-menu {
+  box-shadow: 0 0 0 3px rgba(0,0,0,.1);
+  box-shadow: 0 2px if($windowOutline=='true', 11px 3px, 8px 0) transparent,
+      0 0 0 3px if($variant == 'light',
+                      transparentize(black, .85),
+                      transparentize(if($darkest=='true', if($windowOutline=='true', #CCC, #555), black), if($windowOutline=='true', .5, .75)));
+  border-radius: 6px;
+
+  * {
+    border-radius: 6px;
+    border: 0;
+  }
+
+  entry.search {
+    min-height: 35px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  scrolledwindow.sidebar {
+    border-radius: 0;
+    border-width: 1px 1px 0 0;
+    list { background: transparent; }
+  }
+}
+
+.budgie-panel {
+  button {
+    padding: 0;
+    border-radius: 0;
+    &:hover {
+      border: 0;
+      background: rgba($selected_bg_color, .3);
+    }
+
+    &:checked {
+      background: transparent;
+      border: transparent;
+    }
+  }
+
+  .budgie-menu-launcher {
+    border: 0;
+    &:checked { color: $fg_color; }
+  }
+}
+

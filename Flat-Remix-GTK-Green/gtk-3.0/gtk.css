@@ -3576,8 +3576,35 @@ headerbar > box.horizontal > entry.pathbar {
 .menu .spinner {
   opacity: 1; }
 
-.budgie-menu scrolledwindow list {
-  background: transparent; }
+.budgie-menu {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px 0 transparent, 0 0 0 3px rgba(0, 0, 0, 0.15);
+  border-radius: 6px; }
+  .budgie-menu * {
+    border-radius: 6px;
+    border: 0; }
+  .budgie-menu entry.search {
+    min-height: 35px;
+    border-radius: 6px 6px 0 0; }
+  .budgie-menu scrolledwindow.sidebar {
+    border-radius: 0;
+    border-width: 1px 1px 0 0; }
+    .budgie-menu scrolledwindow.sidebar list {
+      background: transparent; }
+
+.budgie-panel button {
+  padding: 0;
+  border-radius: 0; }
+  .budgie-panel button:hover {
+    border: 0;
+    background: rgba(23, 145, 122, 0.3); }
+  .budgie-panel button:checked {
+    background: transparent;
+    border: transparent; }
+.budgie-panel .budgie-menu-launcher {
+  border: 0; }
+  .budgie-panel .budgie-menu-launcher:checked {
+    color: #5C616C; }
 
 .overlay-bar {
   background-color: #17917a;
