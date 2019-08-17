@@ -1,3 +1,6 @@
+[20190816]
+ * Improve budgie panel and menu design
+
 [20190718]
  * Remove headerbar entry linking styles; Fixes #51
  * Fix stack switcher smaller active button
