@@ -3607,6 +3607,12 @@ headerbar > box.horizontal > entry.pathbar {
     .budgie-panel .budgie-menu-launcher:checked {
       color: white; }
 
+.budgie-popover {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  border-radius: 6px; }
+  .budgie-popover border {
+    border: 0; }
+
 .overlay-bar {
   background-color: #ffd86e;
   border-color: #ffd86e;

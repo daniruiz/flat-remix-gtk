@@ -1008,3 +1008,10 @@ headerbar > box.horizontal > entry.pathbar {
     &:checked { color: $fg_color; }
   }
 }
+
+.budgie-popover {
+  box-shadow: 0 0 3px rgba(black, .3);
+  border-radius: 6px;
+
+  border { border: 0; }
+}
