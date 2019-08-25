@@ -3589,19 +3589,26 @@ headerbar > box.horizontal > entry.pathbar {
     .budgie-menu scrolledwindow.sidebar list {
       background: transparent; }
 
-.budgie-panel button {
-  padding: 0;
-  border-radius: 0; }
-  .budgie-panel button:hover {
-    border: 0;
-    background: rgba(54, 123, 240, 0.3); }
-  .budgie-panel button:checked {
-    background: transparent;
-    border: transparent; }
-.budgie-panel .budgie-menu-launcher {
-  border: 0; }
-  .budgie-panel .budgie-menu-launcher:checked {
-    color: white; }
+.budgie-panel {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white; }
+  .budgie-panel image {
+    -gtk-icon-shadow: 0 1px 2px rgba(0, 0, 0, 0.28); }
+  .budgie-panel label {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.28); }
+  .budgie-panel button {
+    padding: 0;
+    border-radius: 0; }
+    .budgie-panel button:hover {
+      border: 0;
+      background: rgba(54, 123, 240, 0.3); }
+    .budgie-panel button:checked {
+      background: transparent;
+      border: transparent; }
+  .budgie-panel .budgie-menu-launcher {
+    border: 0; }
+    .budgie-panel .budgie-menu-launcher:checked {
+      color: white; }
 
 .overlay-bar {
   background-color: #367bf0;
