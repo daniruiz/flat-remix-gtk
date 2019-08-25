@@ -3591,7 +3591,8 @@ headerbar > box.horizontal > entry.pathbar {
 
 .budgie-panel {
   background-color: rgba(0, 0, 0, 0.8);
-  color: white; }
+  color: white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
   .budgie-panel image {
     -gtk-icon-shadow: 0 1px 2px rgba(0, 0, 0, 0.28); }
   .budgie-panel label {
