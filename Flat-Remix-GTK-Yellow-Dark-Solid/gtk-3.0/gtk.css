@@ -3507,6 +3507,11 @@ headerbar > box.horizontal > entry.pathbar {
   margin-bottom: 0;
   min-height: 16px; }
 
+menuitem .color-button check, menuitem .color-button check:hover, menuitem .color-button check:active {
+  border-color: rgba(0, 0, 0, 0.25); }
+menuitem .color-button check:not(:checked) {
+  -gtk-icon-source: none; }
+
 .gala-notification {
   border: 1px solid rgba(0, 0, 0, 0.35);
   border-radius: 6px;
