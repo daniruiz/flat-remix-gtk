@@ -821,12 +821,10 @@ headerbar > box.horizontal > entry.pathbar {
   min-height: 16px;
 }
 
-menuitem .color-button check {
-  &, &:hover, &:active {
-    border-color: rgba(0,0,0,.25);
-  }
+.color-button {
+  color: rgba(black, .25);
 
-  &:not(:checked) { -gtk-icon-source: none; }
+  check:not(:checked) { -gtk-icon-source: none; }
 }
 
 //
