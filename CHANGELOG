@@ -1,3 +1,8 @@
+[20190901]
+ * Fix elementary color-button white border on hover
+ * Fix elementary files white box inside color checkbutton menuitem; Fixes #61
+ * Add elementary public colors
+
 [20190825]
  * Add shadow and border-radius to budgie-popover
  * Add shadow to budgie panel
