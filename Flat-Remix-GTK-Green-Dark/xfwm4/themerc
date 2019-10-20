@@ -1,6 +1,6 @@
 active_text_color=#fff
 inactive_text_color=#8c8f94
-button_offset=6
+button_offset=3
 button_spacing=6
 show_app_icon=true
 full_width_title=true

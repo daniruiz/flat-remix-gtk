@@ -164,5 +164,6 @@ do
 	variant_color="${VARIANT_COLORS[$i]}"
 	variant_selected_font_color="${VARIANT_SELECTED_FONT_COLORS[$i]}"
 	generate_variant "$1" "$variant" "$variant_name" "$variant_color" "$variant_selected_font_color" &
+	wait
 done
 
