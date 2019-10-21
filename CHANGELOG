@@ -1,3 +1,6 @@
+[20191020]
+ * Improve xfwm4 theme: larger borders for easyer resizing and improved assets
+
 [20190901]
  * Fix elementary color-button white border on hover
  * Fix elementary files white box inside color checkbutton menuitem; Fixes #61
