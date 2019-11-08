@@ -698,16 +698,6 @@ panel-toplevel.background {
   }
 }
 
-// Xfce Panel
-.xfce4-panel.panel {
-  background-color: $panel_bg;
-
-  text-shadow: none;
-  -gtk-icon-shadow: none;
-
-  button.flat { @extend %panelbutton; }
-}
-
 #tasklist-button {
   color: transparentize($panel_fg, 0.2);
   border-radius: 0;
@@ -743,6 +733,47 @@ panel-toplevel.background {
 
     label, image { color: inherit; }
   }
+}
+
+//
+// XFCE4 PANEL
+//
+.xfce4-panel {
+  &.background {
+    background: transparentize($bg_color, if($variant=='light', .1, .2));
+  }
+
+  button {
+    $_color: if($variant=='light', darken($fg_color, 10%), $fg_color);
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    background: transparent;
+    color: $_color;
+    -gtk-icon-shadow: none;
+
+    $_highlight_bg_color: if($variant=='light', $bg_color, rgba(black, .2));
+
+    &:hover {
+      background: $_highlight_bg_color;
+    }
+
+    &:not(#whiskermenu-button) {
+      &:checked, &:active {
+        box-shadow: inset 0 4px 0 $selected_bg_color;
+        background: $_highlight_bg_color;
+        color: $_color;
+      }
+    }
+  }
+}
+
+// XFCE4 workspace switcher
+wnck-pager {
+  background-color: lighten($base_color, 10%);
+  &:selected { background-color: darken($bg_color, 20%); }
+  &:hover { background-color: darken($bg_color, 20%); }
 }
 
 //
