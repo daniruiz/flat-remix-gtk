@@ -7,14 +7,13 @@
 	<date>2019</date>
 	<description>Flat Remix Metacity theme</description>
 </info>
-
 <!-- meaningfull constants -->
 
 <constant name="C_title_focused" value="white" />
 <constant name="C_title_unfocused" value="#8c8f94" />
 
-<constant name="C_wm_bg" value="#2f343f" />
-<constant name="C_wm_border" value="#2f343f" />
+<constant name="C_wm_bg" value="#272a34" />
+<constant name="C_wm_border" value="#272a34" />
 
 <!-- geometries -->
 
