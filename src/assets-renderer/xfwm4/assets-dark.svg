@@ -7,139 +7,139 @@
 			<rect x="9.5" y="178.85" width="5" height="28" fill="#fff" opacity=".539" style="paint-order:normal"/>
 		</clipPath>
 	</defs>
-	<rect id="menu-active" x="10" y="115.35" width="26" height="16" fill="#2f343f"/>
-	<use id="menu-pressed" transform="translate(31 -2.0352e-5)" width="100%" height="100%" fill="#ffffff" xlink:href="#menu-active"/>
-	<use id="menu-inactive" transform="translate(62 -2.0352e-5)" width="100%" height="100%" fill="#ffffff" xlink:href="#menu-active"/>
+	<rect id="menu-active" x="10" y="115.35" width="26" height="16" fill="#2f343f" style="fill:#272a34"/>
+	<use id="menu-pressed" transform="translate(31 -2.0352e-5)" width="100%" height="100%" fill="#ffffff" style="fill:#272a34" xlink:href="#menu-active"/>
+	<use id="menu-inactive" transform="translate(62 -2.0352e-5)" width="100%" height="100%" fill="#ffffff" style="fill:#272a34" xlink:href="#menu-active"/>
 	<g id="title-1-active">
 		<g transform="matrix(.17857 0 0 1 9.1072 -415.01)">
-			<rect x="5" y="557.36" width="28" height="28" fill="#2f343f"/>
+			<rect x="5" y="557.36" width="28" height="28" fill="#2f343f" style="fill:#272a34"/>
 		</g>
 		<rect x="10" y="142.35" width="5" height="1" opacity=".5" style="paint-order:stroke fill markers"/>
 	</g>
-	<use id="title-2-active" transform="translate(7)" width="100%" height="100%" xlink:href="#title-1-active"/>
-	<use id="title-3-active" transform="translate(14)" width="100%" height="100%" xlink:href="#title-1-active"/>
-	<use id="title-4-active" transform="translate(21)" width="100%" height="100%" xlink:href="#title-1-active"/>
-	<use id="title-5-active" transform="translate(28)" width="100%" height="100%" xlink:href="#title-1-active"/>
-	<use id="title-1-inactive" transform="translate(35)" width="100%" height="100%" xlink:href="#title-1-active"/>
-	<use id="title-2-inactive" transform="translate(42)" width="100%" height="100%" xlink:href="#title-1-active"/>
-	<use id="title-3-inactive" transform="translate(49)" width="100%" height="100%" xlink:href="#title-1-active"/>
-	<use id="title-4-inactive" transform="translate(56)" width="100%" height="100%" xlink:href="#title-1-active"/>
-	<use id="title-5-inactive" transform="translate(63)" width="100%" height="100%" xlink:href="#title-1-active"/>
+	<use id="title-2-active" transform="translate(7)" width="100%" height="100%" style="fill:#272a34" xlink:href="#title-1-active"/>
+	<use id="title-3-active" transform="translate(14)" width="100%" height="100%" style="fill:#272a34" xlink:href="#title-1-active"/>
+	<use id="title-4-active" transform="translate(21)" width="100%" height="100%" style="fill:#272a34" xlink:href="#title-1-active"/>
+	<use id="title-5-active" transform="translate(28)" width="100%" height="100%" style="fill:#272a34" xlink:href="#title-1-active"/>
+	<use id="title-1-inactive" transform="translate(35)" width="100%" height="100%" style="fill:#272a34" xlink:href="#title-1-active"/>
+	<use id="title-2-inactive" transform="translate(42)" width="100%" height="100%" style="fill:#272a34" xlink:href="#title-1-active"/>
+	<use id="title-3-inactive" transform="translate(49)" width="100%" height="100%" style="fill:#272a34" xlink:href="#title-1-active"/>
+	<use id="title-4-inactive" transform="translate(56)" width="100%" height="100%" style="fill:#272a34" xlink:href="#title-1-active"/>
+	<use id="title-5-inactive" transform="translate(63)" width="100%" height="100%" style="fill:#272a34" xlink:href="#title-1-active"/>
 	<g id="top-left-active" clip-path="url(#a)">
-		<rect x="9.5" y="178.85" width="12" height="35" rx="4" ry="4" fill="#2f343f" style="paint-order:normal"/>
+		<rect x="9.5" y="178.85" width="12" height="35" rx="4" ry="4" fill="#2f343f" style="fill:#272a34;paint-order:normal"/>
 		<rect x="10" y="179.35" width="11" height="34" rx="3.5" ry="3.5" fill="none" opacity=".5" stroke="#000" stroke-linecap="square" style="paint-order:normal"/>
 	</g>
 	<rect x="9.5" y="178.85" width="7" height="28" fill="none" style="paint-order:normal"/>
 	<g fill="#fff">
-		<use id="top-left-inactive" transform="translate(8)" width="100%" height="100%" xlink:href="#top-left-active"/>
-		<use id="top-right-active" transform="matrix(-1,0,0,1,41,0)" width="100%" height="100%" xlink:href="#top-left-active"/>
-		<use id="top-right-inactive" transform="matrix(-1,0,0,1,49,0)" width="100%" height="100%" xlink:href="#top-left-active"/>
+		<use id="top-left-inactive" transform="translate(8)" width="100%" height="100%" style="fill:#272a34" xlink:href="#top-left-active"/>
+		<use id="top-right-active" transform="matrix(-1,0,0,1,41,0)" width="100%" height="100%" style="fill:#272a34" xlink:href="#top-left-active"/>
+		<use id="top-right-inactive" transform="matrix(-1,0,0,1,49,0)" width="100%" height="100%" style="fill:#272a34" xlink:href="#top-left-active"/>
 	</g>
 	<g id="left-active" transform="translate(25.281 -32.49)">
-		<rect x="56.719" y="186.84" width="5" height="16" fill="#2f343f" style="paint-order:normal"/>
+		<rect x="56.719" y="186.84" width="5" height="16" fill="#2f343f" style="fill:#272a34;paint-order:normal"/>
 		<rect transform="scale(-1,1)" x="-57.719" y="186.84" width="1" height="16" opacity=".5"/>
 	</g>
-	<use id="left-inactive" transform="translate(5.9998)" width="100%" height="100%" xlink:href="#left-active"/>
-	<use id="right-active" transform="matrix(-1,0,0,1,181,0)" width="100%" height="100%" xlink:href="#left-active"/>
-	<use id="right-inactive" transform="matrix(-1,0,0,1,187,0)" width="100%" height="100%" xlink:href="#left-active"/>
-	<use id="bottom-active" transform="rotate(-90 96.001 179.35)" width="100%" height="100%" xlink:href="#left-active"/>
-	<use id="bottom-inactive" transform="rotate(-90 105 188.35)" width="100%" height="100%" xlink:href="#left-active"/>
+	<use id="left-inactive" transform="translate(5.9998)" width="100%" height="100%" style="fill:#272a34" xlink:href="#left-active"/>
+	<use id="right-active" transform="matrix(-1,0,0,1,181,0)" width="100%" height="100%" style="fill:#272a34" xlink:href="#left-active"/>
+	<use id="right-inactive" transform="matrix(-1,0,0,1,187,0)" width="100%" height="100%" style="fill:#272a34" xlink:href="#left-active"/>
+	<use id="bottom-active" transform="rotate(-90 96.001 179.35)" width="100%" height="100%" style="fill:#272a34" xlink:href="#left-active"/>
+	<use id="bottom-inactive" transform="rotate(-90 105 188.35)" width="100%" height="100%" style="fill:#272a34" xlink:href="#left-active"/>
 	<g id="bottom-left-active" transform="translate(-55.408 -19.279)" clip-path="url(#b)">
-		<rect x="109.41" y="194.63" width="18" height="18" rx="2" ry="2" fill="#2f343f" style="paint-order:normal"/>
+		<rect x="109.41" y="194.63" width="18" height="18" rx="2" ry="2" fill="#2f343f" style="fill:#272a34;paint-order:normal"/>
 		<rect x="109.41" y="194.63" width="18" height="18" rx="2" ry="2" opacity=".5" style="paint-order:normal"/>
-		<rect x="110.41" y="195.63" width="16" height="16" rx="1" ry="1" fill="#2f343f" style="paint-order:normal"/>
+		<rect x="110.41" y="195.63" width="16" height="16" rx="1" ry="1" fill="#2f343f" style="fill:#272a34;paint-order:normal"/>
 	</g>
-	<use id="bottom-right-active" transform="rotate(-90 78.999 168.35)" width="100%" height="100%" xlink:href="#bottom-left-active"/>
-	<use id="bottom-right-inactive" transform="rotate(-90 87.999 177.35)" width="100%" height="100%" xlink:href="#bottom-left-active"/>
-	<use id="bottom-left-inactive" transform="translate(3e-7 18)" width="100%" height="100%" xlink:href="#bottom-left-active"/>
+	<use id="bottom-right-active" transform="rotate(-90 78.999 168.35)" width="100%" height="100%" style="fill:#272a34" xlink:href="#bottom-left-active"/>
+	<use id="bottom-right-inactive" transform="rotate(-90 87.999 177.35)" width="100%" height="100%" style="fill:#272a34" xlink:href="#bottom-left-active"/>
+	<use id="bottom-left-inactive" transform="translate(3e-7 18)" width="100%" height="100%" style="fill:#272a34" xlink:href="#bottom-left-active"/>
 	<g id="close-active" transform="translate(-.99995 -553.36)">
-		<rect x="11" y="563.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="11" y="563.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m19 564.36c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" fill="#d41919" stroke="#bf1717" stroke-width=".5"/>
 	</g>
 	<g id="close-prelight" transform="translate(-13,-553.36)">
-		<rect x="44" y="563.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="44" y="563.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m52 564.36c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" fill="#d41919" stroke="#bf1717" stroke-width=".5"/>
 		<path d="m49.001 568.36h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z" color="#bebebe" enable-background="new" opacity=".5" style="text-decoration-line:none;text-indent:0;text-transform:none"/>
 	</g>
 	<g id="close-pressed" transform="translate(-25,-553.36)">
-		<rect x="77" y="563.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="77" y="563.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m85 564.36c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" fill="#d41919" stroke="#bf1717" stroke-width=".5"/>
 		<path d="m82.001 568.36h0.75c8e-3 -9e-5 0.0156-3.5e-4 0.0234 0 0.19122 8e-3 0.3824 0.0964 0.51563 0.23437l1.7109 1.7109 1.7344-1.7109c0.19922-0.17287 0.335-0.22912 0.51562-0.23437h0.75v0.75c0 0.21485-0.0257 0.41298-0.1875 0.5625l-1.7109 1.7109 1.6875 1.6875c0.14114 0.14113 0.21093 0.34009 0.21093 0.53907v0.75h-0.75c-0.19897-1e-5 -0.39793-0.0698-0.53906-0.21094l-1.7109-1.7109-1.7109 1.7109c-0.14113 0.14114-0.3401 0.21094-0.53907 0.21094h-0.75v-0.75c0-0.19897 0.0698-0.39794 0.21094-0.53907l1.7109-1.6875-1.7109-1.7109c-0.15805-0.14598-0.22737-0.35194-0.21094-0.5625v-0.75z" color="#bebebe" enable-background="new" opacity=".5" style="text-decoration-line:none;text-indent:0;text-transform:none"/>
 	</g>
 	<g id="close-inactive" transform="translate(-37,-553.36)">
-		<rect x="110" y="563.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="110" y="563.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m118 564.11c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" opacity=".3" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 	</g>
 	<g id="maximize-active" transform="translate(-.99995 -565.36)">
-		<rect x="11" y="596.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="11" y="596.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m19 597.36a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" fill="#367bf1" stroke="#316fd8" stroke-width=".5"/>
 	</g>
 	<g id="maximize-prelight" transform="translate(-13,-565.36)">
-		<rect x="44" y="596.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="44" y="596.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m52 597.36a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" fill="#367bf1" stroke="#316fd8" stroke-width=".5"/>
 		<path d="m50.803 601.36h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" fill-rule="evenodd" opacity=".5"/>
 	</g>
 	<g id="maximize-pressed" transform="translate(-25,-565.36)">
-		<rect x="77" y="596.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="77" y="596.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m85 597.36a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" fill="#367bf1" stroke="#316fd8" stroke-width=".5"/>
 		<path d="m83.803 601.36h3.3817c0.4503 0 0.81623 0.36847 0.81876 0.8188v3.3817zm2.4074 6.0069h-3.3951c-0.45035 0-0.81876-0.36842-0.81876-0.81875v-3.3951l4.2138 4.2138" fill-rule="evenodd" opacity=".5"/>
 	</g>
 	<g id="maximize-inactive" transform="translate(-37,-565.36)">
-		<rect x="110" y="596.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="110" y="596.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m118 597.11c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" opacity=".3" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 	</g>
 	<g id="hide-active" transform="translate(-.99995 -577.36)">
-		<rect x="11" y="629.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="11" y="629.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m19 630.36a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" fill="#fd7d00" opacity=".95" stroke="#e47100" stroke-width=".5"/>
 	</g>
 	<g id="hide-prelight" transform="translate(-13,-577.36)">
-		<rect x="44" y="629.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="44" y="629.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m52 630.36a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" fill="#fd7d00" opacity=".95" stroke="#e47100" stroke-width=".5"/>
 		<path d="m49 636.61v1.5h6v-1.5z" color="#000000" opacity=".5" stroke-width=".86603" style="text-decoration-line:none;text-indent:0;text-transform:none"/>
 	</g>
 	<g id="hide-pressed" transform="translate(-25,-577.36)">
-		<rect x="77" y="629.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="77" y="629.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m85 630.36a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" fill="#fd7d00" opacity=".95" stroke="#e47100" stroke-width=".5"/>
 		<path d="m82 636.61v1.5h6v-1.5z" color="#000000" opacity=".5" stroke-width=".86603" style="text-decoration-line:none;text-indent:0;text-transform:none"/>
 	</g>
 	<g id="hide-inactive" transform="translate(-37,-577.36)">
-		<rect x="110" y="629.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="110" y="629.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m118 630.11c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" opacity=".3" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 	</g>
 	<g id="stick-active" transform="translate(-.99995 -523.36)">
-		<rect x="11" y="596.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="11" y="596.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m19 597.36a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" fill="#19a187" stroke="#17917a" stroke-width=".5"/>
 	</g>
 	<g id="stick-prelight" transform="translate(-13,-523.36)">
-		<rect x="44" y="596.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="44" y="596.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m52 597.36a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" fill="#19a187" stroke="#17917a" stroke-width=".5"/>
 		<circle cx="52" cy="604.36" r="1.5" opacity=".5" stroke-width=".5"/>
 	</g>
 	<g id="stick-pressed" transform="translate(-25,-523.36)">
-		<rect x="77" y="596.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="77" y="596.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m85 597.36a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" fill="#19a187" stroke="#17917a" stroke-width=".5"/>
 		<circle cx="85" cy="604.36" r="1.5" opacity=".5" stroke-width=".5"/>
 	</g>
 	<g id="stick-inactive" transform="translate(-37,-523.36)">
-		<rect x="110" y="596.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="110" y="596.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m118 597.11c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" opacity=".3" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 	</g>
 	<g id="shade-active" transform="translate(-.99995 -535.36)">
-		<rect x="11" y="629.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="11" y="629.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m19 630.36a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" fill="#23bac2" opacity=".95" stroke="#20a8af" stroke-width=".5"/>
 	</g>
 	<g id="shade-prelight" transform="translate(-13,-535.36)">
-		<rect x="44" y="629.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="44" y="629.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m52 630.36a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" fill="#23bac2" opacity=".95" stroke="#20a8af" stroke-width=".5"/>
 		<path d="m55 638.69-2.4171-2.4171c-0.32062-0.32063-0.84522-0.32061-1.1658 0l-2.4171 2.4171h6" fill-rule="evenodd" opacity=".5" stroke-width="1.0068"/>
 	</g>
 	<g id="shade-pressed" transform="translate(-25,-535.36)">
-		<rect x="77" y="629.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="77" y="629.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m85 630.36a7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7 7 7 0 0 0-7-7z" fill="#23bac2" opacity=".95" stroke="#20a8af" stroke-width=".5"/>
 		<path d="m88 638.69-2.4171-2.4171c-0.32062-0.32063-0.84522-0.32061-1.1658 0l-2.4171 2.4171h6" fill-rule="evenodd" opacity=".5" stroke-width="1.0068"/>
 	</g>
 	<g id="shade-inactive" transform="translate(-37,-535.36)">
-		<rect x="110" y="629.36" width="16" height="16" fill="#2f343f" stroke-width=".57143"/>
+		<rect x="110" y="629.36" width="16" height="16" fill="#2f343f" stroke-width=".57143" style="fill:#272a34"/>
 		<path d="m118 630.11c-4.0011 0-7.25 3.2489-7.25 7.25s3.2489 7.25 7.25 7.25 7.25-3.2489 7.25-7.25-3.2489-7.25-7.25-7.25z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" opacity=".3" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 	</g>
 </svg>
