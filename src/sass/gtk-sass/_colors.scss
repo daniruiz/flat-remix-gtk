@@ -6,7 +6,7 @@ $base_color: white;
 $darkest_base_color: black;
 @if $variant=='light' { $base_color: white; }
 
-@if $variant=='dark' and $darkest=='false' { $base_color: #2F343F; }
+@if $variant=='dark' and $darkest=='false' { $base_color: #272a34; }
 
 @if $variant=='dark' and $darkest=='true' { $base_color: $darkest_base_color; }
 
@@ -15,7 +15,7 @@ $bg_color: #FAFAFA;
 $darkest_bg_color: lighten($darkest_base_color, 5%);
 @if $variant=='light' { $bg_color: #FAFAFA; }
 
-@if $variant=='dark' and $darkest=='false' { $bg_color: #383C4A; }
+@if $variant=='dark' and $darkest=='false' { $bg_color: darken(#272a34, 2%); }
 
 @if $variant=='dark' and $darkest=='true' { $bg_color: $darkest_bg_color; }
 
