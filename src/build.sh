@@ -2,7 +2,7 @@
 
 TMP='/tmp/flat-remix-gtk'
 VARIANTS=(Blue Red Green Yellow)
-VARIANT_COLORS=('#367bf0' '#d41919' '#17917a' '#ffd86e')
+VARIANT_COLORS=('#2777ff' '#ec0101' '#06a284' '#ffd86e')
 VARIANT_SELECTED_FONT_COLORS=('white' 'white' 'white' 'black' )
 DEFAULT_COLOR='#367bf0'
 

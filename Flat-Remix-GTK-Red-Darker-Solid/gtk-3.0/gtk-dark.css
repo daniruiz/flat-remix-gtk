@@ -3299,10 +3299,10 @@ button.documents-favorite:active:hover {
   padding: 4px; }
   .documents-entry-tag:hover, .photos-entry-tag:hover {
     color: white;
-    background: #fe0404; }
+    background: #fe0303; }
   .documents-entry-tag:active, .photos-entry-tag:active {
     color: white;
-    background: #d70101; }
+    background: #d80101; }
 
 .content-view.document-page {
   border-style: solid;

@@ -23,7 +23,6 @@ $fg_color: if($variant =='light', #5C616C, white);
 
 $selected_fg_color: white !default;
 $selected_bg_color: #367BF0 !default;
-$selected_bg_color: saturate($selected_bg_color, 20%);
 $selected_borders_color: darken($selected_bg_color, 20%);
 
 $borders_color: darken($bg_color, 9%);
