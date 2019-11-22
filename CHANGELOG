@@ -1,3 +1,10 @@
+[20191122]
+ * Increase title buttons outline contrast
+ * Update dark variant metacity theme background color
+ * Update dark variant xfwm4 assets background color
+ * New background color for dark variant
+ * Increase accentuation color saturation
+
 [20191108]
  * Improve XFCE panel design
 
