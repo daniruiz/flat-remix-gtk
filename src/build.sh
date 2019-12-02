@@ -11,12 +11,14 @@ function generate_variant_template {
 	variant="$1"
 	variant_name="$2"
 	variant_color="$3"
+	variant_selected_font_color="$4"
 	for theme in variant-templates/*
 	do
 		theme_basename="$(basename "$theme")"
 		variant_dir="$TMP/${variant_name}${theme_basename#Flat-Remix-GTK}"
 		cp -a "$theme" "$variant_dir"
 		find "$variant_dir" -type f -exec sed "s/${DEFAULT_COLOR}/${variant_color}/gi" -i {} \;
+		sed "s/selected_fg_color: #ffffff/selected_fg_color: $variant_selected_font_color/" -i "$variant_dir"/gtk-2.0/gtkrc
 		case "$theme_basename" in
 			*Darkest*)
 				cp thumbnails/gtk-3.0/thumbnail-darkest-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/gtk-3.0/thumbnail.png
@@ -148,7 +150,7 @@ function generate_variant {
 	variant_color="$4"
 	variant_selected_font_color="$5"
 
-	generate_variant_template "$variant" "$variant_name" "$variant_color"
+	generate_variant_template "$variant" "$variant_name" "$variant_color" "$variant_selected_font_color"
 	generate_css_files "$variant_name" "$variant_color" "$variant_selected_font_color"
 	copy_css_files "$variant_name"
 	[[ $1 != "--no-assets" ]] && generate_assets "$variant_name" "$variant_color"
