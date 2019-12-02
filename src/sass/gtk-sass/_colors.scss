@@ -26,6 +26,7 @@ $selected_bg_color: #367BF0 !default;
 $selected_borders_color: darken($selected_bg_color, 20%);
 
 $borders_color: darken($bg_color, 9%);
+@if $variant == 'dark' { $borders_color: darken($bg_color, 3%); }
 @if $darkest == 'true' { $borders_color: lighten($bg_color, 5%); }
 
 $link_color: if($variant == 'light', darken($selected_bg_color, 10%),
