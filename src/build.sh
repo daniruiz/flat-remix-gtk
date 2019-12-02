@@ -31,7 +31,7 @@ function generate_variant_template {
 			*Darker)
 				cp thumbnails/gtk-3.0/thumbnail-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/gtk-3.0/thumbnail.png
 				cp thumbnails/cinnamon/thumbnail-darker-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/cinnamon/thumbnail.png
-                icon_variant=''
+				icon_variant=''
 				;;
 			*)
 				cp thumbnails/gtk-3.0/thumbnail-"${variant_name##Flat-Remix-GTK-}".png "$variant_dir"/gtk-3.0/thumbnail.png
@@ -56,8 +56,9 @@ function generate_css_files { (
 		echo -e "Generate $variant_name \t $scss"
 		echo "\$selected_bg_color: $variant_color; \$selected_fg_color: ${variant_selected_font_color};" | \
 				cat - "$scss" | \
-				scss --sourcemap=none -C -q -s "$TMP/css/$variant_name/$(basename "${scss%%.scss}")".css
+				scss --sourcemap=none -C -q -s "$TMP/css/$variant_name/$(basename "${scss%%.scss}")".css &
 	done
+	wait
 ) }
 
 function copy_css_files {
@@ -102,10 +103,11 @@ function generate_assets {
 	mkdir -p "$TMP/assets-renderer"
 	cp -r assets-renderer "$TMP/assets-renderer/$variant_name"
 	find "$TMP/assets-renderer/$variant_name" -type f -exec sed "s/${DEFAULT_COLOR}/${variant_color}/gi" -i {} \;
-	"$TMP"/assets-renderer/"$variant_name"/gtk2/render-assets.sh
-	"$TMP"/assets-renderer/"$variant_name"/gtk3/render-assets.sh
-	"$TMP"/assets-renderer/"$variant_name"/metacity/render-assets.sh
-	"$TMP"/assets-renderer/"$variant_name"/xfwm4/render-assets.sh
+	"$TMP"/assets-renderer/"$variant_name"/gtk2/render-assets.sh &
+	"$TMP"/assets-renderer/"$variant_name"/gtk3/render-assets.sh &
+	"$TMP"/assets-renderer/"$variant_name"/metacity/render-assets.sh &
+	"$TMP"/assets-renderer/"$variant_name"/xfwm4/render-assets.sh &
+	wait
 
 	for theme in "$TMP/$variant_name"*
 	do
@@ -164,6 +166,6 @@ do
 	variant_color="${VARIANT_COLORS[$i]}"
 	variant_selected_font_color="${VARIANT_SELECTED_FONT_COLORS[$i]}"
 	generate_variant "$1" "$variant" "$variant_name" "$variant_color" "$variant_selected_font_color" &
-	wait
 done
+wait
 
