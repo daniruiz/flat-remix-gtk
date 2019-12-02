@@ -77,8 +77,8 @@ stage {
   transition-duration: 300ms;
   border-radius: 6px;
   color: white;
-  background-color: rgba(102, 109, 132, 0.35);
-  border: 1px solid rgba(26, 28, 34, 0.35);
+  background-color: rgba(78, 84, 104, 0.35);
+  border: 1px solid rgba(4, 4, 5, 0.35);
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); }
   .notification StEntry:focus {
     color: white;
@@ -87,8 +87,8 @@ stage {
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); }
   .notification StEntry:insensitive {
     color: rgba(255, 255, 255, 0.55);
-    background-color: rgba(102, 109, 132, 0.2);
-    border: 1px solid rgba(26, 28, 34, 0.35);
+    background-color: rgba(78, 84, 104, 0.2);
+    border: 1px solid rgba(4, 4, 5, 0.35);
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); }
 
 StScrollView.vfade {
@@ -456,8 +456,8 @@ StScrollBar {
   spacing: 12px; }
 
 .window-caption {
-  background-color: rgba(53, 57, 69, 0.95);
-  border: 1px solid rgba(53, 57, 69, 0.95);
+  background-color: rgba(30, 33, 40, 0.95);
+  border: 1px solid rgba(30, 33, 40, 0.95);
   color: white;
   spacing: 8px;
   border-radius: 6px;
@@ -488,8 +488,8 @@ StScrollBar {
   padding: 5px 8px;
   -cinnamon-caption-spacing: 4px;
   color: white;
-  background-color: rgba(102, 109, 132, 0.35);
-  border: 1px solid rgba(26, 28, 34, 0.35);
+  background-color: rgba(78, 84, 104, 0.35);
+  border: 1px solid rgba(4, 4, 5, 0.35);
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); }
   .expo-workspaces-name-entry:focus,
   .expo-workspaces-name-entry#selected:focus {
@@ -511,7 +511,7 @@ StScrollBar {
     border-radius: 6px; }
 
 .expo-background {
-  background-color: #353945; }
+  background-color: #1e2128; }
 
 .workspace-thumbnails {
   spacing: 26px; }
@@ -832,8 +832,8 @@ StScrollBar {
     selected-color: white;
     selection-background-color: #ec0101;
     color: white;
-    background-color: rgba(102, 109, 132, 0.35);
-    border: 1px solid rgba(26, 28, 34, 0.35);
+    background-color: rgba(78, 84, 104, 0.35);
+    border: 1px solid rgba(4, 4, 5, 0.35);
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); }
     .run-dialog-entry:focus {
       color: white;
@@ -901,7 +901,7 @@ StScrollBar {
     border-width: 0px; }
 
 #keyboard {
-  background-color: rgba(53, 57, 69, 0.95);
+  background-color: rgba(30, 33, 40, 0.95);
   border-width: 0;
   border-top-width: 1px;
   border-color: rgba(0, 0, 0, 0.4); }
@@ -922,25 +922,25 @@ StScrollBar {
   box-shadow: none;
   color: white;
   border: 1px solid #1c1e25;
-  background-color: rgba(102, 109, 132, 0.35); }
+  background-color: rgba(78, 84, 104, 0.35); }
   .keyboard-key:hover {
     color: white;
-    border: 1px solid rgba(26, 28, 34, 0.35);
-    background-color: rgba(119, 127, 151, 0.45); }
+    border: 1px solid rgba(4, 4, 5, 0.35);
+    background-color: rgba(94, 101, 125, 0.45); }
   .keyboard-key:active, .keyboard-key:checked {
     color: white;
     border: 1px solid #ec0101;
     background-color: #ec0101; }
   .keyboard-key:grayed {
-    color: #72747d;
-    border: 1px solid rgba(26, 28, 34, 0.35);
-    background-color: rgba(102, 109, 132, 0.2); }
+    color: #626469;
+    border: 1px solid rgba(4, 4, 5, 0.35);
+    background-color: rgba(78, 84, 104, 0.2); }
 
 .keyboard-subkeys {
   color: white;
   padding: 5px;
   -arrow-border-radius: 6px;
-  -arrow-background-color: rgba(53, 57, 69, 0.95);
+  -arrow-background-color: rgba(30, 33, 40, 0.95);
   -arrow-border-width: 1px;
   -arrow-border-color: rgba(0, 0, 0, 0.4);
   -arrow-base: 20px;

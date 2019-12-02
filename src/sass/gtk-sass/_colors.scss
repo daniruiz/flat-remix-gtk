@@ -62,9 +62,9 @@ $header_fg: if($darker == 'true', white, $header_fg);
 
 $dark_sidebar_bg: black;
 @if $variant=='light' or $darkest=='true' {
-  $dark_sidebar_bg: lighten(transparentize(black, if($transparency=='true', if($variant=='light', 0.07, 0.025), 0)), 10%);
+  $dark_sidebar_bg: transparentize(lighten(black, 3%), if($transparency=='true', if($variant=='light', 0.07, 0.025), 0));
 } @else {
-  $dark_sidebar_bg: if($transparency == 'true', transparentize(#353945, 0.05), #353945);
+  $dark_sidebar_bg: transparentize(darken($bg_color, 2%), if($transparency == 'true', 0.05, 0));
 }
 
 $dark_sidebar_fg: white;
