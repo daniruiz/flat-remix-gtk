@@ -44,8 +44,6 @@ menu-radio-unchecked-selected
 menu-radio-unchecked-insensitive
 entry-background
 entry-background-disabled
-entry-border-bg
-entry-border-active-bg
 entry-bg
 entry-active-bg
 entry-disabled-bg
@@ -56,17 +54,13 @@ entry-toolbar
 entry-active-toolbar
 entry-disabled-toolbar
 combo-entry
-combo-entry-border
 combo-entry-focus
-combo-entry-border-focus
 combo-entry-insensitive
 combo-entry-notebook
 combo-entry-focus-notebook
 combo-entry-insensitive-notebook
 combo-entry-rtl
-combo-entry-border-rtl
 combo-entry-focus-rtl
-combo-entry-border-focus-rtl
 combo-entry-insensitive-rtl
 combo-entry-notebook-rtl
 combo-entry-focus-notebook-rtl
@@ -91,6 +85,7 @@ handle-h
 handle-v
 line-h
 line-v
+menu
 menuitem
 menubar_button
 null
