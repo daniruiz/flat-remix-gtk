@@ -14,7 +14,7 @@ style "menubar" {
 
     image {
       function = BOX
-      file  = "menubar-toolbar/menubar-dark.png"
+      file  = "menubar-toolbar/menubar-darkest.png"
       stretch  = TRUE
       border = { 1, 1, 1, 1 }
     }
@@ -54,7 +54,7 @@ style "menubar_item" {
     image {
       function = BOX
       state = PRELIGHT
-      file = "menubar-toolbar/menubar_button-dark.png"
+      file = "menubar-toolbar/menubar_button-darkest.png"
       border = { 0, 0, 0, 5 }
       stretch = TRUE
     }
@@ -139,7 +139,7 @@ style "toolbar_entry" {
       function = SHADOW
       state = NORMAL
       detail = "entry"
-      file = "menubar-toolbar/entry-toolbar-dark.png"
+      file = "menubar-toolbar/entry-toolbar-darkest.png"
       border = {6, 6, 6, 6}
       stretch = TRUE
     }
@@ -148,7 +148,7 @@ style "toolbar_entry" {
       function = SHADOW
       state = ACTIVE
       detail = "entry"
-      file = "menubar-toolbar/entry-active-toolbar-dark.png"
+      file = "menubar-toolbar/entry-active-toolbar-darkest.png"
       border = {6, 6, 6, 6}
       stretch = TRUE
     }
@@ -157,7 +157,7 @@ style "toolbar_entry" {
       function = SHADOW
       state = INSENSITIVE
       detail = "entry"
-      file = "menubar-toolbar/entry-disabled-toolbar-dark.png"
+      file = "menubar-toolbar/entry-disabled-toolbar-darkest.png"
       border = {6, 6, 6, 6}
       stretch = TRUE
     }
