@@ -1,3 +1,14 @@
+[20191214]
+ * Create new GTK2 Darker theme
+ * Create new GTK2 Darkest theme
+ * Create new GTK2 Light theme
+ * Create new GTK2 Dark theme
+ * Fix xfwm4 theme shows squares in corners on launch
+ * Fix dark variant xfwm4 theme no outline
+ * Fix yellow variant gtk2 apps white selected font color
+ * Change sidebar background color
+ * Lighten dark variant border color
+
 [20191122]
  * Increase title buttons outline contrast
  * Update dark variant metacity theme background color
