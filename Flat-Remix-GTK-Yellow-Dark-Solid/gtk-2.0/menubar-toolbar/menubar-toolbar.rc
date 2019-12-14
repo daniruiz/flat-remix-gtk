@@ -45,9 +45,9 @@ style "menubar-borderless" {
 style "menubar_item" {
 
   xthickness = 2
-  ythickness = 4
+  ythickness = 6
 
-  fg[PRELIGHT] = @selected_fg_color
+  fg[PRELIGHT] = "#70788d"
 
   engine "pixmap" {
 
@@ -55,7 +55,7 @@ style "menubar_item" {
       function = BOX
       state = PRELIGHT
       file = "menubar-toolbar/menubar_button.png"
-      border = { 2, 2, 2, 2 }
+      border = { 0, 0, 0, 5 }
       stretch = TRUE
     }
   }

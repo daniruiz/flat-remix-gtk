@@ -16,7 +16,7 @@ style "default" {
   GtkWidget::new-tooltip-style = 1 #for compatibility
 
   GtkSeparatorMenuItem::horizontal-padding = 3
-  GtkSeparatorMenuItem::wide-separators = 1
+  GtkSeparatorMenuItem::wide-separators = 0
   GtkSeparatorMenuItem::separator-height = 1
 
   GtkButton::child-displacement-y = 0
@@ -687,21 +687,17 @@ style "menu" {
   bg[NORMAL] = @menu_bg
   bg[INSENSITIVE] = @menu_bg
   bg[PRELIGHT] = @menu_bg
-
-  engine "pixmap" { # For menus that use horizontal lines rather than gtkseparator
-
-    image {
-      function = HLINE
-      file = "assets/null.png"
-      border = { 0, 0, 0, 0 }
-      stretch = TRUE
-    }
-  }
 }
 
 style "menu_framed_box" {
+  engine "pixmap" {
 
-  engine "adwaita" {
+    image {
+      function = BOX
+      file = "assets/menu.png"
+      border = { 1, 1, 1, 1 }
+      stretch = TRUE
+    }
   }
 }
 
@@ -938,7 +934,7 @@ style "button" {
       function = BOX
       state = NORMAL
       file = "assets/button.png"
-      border = { 4, 4, 4, 4 }
+      border = { 5, 5, 5, 5 }
       stretch = TRUE
     }
 
@@ -946,7 +942,7 @@ style "button" {
       function = BOX
       state = PRELIGHT
       file = "assets/button-hover.png"
-      border = { 4, 4, 4, 4 }
+      border = { 5, 5, 5, 5 }
       stretch = TRUE
     }
 
@@ -954,7 +950,7 @@ style "button" {
       function = BOX
       state = ACTIVE
       file = "assets/button-active.png"
-      border = { 4, 4, 4, 4 }
+      border = { 5, 5, 5, 5 }
       stretch = TRUE
     }
 
@@ -962,7 +958,7 @@ style "button" {
       function = BOX
       state = INSENSITIVE
       file = "assets/button-insensitive.png"
-      border = { 4, 4, 4, 4 }
+      border = { 5, 5, 5, 5 }
       stretch = TRUE
     }
   }
@@ -977,8 +973,8 @@ style "checkbutton" {
 
 style "entry" {
 
-  xthickness = 6
-  ythickness = 4
+  xthickness = 5
+  ythickness = 5
 
   engine "pixmap" {
 
@@ -987,7 +983,7 @@ style "entry" {
       state = NORMAL
       detail = "entry"
       file = "assets/entry-bg.png"
-      border = {6, 6, 6, 6}
+      border = {5, 5, 5, 5}
       stretch = TRUE
     }
 
@@ -996,7 +992,7 @@ style "entry" {
       state = ACTIVE
       detail = "entry"
       file = "assets/entry-active-bg.png"
-      border = {6, 6, 6, 6}
+      border = {5, 5, 5, 5}
       stretch = TRUE
     }
 
@@ -1005,7 +1001,7 @@ style "entry" {
       state = INSENSITIVE
       detail = "entry"
       file = "assets/entry-disabled-bg.png"
-      border = {6, 6, 6, 6}
+      border = {5, 5, 5, 5}
       stretch = TRUE
     }
 
@@ -1040,7 +1036,7 @@ style "notebook_entry" {
       state = NORMAL
       detail = "entry"
       file = "assets/entry-notebook.png"
-      border = {6, 6, 6, 6}
+      border = {5, 5, 5, 5}
       stretch = TRUE
     }
 
@@ -1049,7 +1045,7 @@ style "notebook_entry" {
       state = ACTIVE
       detail = "entry"
       file = "assets/entry-active-notebook.png"
-      border = {6, 6, 6, 6}
+      border = {5, 5, 5, 5}
       stretch = TRUE
     }
 
@@ -1058,7 +1054,7 @@ style "notebook_entry" {
       state = INSENSITIVE
       detail = "entry"
       file = "assets/entry-disabled-notebook.png"
-      border = {6, 6, 6, 6}
+      border = {5, 5, 5, 5}
       stretch = TRUE
     }
   }
@@ -1787,7 +1783,7 @@ style "range" {
       function = BOX
       detail = "trough-upper"
       file = "assets/trough-horizontal.png"
-      border = { 8, 8, 0, 0 }
+      border = { 10, 10, 0, 0 }
       stretch = TRUE
       orientation = HORIZONTAL
     }
@@ -1796,7 +1792,7 @@ style "range" {
       function = BOX
       detail = "trough-lower"
       file = "assets/trough-horizontal-active.png"
-      border = { 8, 8, 0, 0 }
+      border = { 10, 10, 0, 0 }
       stretch = TRUE
       orientation = HORIZONTAL
     }
@@ -1805,7 +1801,7 @@ style "range" {
       function = BOX
       detail = "trough-upper"
       file = "assets/trough-vertical.png"
-      border = { 0, 0, 8, 8 }
+      border = { 0, 0, 10, 10 }
       stretch = TRUE
       orientation = VERTICAL
     }
@@ -1814,7 +1810,7 @@ style "range" {
       function = BOX
       detail = "trough-lower"
       file = "assets/trough-vertical-active.png"
-      border = { 0, 0, 8, 8 }
+      border = { 0, 0, 10, 10 }
       stretch = TRUE
       orientation = VERTICAL
     }
