@@ -2729,7 +2729,7 @@ scale {
   slider {
     $_slider_border: if($variant=='light', transparentize(darken($button_border, 25%), 0.5), darken($button_border, 2%));
 
-    background-color: $button_bg;
+    background-color: if($darkest=='true', lighten($button_border, 5%), $button_bg);
     border: 1px solid $_slider_border;
     border-radius: 100%;
 
