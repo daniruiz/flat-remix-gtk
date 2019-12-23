@@ -2190,7 +2190,7 @@ notebook {
           margin: if($_pos==top or $_pos==bottom, 0 5px, 5px 0);
 
           > tab {
-            padding: 2px 10px;
+            padding: 5px 10px;
             min-width: 20px;
             min-height: 20px;
             margin: 0;

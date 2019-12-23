@@ -1582,7 +1582,7 @@ notebook {
       notebook > header.top > tabs {
         margin: 0 5px; }
         notebook > header.top > tabs > tab {
-          padding: 2px 10px;
+          padding: 5px 10px;
           min-width: 20px;
           min-height: 20px;
           margin: 0;
@@ -1597,7 +1597,7 @@ notebook {
       notebook > header.bottom > tabs {
         margin: 0 5px; }
         notebook > header.bottom > tabs > tab {
-          padding: 2px 10px;
+          padding: 5px 10px;
           min-width: 20px;
           min-height: 20px;
           margin: 0;
@@ -1612,7 +1612,7 @@ notebook {
       notebook > header.right > tabs {
         margin: 5px 0; }
         notebook > header.right > tabs > tab {
-          padding: 2px 10px;
+          padding: 5px 10px;
           min-width: 20px;
           min-height: 20px;
           margin: 0;
@@ -1627,7 +1627,7 @@ notebook {
       notebook > header.left > tabs {
         margin: 5px 0; }
         notebook > header.left > tabs > tab {
-          padding: 2px 10px;
+          padding: 5px 10px;
           min-width: 20px;
           min-height: 20px;
           margin: 0;
