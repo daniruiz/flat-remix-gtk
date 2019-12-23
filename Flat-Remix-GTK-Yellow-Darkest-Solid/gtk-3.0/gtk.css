@@ -1421,12 +1421,12 @@ menubar,
         padding: 0; }
     menubar > menuitem:hover,
     .menubar > menuitem:hover {
-      background-color: #ffd86e;
-      color: black; }
+      box-shadow: inset 0 -3px #ffd86e;
+      color: #fff3d4; }
     menubar > menuitem:disabled,
     .menubar > menuitem:disabled {
-      color: rgba(255, 255, 255, 0.4);
-      border-color: transparent; }
+      color: rgba(255, 255, 255, 0.45);
+      box-shadow: none; }
   menubar .csd.popup decoration,
   .menubar .csd.popup decoration {
     border-radius: 0; }
