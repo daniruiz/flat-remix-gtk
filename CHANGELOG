@@ -1,3 +1,8 @@
+[20191223]
+ * Fix darkest variant scale slider not visible
+ * Match gtk3 menubar styles with gtk2 theme
+ * Increase gtk3 tab label padding
+
 [20191214]
  * Create new GTK2 Darker theme
  * Create new GTK2 Darkest theme
