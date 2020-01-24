@@ -1,37 +1,37 @@
 #!/bin/bash
 
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" > /dev/null && pwd )"
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+# Required applications
 INKSCAPE=/usr/bin/inkscape
 OPTIPNG=/usr/bin/optipng
 
-SRC_FILE="$DIR"/assets.svg
-ASSETS_DIR="$DIR"/assets
-INDEX="$DIR"/assets.txt
+assets="$DIR/assets"
+# Required directories
+[ ! -d "$assets" ] && mkdir "$assets"
 
-mkdir "$ASSETS_DIR"
+src="$DIR/assets.svg"
+index="$DIR/assets.txt"
 
-for i in $(cat "$INDEX")
-do
-	if [ -f "$ASSETS_DIR/$i.png" ]; then
-		echo "$ASSETS_DIR/$i.png" exists.
-	else
-		echo
-		echo Rendering "$ASSETS_DIR/$i.png"
-		$INKSCAPE --export-id=$i \
+# The loop below generates two png files, with different DPI settings, for each
+# asset element listed in $index. These assets are extracted from .svg files
+# located in $DIR
+for i in $(cat "$index"); do
+	if [ ! -f "$assets/$i.png" ]; then
+		echo "Rendering $assets/$i.png"
+		$INKSCAPE --export-id="$i" \
 				  --export-id-only \
-				  --export-png="$ASSETS_DIR/$i.png" "$SRC_FILE" &> /dev/null \
-		&& $OPTIPNG -o7 --quiet "$ASSETS_DIR/$i.png"
-	fi
-	if [ -f "$ASSETS_DIR"/$i@2.png ]; then
-		echo "$ASSETS_DIR"/$i@2.png exists.
-	else
-		echo
-		echo Rendering "$ASSETS_DIR"/$i@2.png
-		$INKSCAPE --export-id=$i \
+				  --export-png="$assets/$i.png" "$src" 1> /dev/null &&
+			$OPTIPNG -o7 --quiet "$assets/$i.png" ||
+			echo "Error occurred when rendering $assets/$i.png" 1>&2
+
+		# @TODO a better naming is needed, perhaps @180dpi.png?
+		echo "Rendering $assets/$i@2.png"
+		$INKSCAPE --export-id="$i" \
 				  --export-dpi=180 \
 				  --export-id-only \
-				  --export-png="$ASSETS_DIR"/$i@2.png "$SRC_FILE" &> /dev/null \
-		&& $OPTIPNG -o7 --quiet "$ASSETS_DIR"/$i@2.png
+				  --export-png="$assets/$i@2.png" "$src" 1> /dev/null &&
+			$OPTIPNG -o7 --quiet "$assets/${i}@2.png" ||
+			echo "Error occurred when rendering $assets/${i}@2.png" 1>&2
 	fi
 done

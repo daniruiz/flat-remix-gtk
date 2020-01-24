@@ -1,60 +1,37 @@
 #!/bin/bash
 
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+# Required applications
 INKSCAPE=/usr/bin/inkscape
 
-SRC_FILE="$DIR"/../gtk3/assets.svg
+src="$DIR/../gtk3/assets.svg"
 
-ASSETS_DIR="$DIR"/metacity
-INDEX="$DIR"/assets.txt
+# Template variations
+templates=( "" "-dark" "-darkest" )
 
-ASSETS_DIR_DARK="$DIR"/metacity-dark
-INDEX_DARK="$DIR"/assets-dark.txt
+# The purpose of this loop is to render some assets and renaming them as necessary
+for t in "${templates[@]}"; do
+	assets="$DIR/metacity${t}"
+	index="$DIR/assets${t}.txt"
 
-ASSETS_DIR_DARKEST="$DIR"/metacity-darkest
-INDEX_DARKEST="$DIR"/assets-darkest.txt
+	# @TODO Unless the source svg files are forked, this loop can be greatly
+	# simplified if we could adjust the source svg files
+	mkdir "$assets"
+	for i in $(cat "$index"); do
+		if [ ! -f "$assets/$i.svg" ]; then
+			echo "Rendering $assets/$i.svg"
 
-mkdir "$ASSETS_DIR" "$ASSETS_DIR_DARK" "$ASSETS_DIR_DARKEST"
-
-for i in `cat "$INDEX"`
-do
-	if [ -f "$ASSETS_DIR/$i.svg" ]; then
-		echo "$ASSETS_DIR/$i.svg" exists.
-	else
-		echo
-		echo Rendering "$ASSETS_DIR/$i.svg"
-		$INKSCAPE --export-id=$i \
-				  --export-id-only \
-				  --export-plain-svg="$ASSETS_DIR/${i#titlebutton-}.svg" "$SRC_FILE" &> /dev/null
-	fi
+			if [ -z "$t" ]; then
+				name=$(echo "${i#titlebutton-}.svg")
+			else
+				name=$(echo "${i#titlebutton-}.svg" | sed "s/${t}//")
+			fi
+			$INKSCAPE --export-id="$i" \
+					  --export-id-only \
+					  --export-plain-svg="$assets/$name" "$src" 1> /dev/null ||
+				echo "Error occurred when rendering $assets/$i.png" 1>&2
+		fi
+	done
+	mv "$assets"/appmenu-backdrop.svg "$assets"/unfocused.svg
 done
-mv "$ASSETS_DIR"/appmenu-backdrop.svg "$ASSETS_DIR"/unfocused.svg
-
-for i in `cat "$INDEX_DARK"`
-do
-	if [ -f "$ASSETS_DIR_DARK/$i.svg" ]; then
-		echo "$ASSETS_DIR_DARK/$i.svg" exists.
-	else
-		echo
-		echo Rendering "$ASSETS_DIR_DARK/$i.svg"
-		$INKSCAPE --export-id=$i \
-				  --export-id-only \
-				  --export-plain-svg="$ASSETS_DIR_DARK/$(echo ${i#titlebutton-} | sed "s/-dark//").svg" "$SRC_FILE" &> /dev/null
-	fi
-done
-mv "$ASSETS_DIR_DARK"/appmenu-backdrop.svg "$ASSETS_DIR_DARK"/unfocused.svg
-
-for i in `cat "$INDEX_DARKEST"`
-do
-	if [ -f "$ASSETS_DIR_DARKEST/$i.svg" ]; then
-		echo "$ASSETS_DIR_DARKEST/$i.svg" exists.
-	else
-		echo
-		echo Rendering "$ASSETS_DIR_DARKEST/$i.svg"
-		$INKSCAPE --export-id=$i \
-				  --export-id-only \
-				  --export-plain-svg="$ASSETS_DIR_DARKEST/$(echo ${i#titlebutton-} | sed "s/-darkest//").svg" "$SRC_FILE" &> /dev/null
-	fi
-done
-mv "$ASSETS_DIR_DARKEST"/appmenu-backdrop.svg "$ASSETS_DIR_DARKEST"/unfocused.svg

@@ -1,83 +1,56 @@
 #!/bin/bash
 
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" > /dev/null && pwd )"
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+# Required applications
 INKSCAPE=/usr/bin/inkscape
 OPTIPNG=/usr/bin/optipng
 
-SRC_FILE="$DIR"/assets.svg
-ASSETS_DIR="$DIR"/assets
+# Required directories
+[ ! -d "$DIR/menubar-toolbar" ] && mkdir "$DIR/menubar-toolbar"
 
-SRC_FILE_DARK="$DIR"/assets-dark.svg
-ASSETS_DIR_DARK="$DIR"/assets-dark
+# Template variations
+templates=( "" "-dark" "-darkest" )
 
-SRC_FILE_DARKEST="$DIR"/assets-darkest.svg
-ASSETS_DIR_DARKEST="$DIR"/assets-darkest
+index="$DIR/assets.txt"
+# For each variation
+for t in "${templates[@]}"; do
+	src="$DIR/assets${t}.svg"
+	assets="$DIR/assets${t}"
+	mkdir "$assets"
+	# The loop below generates a png file for each asset element listed in $index.
+	# These assets are extracted from .svg files located in $DIR
+	for i in $(cat "$index"); do
+		if [ ! -f "$assets/$i.png" ]; then
+			echo "Rendering $assets/$i.png"
+			$INKSCAPE --export-id="$i" \
+					  --export-id-only \
+					  --export-png="$assets/$i.png" "$src" 1> /dev/null &&
+				$OPTIPNG -o7 --quiet "$assets/$i.png" ||
+				echo "Error occurred when rendering $assets/$i.png" 1>&2
+		fi
+	done
 
-MENU_TOOLBAR_DIR="$DIR"/menubar-toolbar
+	# Duplicate some rendered files for menubar/toolbar; example
+	# entry-toolbar.png for the dark variation should be placed as
+	# menubar-toolbar/entry-toolbar-dark.png.
 
-INDEX="$DIR"/"assets.txt"
+	# @TODO Note that all menubar assets are shared between template variations.
+	# Because of this, the theme template may not use some of these files. It is
+	# a good idea to remove them.
 
-mkdir "$ASSETS_DIR" "$ASSETS_DIR_DARK" "$ASSETS_DIR_DARKEST" "$MENU_TOOLBAR_DIR"
-
-for i in $(cat $INDEX)
-do
-	if [ -f $ASSETS_DIR/$i.png ]; then
-		echo $ASSETS_DIR/$i.png exists.
-	else
-		echo
-		echo Rendering $ASSETS_DIR/$i.png
-		$INKSCAPE --export-id=$i \
-				  --export-id-only \
-				  --export-png=$ASSETS_DIR/$i.png $SRC_FILE &> /dev/null \
-		&& $OPTIPNG -o7 --quiet $ASSETS_DIR/$i.png
-	fi
-
-	if [ -f $ASSETS_DIR_DARK/$i.png ]; then
-		echo $ASSETS_DIR_DARK/$i.png exists.
-	else
-		echo
-		echo Rendering $ASSETS_DIR_DARK/$i.png
-		$INKSCAPE --export-id=$i \
-				  --export-id-only \
-				  --export-png=$ASSETS_DIR_DARK/$i.png $SRC_FILE_DARK &> /dev/null \
-		&& $OPTIPNG -o7 --quiet $ASSETS_DIR_DARK/$i.png
-	fi
-
-	if [ -f $ASSETS_DIR_DARKEST/$i.png ]; then
-		echo $ASSETS_DIR_DARKEST/$i.png exists.
-	else
-		echo
-		echo Rendering $ASSETS_DIR_DARKEST/$i.png
-		$INKSCAPE --export-id=$i \
-				  --export-id-only \
-				  --export-png=$ASSETS_DIR_DARKEST/$i.png $SRC_FILE_DARKEST &> /dev/null \
-		&& $OPTIPNG -o7 --quiet $ASSETS_DIR_DARKEST/$i.png
+	# @TODO There is no reason why this needs to be hard-coded here. Perhaps,
+	# having another 'index' file for these renames would be beneficial.
+	cp "$assets/entry-toolbar.png" "$DIR/menubar-toolbar/entry-toolbar${t}.png"
+	cp "$assets/entry-active-toolbar.png" "$DIR/menubar-toolbar/entry-active-toolbar${t}.png"
+	cp "$assets/entry-disabled-toolbar.png" "$DIR/menubar-toolbar/entry-disabled-toolbar${t}.png"
+	cp "$assets/menubar.png" "$DIR/menubar-toolbar/menubar${t}.png"
+	cp "$assets/menubar_button.png" "$DIR/menubar-toolbar/menubar_button${t}.png"
+	# Special cases
+	if [ "$t" = "-dark" ]; then
+		cp "$assets/button.png" "$DIR/menubar-toolbar/button.png"
+		cp "$assets/button-hover.png" "$DIR/menubar-toolbar/button-hover.png"
+		cp "$assets/button-active.png" "$DIR/menubar-toolbar/button-active.png"
+		cp "$assets/button-insensitive.png" "$DIR/menubar-toolbar/button-insensitive.png"
 	fi
 done
-
-cp $ASSETS_DIR/entry-toolbar.png "$MENU_TOOLBAR_DIR"/entry-toolbar.png
-cp $ASSETS_DIR/entry-active-toolbar.png "$MENU_TOOLBAR_DIR"/entry-active-toolbar.png
-cp $ASSETS_DIR/entry-disabled-toolbar.png "$MENU_TOOLBAR_DIR"/entry-disabled-toolbar.png
-
-cp $ASSETS_DIR/menubar.png "$MENU_TOOLBAR_DIR"/menubar.png
-cp $ASSETS_DIR/menubar_button.png "$MENU_TOOLBAR_DIR"/menubar_button.png
-
-cp $ASSETS_DIR_DARK/button.png "$MENU_TOOLBAR_DIR"/button.png
-cp $ASSETS_DIR_DARK/button-hover.png "$MENU_TOOLBAR_DIR"/button-hover.png
-cp $ASSETS_DIR_DARK/button-active.png "$MENU_TOOLBAR_DIR"/button-active.png
-cp $ASSETS_DIR_DARK/button-insensitive.png "$MENU_TOOLBAR_DIR"/button-insensitive.png
-
-cp $ASSETS_DIR_DARK/entry-toolbar.png "$MENU_TOOLBAR_DIR"/entry-toolbar-dark.png
-cp $ASSETS_DIR_DARK/entry-active-toolbar.png "$MENU_TOOLBAR_DIR"/entry-active-toolbar-dark.png
-cp $ASSETS_DIR_DARK/entry-disabled-toolbar.png "$MENU_TOOLBAR_DIR"/entry-disabled-toolbar-dark.png
-
-cp $ASSETS_DIR_DARK/menubar.png "$MENU_TOOLBAR_DIR"/menubar-dark.png
-cp $ASSETS_DIR_DARK/menubar_button.png "$MENU_TOOLBAR_DIR"/menubar_button-dark.png
-
-cp $ASSETS_DIR_DARKEST/entry-toolbar.png "$MENU_TOOLBAR_DIR"/entry-toolbar-darkest.png
-cp $ASSETS_DIR_DARKEST/entry-active-toolbar.png "$MENU_TOOLBAR_DIR"/entry-active-toolbar-darkest.png
-cp $ASSETS_DIR_DARKEST/entry-disabled-toolbar.png "$MENU_TOOLBAR_DIR"/entry-disabled-toolbar-darkest.png
-
-cp $ASSETS_DIR_DARKEST/menubar.png "$MENU_TOOLBAR_DIR"/menubar-darkest.png
-cp $ASSETS_DIR_DARKEST/menubar_button.png "$MENU_TOOLBAR_DIR"/menubar_button-darkest.png
