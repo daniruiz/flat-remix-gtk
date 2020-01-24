@@ -1,4 +1,5 @@
 #! /bin/bash
+
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" > /dev/null && pwd )"
 
 INKSCAPE=/usr/bin/inkscape
@@ -6,7 +7,6 @@ OPTIPNG=/usr/bin/optipng
 
 INDEX="$DIR"/assets.txt
 SRC_FILES="$DIR"/assets*.svg
-
 
 for src_file in $SRC_FILES
 do
@@ -22,7 +22,7 @@ do
 			$INKSCAPE --export-id=$i \
 					  --export-id-only \
 					  --export-png="$DIR/$variant/$i.png" "$src_file" &> /dev/null \
-			&& $OPTIPNG -o7 --quiet "DIR/$variant/$i.png" 
+			&& $OPTIPNG -o7 --quiet "DIR/$variant/$i.png"
 		fi
 	done
 done

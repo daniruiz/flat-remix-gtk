@@ -28,9 +28,9 @@ do
 		echo
 		echo Rendering $ASSETS_DIR/$i.png
 		$INKSCAPE --export-id=$i \
-		          --export-id-only \
-		          --export-png=$ASSETS_DIR/$i.png $SRC_FILE &> /dev/null \
-		&& $OPTIPNG -o7 --quiet $ASSETS_DIR/$i.png 
+				  --export-id-only \
+				  --export-png=$ASSETS_DIR/$i.png $SRC_FILE &> /dev/null \
+		&& $OPTIPNG -o7 --quiet $ASSETS_DIR/$i.png
 	fi
 
 	if [ -f $ASSETS_DIR_DARK/$i.png ]; then
@@ -39,9 +39,9 @@ do
 		echo
 		echo Rendering $ASSETS_DIR_DARK/$i.png
 		$INKSCAPE --export-id=$i \
-		          --export-id-only \
-		          --export-png=$ASSETS_DIR_DARK/$i.png $SRC_FILE_DARK &> /dev/null \
-		&& $OPTIPNG -o7 --quiet $ASSETS_DIR_DARK/$i.png 
+				  --export-id-only \
+				  --export-png=$ASSETS_DIR_DARK/$i.png $SRC_FILE_DARK &> /dev/null \
+		&& $OPTIPNG -o7 --quiet $ASSETS_DIR_DARK/$i.png
 	fi
 
 	if [ -f $ASSETS_DIR_DARKEST/$i.png ]; then
@@ -50,9 +50,9 @@ do
 		echo
 		echo Rendering $ASSETS_DIR_DARKEST/$i.png
 		$INKSCAPE --export-id=$i \
-		          --export-id-only \
-		          --export-png=$ASSETS_DIR_DARKEST/$i.png $SRC_FILE_DARKEST &> /dev/null \
-		&& $OPTIPNG -o7 --quiet $ASSETS_DIR_DARKEST/$i.png 
+				  --export-id-only \
+				  --export-png=$ASSETS_DIR_DARKEST/$i.png $SRC_FILE_DARKEST &> /dev/null \
+		&& $OPTIPNG -o7 --quiet $ASSETS_DIR_DARKEST/$i.png
 	fi
 done
 
@@ -62,7 +62,6 @@ cp $ASSETS_DIR/entry-disabled-toolbar.png "$MENU_TOOLBAR_DIR"/entry-disabled-too
 
 cp $ASSETS_DIR/menubar.png "$MENU_TOOLBAR_DIR"/menubar.png
 cp $ASSETS_DIR/menubar_button.png "$MENU_TOOLBAR_DIR"/menubar_button.png
-
 
 cp $ASSETS_DIR_DARK/button.png "$MENU_TOOLBAR_DIR"/button.png
 cp $ASSETS_DIR_DARK/button-hover.png "$MENU_TOOLBAR_DIR"/button-hover.png
@@ -82,4 +81,3 @@ cp $ASSETS_DIR_DARKEST/entry-disabled-toolbar.png "$MENU_TOOLBAR_DIR"/entry-disa
 
 cp $ASSETS_DIR_DARKEST/menubar.png "$MENU_TOOLBAR_DIR"/menubar-darkest.png
 cp $ASSETS_DIR_DARKEST/menubar_button.png "$MENU_TOOLBAR_DIR"/menubar_button-darkest.png
-

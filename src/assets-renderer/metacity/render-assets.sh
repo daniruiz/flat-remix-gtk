@@ -18,44 +18,43 @@ INDEX_DARKEST="$DIR"/assets-darkest.txt
 mkdir "$ASSETS_DIR" "$ASSETS_DIR_DARK" "$ASSETS_DIR_DARKEST"
 
 for i in `cat "$INDEX"`
-do 
+do
 	if [ -f "$ASSETS_DIR/$i.svg" ]; then
 		echo "$ASSETS_DIR/$i.svg" exists.
 	else
 		echo
 		echo Rendering "$ASSETS_DIR/$i.svg"
 		$INKSCAPE --export-id=$i \
-			      --export-id-only \
-			      --export-plain-svg="$ASSETS_DIR/${i#titlebutton-}.svg" "$SRC_FILE" &> /dev/null
+				  --export-id-only \
+				  --export-plain-svg="$ASSETS_DIR/${i#titlebutton-}.svg" "$SRC_FILE" &> /dev/null
 	fi
 done
 mv "$ASSETS_DIR"/appmenu-backdrop.svg "$ASSETS_DIR"/unfocused.svg
 
 for i in `cat "$INDEX_DARK"`
-do 
+do
 	if [ -f "$ASSETS_DIR_DARK/$i.svg" ]; then
 		echo "$ASSETS_DIR_DARK/$i.svg" exists.
 	else
 		echo
 		echo Rendering "$ASSETS_DIR_DARK/$i.svg"
 		$INKSCAPE --export-id=$i \
-			      --export-id-only \
-			      --export-plain-svg="$ASSETS_DIR_DARK/$(echo ${i#titlebutton-} | sed "s/-dark//").svg" "$SRC_FILE" &> /dev/null
+				  --export-id-only \
+				  --export-plain-svg="$ASSETS_DIR_DARK/$(echo ${i#titlebutton-} | sed "s/-dark//").svg" "$SRC_FILE" &> /dev/null
 	fi
 done
 mv "$ASSETS_DIR_DARK"/appmenu-backdrop.svg "$ASSETS_DIR_DARK"/unfocused.svg
 
 for i in `cat "$INDEX_DARKEST"`
-do 
+do
 	if [ -f "$ASSETS_DIR_DARKEST/$i.svg" ]; then
 		echo "$ASSETS_DIR_DARKEST/$i.svg" exists.
 	else
 		echo
 		echo Rendering "$ASSETS_DIR_DARKEST/$i.svg"
 		$INKSCAPE --export-id=$i \
-			      --export-id-only \
-			      --export-plain-svg="$ASSETS_DIR_DARKEST/$(echo ${i#titlebutton-} | sed "s/-darkest//").svg" "$SRC_FILE" &> /dev/null
+				  --export-id-only \
+				  --export-plain-svg="$ASSETS_DIR_DARKEST/$(echo ${i#titlebutton-} | sed "s/-darkest//").svg" "$SRC_FILE" &> /dev/null
 	fi
 done
 mv "$ASSETS_DIR_DARKEST"/appmenu-backdrop.svg "$ASSETS_DIR_DARKEST"/unfocused.svg
-
