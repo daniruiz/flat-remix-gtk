@@ -22,7 +22,7 @@ do
 			$INKSCAPE --export-id=$i \
 					  --export-id-only \
 					  --export-png="$DIR/$variant/$i.png" "$src_file" &> /dev/null \
-			&& $OPTIPNG -o7 --quiet "DIR/$variant/$i.png"
+			&& $OPTIPNG -o7 --quiet "$DIR/$variant/$i.png"
 		fi
 	done
 done
