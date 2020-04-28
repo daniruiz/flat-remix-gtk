@@ -31,7 +31,7 @@ style "default" {
   GtkRange::stepper-size = 0
 
   GtkScrollbar::activate-slider = 1
-  GtkScrollbar::has-backward-stepper = 0  
+  GtkScrollbar::has-backward-stepper = 0
   GtkScrollbar::has-forward-stepper = 0
   GtkScrollbar::min-slider-length = 32
   GtkScrolledWindow::scrollbar-spacing = 0
@@ -514,7 +514,7 @@ style "default" {
       function = RESIZE_GRIP
       state = NORMAL
       detail = "statusbar"
-      overlay_file = "assets/null.png"	
+      overlay_file = "assets/null.png"
       overlay_border = { 0,0,0,0 }
       overlay_stretch = FALSE
     }
@@ -604,7 +604,7 @@ style "scrollbar" {
     image {
       function = SLIDER
       state = NORMAL
-      file = "assets/slider-horiz.png" 
+      file = "assets/slider-horiz.png"
       border = { 5, 5, 3, 3 }
       stretch = TRUE
       orientation = HORIZONTAL
@@ -613,7 +613,7 @@ style "scrollbar" {
     image {
       function = SLIDER
       state = ACTIVE
-      file = "assets/slider-horiz-active.png" 
+      file = "assets/slider-horiz-active.png"
       border = { 5, 5, 3, 3 }
       stretch = TRUE
       orientation = HORIZONTAL
@@ -622,7 +622,7 @@ style "scrollbar" {
     image {
       function = SLIDER
       state = PRELIGHT
-      file = "assets/slider-horiz-prelight.png" 
+      file = "assets/slider-horiz-prelight.png"
       border = { 5, 5, 3, 3 }
       stretch = TRUE
       orientation = HORIZONTAL
@@ -642,7 +642,7 @@ style "scrollbar" {
     image {
       function = SLIDER
       state = NORMAL
-      file = "assets/slider-vert.png" 
+      file = "assets/slider-vert.png"
       border = { 3, 3, 5, 5 }
       stretch = TRUE
       orientation = VERTICAL
@@ -651,7 +651,7 @@ style "scrollbar" {
     image {
       function = SLIDER
       state = ACTIVE
-      file = "assets/slider-vert-active.png" 
+      file = "assets/slider-vert-active.png"
       border = { 3, 3, 5, 5 }
       stretch = TRUE
       orientation = VERTICAL
@@ -660,7 +660,7 @@ style "scrollbar" {
     image {
       function = SLIDER
       state = PRELIGHT
-      file = "assets/slider-vert-prelight.png" 
+      file = "assets/slider-vert-prelight.png"
       border = { 3, 3, 5, 5 }
       stretch = TRUE
       orientation = VERTICAL
@@ -1642,7 +1642,7 @@ style "notebook" {
       border = { 0,0,0,0 }
       stretch = TRUE
       gap_side = LEFT
-    }	
+    }
 
     image {
       function = EXTENSION
@@ -1680,7 +1680,7 @@ style "notebook" {
 
     image {
       function = BOX_GAP
-      file = "assets/notebook.png" 
+      file = "assets/notebook.png"
       border = { 4, 4, 4, 4 }
       stretch = TRUE
       gap_file = "assets/notebook-gap-horiz.png"
@@ -1710,7 +1710,7 @@ style "notebook" {
 
     image {
       function = BOX_GAP
-      file = "assets/notebook.png" 
+      file = "assets/notebook.png"
       border = { 4, 4, 4, 4 }
       stretch = TRUE
       gap_file = "assets/notebook-gap-vert.png"
@@ -1982,7 +1982,7 @@ style "treeview" {
   ythickness = 0
 
 
-}    
+}
 
 style "scrolled_window" {
 
@@ -2339,7 +2339,7 @@ widget "xfwm4-tabwin*GtkButton*"                                    style "xfwm-
 
 # Fixes ugly text shadows for insensitive text
 widget_class "*<GtkLabel>"                                          style "text"
-widget_class "*<GtkMenu>*<GtkLabel>"                                style "menu_text" 
+widget_class "*<GtkMenu>*<GtkLabel>"                                style "menu_text"
 widget_class "*<GtkComboBox>*<GtkCellLayout>"                       style "text"
 widget_class "*<GtkNotebook>*<GtkLabel>"                            style "text"
 widget_class "*<GtkNotebook>*<GtkCellLayout>"                       style "text"
