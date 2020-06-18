@@ -22,6 +22,12 @@ Variants:
  • Solid: Theme without transparency
  • No Border: Darkest theme without white window border
 
+Color Variants:
+ • Blue
+ • Green
+ • Red
+ • Yellow
+
 
 %prep
 %setup -q
