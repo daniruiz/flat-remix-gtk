@@ -3482,6 +3482,8 @@ panel-toplevel.background button:not(#tasklist-button) {
     box-shadow: inset 0 4px 0 #06a284;
     background: rgba(0, 0, 0, 0.2);
     color: white; }
+.xfce4-panel.vertical button:not(#whiskermenu-button):checked, .xfce4-panel.vertical button:not(#whiskermenu-button):active {
+  box-shadow: inset 4px 0 0 #06a284; }
 
 wnck-pager {
   background-color: #1a1a1a; }

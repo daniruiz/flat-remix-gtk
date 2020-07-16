@@ -767,6 +767,10 @@ panel-toplevel.background {
       }
     }
   }
+
+  &.vertical button:not(#whiskermenu-button) {
+    &:checked, &:active { box-shadow: inset 4px 0 0 $selected_bg_color; }
+  }
 }
 
 // XFCE4 workspace switcher
