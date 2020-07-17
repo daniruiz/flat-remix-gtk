@@ -214,18 +214,36 @@ spinner {
 //
 entry {
   min-height: 22px;
-  border: 1px solid;
   padding: 2px 8px;
-
   caret-color: currentColor;
-  border-radius: 6px;
   transition: all $transition;
 
-  &.search {
-    border-radius: 20px;
+  &,
+  // Override linked styles for entries in the headerbar
+  headerbar .linked:not(.vertical) > &,
+  headerbar .linked:not(.vertical) > &:hover,
+  headerbar .linked:not(.vertical) > &:active,
+  headerbar .linked:not(.vertical) > &:checked {
+    border-radius: 6px;
+    border: 1px solid;
+    @include entry(normal);
+
+    &.search { border-radius: 20px; }
   }
 
-  @include entry(normal);
+  .linked:not(.vertical) > &,
+  .linked:not(.vertical) > &:hover,
+  .linked:not(.vertical) > &:active,
+  .linked:not(.vertical) > &:checked {
+    @extend %linked;
+  }
+
+  .linked.vertical > &,
+  .linked.vertical > &:hover,
+  .linked.vertical > &:active,
+  .linked.vertical > &:checked {
+    @extend %linked_vertical;
+  }
 
   image { // icons inside the entry
     color: mix($fg_color, $base_color, 80%);

@@ -114,16 +114,17 @@ spinner {
 
 entry {
   min-height: 22px;
-  border: 1px solid;
   padding: 2px 8px;
   caret-color: currentColor;
-  border-radius: 6px;
-  transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  color: white;
-  border-color: #1a1a1a;
-  background-color: black; }
-  entry.search {
-    border-radius: 20px; }
+  transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+  entry, headerbar .linked:not(.vertical) > entry, headerbar .linked:not(.vertical) > entry:hover, headerbar .linked:not(.vertical) > entry:active, headerbar .linked:not(.vertical) > entry:checked {
+    border-radius: 6px;
+    border: 1px solid;
+    color: white;
+    border-color: #1a1a1a;
+    background-color: black; }
+    entry.search, headerbar .linked:not(.vertical) > entry.search, headerbar .linked:not(.vertical) > entry:hover.search, headerbar .linked:not(.vertical) > entry:active.search, headerbar .linked:not(.vertical) > entry:checked.search {
+      border-radius: 20px; }
   entry image {
     color: #cccccc; }
     entry image.left {
@@ -611,7 +612,7 @@ button {
 .linked.vertical > entry + button:not(:checked):not(:active):not(.suggested-action):not(.destructive-action):disabled:not(:only-child) {
   box-shadow: none; }
 
-toolbar.inline-toolbar toolbutton > button.flat, .inline-toolbar toolbutton > button.flat, toolbar.inline-toolbar toolbutton > button.sidebar-button, .inline-toolbar toolbutton > button.sidebar-button, .inline-toolbar button, .inline-toolbar button:backdrop, .linked:not(.vertical) > button, .linked:not(.vertical) > button:hover, .linked:not(.vertical) > button:active, .linked:not(.vertical) > button:checked, spinbutton:not(.vertical) button, spinbutton:not(.vertical) entry, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:hover, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:hover, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:active, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:active, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:checked, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:checked, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:disabled, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:disabled,
+toolbar.inline-toolbar toolbutton > button.flat, .inline-toolbar toolbutton > button.flat, toolbar.inline-toolbar toolbutton > button.sidebar-button, .inline-toolbar toolbutton > button.sidebar-button, .linked:not(.vertical) > entry, .linked:not(.vertical) > entry:hover, .linked:not(.vertical) > entry:active, .linked:not(.vertical) > entry:checked, .inline-toolbar button, .inline-toolbar button:backdrop, .linked:not(.vertical) > button, .linked:not(.vertical) > button:hover, .linked:not(.vertical) > button:active, .linked:not(.vertical) > button:checked, spinbutton:not(.vertical) button, spinbutton:not(.vertical) entry, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:hover, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:hover, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:active, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:active, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:checked, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:checked, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:disabled, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:disabled,
 .primary-toolbar .linked:not(.vertical).path-bar > button,
 headerbar .linked:not(.vertical).path-bar > button,
 .primary-toolbar .linked:not(.vertical).path-bar > button:hover,
@@ -625,7 +626,7 @@ headerbar .linked:not(.vertical).path-bar > button:disabled, .nemo-window .prima
   border-radius: 0;
   border-right-style: none; }
 
-.inline-toolbar button:first-child, .linked:not(.vertical) > button:first-child, toolbar.inline-toolbar toolbutton:first-child > button.flat, .inline-toolbar toolbutton:first-child > button.flat, toolbar.inline-toolbar toolbutton:first-child > button.sidebar-button, .inline-toolbar toolbutton:first-child > button.sidebar-button, spinbutton:not(.vertical) button:first-child, spinbutton:not(.vertical) entry:first-child, .linked:not(.vertical) > combobox:first-child > box > button.combo, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:first-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:first-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:first-child:hover, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:first-child:active, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:first-child:checked, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:first-child:disabled,
+.linked:not(.vertical) > entry:first-child, .inline-toolbar button:first-child, .linked:not(.vertical) > button:first-child, toolbar.inline-toolbar toolbutton:first-child > button.flat, .inline-toolbar toolbutton:first-child > button.flat, toolbar.inline-toolbar toolbutton:first-child > button.sidebar-button, .inline-toolbar toolbutton:first-child > button.sidebar-button, spinbutton:not(.vertical) button:first-child, spinbutton:not(.vertical) entry:first-child, .linked:not(.vertical) > combobox:first-child > box > button.combo, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:first-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:first-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:first-child:hover, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:first-child:active, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:first-child:checked, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:first-child:disabled,
 .primary-toolbar .linked:not(.vertical).path-bar > button:first-child,
 headerbar .linked:not(.vertical).path-bar > button:first-child,
 headerbar .linked:not(.vertical).path-bar > button:first-child:hover,
@@ -634,7 +635,7 @@ headerbar .linked:not(.vertical).path-bar > button:first-child:checked,
 headerbar .linked:not(.vertical).path-bar > button:first-child:disabled, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:first-child {
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px; }
-.inline-toolbar button:last-child, .linked:not(.vertical) > button:last-child, toolbar.inline-toolbar toolbutton:last-child > button.flat, .inline-toolbar toolbutton:last-child > button.flat, toolbar.inline-toolbar toolbutton:last-child > button.sidebar-button, .inline-toolbar toolbutton:last-child > button.sidebar-button, spinbutton:not(.vertical) button:last-child, spinbutton:not(.vertical) entry:last-child, .linked:not(.vertical) > combobox:last-child > box > button.combo, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-child:hover, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-child:active, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-child:checked, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-child:disabled,
+.linked:not(.vertical) > entry:last-child, .inline-toolbar button:last-child, .linked:not(.vertical) > button:last-child, toolbar.inline-toolbar toolbutton:last-child > button.flat, .inline-toolbar toolbutton:last-child > button.flat, toolbar.inline-toolbar toolbutton:last-child > button.sidebar-button, .inline-toolbar toolbutton:last-child > button.sidebar-button, spinbutton:not(.vertical) button:last-child, spinbutton:not(.vertical) entry:last-child, .linked:not(.vertical) > combobox:last-child > box > button.combo, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-child:hover, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-child:active, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-child:checked, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:last-child:disabled,
 .primary-toolbar .linked:not(.vertical).path-bar > button:last-child,
 headerbar .linked:not(.vertical).path-bar > button:last-child,
 headerbar .linked:not(.vertical).path-bar > button:last-child:hover,
@@ -644,7 +645,7 @@ headerbar .linked:not(.vertical).path-bar > button:last-child:disabled, .nemo-wi
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   border-right-style: solid; }
-.inline-toolbar button:only-child, .linked:not(.vertical) > button:only-child, toolbar.inline-toolbar toolbutton:only-child > button.flat, .inline-toolbar toolbutton:only-child > button.flat, toolbar.inline-toolbar toolbutton:only-child > button.sidebar-button, .inline-toolbar toolbutton:only-child > button.sidebar-button, spinbutton:not(.vertical) button:only-child, spinbutton:not(.vertical) entry:only-child, .linked:not(.vertical) > combobox:only-child > box > button.combo, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:only-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:only-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:only-child:hover, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:only-child:active, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:only-child:checked, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:only-child:disabled,
+.linked:not(.vertical) > entry:only-child, .inline-toolbar button:only-child, .linked:not(.vertical) > button:only-child, toolbar.inline-toolbar toolbutton:only-child > button.flat, .inline-toolbar toolbutton:only-child > button.flat, toolbar.inline-toolbar toolbutton:only-child > button.sidebar-button, .inline-toolbar toolbutton:only-child > button.sidebar-button, spinbutton:not(.vertical) button:only-child, spinbutton:not(.vertical) entry:only-child, .linked:not(.vertical) > combobox:only-child > box > button.combo, .primary-toolbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:only-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:only-child, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:only-child:hover, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:only-child:active, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:only-child:checked, headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:only-child:disabled,
 .primary-toolbar .linked:not(.vertical).path-bar > button:only-child,
 headerbar .linked:not(.vertical).path-bar > button:only-child,
 headerbar .linked:not(.vertical).path-bar > button:only-child:hover,
@@ -654,18 +655,18 @@ headerbar .linked:not(.vertical).path-bar > button:only-child:disabled, .nemo-wi
   border-radius: 6px;
   border-style: solid; }
 
-.linked.vertical > button, .linked.vertical > button:hover, .linked.vertical > button:active, .linked.vertical > button:checked, spinbutton.vertical button, spinbutton.vertical entry, .linked.vertical > combobox > box > button.combo {
+.linked.vertical > entry, .linked.vertical > entry:hover, .linked.vertical > entry:active, .linked.vertical > entry:checked, .linked.vertical > button, .linked.vertical > button:hover, .linked.vertical > button:active, .linked.vertical > button:checked, spinbutton.vertical button, spinbutton.vertical entry, .linked.vertical > combobox > box > button.combo {
   border-radius: 0;
   border-bottom-style: none; }
 
-.linked.vertical > button:first-child, spinbutton.vertical button:first-child, spinbutton.vertical entry:first-child, .linked.vertical > combobox:first-child > box > button.combo {
+.linked.vertical > entry:first-child, .linked.vertical > button:first-child, spinbutton.vertical button:first-child, spinbutton.vertical entry:first-child, .linked.vertical > combobox:first-child > box > button.combo {
   border-top-left-radius: 6px;
   border-top-right-radius: 6px; }
-.linked.vertical > button:last-child, spinbutton.vertical button:last-child, spinbutton.vertical entry:last-child, .linked.vertical > combobox:last-child > box > button.combo {
+.linked.vertical > entry:last-child, .linked.vertical > button:last-child, spinbutton.vertical button:last-child, spinbutton.vertical entry:last-child, .linked.vertical > combobox:last-child > box > button.combo {
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   border-bottom-style: solid; }
-.linked.vertical > button:only-child, spinbutton.vertical button:only-child, spinbutton.vertical entry:only-child, .linked.vertical > combobox:only-child > box > button.combo {
+.linked.vertical > entry:only-child, .linked.vertical > button:only-child, spinbutton.vertical button:only-child, spinbutton.vertical entry:only-child, .linked.vertical > combobox:only-child > box > button.combo {
   border-radius: 6px;
   border-style: solid; }
 
