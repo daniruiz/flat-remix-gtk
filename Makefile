@@ -62,7 +62,7 @@ release: _get_version
 	$(MAKE) generate_changelog VERSION=$(VERSION)
 	$(MAKE) aur_release VERSION=$(VERSION)
 	$(MAKE) copr_release VERSION=$(VERSION)
-	$(MAKE) launchpad_release
+	$(MAKE) launchpad_release VERSION=$(VERSION)
 	git tag -f $(VERSION)
 	git push origin --tags
 	$(MAKE) dist
@@ -82,33 +82,23 @@ copr_release: _get_version _get_tag
 	git push origin master
 
 launchpad_release: _get_version
-	cp -a Flat-Remix* Makefile deb/$(PKGNAME)
-	sed "s/{}/$(VERSION)/g" -i deb/$(PKGNAME)/debian/changelog-template
-	cd deb/$(PKGNAME)/debian/ && echo " -- $(MAINTAINER)  $$(date -R)" | cat changelog-template - > changelog
-	cd deb/$(PKGNAME) && debuild -S -d
-	dput ppa deb/$(PKGNAME)_$(VERSION)_source.changes
-	git checkout deb
-	git clean -df deb
-
-undo_release: _get_tag
-	-git tag -d $(TAG)
-	-git push --delete origin $(TAG)
+	rm -rf /tmp/$(PKGNAME)
+	mkdir -p /tmp/$(PKGNAME)/$(PKGNAME)_$(VERSION)
+	cp -a * /tmp/$(PKGNAME)/$(PKGNAME)_$(VERSION)
+	cd /tmp/$(PKGNAME)/$(PKGNAME)_$(VERSION) ; \
+	sed "s/{}/$(VERSION)/g" -i debian/changelog ; \
+	echo " -- $(MAINTAINER)  $$(date -R)" >> debian/changelog ; \
+	debuild -S -d ; \
+	dput ppa /tmp/$(PKGNAME)/$(PKGNAME)_$(VERSION)_source.changes
 
 generate_changelog: _get_version _get_tag
 	git checkout $(TAG) CHANGELOG
-	echo [$(VERSION)] > /tmp/out
-	git log --pretty=format:' * %s' $(TAG)..HEAD >> /tmp/out
-	echo >> /tmp/out
-	echo | cat - CHANGELOG >> /tmp/out
-	mv /tmp/out CHANGELOG
+	mv CHANGELOG CHANGELOG.old
+	echo [$(VERSION)] > CHANGELOG
+	printf "%s\n\n" "$$(git log --pretty=format:' * %s' $(TAG)..HEAD)" >> CHANGELOG
+	cat CHANGELOG.old >> CHANGELOG
+	rm CHANGELOG.old
 	$$EDITOR CHANGELOG
 	git commit CHANGELOG -m "Update CHANGELOG version $(VERSION)"
-	git push origin master
 
-
-.PHONY: all build build-sass install uninstall _get_version _get_tag dist release aur_release copr_release launchpad_release undo_release generate_changelog
-
-# .BEGIN is ignored by GNU make so we can use it as a guard
-.BEGIN:
-	@head -3 Makefile
-	@false
+.PHONY: all build build-sass install uninstall _get_version _get_tag dist release aur_release copr_release launchpad_release generate_changelog
