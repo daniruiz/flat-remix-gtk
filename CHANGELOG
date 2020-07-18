@@ -1,3 +1,9 @@
+[20200718]
+ * Improve Makefile and debian packaging files
+ * Change index.theme description
+ * Fix styles for linked entry + button
+ * Fix xfce4-panel window indicator for vertical mode
+
 [20191223]
  * Fix darkest variant scale slider not visible
  * Match gtk3 menubar styles with gtk2 theme
