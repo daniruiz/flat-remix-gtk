@@ -4108,3 +4108,20 @@ filechooser placessidebar.sidebar scrollbar,
 @define-color BLACK_500 #333333;
 @define-color BLACK_700 #191919;
 @define-color BLACK_900 #000000;
+/*
+insensitive color on backdrop windows*/
+@define-color unfocused_insensitive_color rgba(255, 255, 255, 0.45);
+@define-color wm_title shade(white, 1.8);
+@define-color wm_unfocused_title white;
+@define-color wm_highlight rgba(0, 0, 0, 0);
+@define-color wm_borders_edge rgba(255, 255, 255, 0.07);
+@define-color wm_bg_a shade(#23252e, 1.2);
+@define-color wm_bg_b #23252e;
+@define-color wm_shadow alpha(black, 0.35);
+@define-color wm_border alpha(black, 0.18);
+@define-color wm_button_hover_color_a shade(#23252e, 1.3);
+@define-color wm_button_hover_color_b #23252e;
+@define-color wm_button_active_color_a shade(#23252e, 0.85);
+@define-color wm_button_active_color_b shade(#23252e, 0.89);
+@define-color wm_button_active_color_c shade(#23252e, 0.9);
+@define-color text_view_bg #1a1c23;
