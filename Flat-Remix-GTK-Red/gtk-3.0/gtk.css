@@ -2943,7 +2943,10 @@ terminal-window notebook > header.top,
 .nautilus-window .searchbar-container {
   margin-top: -1px; }
 .nautilus-window .path-bar-box {
-  padding: 0 8px; }
+  padding: 0 8px;
+  background: rgba(245, 248, 254, 0.81);
+  border-radius: 100px;
+  box-shadow: inset 0 0 0 1px #e3e3e3; }
   .nautilus-window .path-bar-box .text-button {
     color: black;
     outline-offset: -3px;
@@ -2970,10 +2973,6 @@ terminal-window notebook > header.top,
     margin-right: 5px; }
   .nautilus-window .path-bar-box widget > .text-button:not(:nth-last-child(2)):not(:last-child):not(:hover) {
     box-shadow: 5px 0 0 -3px rgba(0, 0, 0, 0.15); }
-  .nautilus-window .path-bar-box.width-maximized {
-    background: rgba(245, 248, 254, 0.81);
-    border-radius: 100px;
-    box-shadow: inset 0 0 0 1px #e3e3e3; }
 .nautilus-window notebook {
   background: rgba(255, 255, 255, 0.8); }
   .nautilus-window notebook > header.top {
