@@ -490,13 +490,6 @@ configurationview {
 }
 
 //
-// Epiphany
-//
-//EphyWindow .floating-bar { // Epiphany overrides the floating-bar style, so reset it
-//  color: $fg_color;
-//}
-
-//
 // Gnome Documents
 //
 .documents-scrolledwin.frame { border-width: 0; }
@@ -783,21 +776,27 @@ wnck-pager {
 //
 // Floating Bar
 //
+$_glow_shadow: 0 1px 4px transparentize($selected_bg_color, .5);
 .nautilus-window .floating-bar {
-  padding: 1px;
-  background-color: $selected_bg_color;
   color: $selected_fg_color;
-  border-radius: 2px 2px 0 0;
+  background-color: $selected_bg_color;
+  border-color: $selected_borders_color;
+  margin: 10px;
+  padding: 2px;
+  box-shadow: $_glow_shadow;
+  transition: background-color $transition;
 
-  &.bottom.left { border-top-left-radius: 0; }
-  &.bottom.right { border-top-right-radius: 0; }
+  &:backdrop {
+    color: white;
+    box-shadow: none;
+    border-color: $borders_color;
+  }
 
-  button {
-    border: none;
-    border-radius: 0;
-    min-height: 0;
-
-    @extend %selected-button;
+  &.bottom {
+    &.left, &.right{
+      border-radius: 6px;
+      border-style: solid;
+    }
   }
 }
 
