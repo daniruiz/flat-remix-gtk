@@ -63,6 +63,14 @@ filechooser,
         @extend %selected_items;
 
         background-image: linear-gradient(to right, darken($selected_bg_color, 10%) 41px, transparent 0);
+        margin-left: 6px;
+        margin-right: 6px;
+        border-radius: 6px;
+        box-shadow: 0 1px 4px $selected_bg_color;
+        transition: box-shadow $transition;
+        background-position: -6px;
+
+       revealer { padding-left: 4px; }
 
         .sidebar-icon {
           color: inherit;
