@@ -2991,12 +2991,15 @@ terminal-window notebook > header.top,
   border-width: 1px; }
   .disk-space-display.unknown {
     background-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
     border-color: rgba(230, 230, 230, 0.5); }
   .disk-space-display.used {
     background-color: rgba(6, 162, 132, 0.8);
+    color: rgba(6, 162, 132, 0.8);
     border-color: rgba(4, 113, 92, 0.8); }
   .disk-space-display.free {
     background-color: #1c1e25;
+    color: #1c1e25;
     border-color: #060708; }
 
 @keyframes needs_attention_keyframes {

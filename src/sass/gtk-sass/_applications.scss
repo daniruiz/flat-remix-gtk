@@ -125,14 +125,17 @@ $disk_space_free: darken($bg_color, 3%);
 
   &.unknown {
     background-color: $disk_space_unknown;
+    color: $disk_space_unknown;
     border-color: darken($disk_space_unknown, 10%);
   }
   &.used {
     background-color: $disk_space_used;
+    color: $disk_space_used;
     border-color: darken($disk_space_used, 10%);
   }
   &.free {
     background-color: $disk_space_free;
+    color: $disk_space_free;
     border-color: darken($disk_space_free, 10%);
   }
 }
