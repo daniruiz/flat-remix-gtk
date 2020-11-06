@@ -1,3 +1,8 @@
+[20201106]
+ * New sidebar design for nautilus & filechooser
+ * New floating-bar design for nautilus
+ * Fix nautilus dist usage
+
 [20201018]
  * Update nautilus path-bar-box
  * Add libhandy styles
