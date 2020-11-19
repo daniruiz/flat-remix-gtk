@@ -74,7 +74,7 @@ label selection {
 label:disabled {
   color: rgba(255, 255, 255, 0.45); }
 
-.dim-label, label.separator, popover label.separator, popover.background label.separator, headerbar .subtitle, .titlebar:not(headerbar) .subtitle {
+.dim-label, label.separator, popover label.separator, popover.background label.separator, headerbar .subtitle, .titlebar:not(headerbar) .subtitle, .budgie-notification .notification-body, .budgie-osd .notification-body, .budgie-switcher-window .notification-body, .budgie-switcher .notification-body {
   opacity: 0.55;
   margin: 0 -2px; }
 
@@ -2927,10 +2927,10 @@ terminal-window notebook > header.top,
     color: white;
     text-shadow: none; }
 
-.nautilus-canvas-item.dim-label, label.nautilus-canvas-item.separator, popover.background label.nautilus-canvas-item.separator, headerbar .nautilus-canvas-item.subtitle, .titlebar:not(headerbar) .nautilus-canvas-item.subtitle,
+.nautilus-canvas-item.dim-label, label.nautilus-canvas-item.separator, popover.background label.nautilus-canvas-item.separator, headerbar .nautilus-canvas-item.subtitle, .titlebar:not(headerbar) .nautilus-canvas-item.subtitle, .budgie-notification .nautilus-canvas-item.notification-body, .budgie-osd .nautilus-canvas-item.notification-body, .budgie-switcher-window .nautilus-canvas-item.notification-body, .budgie-switcher .nautilus-canvas-item.notification-body,
 .nautilus-list-dim-label {
   color: #868686; }
-  .nautilus-canvas-item.dim-label:selected, label.nautilus-canvas-item.separator:selected, headerbar .nautilus-canvas-item.subtitle:selected, .titlebar:not(headerbar) .nautilus-canvas-item.subtitle:selected, .nautilus-canvas-item.dim-label:selected:focus, label.nautilus-canvas-item.separator:selected:focus, headerbar .nautilus-canvas-item.subtitle:selected:focus, .titlebar:not(headerbar) .nautilus-canvas-item.subtitle:selected:focus,
+  .nautilus-canvas-item.dim-label:selected, label.nautilus-canvas-item.separator:selected, headerbar .nautilus-canvas-item.subtitle:selected, .titlebar:not(headerbar) .nautilus-canvas-item.subtitle:selected, .budgie-notification .nautilus-canvas-item.notification-body:selected, .budgie-osd .nautilus-canvas-item.notification-body:selected, .budgie-switcher-window .nautilus-canvas-item.notification-body:selected, .budgie-switcher .nautilus-canvas-item.notification-body:selected, .nautilus-canvas-item.dim-label:selected:focus, label.nautilus-canvas-item.separator:selected:focus, headerbar .nautilus-canvas-item.subtitle:selected:focus, .titlebar:not(headerbar) .nautilus-canvas-item.subtitle:selected:focus, .budgie-notification .nautilus-canvas-item.notification-body:selected:focus, .budgie-osd .nautilus-canvas-item.notification-body:selected:focus, .budgie-switcher-window .nautilus-canvas-item.notification-body:selected:focus, .budgie-switcher .nautilus-canvas-item.notification-body:selected:focus,
   .nautilus-list-dim-label:selected,
   .nautilus-list-dim-label:selected:focus {
     color: #cdece6; }
@@ -3604,50 +3604,485 @@ headerbar > box.horizontal > entry.pathbar {
 .menu .spinner {
   opacity: 1; }
 
-.budgie-menu {
-  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 2px 11px 3px transparent, 0 0 0 3px rgba(204, 204, 204, 0.5);
-  border-radius: 6px; }
-  .budgie-menu * {
-    border-radius: 6px;
-    border: 0; }
-  .budgie-menu entry.search {
-    min-height: 35px;
-    border-radius: 6px 6px 0 0; }
-  .budgie-menu scrolledwindow.sidebar {
-    border-radius: 0;
-    border-width: 1px 1px 0 0; }
-    .budgie-menu scrolledwindow.sidebar list {
-      background: transparent; }
+.budgie-container {
+  background-color: transparent; }
+
+*:drop(active):focus,
+*:drop(active) {
+  box-shadow: inset 0 0 0 1px #06a284; }
 
 .budgie-panel {
   background-color: black;
   color: white;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); }
-  .budgie-panel image {
-    -gtk-icon-shadow: 0 1px 2px rgba(0, 0, 0, 0.28); }
-  .budgie-panel label {
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.28); }
-  .budgie-panel button {
-    padding: 0;
-    border-radius: 0;
+  font-weight: normal; }
+  .budgie-panel .alert {
+    color: #06a284; }
+  .budgie-panel:backdrop {
+    color: white;
+    background-color: black; }
+  .budgie-panel.transparent {
+    background-color: rgba(0, 0, 0, 0.4);
     color: white; }
-    .budgie-panel button:hover {
-      border: 0;
-      background: rgba(6, 162, 132, 0.3); }
-    .budgie-panel button:checked {
-      background: transparent;
-      border: transparent; }
-  .budgie-panel .budgie-menu-launcher {
-    border: 0; }
-    .budgie-panel .budgie-menu-launcher:checked {
+  .budgie-panel button {
+    min-height: 16px;
+    min-width: 16px;
+    padding: 0;
+    border-radius: 0; }
+  .budgie-panel.horizontal button {
+    padding: 0 4px; }
+  .budgie-panel.vertical button {
+    padding: 4px 0; }
+  .budgie-panel separator {
+    background-color: rgba(255, 255, 255, 0.4); }
+  .budgie-panel.vertical #tasklist-button {
+    min-height: 32px; }
+  .budgie-panel .end-region {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0px; }
+    .budgie-panel .end-region separator {
+      background-color: rgba(255, 255, 255, 0.15); }
+    .budgie-panel .end-region label {
+      font-weight: 700;
       color: white; }
 
+.budgie-panel button.flat.launcher, .budgie-panel button.launcher.sidebar-button {
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  background-image: radial-gradient(circle farthest-corner at center, alpha(white,0) 100%, transparent 0%), image(alpha(white,0));
+  background-position: center center; }
+  .budgie-panel button.flat.launcher > image, .budgie-panel button.launcher.sidebar-button > image {
+    opacity: 0.87; }
+  .budgie-panel button.flat.launcher:hover, .budgie-panel button.launcher.sidebar-button:hover {
+    -gtk-icon-effect: highlight; }
+    .budgie-panel button.flat.launcher:hover > image, .budgie-panel button.launcher.sidebar-button:hover > image {
+      opacity: 1.0; }
+  .budgie-panel button.flat.launcher:active > image, .budgie-panel button.launcher.sidebar-button:active > image {
+    opacity: 1.0; }
+  .budgie-panel button.flat.launcher:checked, .budgie-panel button.launcher.sidebar-button:checked {
+    background-color: transparent; }
+    .budgie-panel button.flat.launcher:checked:hover, .budgie-panel button.launcher.sidebar-button:checked:hover {
+      -gtk-icon-effect: highlight; }
+    .budgie-panel button.flat.launcher:checked > image, .budgie-panel button.launcher.sidebar-button:checked > image {
+      opacity: 1.0; }
+.budgie-panel .unpinned button.flat.launcher:hover, .budgie-panel .unpinned button.launcher.sidebar-button:hover,
+.budgie-panel .pinned button.flat.launcher.running:hover,
+.budgie-panel .pinned button.launcher.running.sidebar-button:hover {
+  -gtk-icon-effect: highlight; }
+.budgie-panel .unpinned button.flat.launcher > image, .budgie-panel .unpinned button.launcher.sidebar-button > image,
+.budgie-panel .pinned button.flat.launcher.running > image,
+.budgie-panel .pinned button.launcher.running.sidebar-button > image {
+  background-size: 2px 2px;
+  background-repeat: no-repeat;
+  opacity: 1.0; }
+.budgie-panel .unpinned button.flat.launcher:hover > image, .budgie-panel .unpinned button.launcher.sidebar-button:hover > image, .budgie-panel .unpinned button.flat.launcher:active > image, .budgie-panel .unpinned button.launcher.sidebar-button:active > image, .budgie-panel .unpinned button.flat.launcher:checked > image, .budgie-panel .unpinned button.launcher.sidebar-button:checked > image,
+.budgie-panel .pinned button.flat.launcher.running:hover > image,
+.budgie-panel .pinned button.launcher.running.sidebar-button:hover > image,
+.budgie-panel .pinned button.flat.launcher.running:active > image,
+.budgie-panel .pinned button.launcher.running.sidebar-button:active > image,
+.budgie-panel .pinned button.flat.launcher.running:checked > image,
+.budgie-panel .pinned button.launcher.running.sidebar-button:checked > image {
+  background-image: none; }
+
+.top .budgie-panel button#tasklist-button:hover,
+.top .budgie-panel button.flat.launcher:hover,
+.top .budgie-panel button.launcher.sidebar-button:hover {
+  box-shadow: inset 0 2px alpha(white,0.4);
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none; }
+.top .budgie-panel button#tasklist-button:active, .top .budgie-panel button#tasklist-button:checked,
+.top .budgie-panel button.flat.launcher:active,
+.top .budgie-panel button.launcher.sidebar-button:active,
+.top .budgie-panel button.flat.launcher:checked,
+.top .budgie-panel button.launcher.sidebar-button:checked {
+  box-shadow: inset 0 2px #06a284; }
+.top .budgie-panel .unpinned button.flat.launcher > image, .top .budgie-panel .unpinned button.launcher.sidebar-button > image,
+.top .budgie-panel .pinned button.flat.launcher.running > image,
+.top .budgie-panel .pinned button.launcher.running.sidebar-button > image {
+  background-image: image(#06a284);
+  background-position: top center; }
+.top .budgie-panel .unpinned button.flat.launcher:hover, .top .budgie-panel .unpinned button.launcher.sidebar-button:hover, .top .budgie-panel .unpinned button.flat.launcher:active, .top .budgie-panel .unpinned button.launcher.sidebar-button:active, .top .budgie-panel .unpinned button.flat.launcher:checked, .top .budgie-panel .unpinned button.launcher.sidebar-button:checked,
+.top .budgie-panel .pinned button.flat.launcher.running:hover,
+.top .budgie-panel .pinned button.launcher.running.sidebar-button:hover,
+.top .budgie-panel .pinned button.flat.launcher.running:active,
+.top .budgie-panel .pinned button.launcher.running.sidebar-button:active,
+.top .budgie-panel .pinned button.flat.launcher.running:checked,
+.top .budgie-panel .pinned button.launcher.running.sidebar-button:checked {
+  box-shadow: inset 0 2px #06a284; }
+
+.bottom .budgie-panel button#tasklist-button:hover,
+.bottom .budgie-panel button.flat.launcher:hover,
+.bottom .budgie-panel button.launcher.sidebar-button:hover {
+  box-shadow: inset 0 -2px alpha(white,0.4);
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none; }
+.bottom .budgie-panel button#tasklist-button:active, .bottom .budgie-panel button#tasklist-button:checked,
+.bottom .budgie-panel button.flat.launcher:active,
+.bottom .budgie-panel button.launcher.sidebar-button:active,
+.bottom .budgie-panel button.flat.launcher:checked,
+.bottom .budgie-panel button.launcher.sidebar-button:checked {
+  box-shadow: inset 0 -2px #06a284; }
+.bottom .budgie-panel .unpinned button.flat.launcher > image, .bottom .budgie-panel .unpinned button.launcher.sidebar-button > image,
+.bottom .budgie-panel .pinned button.flat.launcher.running > image,
+.bottom .budgie-panel .pinned button.launcher.running.sidebar-button > image {
+  background-image: image(#06a284);
+  background-position: bottom center; }
+.bottom .budgie-panel .unpinned button.flat.launcher:hover, .bottom .budgie-panel .unpinned button.launcher.sidebar-button:hover, .bottom .budgie-panel .unpinned button.flat.launcher:active, .bottom .budgie-panel .unpinned button.launcher.sidebar-button:active, .bottom .budgie-panel .unpinned button.flat.launcher:checked, .bottom .budgie-panel .unpinned button.launcher.sidebar-button:checked,
+.bottom .budgie-panel .pinned button.flat.launcher.running:hover,
+.bottom .budgie-panel .pinned button.launcher.running.sidebar-button:hover,
+.bottom .budgie-panel .pinned button.flat.launcher.running:active,
+.bottom .budgie-panel .pinned button.launcher.running.sidebar-button:active,
+.bottom .budgie-panel .pinned button.flat.launcher.running:checked,
+.bottom .budgie-panel .pinned button.launcher.running.sidebar-button:checked {
+  box-shadow: inset 0 -2px #06a284; }
+
+.left .budgie-panel button#tasklist-button:hover,
+.left .budgie-panel button.flat.launcher:hover,
+.left .budgie-panel button.launcher.sidebar-button:hover {
+  box-shadow: inset 2px 0 alpha(white,0.4);
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none; }
+.left .budgie-panel button#tasklist-button:active, .left .budgie-panel button#tasklist-button:checked,
+.left .budgie-panel button.flat.launcher:active,
+.left .budgie-panel button.launcher.sidebar-button:active,
+.left .budgie-panel button.flat.launcher:checked,
+.left .budgie-panel button.launcher.sidebar-button:checked {
+  box-shadow: inset 2px 0 #06a284; }
+.left .budgie-panel .unpinned button.flat.launcher > image, .left .budgie-panel .unpinned button.launcher.sidebar-button > image,
+.left .budgie-panel .pinned button.flat.launcher.running > image,
+.left .budgie-panel .pinned button.launcher.running.sidebar-button > image {
+  background-image: image(#06a284);
+  background-position: left center; }
+.left .budgie-panel .unpinned button.flat.launcher:hover, .left .budgie-panel .unpinned button.launcher.sidebar-button:hover, .left .budgie-panel .unpinned button.flat.launcher:active, .left .budgie-panel .unpinned button.launcher.sidebar-button:active, .left .budgie-panel .unpinned button.flat.launcher:checked, .left .budgie-panel .unpinned button.launcher.sidebar-button:checked,
+.left .budgie-panel .pinned button.flat.launcher.running:hover,
+.left .budgie-panel .pinned button.launcher.running.sidebar-button:hover,
+.left .budgie-panel .pinned button.flat.launcher.running:active,
+.left .budgie-panel .pinned button.launcher.running.sidebar-button:active,
+.left .budgie-panel .pinned button.flat.launcher.running:checked,
+.left .budgie-panel .pinned button.launcher.running.sidebar-button:checked {
+  box-shadow: inset 2px 0 #06a284; }
+
+.right .budgie-panel button#tasklist-button:hover,
+.right .budgie-panel button.flat.launcher:hover,
+.right .budgie-panel button.launcher.sidebar-button:hover {
+  box-shadow: inset -2px 0 alpha(white,0.4);
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none; }
+.right .budgie-panel button#tasklist-button:active, .right .budgie-panel button#tasklist-button:checked,
+.right .budgie-panel button.flat.launcher:active,
+.right .budgie-panel button.launcher.sidebar-button:active,
+.right .budgie-panel button.flat.launcher:checked,
+.right .budgie-panel button.launcher.sidebar-button:checked {
+  box-shadow: inset -2px 0 #06a284; }
+.right .budgie-panel .unpinned button.flat.launcher > image, .right .budgie-panel .unpinned button.launcher.sidebar-button > image,
+.right .budgie-panel .pinned button.flat.launcher.running > image,
+.right .budgie-panel .pinned button.launcher.running.sidebar-button > image {
+  background-image: image(#06a284);
+  background-position: right center; }
+.right .budgie-panel .unpinned button.flat.launcher:hover, .right .budgie-panel .unpinned button.launcher.sidebar-button:hover, .right .budgie-panel .unpinned button.flat.launcher:active, .right .budgie-panel .unpinned button.launcher.sidebar-button:active, .right .budgie-panel .unpinned button.flat.launcher:checked, .right .budgie-panel .unpinned button.launcher.sidebar-button:checked,
+.right .budgie-panel .pinned button.flat.launcher.running:hover,
+.right .budgie-panel .pinned button.launcher.running.sidebar-button:hover,
+.right .budgie-panel .pinned button.flat.launcher.running:active,
+.right .budgie-panel .pinned button.launcher.running.sidebar-button:active,
+.right .budgie-panel .pinned button.flat.launcher.running:checked,
+.right .budgie-panel .pinned button.launcher.running.sidebar-button:checked {
+  box-shadow: inset -2px 0 #06a284; }
+
+.top .shadow-block {
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, alpha(#000000,0.23), alpha(#000000,0.08), transparent); }
+
+.bottom .shadow-block {
+  background-color: transparent;
+  background-image: linear-gradient(to top, alpha(#000000,0.23), alpha(#000000,0.08), transparent); }
+
+.left .shadow-block {
+  background-color: transparent;
+  background-image: linear-gradient(to right, alpha(#000000,0.23), alpha(#000000,0.08), transparent); }
+
+.right .shadow-block {
+  background-color: transparent;
+  background-image: linear-gradient(to left, alpha(#000000,0.23), alpha(#000000,0.08), transparent); }
+
 .budgie-popover {
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-  border-radius: 6px; }
+  border-style: none;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.28);
+  border-radius: 6px;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.28);
+  background-color: #0d0d0d; }
+  .budgie-popover .container {
+    padding: 2px; }
   .budgie-popover border {
-    border: 0; }
+    border: none; }
+  .budgie-popover list {
+    background-color: transparent; }
+  .budgie-popover row {
+    padding: 0; }
+    .budgie-popover row:hover {
+      box-shadow: none; }
+  .budgie-popover:not(.budgie-menu) button.flat:not(.image-button), .budgie-popover:not(.budgie-menu) button.sidebar-button:not(.image-button) {
+    min-height: 28px;
+    padding: 0 8px;
+    color: white;
+    font-weight: normal; }
+    .budgie-popover:not(.budgie-menu) button.flat:not(.image-button):disabled, .budgie-popover:not(.budgie-menu) button.sidebar-button:not(.image-button):disabled {
+      color: rgba(255, 255, 255, 0.45); }
+  .budgie-popover.budgie-menu .container {
+    padding: 0; }
+  .budgie-popover.user-menu .container {
+    padding: 8px; }
+  .budgie-popover.user-menu separator {
+    margin: 4px 0; }
+  .budgie-popover.sound-popover separator {
+    margin: 3px 0; }
+  .budgie-popover.night-light-indicator .container {
+    padding: 8px; }
+  .budgie-popover.places-menu .container {
+    padding: 8px; }
+  .budgie-popover.places-menu .places-list:not(.always-expand) {
+    margin-top: 4px;
+    padding-top: 4px;
+    border-top: 1px solid #1a1a1a; }
+  .budgie-popover.places-menu .alternative-label {
+    padding: 3px;
+    font-size: 15px; }
+  .budgie-popover.workspace-popover .container {
+    padding: 2px 8px 8px; }
+  .budgie-popover.workspace-popover separator {
+    margin: 4px 0; }
+  .budgie-popover.workspace-popover flowboxchild {
+    padding: 0; }
+
+.workspace-switcher .workspace-layout {
+  border: 0 solid black; }
+  .top .workspace-switcher .workspace-layout:dir(ltr), .bottom .workspace-switcher .workspace-layout:dir(ltr) {
+    border-left-width: 1px; }
+  .top .workspace-switcher .workspace-layout:dir(rtl), .bottom .workspace-switcher .workspace-layout:dir(rtl) {
+    border-right-width: 1px; }
+  .left .workspace-switcher .workspace-layout, .right .workspace-switcher .workspace-layout {
+    border-top-width: 1px; }
+.workspace-switcher .workspace-item, .workspace-switcher .workspace-add-button {
+  border: 0 solid black; }
+  .top .workspace-switcher .workspace-item:dir(ltr), .bottom .workspace-switcher .workspace-item:dir(ltr),
+  .top .workspace-switcher .workspace-add-button:dir(ltr), .bottom .workspace-switcher .workspace-add-button:dir(ltr) {
+    border-right-width: 1px; }
+  .top .workspace-switcher .workspace-item:dir(rtl), .bottom .workspace-switcher .workspace-item:dir(rtl),
+  .top .workspace-switcher .workspace-add-button:dir(rtl), .bottom .workspace-switcher .workspace-add-button:dir(rtl) {
+    border-left-width: 1px; }
+  .left .workspace-switcher .workspace-item, .right .workspace-switcher .workspace-item, .left .workspace-switcher .workspace-add-button, .right .workspace-switcher .workspace-add-button {
+    border-bottom-width: 1px; }
+.workspace-switcher .workspace-item.current-workspace {
+  background-color: black; }
+.workspace-switcher .workspace-add-button:hover {
+  box-shadow: none; }
+.workspace-switcher .workspace-add-button:active {
+  background-image: none; }
+.workspace-switcher .workspace-add-button:active image {
+  margin: 1px 0 -1px; }
+.budgie-panel .workspace-switcher .workspace-icon-button {
+  min-height: 24px;
+  min-width: 24px;
+  padding: 0;
+  border-radius: 6px; }
+
+.budgie-menu.background {
+  padding: 0;
+  background-color: black; }
+.budgie-menu scrollbar,
+.budgie-menu entry.search {
+  background-color: transparent; }
+.budgie-menu entry.search {
+  border-style: none;
+  border-bottom: 1px solid #1a1a1a;
+  border-radius: 999px;
+  box-shadow: none;
+  font-size: 120%;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+.budgie-menu button {
+  min-height: 32px;
+  padding: 0 8px;
+  border-radius: 0;
+  color: white;
+  font-weight: normal; }
+.budgie-menu row {
+  padding: 0; }
+  .budgie-menu row:hover {
+    box-shadow: none; }
+
+button.budgie-menu-launcher {
+  color: white;
+  border: none; }
+  button.budgie-menu-launcher:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none; }
+
+popover.background.user-menu {
+  padding: 8px; }
+  popover.background.user-menu .content-box {
+    background-color: transparent; }
+  popover.background.user-menu separator {
+    margin: 4px 0; }
+  popover.background.user-menu row {
+    padding: 0;
+    box-shadow: none;
+    background-image: none; }
+
+button.raven-trigger {
+  color: white;
+  border: none; }
+  button.raven-trigger:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none; }
+
+popover.background.places-menu {
+  padding: 8px; }
+  popover.background.places-menu .name-button.text-button {
+    padding-left: 8px;
+    padding-right: 8px; }
+    popover.background.places-menu .name-button.text-button image:dir(ltr) {
+      margin-right: 3px; }
+    popover.background.places-menu .name-button.text-button image:dir(rtl) {
+      margin-left: 3px; }
+  popover.background.places-menu .places-section-header > image:dir(ltr) {
+    margin: 0 -2px 0 5px; }
+  popover.background.places-menu .places-section-header > image:dir(rtl) {
+    margin: 0 5px 0 -2px; }
+  popover.background.places-menu .places-list {
+    margin-top: 4px;
+    padding-top: 4px;
+    border-top: 1px solid #1a1a1a;
+    background-color: transparent; }
+  popover.background.places-menu row {
+    padding: 0;
+    box-shadow: none;
+    background-image: none; }
+
+frame.raven-frame > border {
+  border-style: none;
+  box-shadow: none; }
+
+.raven {
+  background-color: #0d0d0d;
+  color: white;
+  padding: 6px 0 0 0;
+  border: none; }
+  .raven .raven-header {
+    min-height: 32px;
+    padding: 3px; }
+    .raven .raven-header.top {
+      padding: 2px 0;
+      background-color: #0d0d0d;
+      color: white; }
+      .raven .raven-header.top stackswitcher button {
+        margin: -6px 0;
+        min-height: 32px; }
+    .raven .raven-header.bottom {
+      border-top: 1px solid #1a1a1a; }
+  .raven viewport.frame .raven-header {
+    margin-top: -8px; }
+  .raven .raven-background {
+    border-style: solid none;
+    border-width: 1px;
+    border-color: #1a1a1a;
+    background-color: black; }
+  .raven scrolledwindow.raven-background {
+    border-bottom-style: none; }
+  .raven .powerstrip button {
+    margin: 2px 0 1px;
+    padding: 10px; }
+  .raven .option-subtitle {
+    font-size: smaller; }
+
+calendar.raven-calendar {
+  border-style: none;
+  background-color: transparent; }
+  calendar.raven-calendar:selected {
+    border-radius: 6px;
+    background-color: #0d0d0d; }
+
+.raven-mpris {
+  background-color: rgba(13, 13, 13, 0.8);
+  color: white; }
+  .raven-mpris label {
+    min-height: 24px; }
+
+.budgie-notification-window, .budgie-osd-window {
+  background-color: transparent;
+  color: white;
+  border-radius: 6px; }
+  .budgie-notification-window .drop-shadow, .budgie-osd-window .drop-shadow {
+    background-color: #080808; }
+
+.budgie-notification, .budgie-osd, .budgie-switcher-window, .budgie-switcher {
+  background-color: #080808;
+  color: white; }
+  .budgie-notification .notification-title, .budgie-osd .notification-title, .budgie-switcher-window .notification-title, .budgie-switcher .notification-title {
+    font-size: 110%;
+    color: white; }
+  .budgie-notification .notification-body, .budgie-osd .notification-body, .budgie-switcher-window .notification-body, .budgie-switcher .notification-body {
+    color: white; }
+
+.budgie-osd .budgie-osd-text {
+  font-size: 120%; }
+
+.budgie-switcher-window .drop-shadow {
+  margin: 8px 8px 16px;
+  border-radius: 6px;
+  background-color: #080808;
+  box-shadow: rgba(0, 0, 0, 0.28); }
+  .budgie-switcher-window .drop-shadow label.budgie-switcher-title {
+    color: white; }
+    .budgie-switcher-window .drop-shadow label.budgie-switcher-title:dir(ltr) {
+      padding: 0 0 0 6px; }
+    .budgie-switcher-window .drop-shadow label.budgie-switcher-title:dir(rtl) {
+      padding: 0 6px 0 0; }
+
+.drop-shadow {
+  margin: 5px 9px;
+  padding: 3px;
+  border-radius: 2px;
+  box-shadow: none;
+  background-color: #0d0d0d; }
+
+.budgie-session-dialog, .budgie-polkit-dialog, .budgie-run-dialog {
+  border-radius: 6px;
+  background-color: #0d0d0d; }
+
+.budgie-session-dialog label:not(:last-child),
+.budgie-session-dialog .dialog-title {
+  font-size: 120%; }
+.budgie-session-dialog .linked.horizontal > button {
+  padding: 8px 16px;
+  border-top: 1px solid #1a1a1a;
+  border-radius: 6px; }
+  .budgie-session-dialog .linked.horizontal > button:first-child {
+    border-bottom-left-radius: 2px; }
+  .budgie-session-dialog .linked.horizontal > button:last-child {
+    border-bottom-right-radius: 2px; }
+
+.budgie-polkit-dialog .message {
+  color: white; }
+.budgie-polkit-dialog .failure {
+  color: #D31919; }
+
+.budgie-run-dialog {
+  background-color: black;
+  border-style: none; }
+  .budgie-run-dialog entry.search {
+    font-size: 120%;
+    box-shadow: none;
+    background-color: transparent;
+    border-style: none;
+    border-bottom: 1px solid #1a1a1a;
+    border-radius: 999px;
+    padding-top: 6px;
+    padding-bottom: 6px; }
+  .budgie-run-dialog list .dim-label, .budgie-run-dialog list label.separator, .budgie-run-dialog list headerbar .subtitle, headerbar .budgie-run-dialog list .subtitle, .budgie-run-dialog list .titlebar:not(headerbar) .subtitle, .titlebar:not(headerbar) .budgie-run-dialog list .subtitle, .budgie-run-dialog list .budgie-notification .notification-body, .budgie-notification .budgie-run-dialog list .notification-body, .budgie-run-dialog list .budgie-osd .notification-body, .budgie-osd .budgie-run-dialog list .notification-body, .budgie-run-dialog list .budgie-switcher-window .notification-body, .budgie-switcher-window .budgie-run-dialog list .notification-body, .budgie-run-dialog list .budgie-switcher .notification-body, .budgie-switcher .budgie-run-dialog list .notification-body {
+    opacity: 1; }
+  .budgie-run-dialog scrolledwindow {
+    border-top: 1px solid #1a1a1a; }
 
 row label.subtitle {
   font-size: smaller;
