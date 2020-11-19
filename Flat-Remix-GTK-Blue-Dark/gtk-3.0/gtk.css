@@ -3607,7 +3607,7 @@ headerbar > box.horizontal > entry.pathbar {
   box-shadow: inset 0 0 0 1px #2777ff; }
 
 .budgie-panel {
-  background-color: rgba(39, 42, 52, 0.5);
+  background-color: #272a34;
   color: white;
   font-weight: normal; }
   .budgie-panel .alert {
@@ -3616,7 +3616,7 @@ headerbar > box.horizontal > entry.pathbar {
     color: white;
     background-color: rgba(39, 42, 52, 0.5); }
   .budgie-panel.transparent {
-    background-color: rgba(39, 42, 52, 0);
+    background-color: rgba(39, 42, 52, 0.5);
     color: white; }
   .budgie-panel button {
     min-height: 16px;
@@ -4071,7 +4071,7 @@ calendar.raven-calendar {
     background-color: transparent;
     border-style: none;
     border-bottom: 1px solid #1c1e25;
-    border-radius: 999px;
+    border-radius: 0;
     padding-top: 6px;
     padding-bottom: 6px; }
   .budgie-run-dialog list .dim-label, .budgie-run-dialog list label.separator, .budgie-run-dialog list headerbar .subtitle, headerbar .budgie-run-dialog list .subtitle, .budgie-run-dialog list .titlebar:not(headerbar) .subtitle, .titlebar:not(headerbar) .budgie-run-dialog list .subtitle, .budgie-run-dialog list .budgie-notification .notification-body, .budgie-notification .budgie-run-dialog list .notification-body, .budgie-run-dialog list .budgie-osd .notification-body, .budgie-osd .budgie-run-dialog list .notification-body, .budgie-run-dialog list .budgie-switcher-window .notification-body, .budgie-switcher-window .budgie-run-dialog list .notification-body, .budgie-run-dialog list .budgie-switcher .notification-body, .budgie-switcher .budgie-run-dialog list .notification-body {

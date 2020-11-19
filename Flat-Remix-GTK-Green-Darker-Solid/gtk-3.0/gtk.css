@@ -3634,7 +3634,7 @@ headerbar > box.horizontal > entry.pathbar {
     color: white;
     background-color: black; }
   .budgie-panel.transparent {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: black;
     color: white; }
   .budgie-panel button {
     min-height: 16px;
@@ -4089,7 +4089,7 @@ calendar.raven-calendar {
     background-color: transparent;
     border-style: none;
     border-bottom: 1px solid #e3e3e3;
-    border-radius: 999px;
+    border-radius: 0;
     padding-top: 6px;
     padding-bottom: 6px; }
   .budgie-run-dialog list .dim-label, .budgie-run-dialog list label.separator, .budgie-run-dialog list headerbar .subtitle, headerbar .budgie-run-dialog list .subtitle, .budgie-run-dialog list .titlebar:not(headerbar) .subtitle, .titlebar:not(headerbar) .budgie-run-dialog list .subtitle, .budgie-run-dialog list .budgie-notification .notification-body, .budgie-notification .budgie-run-dialog list .notification-body, .budgie-run-dialog list .budgie-osd .notification-body, .budgie-osd .budgie-run-dialog list .notification-body, .budgie-run-dialog list .budgie-switcher-window .notification-body, .budgie-switcher-window .budgie-run-dialog list .notification-body, .budgie-run-dialog list .budgie-switcher .notification-body, .budgie-switcher .budgie-run-dialog list .notification-body {

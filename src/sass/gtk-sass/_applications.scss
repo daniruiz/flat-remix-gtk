@@ -1009,7 +1009,7 @@ $z-depth-4: rgba(0, 0, 0, 0.34);
 .budgie-panel {
   // solid-mode
   // always use dark-color of dark variant
-  background-color: $panel_bg;
+  background-color: opacify($panel_bg, 1);
   color: white;
   font-weight: normal;
 
@@ -1023,7 +1023,7 @@ $z-depth-4: rgba(0, 0, 0, 0.34);
 
   // transparent-mode
   &.transparent {
-    background-color: transparentize($panel_bg, 0.6);
+    background-color: $panel_bg;
     color: white;
 
   }
@@ -1585,7 +1585,7 @@ calendar.raven-calendar {
     background-color: transparent;
     border-style: none;
     border-bottom: 1px solid $borders_color;
-    border-radius: 999px;
+    border-radius: 0;
     padding-top: 6px;
     padding-bottom: 6px;
   }
