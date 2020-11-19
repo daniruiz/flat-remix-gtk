@@ -1,3 +1,8 @@
+[20201119]
+ * Add text-shadow to budgie-panel
+ * Fix budgie panel (fixes #63)
+ * Fix budgie side menu (fixes #82)
+
 [20201106]
  * New sidebar design for nautilus & filechooser
  * New floating-bar design for nautilus
