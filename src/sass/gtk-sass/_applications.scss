@@ -1013,6 +1013,10 @@ $z-depth-4: rgba(0, 0, 0, 0.34);
   color: white;
   font-weight: normal;
 
+  image { -gtk-icon-shadow: 0 1px 2px rgba(0, 0, 0, .5); }
+
+  label { text-shadow: 0 1px 2px rgba(0, 0, 0, .5); }
+
   // used to indicate unread notifications
   .alert { color: $suggested_color; }
   
