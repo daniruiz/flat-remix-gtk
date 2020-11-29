@@ -3491,6 +3491,23 @@ panel-toplevel.background button:not(#tasklist-button) {
 .xfce4-panel.vertical button:not(#whiskermenu-button):checked, .xfce4-panel.vertical button:not(#whiskermenu-button):active {
   box-shadow: inset 4px 0 0 #ec0101; }
 
+/* Whisker menu */
+#whiskermenu-window entry {
+  border-radius: 100px;
+  border: 2px solid #ec0101;
+  box-shadow: none; }
+#whiskermenu-window scrolledwindow.frame {
+  border-radius: 8px;
+  background: #FAFAFA;
+  padding: 7px 10px;
+  margin: 0 5px; }
+  #whiskermenu-window scrolledwindow.frame treeview {
+    background: transparent;
+    border-radius: 6px; }
+    #whiskermenu-window scrolledwindow.frame treeview:hover, #whiskermenu-window scrolledwindow.frame treeview:active, #whiskermenu-window scrolledwindow.frame treeview:selected {
+      background-color: #ec0101;
+      color: white; }
+
 /* XFCE4 panel action buttons */
 #XfcePanelWindowWrapper > widget > box > #xfce-panel-button > image {
   -gtk-icon-style: symbolic;

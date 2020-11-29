@@ -766,6 +766,33 @@ panel-toplevel.background {
   }
 }
 
+/* Whisker menu */
+#whiskermenu-window {
+  $_dark_bg: if($variant == 'light', $bg_color, darken($bg_color, 3%));
+  entry {
+    border-radius: 100px;
+    border: 2px solid $selected_bg_color;
+    box-shadow: none;
+  }
+
+  scrolledwindow.frame {
+    border-radius: 8px;
+    background: $_dark_bg;
+    padding: 7px 10px;
+    margin: 0 5px;
+
+    treeview {
+      background: transparent;
+      border-radius: 6px;
+
+      &:hover, &:active, &:selected {
+        background-color: $selected_bg_color;
+        color: $selected_fg_color;
+      }
+    }
+  }
+}
+
 /* XFCE4 panel action buttons */
 #XfcePanelWindowWrapper > widget > box > #xfce-panel-button > image {
   -gtk-icon-style: symbolic;
