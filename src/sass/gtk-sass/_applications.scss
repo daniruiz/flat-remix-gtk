@@ -1599,3 +1599,57 @@ calendar.raven-calendar {
   scrolledwindow { border-top: 1px solid $borders_color; }
 }
 
+//
+// Lightdm
+//
+.lightdm-gtk-greeter {
+  $_shadow_color: transparentize(black, if($variant == 'light', 0.93, 0.73));
+
+  #panel_window {
+    background: $panel_bg;
+    color: $fg_color;
+    text-shadow: none;
+    -gtk-icon-shadow: none;
+  }
+
+  #login_window {
+    border: 0;
+    background-color: $panel_bg;
+    border-radius: 6px;
+    box-shadow: inset 0 1px transparentize(white, .85);
+
+    entry {
+      background: transparentize($bg_color, .6);
+      border-color: transparentize($bg_color, .7);
+      min-height: 32px;
+
+      image { margin: 0; }
+    }
+
+    #buttonbox_frame {
+      padding-top: 20px;
+      background: $bg_color;
+      border-top: 1px solid transparentize(black, .9);
+      //border-radius: 0 0 $button_radius $button_radius;
+      box-shadow: inset 0 -4px transparentize(black, .8),
+                  inset 0 1px 2px $_shadow_color;
+
+      button {
+        border: 0;
+        color: white;
+        text-shadow: none;
+      }
+
+      #cancel_button {
+        background: $_shadow_color;
+        box-shadow: none;
+        color: $fg_color;
+      }
+
+      #login_button {
+        background: $selected_bg_color;
+        box-shadow: inset 0 -2px transparentize(black, 0.8);
+      }
+    }
+  }
+}

@@ -4088,6 +4088,39 @@ calendar.raven-calendar {
   .budgie-run-dialog scrolledwindow {
     border-top: 1px solid #1a1a1a; }
 
+.lightdm-gtk-greeter #panel_window {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-shadow: none;
+  -gtk-icon-shadow: none; }
+.lightdm-gtk-greeter #login_window {
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.15); }
+  .lightdm-gtk-greeter #login_window entry {
+    background: rgba(13, 13, 13, 0.4);
+    border-color: rgba(13, 13, 13, 0.3);
+    min-height: 32px; }
+    .lightdm-gtk-greeter #login_window entry image {
+      margin: 0; }
+  .lightdm-gtk-greeter #login_window #buttonbox_frame {
+    padding-top: 20px;
+    background: #0d0d0d;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 -4px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(0, 0, 0, 0.27); }
+    .lightdm-gtk-greeter #login_window #buttonbox_frame button {
+      border: 0;
+      color: white;
+      text-shadow: none; }
+    .lightdm-gtk-greeter #login_window #buttonbox_frame #cancel_button {
+      background: rgba(0, 0, 0, 0.27);
+      box-shadow: none;
+      color: white; }
+    .lightdm-gtk-greeter #login_window #buttonbox_frame #login_button {
+      background: #ec0101;
+      box-shadow: inset 0 -2px rgba(0, 0, 0, 0.2); }
+
 row label.subtitle {
   font-size: smaller;
   opacity: 0.55;
