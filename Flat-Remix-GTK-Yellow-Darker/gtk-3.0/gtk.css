@@ -4114,13 +4114,15 @@ calendar.raven-calendar {
   .lightdm-gtk-greeter #login_window entry {
     background: rgba(250, 250, 250, 0.4);
     border-color: rgba(250, 250, 250, 0.3);
-    min-height: 32px; }
+    min-height: 32px;
+    border: 0; }
     .lightdm-gtk-greeter #login_window entry image {
       margin: 0; }
   .lightdm-gtk-greeter #login_window #buttonbox_frame {
     padding-top: 20px;
     background: #FAFAFA;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 6px 6px;
     box-shadow: inset 0 -4px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(0, 0, 0, 0.07); }
     .lightdm-gtk-greeter #login_window #buttonbox_frame button {
       border: 0;
@@ -4131,8 +4133,7 @@ calendar.raven-calendar {
       box-shadow: none;
       color: #5C616C; }
     .lightdm-gtk-greeter #login_window #buttonbox_frame #login_button {
-      background: #ffd86e;
-      box-shadow: inset 0 -2px rgba(0, 0, 0, 0.2); }
+      background: #ffd86e; }
 
 row label.subtitle {
   font-size: smaller;
