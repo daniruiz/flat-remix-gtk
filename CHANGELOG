@@ -1,3 +1,9 @@
+[20201129]
+ * New whiskermenu theme
+ * Make symbolic most xfce-panel icons
+ * Lightdm theme tweaks
+ * New lightdm theme
+
 [20201119]
  * Add text-shadow to budgie-panel
  * Fix budgie panel (fixes #63)
