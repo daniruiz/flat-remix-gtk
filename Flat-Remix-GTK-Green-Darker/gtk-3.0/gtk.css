@@ -3501,6 +3501,11 @@ panel-toplevel.background button:not(#tasklist-button) {
 .xfce4-panel.vertical button:not(#whiskermenu-button):checked, .xfce4-panel.vertical button:not(#whiskermenu-button):active {
   box-shadow: inset 4px 0 0 #06a284; }
 
+/* XFCE4 panel action buttons */
+#XfcePanelWindowWrapper > widget > box > #xfce-panel-button > image {
+  -gtk-icon-style: symbolic;
+  -gtk-icon-transform: scale(0.7); }
+
 wnck-pager {
   background-color: white; }
   wnck-pager:selected {

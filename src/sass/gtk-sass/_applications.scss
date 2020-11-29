@@ -766,6 +766,12 @@ panel-toplevel.background {
   }
 }
 
+/* XFCE4 panel action buttons */
+#XfcePanelWindowWrapper > widget > box > #xfce-panel-button > image {
+  -gtk-icon-style: symbolic;
+  -gtk-icon-transform: scale(.7);
+}
+
 // XFCE4 workspace switcher
 wnck-pager {
   background-color: lighten($base_color, 10%);
