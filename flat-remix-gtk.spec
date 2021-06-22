@@ -8,6 +8,7 @@ Group:          User Interface/Desktops
 Source:         https://github.com/daniruiz/%{name}/archive/%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildArch:      noarch
+BuildRequires:  make
 
 %description
 Flat Remix GTK theme is a pretty simple gtk window theme inspired on material design following a modern design using "flat" colors with high contrasts and sharp borders.
