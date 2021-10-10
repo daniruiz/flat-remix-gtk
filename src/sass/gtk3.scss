@@ -1,0 +1,19 @@
+// General guidelines:
+// - very unlikely you want to edit something else than _common.scss
+// - keep the number of defined colors to a minimum, use the color blending functions if
+//   you need a subtle shade
+// - if you need to inverse a color function use the @if directive to match for dark $variant
+
+$variant: 'light';
+$high-contrast:'false';
+$selected_bg_color: #2777ff;
+$selected_fg_color: #ffffff;
+
+@import 'common/_colors';
+@import 'gtk3/upstream/_drawing';
+@import 'gtk3/upstream/_common';
+@import 'gtk3/upstream/libhandy/Adwaita-base';
+@import 'gtk3/_common-tweaks';
+@import 'gtk3/_applications';
+@import 'gtk3/_budgie';
+@import 'gtk3/upstream/_colors-public';

@@ -1,0 +1,40 @@
+145c145
+<   @else { @return transparentize(white, 0.98); }
+---
+>   @else { @return transparentize(white, 0.95); }
+189c189,190
+<   $_button_shadow: 0 1px 2px transparentize($shadow_color, 0.03);
+---
+>   $_button_shadow: inset 0 -1px 0px transparentize(if($c != $bg_color, _border_color($c), $borders_color), .25),
+>                          0  1px 2px transparentize($shadow_color, 0.03);
+194a196
+>     $light_c: lighten($c, 7%);
+197,200c199,201
+<     border-color: if($c != $bg_color, _border_color($c), $borders_color);
+<     border-bottom-color: if($c != $bg_color, _border_color($c, true), $alt_borders_color);
+<     background-image: if($variant == 'light', linear-gradient(to top, darken($c, 4%) 2px, $c),
+<                                               linear-gradient(to top, darken($c,1%) 2px, $c)),
+---
+>     border-color: if($c != $bg_color, _border_color($light_c), $borders_color);
+>     border-bottom-color: if($c != $bg_color, _border_color($light_c, true), $alt_borders_color);
+>     background-image: image($light_c),
+202c203
+<     @include _button_text_shadow($tc, $c);
+---
+>     //@include _button_text_shadow($tc, $c);
+215c216
+<       background-image: linear-gradient(to top, $c, lighten($c, 1%) 1px),
+---
+>       background-image: image(darken($c, 4%)),
+217c218
+<       @include _button_text_shadow($tc, lighten($c, 6%));
+---
+>       //@include _button_text_shadow($tc, lighten($c, 6%));
+223c224
+<       @include _button_text_shadow($tc,lighten($c, 6%));
+---
+>       //@include _button_text_shadow($tc,lighten($c, 6%));
+235c236
+<     @include _button_text_shadow($tc, $c);
+---
+>     //@include _button_text_shadow($tc, $c);

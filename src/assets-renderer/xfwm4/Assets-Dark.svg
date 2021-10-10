@@ -1,0 +1,153 @@
+<svg version="1.1" viewBox="0 0 108 217.35" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="linearGradient1387">
+      <stop stop-color="#383d4b" offset="0"/>
+      <stop stop-color="#383d4b" offset=".6"/>
+      <stop stop-color="#13151a" offset="1"/>
+    </linearGradient>
+    <clipPath id="b">
+      <rect x="109.41" y="196.63" width="16" height="16" opacity=".3"/>
+    </clipPath>
+    <clipPath id="a">
+      <rect x="9.5" y="178.85" width="6" height="28" fill="#fff" opacity=".539"/>
+    </clipPath>
+    <radialGradient id="radialGradient1090-4-5" cx="19" cy="571.7" r="7.5026" gradientTransform="matrix(1.4225 -5.3748e-7 5.371e-7 1.4225 57.973 -174.87)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1387"/>
+    <radialGradient id="radialGradient1090-4-5-6" cx="19" cy="571.7" r="7.5026" gradientTransform="matrix(1.4225 -5.3748e-7 5.371e-7 1.4225 57.973 -207.87)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1387"/>
+    <clipPath id="clipPath6191">
+      <path d="m9.5 194.85v-16h16v5h-11v11z" style="stroke-linecap:round;stroke-linejoin:round;stroke-width:30.2"/>
+    </clipPath>
+  </defs>
+  <rect id="menu-active" x="10" y="115.35" width="26" height="16" fill="#23252e"/>
+  <use id="menu-pressed" transform="translate(31 -2.0352e-5)" width="100%" height="100%" fill="#ffffff" xlink:href="#menu-active"/>
+  <use id="menu-inactive" transform="translate(62 -2.0352e-5)" width="100%" height="100%" fill="#ffffff" xlink:href="#menu-active"/>
+  <g id="title-1-active" transform="translate(1.4109e-5 5.2093e-5)">
+    <g id="" transform="matrix(.17857 0 0 1 9.1072 -415.01)">
+      <rect x="5" y="557.36" width="28" height="28" fill="#23252e" style="stroke-width:1.01"/>
+    </g>
+    <rect x="10" y="142.35" width="5" height="1" opacity=".5"/>
+  </g>
+  <use id="title-2-active" transform="translate(7)" width="100%" height="100%" xlink:href="#title-1-active"/>
+  <use id="title-3-active" transform="translate(14)" width="100%" height="100%" xlink:href="#title-1-active"/>
+  <use id="title-4-active" transform="translate(21)" width="100%" height="100%" xlink:href="#title-1-active"/>
+  <use id="title-5-active" transform="translate(28)" width="100%" height="100%" xlink:href="#title-1-active"/>
+  <use id="title-1-inactive" transform="translate(35)" width="100%" height="100%" xlink:href="#title-1-active"/>
+  <use id="title-2-inactive" transform="translate(42)" width="100%" height="100%" xlink:href="#title-1-active"/>
+  <use id="title-3-inactive" transform="translate(49)" width="100%" height="100%" xlink:href="#title-1-active"/>
+  <use id="title-4-inactive" transform="translate(56)" width="100%" height="100%" xlink:href="#title-1-active"/>
+  <use id="title-5-inactive" transform="translate(63)" width="100%" height="100%" xlink:href="#title-1-active"/>
+  <g id="top-left-active" transform="translate(1.4109e-5 5.2093e-5)" clip-path="url(#a)">
+    <path d="m14 178.85h19.5c3.324 0 6 2.676 6 6v23c0 3.324-2.676 6-6 6h-18c-3.324 0-6-2.676-6-6l-1.41e-5 -24.5c-9e-7 -1.5574 2.5337-4.4999 4.5-4.4999z" style="fill:#23252e;stroke-width:1.01"/>
+    <path d="m15.5 179.35c3.047 0 5.5 2.453 5.5 5.5v23c0 3.047-2.453 5.5-5.5 5.5s-5.5-2.453-5.5-5.5v-23c0-3.047 2.453-5.5 5.5-5.5z" style="fill:none;opacity:.5;stroke-linecap:square;stroke-width:1.01;stroke:#000"/>
+  </g>
+  <rect x="9.5" y="178.85" width="7" height="28" fill="none"/>
+  <use id="top-left-inactive" transform="translate(8)" width="100%" height="100%" fill="#ffffff" xlink:href="#top-left-active"/>
+  <use id="top-right-active" transform="matrix(-1 0 0 1 41 0)" width="100%" height="100%" fill="#ffffff" xlink:href="#top-left-active"/>
+  <use id="top-right-inactive" transform="matrix(-1 0 0 1 49 0)" width="100%" height="100%" fill="#ffffff" xlink:href="#top-left-active"/>
+  <g id="left-active" transform="translate(25.281 -32.49)">
+    <rect x="56.719" y="186.84" width="5" height="16" fill="#23252e" style="stroke-width:1.01"/>
+    <rect transform="scale(-1,1)" x="-57.719" y="186.84" width="1" height="16" opacity=".5"/>
+  </g>
+  <use id="left-inactive" transform="translate(5.9998)" width="100%" height="100%" xlink:href="#left-active"/>
+  <use id="right-active" transform="matrix(-1 0 0 1 181 0)" width="100%" height="100%" xlink:href="#left-active"/>
+  <use id="right-inactive" transform="matrix(-1 0 0 1 187 0)" width="100%" height="100%" xlink:href="#left-active"/>
+  <use id="bottom-active" transform="rotate(-90 95.324 178.68)" width="100%" height="100%" xlink:href="#left-active"/>
+  <use id="bottom-inactive" transform="rotate(-90 105.32 188.68)" width="100%" height="100%" xlink:href="#left-active"/>
+  <g id="bottom-left-active" transform="translate(-55.41 -20.63)" clip-path="url(#b)">
+    <path transform="translate(55.408,19.279)" d="m58.447 193.35h13.555l-0.0025-4.999-13.553-1e-3z" fill="#23252e" style="fill:#23252e;stroke-width:1.01"/>
+    <path d="m113.92 212.62 12.429-9.9e-4v-0.999l-12.429-1e-5z" opacity=".5"/>
+    <use transform="matrix(1,0,0,-1,99.908,391.48)" width="100%" height="100%" clip-path="url(#clipPath6191)" fill="#ffffff" xlink:href="#top-left-active"/>
+  </g>
+  <use id="bottom-right-active" transform="rotate(-90 79 167)" width="100%" height="100%" xlink:href="#bottom-left-active"/>
+  <use id="bottom-right-inactive" transform="rotate(-90 89 177)" width="100%" height="100%" xlink:href="#bottom-left-active"/>
+  <use id="bottom-left-inactive" transform="translate(3.3789e-7 20)" width="100%" height="100%" xlink:href="#bottom-left-active"/>
+  <g id="close-active" transform="translate(1 -551.36)">
+    <rect x="9" y="561.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <path d="m19 563.36c-4.4122 0-8 3.5878-8 8 0 4.4123 3.5878 8 8 8s8-3.5878 8-8-3.5878-8-8-8z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#2777ff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#d31919;stroke-width:1.01"/>
+  </g>
+  <g id="close-prelight" transform="matrix(1.0573 0 0 1.0573 -13.977 -584.07)">
+    <rect x="42.51" y="561.9" width="18.917" height="18.917" fill="#23252e" stroke-width=".67561"/>
+    <path d="m51.968 563.79c-4.176 0-7.5664 3.3907-7.5664 7.5664 0 4.1758 3.3904 7.5664 7.5664 7.5664 4.176 0 7.5664-3.3907 7.5664-7.5664 0-4.1758-3.3904-7.5664-7.5664-7.5664z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#2777ff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#d31919"/>
+    <path d="m48.217 567.55h0.9455c0.01008-1.3e-4 0.01966-4.5e-4 0.02951 0 0.24106 0.0101 0.48208 0.12156 0.65003 0.29555l2.1568 2.1577 2.1865-2.1577c0.25114-0.21801 0.42232-0.28894 0.65002-0.29555h0.9455v0.94581c0 0.27095-0.0324 0.52081-0.23637 0.70937l-2.1568 2.1577 2.1273 2.1281c0.17793 0.17798 0.26591 0.42888 0.26591 0.67982v0.94583h-0.9455c-0.25083-1e-5 -0.50165-0.088-0.67957-0.26603l-2.1568-2.1576-2.1568 2.1576c-0.17791 0.17801-0.42875 0.26603-0.67959 0.26603h-0.9455v-0.94583c0-0.25092 0.08799-0.50184 0.26593-0.67982l2.1568-2.1281-2.1568-2.1577c-0.19924-0.18409-0.28663-0.44383-0.26593-0.70937v-0.94581z" color="#bebebe" enable-background="new" fill="#fff" stroke-width="1.2609"/>
+  </g>
+  <g id="close-pressed" transform="translate(-23 -551.36)">
+    <rect x="75" y="561.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <path d="m85 563.36c-4.4123 0-8 3.5877-8 8s3.5877 8 8 8 8-3.5877 8-8-3.5877-8-8-8z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#2777ff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#d31919;stroke-width:1.01"/>
+    <path d="m81.003 567.36h0.99962c0.01066-1.2e-4 0.02079-4.7e-4 0.03119 0 0.25486 0.0107 0.50967 0.12853 0.68724 0.31248l2.2803 2.2812 2.3117-2.2812c0.26552-0.23049 0.4465-0.30548 0.68723-0.31248h0.99962v0.99997c0 0.28646-0.03425 0.55063-0.2499 0.74998l-2.2803 2.2812 2.2491 2.2499c0.18812 0.18817 0.28113 0.45344 0.28113 0.71874v0.99998h-0.99962c-0.26519-1e-5 -0.53037-0.0931-0.71847-0.28125l-2.2803-2.2811-2.2803 2.2811c-0.1881 0.18819-0.45329 0.28125-0.71849 0.28125h-0.99962v-0.99998c0-0.26528 0.09303-0.53057 0.28115-0.71874l2.2803-2.2499-2.2803-2.2812c-0.21065-0.19463-0.30304-0.46924-0.28115-0.74998v-0.99997z" color="#bebebe" enable-background="new" opacity=".5" stroke-width="1.3331" style="fill:#fff"/>
+  </g>
+  <g id="close-inactive" transform="translate(-35 -551.36)">
+    <rect x="108" y="561.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <circle cx="118" cy="571.36" r="8" style="fill:#191a20;stroke-width:0"/>
+  </g>
+  <g id="maximize-active" transform="translate(1 -563.36)">
+    <rect x="9" y="594.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <path d="m19 596.36c-4.413 0-8 3.587-8 8 0 4.4131 3.587 8 8 8s8-3.587 8-8c0-4.413-3.587-8-8-8z" style="-inkscape-stroke:none;color:#000000;fill:#377cf1"/>
+  </g>
+  <g id="maximize-prelight" transform="translate(-11 -563.36)">
+    <rect x="42" y="594.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <path d="m52 596.36c-4.413 0-8 3.587-8 8 0 4.4131 3.587 8 8 8 4.413 0 8-3.587 8-8 0-4.413-3.587-8-8-8z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#383d4b" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#377cf1"/>
+    <path d="m48 600.36v8h8v-8zm1.9942 2h4.0117v4h-4.0117z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="stroke-width:1.01"/>
+  </g>
+  <g id="maximize-pressed" transform="translate(-23 -563.36)">
+    <rect x="75" y="594.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <path d="m85 596.36c-4.4123 0-8 3.5877-8 8s3.5877 8 8 8 8-3.5877 8-8-3.5877-8-8-8z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="url(#radialGradient1090-4-5-6)" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#377cf1;stroke-width:1.01"/>
+    <path d="m81 600.36v8h8v-8zm1.9942 2h4.0117v4h-4.0117z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="fill:#fff;opacity:.5;stroke-width:1.01"/>
+  </g>
+  <g id="maximize-inactive" transform="translate(-35 -563.36)">
+    <rect x="108" y="594.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <circle cx="118" cy="604.36" r="8" style="fill:#191a20;stroke-width:0"/>
+  </g>
+  <g id="hide-active" transform="translate(1 -575.36)">
+    <rect x="9" y="627.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <path d="m19 629.36c-4.413 0-8 3.587-8 8 0 4.4131 3.587 8 8 8s8-3.587 8-8-3.587-8-8-8z" style="-inkscape-stroke:none;color:#000000;fill:#fd7d00"/>
+  </g>
+  <g id="hide-prelight" transform="translate(-11 -575.36)">
+    <rect x="42" y="627.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <path d="m52 629.36c-4.413 0-8 3.587-8 8 0 4.4131 3.587 8 8 8 4.413 0 8-3.587 8-8 0-4.413-3.587-8-8-8z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#383d4b" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#fd7d00"/>
+    <path d="m48 639.36v2h8v-2" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="stroke-width:1.01"/>
+  </g>
+  <g id="hide-pressed" transform="translate(-23 -575.36)">
+    <rect x="75" y="627.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <path d="m85 629.36c-4.4123 0-8 3.5877-8 8s3.5877 8 8 8 8-3.5877 8-8-3.5877-8-8-8z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="url(#radialGradient1090-4-5)" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#fd7d00;stroke-width:1.01"/>
+    <path d="m81 639.36v2h8v-2" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="fill:#fff;opacity:.5;stroke-width:1.01"/>
+  </g>
+  <g id="hide-inactive" transform="translate(-35 -575.36)">
+    <rect x="108" y="627.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <circle cx="118" cy="637.36" r="8" style="fill:#191a20;stroke-width:0"/>
+  </g>
+  <g id="stick-active" transform="translate(1 -521.36)">
+    <rect x="9" y="594.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <circle cx="19" cy="604.36" r="4" fill="#fff"/>
+  </g>
+  <g id="stick-prelight" transform="translate(-11 -521.36)">
+    <rect x="42" y="594.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <path d="m52 596.36c-4.413 0-8 3.587-8 8 0 4.4131 3.587 8 8 8 4.413 0 8-3.587 8-8 0-4.413-3.587-8-8-8z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#383d4b" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000"/>
+    <circle cx="52" cy="604.36" r="4" fill="#fff" style="stroke-width:1.01"/>
+  </g>
+  <g id="stick-pressed" transform="translate(-23 -521.36)">
+    <rect x="75" y="594.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <path d="m85 596.36c-4.4123 0-8 3.5877-8 8 0 4.4123 3.5877 8 8 8s8-3.5877 8-8c0-4.4123-3.5877-8-8-8z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="url(#radialGradient1090-4-5-6)" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#383d4b;stroke-width:1.01"/>
+    <circle cx="85" cy="604.36" r="4" fill="#fff" style="fill:#fff;opacity:.5;stroke-width:1.01"/>
+  </g>
+  <g id="stick-inactive" transform="translate(-35 -521.36)">
+    <rect x="108" y="594.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <circle cx="118" cy="604.36" r="4" fill="#fff" opacity=".5"/>
+  </g>
+  <g id="shade-active" transform="translate(1 -533.36)">
+    <rect x="8.9995" y="627.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <path d="m23.515 639.36-3.6381-3.6381c-0.48258-0.48259-1.2722-0.48256-1.7547 0l-3.6381 3.6381h9.0308" fill="#fff" fill-rule="evenodd" stroke-width="1.5154"/>
+  </g>
+  <g id="shade-prelight" transform="translate(-11 -533.36)">
+    <rect x="42" y="627.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <path d="m52 629.36c-4.413 0-8 3.587-8 8 0 4.4131 3.587 8 8 8 4.413 0 8-3.587 8-8 0-4.413-3.587-8-8-8z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#383d4b" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000"/>
+    <path d="m56.515 639.36-3.6381-3.6381c-0.48258-0.48259-1.2722-0.48256-1.7547 0l-3.6381 3.6381h9.0308" fill="#fff" fill-rule="evenodd" stroke-width="1.5154"/>
+  </g>
+  <g id="shade-pressed" transform="translate(-23 -533.36)">
+    <rect x="75" y="627.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <path d="m85 629.36c-4.4123 0-8 3.5877-8 8 0 4.4123 3.5877 8 8 8s8-3.5877 8-8c0-4.4123-3.5877-8-8-8z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="url(#radialGradient1090-4-5)" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#383d4b;stroke-width:1.01"/>
+    <path d="m89.515 639.36-3.6381-3.6381c-0.48258-0.48259-1.2722-0.48256-1.7547 0l-3.6381 3.6381h9.0308" fill="#fff" fill-rule="evenodd" stroke-width="1.5154" style="fill:#fff;opacity:.5"/>
+  </g>
+  <g id="shade-inactive" transform="translate(-35 -533.36)">
+    <rect x="108" y="627.36" width="20" height="20" fill="#23252e" stroke-width=".71429"/>
+    <path d="m122.52 639.36-3.6381-3.6381c-0.48258-0.48259-1.2722-0.48256-1.7547 0l-3.6381 3.6381h9.0308" fill="#fff" fill-rule="evenodd" opacity=".5" stroke-width="1.5154"/>
+  </g>
+</svg>

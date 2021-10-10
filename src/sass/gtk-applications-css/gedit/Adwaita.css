@@ -1,0 +1,61 @@
+.gedit-document-panel {
+    background-color: @sidebar_bg;
+}
+
+.gedit-document-panel:backdrop {
+    color: #b0b2b2;
+}
+
+.gedit-document-panel row:selected:backdrop {
+    background-color: #8b8e8f;
+}
+
+.gedit-document-panel-group-row,
+.gedit-document-panel-group-row:hover {
+    border-top: 1px solid alpha(currentColor, 0.3);
+}
+
+.gedit-document-panel-group-row:first-child,
+.gedit-document-panel-group-row:first-child:hover {
+    border-top: 0px;
+}
+
+/* Try to look as the notebook tab close button */
+.gedit-document-panel row button.flat {
+    padding: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    min-width: 18px;
+    min-height: 18px;
+    color: alpha(currentColor,0.3);
+}
+
+.gedit-document-panel row:hover button.flat {
+    color: alpha(currentColor,0.5);
+}
+
+.gedit-document-panel row button.flat:hover {
+    color: @theme_fg_color;
+}
+
+statusbar {
+    border-top: 1px solid @borders;
+}
+
+.gedit-search-slider {
+    background-color: @theme_base_color;
+    padding: 6px;
+    border-color: @borders;
+    border-radius: 0 0 3px 3px;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+}
+
+.gedit-search-entry-occurrences-tag {
+    background-color: @theme_base_color;
+    background-image: none;
+    color: shade (@theme_unfocused_fg_color, 0.8);
+    border: 0px;
+    margin: 2px;
+    padding: 2px;
+}

@@ -1,0 +1,9 @@
+9c9
+< $button_radius: 5px;
+---
+> $button_radius: 6px;
+
+15c15
+< $_sizevariant: 'default'; //compact otherwise
+---
+> $_sizevariant: 'compact'; //compact otherwise

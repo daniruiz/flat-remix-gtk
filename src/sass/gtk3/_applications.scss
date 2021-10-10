@@ -1,0 +1,289 @@
+/* Nautilus */
+@define-color disk_space_unknown #383c4a;
+@define-color disk_space_used #{"" +$selected_bg_color};
+@define-color disk_space_free white;
+
+
+$dark_sidebar_bg: black;
+@if $variant=='light' {
+  $dark_sidebar_bg: lighten(black, 3%);
+} @else {
+  $dark_sidebar_bg: darken($bg_color, 2%);
+}
+
+
+$_glow_shadow: 0 1px 4px transparentize($selected_bg_color, .5);
+filechooser,
+.nautilus-window {
+  placessidebar.sidebar {
+
+    &:dir(ltr) {
+      background: linear-gradient(to right, darken($dark_sidebar_bg, 10%) 41px, $dark_sidebar_bg 0);
+    }
+    &:dir(rtl) {
+      background: linear-gradient(to left, darken($dark_sidebar_bg, 10%) 41px, $dark_sidebar_bg 0);
+    }
+
+    &:backdrop { background: image($dark_sidebar_bg); }
+
+    row.sidebar-row {
+      color: white;
+      &:selected {
+        margin-left: 6px;
+        margin-right: 6px;
+        border-radius: $button_radius;
+        box-shadow: $_glow_shadow;
+        transition: box-shadow $backdrop_transition;
+        background-color: $selected_bg_color;
+
+        &:dir(ltr) {
+          background-image: linear-gradient(to right, darken($selected_bg_color, 10%) 35px, transparent 0);
+        }
+        &:dir(rtl) {
+          background-image: linear-gradient(to left, darken($selected_bg_color, 10%) 35px, transparent 0);
+        }
+
+        revealer {
+          padding-left: 8px;
+          padding-right: 8px;
+
+          .sidebar-icon, .sidebar-label { color: $selected_fg_color; }
+        }
+
+        &:backdrop {
+          @extend %selected_items_backdrop;
+          box-shadow: none;
+          background: image($dark_sidebar_bg);
+
+          &,
+          & .sidebar-icon,
+          & .sidebar-label { color: mix($backdrop_selected_fg_color, $selected_bg_color, 80%); }
+        }
+      }
+
+      .sidebar-icon {
+        padding-right: 20px;
+        opacity: 1;
+      }
+
+      .sidebar-button { border: 0; }
+    }
+  }
+}
+
+.nautilus-window .floating-bar {
+  color: $selected_fg_color;
+  background-color: $selected_bg_color;
+  border-color: $selected_borders_color;
+  margin: 10px;
+  box-shadow: $_glow_shadow;
+  transition: background-color $backdrop_transition;
+
+  &:backdrop {
+    color: inherit;
+    box-shadow: none;
+    border-color: $borders_color;
+  }
+
+  &.bottom {
+    &.left, &.right{
+      border-radius: $button_radius;
+      border-style: solid;
+    }
+  }
+}
+
+
+.nautilus-window {
+  .path-bar-box {
+    padding: 2px 3px;
+    margin: -1px 0;
+    background: mix($bg_color, #72A2F4, if($variant=='dark', 90%, 95%));
+    border-radius: 99px;
+    box-shadow: inset 0 0 0 1px $borders_color;
+    border: 0;
+
+    .text-button {
+      background: transparent;
+      border-radius: 99px;
+      margin: 2px;
+      border: 0;
+    }
+    .text-button:hover { @include button(hover); }
+    .text-button:checked, widget > .text-button:last-child {
+      @include button(active);
+      padding: 4px;
+      border-color: transparent;
+      &:backdrop { @include button(header-hover) }
+    }
+    .image-button > box > image {
+      &:first-child { margin-left: 5px; }
+      &:last-child { margin-right: 5px; }
+    }
+
+    widget > .text-button:not(:nth-last-child(2)):not(:last-child):not(:hover) {
+      box-shadow: 5px 0 0 -3px transparentize($fg_color, .85);
+    }
+  }
+}
+
+/* GNOME TWEAKS */
+list.tweak-categories separator {
+  background: transparent;
+}
+
+/* XFCE4 PANEL */
+.xfce4-panel {
+  &.background { background: $panel_bg; }
+
+  button {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    text-shadow: none;
+    background: transparent;
+    color: $panel_fg;
+
+    $_highlight_bg_color: if($variant=='light', $bg_color, rgba(black, .2));
+
+    &:hover {
+      background: $_highlight_bg_color;
+    }
+
+    &:not(#whiskermenu-button) {
+      &:checked, &:active {
+        box-shadow: inset 0 4px 0 $selected_bg_color;
+        background: $_highlight_bg_color;
+      }
+    }
+  }
+
+  &.vertical button:not(#whiskermenu-button) {
+    &:checked, &:active { box-shadow: inset 4px 0 0 $selected_bg_color; }
+  }
+}
+
+/* XFCE4 NOTIFICATIONS & LOGOUT DIALOG */
+#XfceNotifyWindow, .xfsm-logout-dialog, .xfsm-logout-dialog button {
+  border: 1px solid $borders_color;
+  border-bottom-width: 2px;
+  box-shadow: inset 0 0 0 1px transparentize(white, .9);
+  -gtk-icon-style: symbolic;
+}
+
+.xfsm-logout-dialog > .vertical > .horizontal button {
+  margin: 8px;
+}
+
+/* Whisker menu */
+#whiskermenu-window {
+  $_dark_bg: if($variant == 'light', $bg_color, darken($bg_color, 3%));
+  entry {
+    border-radius: 100px;
+    border: 2px solid $selected_bg_color;
+    box-shadow: none;
+  }
+
+  button {
+    transition-duration: 0s;
+    @if $variant == 'dark' {
+      &:hover {
+        @include button(osd);
+        border-color: transparent;
+        border-bottom-color: $_dark_bg;
+      }
+    }
+    &:checked { border-color: transparent; }
+  }
+
+  scrolledwindow.frame {
+    border: 0;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px $shadow_color;
+    background: $_dark_bg;
+    padding: 7px 10px;
+    margin: 0 5px;
+
+    treeview {
+      background: transparent;
+      border-radius: $button_radius;
+
+      &:hover, &:active, &:selected {
+        background-color: transparentize($shadow_color, 0.03);
+        color: inherit;
+      }
+    }
+  }
+}
+
+/* XFCE4 panel action & battery buttons */
+#XfcePanelWindowWrapper > widget > box > #xfce-panel-button > image {
+  -gtk-icon-style: symbolic;
+  -gtk-icon-transform: scale(.7);
+}
+
+/* XFCE4 workspace switcher */
+wnck-pager {
+  background-color: lighten($base_color, 10%);
+  &:selected { background-color: darken($bg_color, 20%); }
+  &:hover { background-color: darken($bg_color, 20%); }
+}
+
+/* LightDM */
+
+.lightdm-gtk-greeter {
+  #panel_window {
+    background: $panel_bg;
+    color: $fg_color;
+    text-shadow: none;
+    -gtk-icon-shadow: none;
+  }
+
+  #login_window {
+    border: 0;
+    background-color: $panel_bg;
+    border-radius: $button_radius;
+    box-shadow: inset 0 1px transparentize(white, .85);
+
+    entry {
+      background: transparentize($bg_color, .6);
+      border-color: transparentize($bg_color, .7);
+      min-height: 32px;
+      box-shadow: inset 0 1px transparentize(white, .95),
+                  0 1px 2px opacify($shadow_color, 0.1);
+
+      image { margin: 0; }
+    }
+
+    #buttonbox_frame {
+      padding-top: 20px;
+      background: $bg_color;
+      border-top: 1px solid transparentize(black, .9);
+      border-radius: 0 0 $button_radius $button_radius;
+      box-shadow: inset 0 -4px transparentize(black, .8),
+                  inset 0 1px 2px transparentize($shadow_color, 0.03);
+
+      button {
+        border: 0;
+        color: white;
+        text-shadow: none;
+      }
+
+      #cancel_button {
+        background: transparentize($shadow_color, 0.03);
+        box-shadow: none;
+        color: $fg_color;
+      }
+
+      #login_button {
+        background: $selected_bg_color;
+        box-shadow: inset 0 -2px transparentize(black, 0.8);
+      }
+    }
+  }
+}
+
+/* Thunar */
+// Reduce height of root user warning
+.thunar .warning { margin: -7px 0; }
+

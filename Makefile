@@ -2,25 +2,20 @@
 #   gmake PREFIX=/usr/local install
 
 PREFIX ?= /usr
-IGNORE ?=
-THEMES ?= $(patsubst %/index.theme,%,$(wildcard ./*/index.theme))
+THEMES ?= $(patsubst themes/%/,%,$(wildcard themes/*/))
 PKGNAME = flat-remix-gtk
 MAINTAINER = Daniel Ruiz de Alegría <daniel@drasite.com>
 
-# excludes IGNORE from THEMES list
-THEMES := $(filter-out $(IGNORE), $(THEMES))
+include src/Makefile.inc
 
 all:
 
 build:
-	cd src && ./build.sh
-
-build-sass:
-	cd src && ./build.sh --no-assets
+	$(MAKE) -C src build
 
 install:
 	mkdir -p $(DESTDIR)$(PREFIX)/share/themes
-	cp -a $(THEMES) $(DESTDIR)$(PREFIX)/share/themes
+	cp -a $(foreach theme,$(THEMES),themes/$(theme)) $(DESTDIR)$(PREFIX)/share/themes
 
 uninstall:
 	-rm -rf $(foreach theme,$(THEMES),$(DESTDIR)$(PREFIX)/share/themes/$(theme))
@@ -34,27 +29,16 @@ _get_tag:
 	@echo $(TAG)
 
 dist: _get_version
-	color_variants="-Blue -Green -Red -Yellow"; \
-	theme_variants="- -Darker -Dark -Darkest"; \
-	extra_variants="- -Solid -NoBorder -Solid-NoBorder"; \
-	for color_variant in $$color_variants; \
+	variants="Light Dark"; \
+	count=1; \
+	for color_variant in $(COLOR_VARIANTS); \
 	do \
-		count=1; \
-		for theme_variant in $$theme_variants; \
+		for variant in $$variants; \
 		do \
-			[ "$$theme_variant" = '-' ] && theme_variant=''; \
-			for extra_variant in $$extra_variants; \
-			do \
-				[ "$$extra_variant" = '-' ] && extra_variant=''; \
-				file="Flat-Remix-GTK$${color_variant}$${theme_variant}$${extra_variant}"; \
-				if [ -d "$$file" ]; \
-				then \
-					count_pretty=$$(echo "0$${count}" | tail -c 3); \
-					tar -c "$$file" | \
-							xz -z - > "$${count_pretty}-$${file}_$(VERSION).tar.xz"; \
-					count=$$((count+1)); \
-				fi; \
-			done; \
+			count_pretty=$$(echo "0$${count}" | tail -c 3); \
+			(cd themes && tar -c "Flat-Remix-GTK-$${color_variant}-$${variant}" "Flat-Remix-$${variant}"*) | \
+				xz -z - > "$${count_pretty}-Flat-Remix-GTK-$${color_variant}-$${variant}_$(VERSION).tar.xz"; \
+			count=$$((count+1)); \
 		done; \
 	done; \
 
@@ -100,5 +84,9 @@ generate_changelog: _get_version _get_tag
 	rm CHANGELOG.old
 	$$EDITOR CHANGELOG
 	git commit CHANGELOG -m "Update CHANGELOG version $(VERSION)"
+	git push origin HEAD
 
-.PHONY: all build build-sass install uninstall _get_version _get_tag dist release aur_release copr_release launchpad_release generate_changelog
+clean:
+	-make -C src clean
+
+.PHONY: all build build-sass install uninstall _get_version _get_tag dist release aur_release copr_release launchpad_release generate_changelog clean

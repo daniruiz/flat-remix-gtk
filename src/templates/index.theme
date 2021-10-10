@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=
+Comment=
+Encoding=UTF-8
+
+
+[X-GNOME-Metatheme]
+GtkTheme=
+MetacityTheme=
+IconTheme=
+CursorTheme=Adwaita
+ButtonLayout=:minimize,maximize,close
