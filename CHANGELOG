@@ -1,3 +1,8 @@
+[20211010]
+ * Completely redesign themes based on Skeuos code
+ * Add fedora build-dependency
+ * Disable magnifier border in full screen mode
+
 [20201129]
  * New whiskermenu theme
  * Make symbolic most xfce-panel icons
