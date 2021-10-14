@@ -2,11 +2,11 @@ Source: flat-remix-gtk
 Section: misc
 Priority: optional
 Maintainer: Daniel Ruiz de Alegría <daniel@drasite.com>
-Build-Depends: debhelper-compat (= 9)
+Build-Depends: debhelper-compat (= 12)
 Homepage: https://drasite.com/flat-remix-gtk
 
 Package: flat-remix-gtk
-Architecture: any
+Architecture: all
 Description: Flat Remix gtk theme
  Flat Remix GTK theme is a pretty simple gtk window theme inspired on material design following a modern design using "flat" colors with high contrasts and sharp borders.
  .
