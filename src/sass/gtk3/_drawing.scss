@@ -240,7 +240,7 @@
     color: $_tc;
     outline-color: transparentize($tc, 0.7);
     border-color: $_bg;
-    background-image: image($_bg);
+    background-image: linear-gradient(to right, lighten($_bg, 2%), darken($_bg, 2%));
     box-shadow: 0 2px 4px transparentize($_bg, .75);
   }
 
