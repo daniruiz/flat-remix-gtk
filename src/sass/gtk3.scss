@@ -10,7 +10,7 @@ $selected_bg_color: #2777ff;
 $selected_fg_color: #ffffff;
 
 @import 'common/_colors';
-@import 'gtk3/upstream/_drawing';
+@import 'gtk3/_drawing';
 @import 'gtk3/upstream/_common';
 @import 'gtk3/upstream/libhandy/Adwaita-base';
 @import 'gtk3/_common-tweaks';

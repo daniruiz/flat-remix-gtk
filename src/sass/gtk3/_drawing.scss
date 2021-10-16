@@ -142,7 +142,7 @@
   @else if lightness($c)>80% { @return transparentize(white, 0.5); }
   @else if lightness($c)>50% { @return transparentize(white, 0.8); }
   @else if lightness($c)>40% { @return transparentize(white, 0.9); }
-  @else { @return transparentize(white, 0.98); }
+  @else { @return transparentize(white, 0.95); }
 }
 
 @mixin _button_text_shadow ($tc:$fg_color, $bg:$bg_color) {
@@ -184,23 +184,18 @@
 // osd, osd-hover, osd-active, osd-insensitive, osd-backdrop, undecorated
 //
   $_hilight_color: _button_hilight_color($c);
-  $_button_edge: if($edge == none, none, _widget_edge($edge));
   $_blank_edge: if($edge == none, none, _widget_edge(transparentize($edge,1)));
-  $_button_shadow: 0 1px 2px transparentize($shadow_color, 0.03);
 
   @if $t==normal {
   //
   // normal button
   //
+    $light_c: lighten($c, 7%);
     color: $tc;
     outline-color: transparentize($tc, 0.7);
-    border-color: if($c != $bg_color, _border_color($c), $borders_color);
-    border-bottom-color: if($c != $bg_color, _border_color($c, true), $alt_borders_color);
-    background-image: if($variant == 'light', linear-gradient(to top, darken($c, 4%) 2px, $c),
-                                              linear-gradient(to top, darken($c,1%) 2px, $c)),
-                      $backimage;
-    @include _button_text_shadow($tc, $c);
-    @include _shadows(inset 0 1px $_hilight_color, $_button_edge, $_button_shadow);
+    border-color: if($c != $bg_color, _border_color($light_c), $borders_color);
+    background-image: image(if($c != $bg_color, $c, $light_c)), $backimage;
+    box-shadow: none;
   }
 
   @else if $t==hover {
@@ -210,19 +205,8 @@
     color: $tc;
     outline-color: transparentize($tc, 0.7);
     border-color: if($c != $bg_color, _border_color($c), $borders_color);
-    border-bottom-color: if($c != $bg_color, _border_color($c, true), $alt_borders_color);
-    @if $variant == 'light' {
-      background-image: linear-gradient(to top, $c, lighten($c, 1%) 1px),
-                        $backimage;
-      @include _button_text_shadow($tc, lighten($c, 6%));
-      @include _shadows(inset 0 1px _button_hilight_color(lighten($c, 6%)), $_button_edge, $_button_shadow);
-    }
-    @else {
-      background-image: linear-gradient(to top, darken($c,1%), lighten($c, 1%) 1px),
-                        $backimage;
-      @include _button_text_shadow($tc,lighten($c, 6%));
-      @include _shadows(inset 0 1px _button_hilight_color(darken($c, 2%)), $_button_edge, $_button_shadow);
-    }
+    background-image: image(if($variant == 'light', darken($c, 4%), lighten($c, 14%))), $backimage;
+    box-shadow: none;
   }
 
   @if $t==normal-alt {
@@ -231,18 +215,9 @@
   //
     color: $tc;
     outline-color: transparentize($tc, 0.7);
-    border-color: if($c != $bg_color, _border_color($c, true), $alt_borders_color);
-    @include _button_text_shadow($tc, $c);
-    @if $variant == 'light' {
-      background-image: linear-gradient(to bottom, lighten($c, 5%) 20%, $c 90%);
-       @include _shadows(inset 0 1px _button_hilight_color(lighten($c, 6%)),
-                        $_button_edge, $_button_shadow);
-    }
-    @else {
-      background-image: linear-gradient(to bottom, darken($c, 3%) 20%, darken($c, 6%) 90%);
-      @include _shadows(inset 0 1px $_hilight_color,
-                        $_button_edge, $_button_shadow);
-    }
+    border-color: $alt_borders_color;
+    background-image: image(lighten($c, 7%));
+    box-shadow: none;
   }
 
   @else if $t==hover-alt {
@@ -251,31 +226,20 @@
   //
     color: $tc;
     outline-color: transparentize($tc, 0.7);
-    border-color: if($c != $bg_color, _border_color($c, true), $alt_borders_color);
-    @if $variant == 'light' {
-      background-image: linear-gradient(to bottom, lighten($c, 9%) 10%, lighten($c, 4%) 90%);
-      @include _shadows(inset 0 1px _button_hilight_color(lighten($c, 6%)),
-                        $_button_edge, $_button_shadow);
-    }
-    @else {
-      background-image: linear-gradient(to bottom, $c 20%, darken($c, 4%) 90%);
-      @include _shadows(inset 0 1px $_hilight_color,
-                        $_button_edge, $_button_shadow);
-    }
+    border-color: $suggested_bg_color;
+    background-image: image(if($variant == 'light', lighten($c, 14%), darken($c, 9%)));
+    box-shadow: none;
   }
 
   @else if $t==active {
   //
   // pushed button
   //
-    color: $tc;
-    outline-color: transparentize($tc, 0.7);
-    border-color: if($c != $bg_color, _border_color($c), $borders_color);
-    background-image: if($variant == 'light', image(darken($c, 14%)), image(darken($c, 9%)));
-    @include _shadows(inset 0 1px transparentize($_hilight_color, 1), $_button_edge);
-
-    text-shadow: none;
-    -gtk-icon-shadow: none;
+    color: $selected_fg_color;
+    outline-color: transparentize($selected_fg_color, 0.7);
+    border-color: $selected_bg_color;
+    background-image: image($selected_bg_color);
+    box-shadow: 0 2px 4px transparentize($selected_bg_color, .75);
   }
 
   @else if $t==insensitive {
@@ -287,11 +251,7 @@
     color: if($tc != $fg_color, mix($tc, $_bg, 50%), $insensitive_fg_color);
     border-color: if($c != $bg_color, _border_color($c), $insensitive_borders_color);
     background-image: image($_bg);
-    text-shadow: none;
-    -gtk-icon-shadow: none;
-    // white with 0 alpha to avoid an ugly transition, since no color means
-    // black with 0 alpha
-    @include _shadows(inset 0 1px transparentize(white, 1), $_button_edge);
+    box-shadow: none;
   }
 
   @else if $t==insensitive-active {
@@ -304,37 +264,32 @@
     color: if($c != $bg_color, mix($tc, $_bg, 60%), $insensitive_fg_color);
     border-color: $_bc;
     background-image: image($_bg);
-    // white with 0 alpha to avoid an ugly transition, since no color means
-    // black with 0 alpha
-    @include _shadows(inset 0 1px transparentize(white, 1), $_button_edge);
+    box-shadow: none;
   }
 
   @else if $t==backdrop {
   //
   // backdrop button
   //
-    $_bg: if($c != $bg_color, $c, $backdrop_bg_color);
+    $_bg: if($c != $bg_color, $c, lighten($c, 7%));
     $_bc: if($variant == 'light', $c, _border_color($c));
 
     color: if($tc != $fg_color, mix($tc, $_bg, 80%), $backdrop_fg_color);
     border-color: if($c != $bg_color, $_bc, $backdrop_borders_color);
     background-image: image($_bg);
-    text-shadow: none;
-    -gtk-icon-shadow: none;
-    @include _shadows(inset 0 1px transparentize(white, 1), $_blank_edge);
+    box-shadow: none;
   }
 
   @else if $t==backdrop-active {
   //
   // backdrop pushed button
   //
-    $_bg: if($variant == 'light', darken(mix($c, $base_color, 85%), 8%), darken(mix($c, $base_color, 85%), 4%));
-    $_bc: if($variant == 'light', $_bg ,_border_color($c));
+    $_bg: mix($selected_bg_color, $bg_color, 80%);
 
-    color: if($tc != $fg_color, mix($tc, $_bg, 80%), $backdrop_fg_color);
-    border-color: if($c != $bg_color, $_bc, $backdrop_borders_color);
+    color: $selected_fg_color;
+    border-color: $selected_bg_color;
     background-image: image($_bg);
-    @include _shadows(inset 0 1px transparentize(white, 1), $_blank_edge);
+    box-shadow: none;
   }
 
   @else if $t==backdrop-insensitive {
@@ -348,11 +303,7 @@
     color: if($c != $bg_color, mix($tc, $_bg, 35%), $backdrop_insensitive_color);
     border-color: if($c != $bg_color, $_bc, $backdrop_borders_color);
     background-image: image($_bg);
-    text-shadow: none;
-    -gtk-icon-shadow: none;
-    // white with 0 alpha to avoid an ugly transition, since no color means
-    // black with 0 alpha
-    @include _shadows(inset 0 1px transparentize(white, 1), $_blank_edge);
+    box-shadow: none;
   }
 
   @else if $t==backdrop-insensitive-active {
@@ -366,7 +317,7 @@
     color: if($c != $bg_color, mix($tc, $_bg, 35%), $backdrop_insensitive_color);
     border-color: if($c != $bg_color, $_bc, $backdrop_borders_color);
     background-image: image($_bg);
-    @include _shadows(inset 0 1px transparentize(white, 1), $_blank_edge);
+    box-shadow: none;
   }
 
   @else if $t==osd {
