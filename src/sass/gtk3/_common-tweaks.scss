@@ -471,7 +471,7 @@ infobar {
   @mixin _infobar_button($bg) {
     button,
     button.flat {
-      @include button(normal, $bg, $selected_fg_color, none);
+      @include button(normal, lighten($bg, 10%), $selected_fg_color, none);
 
       &:hover { @include button(hover, $bg, $selected_fg_color, none); }
 
