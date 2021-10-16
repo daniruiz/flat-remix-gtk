@@ -71,32 +71,31 @@ filechooser,
   }
 }
 
-.nautilus-window .floating-bar {
-  color: $selected_fg_color;
-  background-color: $selected_bg_color;
-  border-color: $selected_borders_color;
-  margin: 10px;
-  box-shadow: $_glow_shadow;
-  transition: background-color $backdrop_transition;
+.nautilus-window {
+  .floating-bar {
+    color: $selected_fg_color;
+    background-color: $selected_bg_color;
+    border-color: $selected_borders_color;
+    margin: 10px;
+    box-shadow: $_glow_shadow;
+    transition: background-color $backdrop_transition;
 
-  &:backdrop {
-    color: inherit;
-    box-shadow: none;
-    border-color: $borders_color;
-  }
+    &:backdrop {
+      color: inherit;
+      box-shadow: none;
+      border-color: $borders_color;
+    }
 
-  &.bottom {
-    &.left, &.right{
-      border-radius: $button_radius;
-      border-style: solid;
+    &.bottom {
+      &.left, &.right{
+        border-radius: $button_radius;
+        border-style: solid;
+      }
     }
   }
-}
 
-
-.nautilus-window {
   .path-bar-box {
-    padding: 2px 3px;
+    padding: 3px 4px;
     margin: -1px 0;
     background: mix($bg_color, #72A2F4, if($variant=='dark', 90%, 95%));
     border-radius: 99px;
@@ -106,13 +105,12 @@ filechooser,
     .text-button {
       background: transparent;
       border-radius: 99px;
-      margin: 2px;
       border: 0;
     }
     .text-button:hover { @include button(hover); }
     .text-button:checked, widget > .text-button:last-child {
       @include button(active);
-      padding: 4px;
+      padding: 3px;
       border-color: transparent;
       &:backdrop { @include button(header-hover) }
     }
