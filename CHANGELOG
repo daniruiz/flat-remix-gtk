@@ -1,3 +1,15 @@
+[20211016]
+ * Order theme variants by most downloaded
+ * Package themes by color only
+ * GTK3: add gradient to active buttons
+ * GTK3: avoid changing colored button's bg when active
+ * GTK3: make infobar buttons more visible
+ * GTK3: reduce nautilus pathbar height
+ * GTK3: Use modified _drawing instead of patched upstream
+ * Update launchpad_release script
+ * Update debian packaging
+ * Recover old themes source
+
 [20211010]
  * Completely redesign themes based on Skeuos code
  * Add fedora build-dependency
