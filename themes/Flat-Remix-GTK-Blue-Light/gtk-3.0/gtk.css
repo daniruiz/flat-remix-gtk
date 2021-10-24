@@ -6183,7 +6183,31 @@ wnck-pager {
       background: #2777ff;
       box-shadow: inset 0 -2px rgba(0, 0, 0, 0.2); }
 
-/* Thunar */
+/* Thunar *//*patch by zayronxio*/
+
+.thunar .path-bar button {
+border: none;
+}
+
+.thunar .path-bar button:checked, .thunar .path-bar button:hover {
+background: #367bf0;
+border-radius: 15px;
+color: white;
+}
+
+
+.thunar .path-bar button image:first-child {
+color: transparent;
+}
+
+.thunar .path-bar button box image:first-child {
+color: black;
+}
+
+.thunar .path-bar button:checked box image, .thunar .path-bar button:checked box image:first-child  {
+color: white;
+}
+
 .thunar .warning {
   margin: -7px 0; }
 
