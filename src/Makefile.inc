@@ -5,6 +5,8 @@ SCSS?=sassc
 DEFAULT_THEME_COLOR?=\#2777ff
 COLOR_VARIANTS ?= Blue Green Black Red Orange Cyan Violet Teal Grey Magenta White Yellow Brown
 
+UNWANTED_VARIANTS ?= White-Light Black-Dark
+
 COLOR_Black?=\#000000
 TEXT_COLOR_Black?=\#ffffff
 
