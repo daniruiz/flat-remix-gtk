@@ -306,7 +306,10 @@ headerbar {
     button.titlebutton {
       min-height: 0;
       min-width: 0;
-      margin: 0;
+
+      &, &:last-child {
+        margin: 0;
+      }
     }
   }
 }
