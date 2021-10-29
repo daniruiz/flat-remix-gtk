@@ -288,6 +288,22 @@ wnck-pager {
 }
 
 /* Thunar */
-// Reduce height of root user warning
-.thunar .warning { margin: -7px 0; }
+.thunar {
+  // Reduce height of root user warning
+  .warning { margin: -7px 0; }
 
+  .path-bar {
+    button {
+      border: none;
+      background: transparent;
+      border-radius: $button_radius;
+
+      &:hover { @include button(hover); }
+
+      &:checked {
+        @include button(active);
+        border-radius: 99px;
+      }
+    }
+  }
+}
