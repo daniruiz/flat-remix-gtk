@@ -681,6 +681,6 @@ decoration {
   window.unified, window.unified:backdrop {
     background: linear-gradient(to bottom, $headerbar_color $_headerbar_height, $bg_color $_headerbar_height);
 
-    > deck > box > headerbar { background: transparent; }
+    headerbar { background: transparent; }
   }
 }
