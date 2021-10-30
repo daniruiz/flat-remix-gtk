@@ -4398,7 +4398,7 @@ decoration {
     background-color: #13151a;
     border: solid 1px #13151a;
     border-radius: 0;
-    box-shadow: inset 0 0 0 3px #1c1e25, inset 0 1px rgba(238, 238, 236, 0.07); }
+    box-shadow: inset 0 0 0 3px rgba(35, 37, 46, 0.8), inset 0 1px rgba(238, 238, 236, 0.07); }
     .solid-csd decoration:backdrop {
       box-shadow: inset 0 0 0 3px #23252e, inset 0 1px rgba(238, 238, 236, 0.07); }
 
@@ -4455,8 +4455,7 @@ entry selection, modelbutton.flat:selected,
     entry selection:disabled, modelbutton.flat:disabled:selected,
     .menuitem.button.flat:disabled:selected, spinbutton:not(.vertical) selection:disabled, treeview.view:disabled:selected, row:disabled:selected, calendar:disabled:selected {
       color: #b9bbc0; }
-    filechooser placessidebar.sidebar row.sidebar-row:selected:backdrop,
-    .nautilus-window placessidebar.sidebar row.sidebar-row:selected:backdrop, label:backdrop selection, label:backdrop:selected, .selection-mode button.titlebutton:backdrop, .view:backdrop:selected,
+    label:backdrop selection, label:backdrop:selected, .selection-mode button.titlebutton:backdrop, .view:backdrop:selected,
     textview text:backdrop:selected:focus,
     .view text:backdrop:selected,
     textview text:backdrop:selected, .view text selection:backdrop,
@@ -4465,8 +4464,7 @@ entry selection, modelbutton.flat:selected,
     entry selection:backdrop, modelbutton.flat:backdrop:selected,
     .menuitem.button.flat:backdrop:selected, spinbutton:not(.vertical) selection:backdrop, treeview.view:backdrop:selected, row:backdrop:selected, calendar:backdrop:selected {
       color: #d4d5d7; }
-      filechooser placessidebar.sidebar row.sidebar-row:disabled:selected:backdrop,
-      .nautilus-window placessidebar.sidebar row.sidebar-row:disabled:selected:backdrop, label:backdrop selection:disabled, label:backdrop:disabled:selected, .selection-mode button.titlebutton:backdrop:disabled, .view:backdrop:disabled:selected,
+      label:backdrop selection:disabled, label:backdrop:disabled:selected, .selection-mode button.titlebutton:backdrop:disabled, .view:backdrop:disabled:selected,
       .view text:backdrop:disabled:selected,
       textview text:backdrop:disabled:selected, .view text selection:backdrop:disabled,
       textview text selection:backdrop:disabled, iconview:backdrop:disabled:selected, iconview text selection:backdrop:disabled, flowbox flowboxchild:backdrop:disabled:selected,
@@ -5149,6 +5147,12 @@ tabbar tab,
   * button, * button:hover, * button:active, * button:checked, * button:focus {
     outline-color: alpha(currentColor,0.07); }
 
+/***************
+ * Base States *
+ ***************/
+.background, .background:backdrop {
+  background: rgba(35, 37, 46, 0.999); }
+
 /**********
  * Button *
  **********/
@@ -5367,11 +5371,17 @@ scale highlight, progressbar progress {
  * Header bars *
  ***************/
 headerbar {
-  background: #23252e;
   border: none;
-  box-shadow: inset 0 1px rgba(238, 238, 236, 0.07); }
-  headerbar:backdrop {
-    box-shadow: none; }
+  background: rgba(35, 37, 46, 0.8);
+  box-shadow: inset 0 1px rgba(238, 238, 236, 0.07);
+  color: white; }
+  headerbar, headerbar:backdrop {
+    box-shadow: none;
+    background: rgba(35, 37, 46, 0.8); }
+
+.titlebar:not(headerbar) .title,
+headerbar .title {
+  font-weight: normal; }
 
 .titlebar:not(headerbar) button,
 .titlebar:not(headerbar) entry,
@@ -5470,13 +5480,17 @@ headerbar button.titlebutton:not(.appmenu) {
 
 .default-decoration.titlebar:not(headerbar),
 headerbar.default-decoration {
+  background: #23252e;
   min-height: 0;
   padding: 6px; }
   .default-decoration.titlebar:not(headerbar) button.titlebutton,
   headerbar.default-decoration button.titlebutton {
     min-height: 0;
-    min-width: 0;
-    margin: 0; }
+    min-width: 0; }
+    .default-decoration.titlebar:not(headerbar) button.titlebutton,
+    headerbar.default-decoration button.titlebutton,
+    headerbar.default-decoration button.titlebutton:last-child {
+      margin: 0; }
 
 paned headerbar:first-child,
 hdyleaflet headerbar:first-child,
@@ -5931,12 +5945,14 @@ decoration {
   border-radius: 10px 10px 6px 6px;
   border: 1px solid #272a34;
   border-bottom-width: 2px;
-  background: #23252e;
+  background: transparent;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(19, 21, 26, 0.75); }
   decoration:backdrop {
     box-shadow: 0 2px 8px 0 transparent, 0 0 0 3px rgba(0, 0, 0, 0.25); }
   .maximized decoration, .fullscreen decoration, .tiled decoration, .tiled-top decoration, .tiled-right decoration, .tiled-bottom decoration, .tiled-left decoration {
     border-width: 0; }
+  dialog decoration {
+    border-width: 0 0 4px; }
   .popup decoration {
     border-width: 0; }
   .ssd decoration {
@@ -5951,21 +5967,40 @@ decoration {
     border-width: 0;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); }
 
+window.unified, window.unified:backdrop {
+  background: linear-gradient(to bottom, rgba(35, 37, 46, 0.8) 40px, #23252e 40px); }
+  window.unified headerbar, window.unified:backdrop headerbar {
+    background: transparent; }
+
 /* Nautilus */
 @define-color disk_space_unknown #383c4a;
 @define-color disk_space_used #737680;
 @define-color disk_space_free white;
+filechooser.unified, filechooser.unified:backdrop,
+.nautilus-window.unified,
+.nautilus-window.unified:backdrop {
+  background: transparent; }
+  filechooser.unified > deck > box > headerbar, filechooser.unified:backdrop > deck > box > headerbar,
+  .nautilus-window.unified > deck > box > headerbar,
+  .nautilus-window.unified:backdrop > deck > box > headerbar {
+    background: rgba(35, 37, 46, 0.8); }
+
+filechooser.csd.background, filechooser placessidebar list,
+.nautilus-window.csd.background,
+.nautilus-window placessidebar list {
+  background-color: transparent; }
+
 filechooser placessidebar.sidebar:dir(ltr),
 .nautilus-window placessidebar.sidebar:dir(ltr) {
-  background: linear-gradient(to right, #08090b 41px, #1e2128 0); }
+  background: linear-gradient(to right, rgba(8, 9, 11, 0.95) 41px, rgba(30, 33, 40, 0.95) 0); }
 
 filechooser placessidebar.sidebar:dir(rtl),
 .nautilus-window placessidebar.sidebar:dir(rtl) {
-  background: linear-gradient(to left, #08090b 41px, #1e2128 0); }
+  background: linear-gradient(to left, rgba(8, 9, 11, 0.95) 41px, rgba(30, 33, 40, 0.95) 0); }
 
 filechooser placessidebar.sidebar:backdrop,
 .nautilus-window placessidebar.sidebar:backdrop {
-  background: image(#1e2128); }
+  background: image(rgba(30, 33, 40, 0.95)); }
 
 filechooser placessidebar.sidebar row.sidebar-row,
 .nautilus-window placessidebar.sidebar row.sidebar-row {
@@ -5975,8 +6010,8 @@ filechooser placessidebar.sidebar row.sidebar-row,
     margin-left: 6px;
     margin-right: 6px;
     border-radius: 6px;
-    box-shadow: 0 1px 4px rgba(115, 118, 128, 0.5);
-    transition: box-shadow 200ms ease-out;
+    box-shadow: 0 1px 4px #737680;
+    transition: box-shadow 200ms ease-out, background 200ms ease-out;
     background-color: #737680; }
     filechooser placessidebar.sidebar row.sidebar-row:selected:dir(ltr),
     .nautilus-window placessidebar.sidebar row.sidebar-row:selected:dir(ltr) {
@@ -5994,13 +6029,8 @@ filechooser placessidebar.sidebar row.sidebar-row,
         color: #ffffff; }
     filechooser placessidebar.sidebar row.sidebar-row:selected:backdrop,
     .nautilus-window placessidebar.sidebar row.sidebar-row:selected:backdrop {
-      box-shadow: none;
-      background: image(#1e2128); }
-      filechooser placessidebar.sidebar row.sidebar-row:selected:backdrop, filechooser placessidebar.sidebar row.sidebar-row:selected:backdrop .sidebar-icon, filechooser placessidebar.sidebar row.sidebar-row:selected:backdrop .sidebar-label,
-      .nautilus-window placessidebar.sidebar row.sidebar-row:selected:backdrop,
-      .nautilus-window placessidebar.sidebar row.sidebar-row:selected:backdrop .sidebar-icon,
-      .nautilus-window placessidebar.sidebar row.sidebar-row:selected:backdrop .sidebar-label {
-        color: #c1c2c6; }
+      background-image: none;
+      box-shadow: none; }
   filechooser placessidebar.sidebar row.sidebar-row .sidebar-icon,
   .nautilus-window placessidebar.sidebar row.sidebar-row .sidebar-icon {
     padding-right: 20px;
@@ -6014,7 +6044,7 @@ filechooser placessidebar.sidebar row.sidebar-row,
   background-color: #737680;
   border-color: #2b2c2f;
   margin: 10px;
-  box-shadow: 0 1px 4px rgba(115, 118, 128, 0.5);
+  box-shadow: 0 1px 4px #737680;
   transition: background-color 200ms ease-out; }
   .nautilus-window .floating-bar:backdrop {
     color: inherit;
@@ -6027,7 +6057,7 @@ filechooser placessidebar.sidebar row.sidebar-row,
 .nautilus-window .path-bar-box {
   padding: 3px 4px;
   margin: -1px 0;
-  background: #2b3242;
+  background: rgba(43, 50, 66, 0.7);
   border-radius: 99px;
   box-shadow: inset 0 0 0 1px #13151a;
   border: 0; }
@@ -6067,6 +6097,7 @@ list.tweak-categories separator {
 .xfce4-panel button {
   border: 0;
   border-radius: 0;
+  min-width: 30px;
   box-shadow: none;
   text-shadow: none;
   background: transparent;
@@ -6074,11 +6105,11 @@ list.tweak-categories separator {
   .xfce4-panel button:hover {
     background: rgba(0, 0, 0, 0.2); }
   .xfce4-panel button:not(#whiskermenu-button):checked, .xfce4-panel button:not(#whiskermenu-button):active {
-    box-shadow: inset 0 4px 0 #737680;
+    box-shadow: inset 0 -2px 0 #737680;
     background: rgba(0, 0, 0, 0.2); }
 
 .xfce4-panel.vertical button:not(#whiskermenu-button):checked, .xfce4-panel.vertical button:not(#whiskermenu-button):active {
-  box-shadow: inset 4px 0 0 #737680; }
+  box-shadow: inset 2px 0 0 #737680; }
 
 /* XFCE4 NOTIFICATIONS & LOGOUT DIALOG */
 #XfceNotifyWindow, .xfsm-logout-dialog, .xfsm-logout-dialog button {
@@ -6091,6 +6122,9 @@ list.tweak-categories separator {
   margin: 8px; }
 
 /* Whisker menu */
+#whiskermenu-button image {
+  -gtk-icon-shadow: 0 0 3px #737680, 0 0 3px #737680; }
+
 #whiskermenu-window entry {
   border-radius: 100px;
   border: 2px solid #737680;
@@ -6127,7 +6161,7 @@ list.tweak-categories separator {
       background-color: rgba(0, 0, 0, 0.27);
       color: inherit; }
 
-/* XFCE4 panel action & battery buttons */
+/* XFCE4 panel action */
 #XfcePanelWindowWrapper > widget > box > #xfce-panel-button > image {
   -gtk-icon-style: symbolic;
   -gtk-icon-transform: scale(0.7); }
@@ -6180,6 +6214,24 @@ wnck-pager {
 /* Thunar */
 .thunar .warning {
   margin: -7px 0; }
+
+.thunar .path-bar button {
+  border: none;
+  background: transparent;
+  border-radius: 6px; }
+  .thunar .path-bar button:hover {
+    color: #eeeeec;
+    outline-color: rgba(238, 238, 236, 0.3);
+    border-color: #13151a;
+    background-image: image(#414657);
+    box-shadow: none; }
+  .thunar .path-bar button:checked {
+    color: #ffffff;
+    outline-color: rgba(238, 238, 236, 0.3);
+    border-color: #737680;
+    background-image: linear-gradient(to right, #787b85, #6e717b);
+    box-shadow: 0 2px 4px rgba(115, 118, 128, 0.25);
+    border-radius: 99px; }
 
 .budgie-container {
   background-color: transparent; }

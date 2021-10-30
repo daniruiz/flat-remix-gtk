@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Flat-Remix-GTK-Cyan-Light
+Comment=Flat-Remix-GTK-Cyan-Light theme"
+Encoding=UTF-8
+
+
+[X-GNOME-Metatheme]
+GtkTheme=Flat-Remix-GTK-Cyan-Light
+MetacityTheme=Flat-Remix-Light-Metacity
+IconTheme=Flat-Remix-Cyan-Light
+CursorTheme=Adwaita
+ButtonLayout=:minimize,maximize,close
