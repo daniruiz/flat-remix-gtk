@@ -1,3 +1,20 @@
+[20211030]
+ * Update theme variants order based on most downloaded
+ * Set selected text color to black for Cyan variant
+ * Avoid duplicating Solid theme variants
+ * Fixes for custom theme script and new transparent/solid variants
+ * Regenerate all themes
+ * GTK3: fix double headerbar background in some libhandy apps
+ * Add script to generate solid variants
+ * GTK3: add transparent themes back
+ * GTK3: remove side borders to dialog windows
+ * GTK3: improve design of nautilus sidebar
+ * GTK3: theme thunar pathbar
+ * GTK3: cinnamon disable magnifier border in full screen mode
+ * GTK3: Improve theme for Xfce panel
+ * GTK3: Fix non-csd titlebar padding
+ * Remove unwanted variants Black-Dark & White-Light
+
 [20211016]
  * Order theme variants by most downloaded
  * Package themes by color only
