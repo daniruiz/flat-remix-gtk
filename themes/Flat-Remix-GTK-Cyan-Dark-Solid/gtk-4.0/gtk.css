@@ -118,7 +118,7 @@ label {
     outline-offset: -2px; }
   label > selection {
     background-color: #0ccfd9;
-    color: #ffffff; }
+    color: #000000; }
   label:disabled {
     color: #888a8d; }
     button label:disabled {
@@ -593,7 +593,7 @@ button {
     box-shadow: inset 0 0 0 1px #19a187; }
 
 row:selected button.sidebar-button:not(:active):not(:checked):not(:hover):not(disabled), row:selected button.flat:not(:active):not(:checked):not(:hover):not(disabled) {
-  color: #ffffff;
+  color: #000000;
   border-color: transparent; }
   row:selected button.sidebar-button:not(:active):not(:checked):not(:hover):not(disabled):backdrop, row:selected button.flat:not(:active):not(:checked):not(:hover):not(disabled):backdrop {
     color: #888a8d; }
@@ -1100,23 +1100,23 @@ link {
   link:visited {
     color: #25e9f3; }
     *:selected button.link:visited, *:selected link:visited {
-      color: #a8f6fa; }
+      color: #0f5d61; }
   button.link:hover,
   link:hover {
     color: #86f3f8; }
     *:selected button.link:hover, *:selected link:hover {
-      color: #f3fefe; }
+      color: #0d1819; }
   button.link:active,
   link:active {
     color: #55eef6; }
     *:selected button.link:active, *:selected link:active {
-      color: #ddfcfd; }
+      color: #113031; }
   button.link:disabled,
   link:disabled {
     color: rgba(166, 166, 166, 0.8); }
   button.link:selected, *:selected button.link,
   link:selected, *:selected link {
-    color: #ddfcfd; }
+    color: #113031; }
 
 link {
   transition-property: outline, outline-width, outline-offset, outline-color;
@@ -1601,7 +1601,7 @@ treeview.view {
     color: #888a8d; }
     columnview.view:disabled:selected,
     treeview.view:disabled:selected {
-      color: #6de2e8; }
+      color: #077c82; }
       columnview.view:disabled:selected:backdrop,
       treeview.view:disabled:selected:backdrop {
         color: #48d1d8; }
@@ -1641,10 +1641,10 @@ treeview.view {
       color: white; }
     columnview.view.expander:selected,
     treeview.view.expander:selected {
-      color: #b6f1f4; }
+      color: #043e41; }
       columnview.view.expander:selected:hover,
       treeview.view.expander:selected:hover {
-        color: #ffffff; }
+        color: #000000; }
     columnview.view.expander:checked,
     treeview.view.expander:checked {
       -gtk-icon-source: -gtk-icontheme("pan-down-symbolic"); }
@@ -2146,7 +2146,7 @@ switch {
   headerbar switch {
     background-color: #0c0d10; }
   switch:checked {
-    color: #ffffff;
+    color: #000000;
     border-color: #044548;
     background-color: #0ccfd9; }
   switch:disabled {
@@ -2335,7 +2335,7 @@ radio {
     background-image: linear-gradient(to bottom, #2e313d 20%, #23252e 90%);
     border-color: black;
     box-shadow: 0 1px rgba(0, 0, 0, 0.05);
-    color: #ffffff; }
+    color: #000000; }
   check:hover,
   radio:hover {
     background-image: linear-gradient(to bottom, #363a48 10%, #2b2f3a 90%); }
@@ -2346,14 +2346,14 @@ radio {
   check:disabled,
   radio:disabled {
     box-shadow: none;
-    color: rgba(255, 255, 255, 0.7); }
+    color: rgba(0, 0, 0, 0.7); }
   check:checked,
   radio:checked {
     background-clip: border-box;
     background-image: linear-gradient(to bottom, #0de6f1 20%, #0ccfd9 90%);
     border-color: #011718;
     box-shadow: 0 1px rgba(0, 0, 0, 0.05);
-    color: #ffffff; }
+    color: #000000; }
   check:checked:hover,
   radio:checked:hover {
     background-image: linear-gradient(to bottom, #20e8f3 10%, #0de1ec 90%); }
@@ -2364,14 +2364,14 @@ radio {
   check:checked:disabled,
   radio:checked:disabled {
     box-shadow: none;
-    color: rgba(255, 255, 255, 0.7); }
+    color: rgba(0, 0, 0, 0.7); }
   check:indeterminate,
   radio:indeterminate {
     background-clip: border-box;
     background-image: linear-gradient(to bottom, #0de6f1 20%, #0ccfd9 90%);
     border-color: #011718;
     box-shadow: 0 1px rgba(0, 0, 0, 0.05);
-    color: #ffffff; }
+    color: #000000; }
   check:indeterminate:hover,
   radio:indeterminate:hover {
     background-image: linear-gradient(to bottom, #20e8f3 10%, #0de1ec 90%); }
@@ -2382,7 +2382,7 @@ radio {
   check:indeterminate:disabled,
   radio:indeterminate:disabled {
     box-shadow: none;
-    color: rgba(255, 255, 255, 0.7); }
+    color: rgba(0, 0, 0, 0.7); }
   .osd check, .osd radio {
     color: white;
     outline-color: rgba(12, 207, 217, 0.7);
@@ -2436,7 +2436,7 @@ radio {
 treeview.view check:selected:focus, treeview.view check:selected,
 treeview.view radio:selected:focus,
 treeview.view radio:selected {
-  color: #ffffff; }
+  color: #000000; }
 
 /************
  * GtkScale *
@@ -3181,7 +3181,7 @@ columnview row:not(:selected) cell editablelabel.editing:focus-within {
   outline: 2px solid #0ccfd9; }
 
 columnview row:not(:selected) cell editablelabel.editing text selection {
-  color: #ffffff;
+  color: #000000;
   background-color: #0ccfd9; }
 
 /*******************************************************
@@ -3451,7 +3451,7 @@ placessidebar .navigation-sidebar > row {
     color: #19a187;
     box-shadow: inset 0 1px #19a187, inset 0 -1px #19a187; }
     placessidebar .navigation-sidebar > row:drop(active):not(:disabled):selected {
-      color: #ffffff;
+      color: #000000;
       background-color: #19a187; }
 
 placesview .server-list-button > image {
@@ -3619,7 +3619,7 @@ colorswatch {
       border-color: rgba(0, 0, 0, 0.6);
       box-shadow: none; }
   row:selected colorswatch {
-    box-shadow: 0 0 0 2px #ffffff; }
+    box-shadow: 0 0 0 2px #000000; }
   colorswatch#editor-color-sample {
     border-radius: 4px; }
     colorswatch#editor-color-sample > overlay {
@@ -3722,13 +3722,13 @@ treeview.view:selected, row:selected, calendar > grid > label.day-number:selecte
   entry > text > selection, modelbutton.flat:selected, spinbutton:not(.vertical) > text > selection, spinbutton.vertical > text > text > selection, spinbutton.vertical > text > selection, columnview.view:selected:focus, columnview.view:selected,
   treeview.view:selected:focus,
   treeview.view:selected, row:selected, calendar > grid > label.day-number:selected {
-    color: #ffffff; }
+    color: #000000; }
     label:disabled > selection, label:disabled:selected, .view:disabled:selected,
     textview > text:disabled:selected:focus,
     textview > text:disabled:selected, textview > text > selection:disabled, iconview:disabled:selected:focus, iconview:disabled:selected, flowbox > flowboxchild:disabled:selected, gridview > child:disabled:selected,
     entry > text > selection:disabled, modelbutton.flat:disabled:selected, spinbutton:not(.vertical) > text > selection:disabled, spinbutton.vertical > text > text > selection:disabled, spinbutton.vertical > text > selection:disabled, columnview.view:disabled:selected,
     treeview.view:disabled:selected, row:disabled:selected, calendar > grid > label.day-number:disabled:selected {
-      color: #86e7ec; }
+      color: #06686d; }
 
 .monospace {
   font-family: monospace; }
@@ -3866,7 +3866,7 @@ emoji-completion-row > box {
 emoji-completion-row:focus,
 emoji-completion-row:hover {
   background-color: #0ccfd9;
-  color: #ffffff; }
+  color: #000000; }
 
 emoji-completion-row emoji:focus,
 emoji-completion-row emoji:hover {
@@ -4005,7 +4005,7 @@ radio {
   radio:indeterminate {
     background-image: linear-gradient(to bottom, #0ccfd9 20%, #0bc6cf 90%);
     border-color: #044548;
-    color: #ffffff; }
+    color: #000000; }
     check:checked, check:checked:active, check:indeterminate, check:indeterminate:active,
     radio:checked,
     radio:checked:active,
@@ -4282,7 +4282,7 @@ base background color of selections */
 @define-color theme_selected_bg_color #0ccfd9;
 /*
 text/foreground color of selections */
-@define-color theme_selected_fg_color #ffffff;
+@define-color theme_selected_fg_color #000000;
 /*
 base background color of insensitive widgets */
 @define-color insensitive_bg_color #242731;
@@ -4309,7 +4309,7 @@ base background color of selections on backdrop windows */
 @define-color theme_unfocused_selected_bg_color #0ccfd9;
 /*
 text/foreground color of selections on backdrop windows */
-@define-color theme_unfocused_selected_fg_color #ffffff;
+@define-color theme_unfocused_selected_fg_color #000000;
 /*
 insensitive color on backdrop windows*/
 @define-color unfocused_insensitive_color #43495a;

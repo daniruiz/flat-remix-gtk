@@ -17,7 +17,7 @@ COLOR_Brown?=\#c37837
 TEXT_COLOR_Brown?=\#ffffff
 
 COLOR_Cyan?=\#0ccfd9
-TEXT_COLOR_Cyan?=\#ffffff
+TEXT_COLOR_Cyan?=\#000000
 
 COLOR_Green?=\#06a284
 TEXT_COLOR_Green?=\#ffffff
