@@ -635,6 +635,10 @@ decoration {
   .tiled-bottom &,
   .tiled-left & { border-width: 0; }
 
+  dialog & {
+    border-width: 0 0 4px;
+  }
+
   .popup & { border-width: 0; }
 
   .ssd & {
