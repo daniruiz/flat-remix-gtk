@@ -10,7 +10,7 @@ build: $(SUBDIRS)
 	# Remove variants that are not valid
 	rm -rf $(foreach variant,$(UNWANTED_VARIANTS),$(THEMES_DIR)/Flat-Remix-GTK-$(variant)*)
 	# Add Solid themes
-	for gtk_theme in $(THEMES_DIR)/Flat-Remix-GTK-*; do \
+	find $(THEMES_DIR) -name "Flat-Remix-GTK-*" ! -name "*Solid*" | while read gtk_theme; do \
 		rm -rf "$${gtk_theme}-Solid"; \
 		cp -a $$gtk_theme "$${gtk_theme}-Solid"; \
 		[ -f "$${gtk_theme}-Solid"/gtk-3.0/gtk-solid.css ] && \
