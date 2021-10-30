@@ -1,6 +1,8 @@
 // When color definition differs for dark and light variant
 // it gets @if ed depending on $variant
 
+$transparency: 'false'!default;
+
 $_dark_base_color: #272a34;
 
 $base_color: if($variant == 'light', darken(#ffffff, 2%), $_dark_base_color);

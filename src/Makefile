@@ -9,6 +9,15 @@ build: $(SUBDIRS)
 	$(MAKE) -C templates build
 	# Remove variants that are not valid
 	rm -rf $(foreach variant,$(UNWANTED_VARIANTS),$(THEMES_DIR)/Flat-Remix-GTK-$(variant)*)
+	# Add Solid themes
+	for gtk_theme in $(THEMES_DIR)/Flat-Remix-GTK-*; do \
+		rm -rf "$${gtk_theme}-Solid"; \
+		cp -a $$gtk_theme "$${gtk_theme}-Solid"; \
+		mv "$${gtk_theme}-Solid"/gtk-3.0/gtk-solid.css "$${gtk_theme}-Solid"/gtk-3.0/gtk.css; \
+		[ -f "$${gtk_theme}-Solid"/gtk-3.0/gtk-dark-solid.css ] \
+			&& mv "$${gtk_theme}-Solid"/gtk-3.0/gtk-dark-solid.css "$${gtk_theme}-Solid"/gtk-3.0/gtk-dark.css; \
+		rm "$${gtk_theme}"/gtk-3.0/gtk-*solid.css; \
+	done
 
 $(SUBDIRS):
 	$(MAKE) -C $@ build
