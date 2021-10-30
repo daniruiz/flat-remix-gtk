@@ -3,17 +3,28 @@
 @define-color disk_space_used #{"" +$selected_bg_color};
 @define-color disk_space_free white;
 
-
 $dark_sidebar_bg: black;
 @if $variant=='light' {
-  $dark_sidebar_bg: lighten(black, 3%);
+  $dark_sidebar_bg: transparentize(lighten(black, 5%), if($transparency=='true', if($variant=='light', 0.07, 0.025), 0));
 } @else {
-  $dark_sidebar_bg: darken($bg_color, 2%);
+  $dark_sidebar_bg: transparentize(darken($bg_color, 2%), if($transparency == 'true', 0.05, 0));
 }
 
 $_glow_shadow: 0 1px 4px $selected_bg_color;
 filechooser,
 .nautilus-window {
+  &.unified {
+    &, &:backdrop {
+      background: transparent;
+
+      > deck > box > headerbar { background: $headerbar_color; }
+    }
+  }
+
+  &.csd.background, placessidebar list {
+    background-color: transparent;
+  }
+
   placessidebar.sidebar {
 
     &:dir(ltr) {
@@ -91,7 +102,7 @@ filechooser,
   .path-bar-box {
     padding: 3px 4px;
     margin: -1px 0;
-    background: mix($bg_color, #72A2F4, if($variant=='dark', 90%, 95%));
+    background: transparentize(mix($bg_color, #72A2F4, if($variant=='dark', 90%, 95%)), if($transparency == 'true', .3, 0));
     border-radius: 99px;
     box-shadow: inset 0 0 0 1px $borders_color;
     border: 0;

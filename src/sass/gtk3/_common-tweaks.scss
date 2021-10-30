@@ -15,6 +15,14 @@ $_wm_border: if($variant=='light', transparentize(black, 0.9), transparentize($b
   }
 }
 
+/***************
+ * Base States *
+ ***************/
+.background, .background:backdrop {
+  // without this headerbar transparency doesn't seem to work
+  background: if($transparency == 'true', transparentize($bg_color, 0.001), $bg_color);
+}
+
 /**********
  * Button *
  **********/
@@ -195,31 +203,39 @@ scale slider {
  * Header bars *
  ***************/
 headerbar {
-  background: $bg_color;
   border: none;
+  background: $headerbar_color;
   box-shadow: inset 0 1px $top_hilight;
+  color: $text_color;
 
-  &:backdrop { box-shadow: none; }
+  &, &:backdrop {
+    box-shadow: none;
+    background: $headerbar_color;
+  }
 }
 
 %titlebar,
 headerbar {
+  .title { font-weight: normal; }
+
+  $_headerbar_widget_bg: image(if($variant == 'light', darken($bg_color, 7%), lighten($bg_color, 7%)));
+  $_headerbar_widget_bg_disabled: image(if($variant == 'light', darken($bg_color, 4%), darken($bg_color, 4%)));
   button,
   entry,
   .linked button,
   .linked entry {
     border: none;
 
-    background: image(if($variant == 'light', darken($bg_color, 7%), lighten($bg_color, 7%)));
+    background: $_headerbar_widget_bg;
     &:disabled {
-      background: image(if($variant == 'light', darken($bg_color, 4%), darken($bg_color, 4%))) 
+      background: $_headerbar_widget_bg_disabled;
     }
   }
 
   button:backdrop {
-    background: image(if($variant == 'light', darken($bg_color, 7%), lighten($bg_color, 7%)));
+    background: $_headerbar_widget_bg;
     &:disabled {
-      background: image(if($variant == 'light', darken($bg_color, 4%), darken($bg_color, 4%))) 
+      background: $_headerbar_widget_bg_disabled;
     }
   }
 
@@ -300,6 +316,7 @@ headerbar {
   }
 
   &.default-decoration {
+    background: opacify($headerbar_color, 1);
     min-height: 0;
     padding: 6px;
 
@@ -617,7 +634,7 @@ decoration {
   border-radius: $_top_window_radius $_top_window_radius $_bottom_window_radius $_bottom_window_radius;
   border: $_border_width solid $base_color;
   border-bottom-width: 2px;
-  background: $bg_color;
+  background: if($transparency=='true', transparent, $bg_color);
 
   box-shadow: 0 2px 8px 0 transparentize(black, 0.6),
               0 0 0 1px $_wm_border;
@@ -657,5 +674,13 @@ decoration {
   messagedialog.csd & {
     border-width: 0;
     box-shadow: 0 1px 4px transparentize(black, 0.8);
+  }
+}
+
+@if $transparency == 'true' {
+  window.unified, window.unified:backdrop {
+    background: linear-gradient(to bottom, $headerbar_color $_headerbar_height, $bg_color $_headerbar_height);
+
+    > deck > box > headerbar { background: transparent; }
   }
 }
