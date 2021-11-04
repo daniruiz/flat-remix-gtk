@@ -641,7 +641,8 @@ decoration {
 
   &:backdrop {
     box-shadow: 0 2px 8px 0 transparent,
-                0 0 0 3px transparentize(black, if($variant == 'light', .85, .75));
+                0 0 5px 3px transparentize(black, if($variant == 'light', .85, .75)),
+                0 0 0 1px if($variant=='light', transparentize(black, 0.97), transparentize(black, 0.25));
   }
 
   .maximized &,
