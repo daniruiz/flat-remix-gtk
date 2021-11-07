@@ -179,12 +179,6 @@ list.tweak-categories separator {
   margin: 8px;
 }
 
-/* Whisker menu */
-#whiskermenu-button image {
-  -gtk-icon-shadow: 0 0 3px $selected_bg_color,
-                    0 0 3px $selected_bg_color;
-}
-
 #whiskermenu-window {
   $_dark_bg: if($variant == 'light', $bg_color, darken($bg_color, 3%));
   entry {
