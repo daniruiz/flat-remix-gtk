@@ -43,4 +43,5 @@ eval export COLOR_VARIANTS=$1
 eval export COLOR_$COLOR_VARIANTS=$2
 eval export TEXT_COLOR_$COLOR_VARIANTS=$3
 
+rm -rf themes/*
 make -j build
