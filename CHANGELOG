@@ -1,3 +1,14 @@
+[20211107]
+ * Order theme variants by most downloaded
+ * Regenerate all themes
+ * Xfce: use same titlebuttons separations in xfwm as in gtk
+ * Xfce: remove whiskermenu-button shadow
+ * Reduce transparency of panel background color
+ * generate-color-theme.sh remove previous themes first
+ * Cinnamon: add solid theme variant and more transparency
+ * GTK3: remove thick window border (fixes #126)
+ * GTK3: improve backdrop window shadow (fixes  #127 & #126)
+
 [20211030]
  * Update theme variants order based on most downloaded
  * Set selected text color to black for Cyan variant
