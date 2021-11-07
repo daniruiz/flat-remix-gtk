@@ -6125,10 +6125,6 @@ list.tweak-categories separator {
 .xfsm-logout-dialog > .vertical > .horizontal button {
   margin: 8px; }
 
-/* Whisker menu */
-#whiskermenu-button image {
-  -gtk-icon-shadow: 0 0 3px #0099a1, 0 0 3px #0099a1; }
-
 #whiskermenu-window entry {
   border-radius: 100px;
   border: 2px solid #0099a1;
