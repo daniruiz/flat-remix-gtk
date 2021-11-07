@@ -5962,11 +5962,13 @@ placessidebar row {
 decoration {
   border-radius: 10px 10px 6px 6px;
   border: 1px solid #fafafa;
+  border-top-width: 0;
   border-bottom-width: 2px;
   background: transparent;
+  border-color: rgba(255, 255, 255, 0.8) rgba(255, 255, 255, 0.8) #fafafa;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(0, 0, 0, 0.1); }
   decoration:backdrop {
-    box-shadow: 0 2px 8px 0 transparent, 0 0 0 3px rgba(0, 0, 0, 0.15); }
+    box-shadow: 0 2px 8px 0 transparent, 0 0 5px 3px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.03); }
   .maximized decoration, .fullscreen decoration, .tiled decoration, .tiled-top decoration, .tiled-right decoration, .tiled-bottom decoration, .tiled-left decoration {
     border-width: 0; }
   dialog decoration {
@@ -5987,6 +5989,8 @@ decoration {
 
 window.unified, window.unified:backdrop {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 40px, #ffffff 40px); }
+  window.unified decoration, window.unified:backdrop decoration {
+    border: 0; }
   window.unified headerbar, window.unified:backdrop headerbar {
     background: transparent; }
 
@@ -6110,7 +6114,7 @@ list.tweak-categories separator {
 
 /* XFCE4 PANEL */
 .xfce4-panel.background {
-  background: rgba(255, 255, 255, 0.9); }
+  background: rgba(255, 255, 255, 0.5); }
 
 .xfce4-panel button {
   border: 0;
@@ -6182,14 +6186,14 @@ wnck-pager {
 
 /* LightDM */
 .lightdm-gtk-greeter #panel_window {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.5);
   color: #5c616c;
   text-shadow: none;
   -gtk-icon-shadow: none; }
 
 .lightdm-gtk-greeter #login_window {
   border: 0;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 6px;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.15); }
   .lightdm-gtk-greeter #login_window entry {
@@ -6476,7 +6480,7 @@ wnck-pager {
     padding: 0; }
 
 .workspace-switcher .workspace-layout {
-  border: 0 solid rgba(255, 255, 255, 0.9); }
+  border: 0 solid rgba(255, 255, 255, 0.5); }
   .top .workspace-switcher .workspace-layout:dir(ltr), .bottom .workspace-switcher .workspace-layout:dir(ltr) {
     border-left-width: 1px; }
   .top .workspace-switcher .workspace-layout:dir(rtl), .bottom .workspace-switcher .workspace-layout:dir(rtl) {
@@ -6486,7 +6490,7 @@ wnck-pager {
 
 .workspace-switcher .workspace-item,
 .workspace-switcher .workspace-add-button {
-  border: 0 solid rgba(242, 242, 242, 0.9); }
+  border: 0 solid rgba(242, 242, 242, 0.5); }
   .top .workspace-switcher .workspace-item:dir(ltr), .bottom .workspace-switcher .workspace-item:dir(ltr), .top .workspace-switcher .workspace-add-button:dir(ltr), .bottom .workspace-switcher .workspace-add-button:dir(ltr) {
     border-right-width: 1px; }
   .top .workspace-switcher .workspace-item:dir(rtl), .bottom .workspace-switcher .workspace-item:dir(rtl), .top .workspace-switcher .workspace-add-button:dir(rtl), .bottom .workspace-switcher .workspace-add-button:dir(rtl) {
@@ -6495,7 +6499,7 @@ wnck-pager {
     border-bottom-width: 1px; }
 
 .workspace-switcher .workspace-item.current-workspace {
-  background-color: rgba(242, 242, 242, 0.9); }
+  background-color: rgba(242, 242, 242, 0.5); }
 
 .workspace-switcher .workspace-add-button:hover {
   box-shadow: none; }

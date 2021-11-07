@@ -5944,11 +5944,12 @@ placessidebar row {
 decoration {
   border-radius: 10px 10px 6px 6px;
   border: 1px solid #272a34;
+  border-top-width: 0;
   border-bottom-width: 2px;
   background: #23252e;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(19, 21, 26, 0.75); }
   decoration:backdrop {
-    box-shadow: 0 2px 8px 0 transparent, 0 0 0 3px rgba(0, 0, 0, 0.25); }
+    box-shadow: 0 2px 8px 0 transparent, 0 0 5px 3px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(0, 0, 0, 0.75); }
   .maximized decoration, .fullscreen decoration, .tiled decoration, .tiled-top decoration, .tiled-right decoration, .tiled-bottom decoration, .tiled-left decoration {
     border-width: 0; }
   dialog decoration {
@@ -6087,7 +6088,7 @@ list.tweak-categories separator {
 
 /* XFCE4 PANEL */
 .xfce4-panel.background {
-  background: rgba(35, 37, 46, 0.8); }
+  background: #23252e; }
 
 .xfce4-panel button {
   border: 0;
@@ -6171,14 +6172,14 @@ wnck-pager {
 
 /* LightDM */
 .lightdm-gtk-greeter #panel_window {
-  background: rgba(35, 37, 46, 0.8);
+  background: #23252e;
   color: #eeeeec;
   text-shadow: none;
   -gtk-icon-shadow: none; }
 
 .lightdm-gtk-greeter #login_window {
   border: 0;
-  background-color: rgba(35, 37, 46, 0.8);
+  background-color: #23252e;
   border-radius: 6px;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.15); }
   .lightdm-gtk-greeter #login_window entry {
@@ -6465,7 +6466,7 @@ wnck-pager {
     padding: 0; }
 
 .workspace-switcher .workspace-layout {
-  border: 0 solid rgba(35, 37, 46, 0.8); }
+  border: 0 solid #23252e; }
   .top .workspace-switcher .workspace-layout:dir(ltr), .bottom .workspace-switcher .workspace-layout:dir(ltr) {
     border-left-width: 1px; }
   .top .workspace-switcher .workspace-layout:dir(rtl), .bottom .workspace-switcher .workspace-layout:dir(rtl) {
@@ -6475,7 +6476,7 @@ wnck-pager {
 
 .workspace-switcher .workspace-item,
 .workspace-switcher .workspace-add-button {
-  border: 0 solid rgba(24, 26, 32, 0.8); }
+  border: 0 solid #181a20; }
   .top .workspace-switcher .workspace-item:dir(ltr), .bottom .workspace-switcher .workspace-item:dir(ltr), .top .workspace-switcher .workspace-add-button:dir(ltr), .bottom .workspace-switcher .workspace-add-button:dir(ltr) {
     border-right-width: 1px; }
   .top .workspace-switcher .workspace-item:dir(rtl), .bottom .workspace-switcher .workspace-item:dir(rtl), .top .workspace-switcher .workspace-add-button:dir(rtl), .bottom .workspace-switcher .workspace-add-button:dir(rtl) {
@@ -6484,7 +6485,7 @@ wnck-pager {
     border-bottom-width: 1px; }
 
 .workspace-switcher .workspace-item.current-workspace {
-  background-color: rgba(24, 26, 32, 0.8); }
+  background-color: #181a20; }
 
 .workspace-switcher .workspace-add-button:hover {
   box-shadow: none; }

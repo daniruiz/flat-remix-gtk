@@ -436,21 +436,21 @@ StScrollBar {
 .panel-top, .panel-bottom, .panel-left, .panel-right {
   color: #eeeeec;
   border: #ffffff;
-  background-color: rgba(35, 37, 46, 0.79);
+  background-color: rgba(35, 37, 46, 0.99);
   font-size: 1em;
   padding: 0px; }
 
 .panel-top {
-  box-shadow: 0 1px rgba(22, 23, 29, 0.8); }
+  box-shadow: 0 1px #16171d; }
 
 .panel-bottom {
-  box-shadow: 0 -1px rgba(22, 23, 29, 0.8); }
+  box-shadow: 0 -1px #16171d; }
 
 .panel-left {
-  box-shadow: 1px 0 rgba(22, 23, 29, 0.8); }
+  box-shadow: 1px 0 #16171d; }
 
 .panel-right {
-  box-shadow: -1px 0 rgba(22, 23, 29, 0.8); }
+  box-shadow: -1px 0 #16171d; }
 
 .panel-dummy {
   background-color: rgba(191, 23, 23, 0.5); }
@@ -1396,15 +1396,15 @@ StScrollBar {
   border: 1px solid #fd7d00; }
 
 .workspace-graph .workspace .windows {
-  -active-window-background: rgba(67, 73, 90, 0.8);
+  -active-window-background: #43495a;
   -active-window-border: rgba(0, 0, 0, 0.8);
-  -inactive-window-background: rgba(67, 73, 90, 0.8);
+  -inactive-window-background: #43495a;
   -inactive-window-border: rgba(0, 0, 0, 0.8); }
 
 .workspace-graph .workspace:active .windows {
-  -active-window-background: rgba(89, 96, 119, 0.8);
+  -active-window-background: #596077;
   -active-window-border: rgba(0, 0, 0, 0.8);
-  -inactive-window-background: rgba(46, 49, 61, 0.8);
+  -inactive-window-background: #2e313d;
   -inactive-window-border: rgba(0, 0, 0, 0.8); }
 
 .panel-launchers {
