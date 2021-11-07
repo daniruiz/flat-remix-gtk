@@ -1,7 +1,7 @@
 active_text_color=#000
 inactive_text_color=#8d8d8d
 button_offset=0
-button_spacing=6
+button_spacing=3
 show_app_icon=true
 full_width_title=true
 maximized_offset=0
