@@ -258,7 +258,7 @@ StScrollBar {
   border: 1px solid $borders_color;
   border-radius: 6px;
   margin: 10px 5px;
-  background-color: $base_color;
+  background-color: transparentize($base_color, if($transparency=='true', .075, 0));
 }
 
 .popup-sub-menu {

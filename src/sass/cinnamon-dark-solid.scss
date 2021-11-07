@@ -1,8 +1,7 @@
-$variant: 'light';
-$transparency: 'true';
+$variant: 'dark';
+$transparency: 'false';
 $selected_bg_color: #2777ff;
 $selected_fg_color: #ffffff;
-
 
 @import "common/_colors";
 @import "cinnamon/_drawing";
