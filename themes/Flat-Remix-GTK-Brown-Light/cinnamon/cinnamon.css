@@ -436,21 +436,21 @@ StScrollBar {
 .panel-top, .panel-bottom, .panel-left, .panel-right {
   color: #5c616c;
   border: #ffffff;
-  background-color: rgba(255, 255, 255, 0.49);
+  background-color: rgba(255, 255, 255, 0.89);
   font-size: 1em;
   padding: 0px; }
 
 .panel-top {
-  box-shadow: 0 1px rgba(240, 240, 240, 0.5); }
+  box-shadow: 0 1px rgba(240, 240, 240, 0.9); }
 
 .panel-bottom {
-  box-shadow: 0 -1px rgba(240, 240, 240, 0.5); }
+  box-shadow: 0 -1px rgba(240, 240, 240, 0.9); }
 
 .panel-left {
-  box-shadow: 1px 0 rgba(240, 240, 240, 0.5); }
+  box-shadow: 1px 0 rgba(240, 240, 240, 0.9); }
 
 .panel-right {
-  box-shadow: -1px 0 rgba(240, 240, 240, 0.5); }
+  box-shadow: -1px 0 rgba(240, 240, 240, 0.9); }
 
 .panel-dummy {
   background-color: rgba(191, 23, 23, 0.5); }
@@ -1396,15 +1396,15 @@ StScrollBar {
   border: 1px solid #c37837; }
 
 .workspace-graph .workspace .windows {
-  -active-window-background: rgba(255, 255, 255, 0.5);
+  -active-window-background: rgba(255, 255, 255, 0.9);
   -active-window-border: rgba(0, 0, 0, 0.8);
-  -inactive-window-background: rgba(255, 255, 255, 0.5);
+  -inactive-window-background: rgba(255, 255, 255, 0.9);
   -inactive-window-border: rgba(0, 0, 0, 0.8); }
 
 .workspace-graph .workspace:active .windows {
-  -active-window-background: rgba(255, 255, 255, 0.5);
+  -active-window-background: rgba(255, 255, 255, 0.9);
   -active-window-border: rgba(0, 0, 0, 0.8);
-  -inactive-window-background: rgba(255, 255, 255, 0.5);
+  -inactive-window-background: rgba(255, 255, 255, 0.9);
   -inactive-window-border: rgba(0, 0, 0, 0.8); }
 
 .panel-launchers {
