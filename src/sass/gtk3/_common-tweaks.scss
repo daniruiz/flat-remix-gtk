@@ -633,8 +633,13 @@ decoration {
   $_bottom_window_radius: min($button_radius+$_border_width, 6px);
   border-radius: $_top_window_radius $_top_window_radius $_bottom_window_radius $_bottom_window_radius;
   border: $_border_width solid $base_color;
+  border-top-width: 0;
   border-bottom-width: 2px;
   background: if($transparency=='true', transparent, $bg_color);
+
+  @if $transparency=='true' {
+    border-color: $headerbar_color $headerbar_color $base_color;
+  }
 
   box-shadow: 0 2px 8px 0 transparentize(black, 0.6),
               0 0 0 1px $_wm_border;
@@ -681,6 +686,8 @@ decoration {
 @if $transparency == 'true' {
   window.unified, window.unified:backdrop {
     background: linear-gradient(to bottom, $headerbar_color $_headerbar_height, $bg_color $_headerbar_height);
+
+    decoration { border: 0; }
 
     headerbar { background: transparent; }
   }
