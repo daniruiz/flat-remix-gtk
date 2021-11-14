@@ -20,7 +20,7 @@ $(COLOR_VARIANTS):
 		for asset in $(ASSETS) ; \
 		do \
 			echo ; \
-			echo Rendering $$asset.png $@ ; \
+			echo Rendering $$asset.png $@ $$variant ; \
 			$(INKSCAPE) --export-id=$$asset \
 				        --export-id-only \
 				        --export-filename=$(THEMES_DIR)Flat-Remix-GTK-$@-$$variant/gtk-2.0/assets/$$asset.png \
