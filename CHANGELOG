@@ -1,3 +1,6 @@
+[20211115]
+ * Fix fedora spec file
+
 [20211107]
  * Order theme variants by most downloaded
  * Regenerate all themes
