@@ -19,6 +19,7 @@ $borders_color: lighten(black, 12%);
 @import 'gtk3/upstream/_common';
 @import 'gtk3/upstream/libhandy/Adwaita-base';
 @import 'gtk3/_common-tweaks';
+@import 'gtk3/_darkest-common-tweaks';
 @import 'gtk3/_applications';
 @import 'gtk3/_budgie';
 @import 'gtk3/upstream/_colors-public';
