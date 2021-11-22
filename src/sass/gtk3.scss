@@ -5,6 +5,7 @@
 // - if you need to inverse a color function use the @if directive to match for dark $variant
 
 $variant: 'light';
+$asset_suffix: '';
 $transparency: 'true';
 $high-contrast:'false';
 $selected_bg_color: #2777ff;

@@ -1,9 +1,20 @@
+6c6
+< $asset_suffix: if($variant=='dark', '-dark', '');
+---
+> //$asset_suffix: if($variant=='dark', '-dark', '');
 9c9
 < $button_radius: 5px;
 ---
 > $button_radius: 6px;
-
 15c15
 < $_sizevariant: 'default'; //compact otherwise
 ---
 > $_sizevariant: 'compact'; //compact otherwise
+3375c3375
+<   $suffix: if($variant == 'light', '', '-dark');
+---
+>   //$suffix: if($variant == 'light', '', '-dark');
+3394c3394
+<               $_scale_asset: 'assets/slider-#{$dir_infix}-#{$marks_infix}#{$state_infix}#{$suffix}';
+---
+>               $_scale_asset: 'assets/slider-#{$dir_infix}-#{$marks_infix}#{$state_infix}#{$asset_suffix}';
