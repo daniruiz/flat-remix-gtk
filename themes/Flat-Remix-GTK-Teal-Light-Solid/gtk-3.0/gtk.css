@@ -5494,7 +5494,7 @@ headerbar button.titlebutton:not(.appmenu) {
     background: transparent;
     box-shadow: none;
     border-color: #d9d9d9;
-    background: rgba(0, 0, 0, 0.1); }
+    background: #cccccc; }
 
 .default-decoration.titlebar:not(headerbar),
 headerbar.default-decoration {
@@ -5910,7 +5910,7 @@ row:selected, row:selected:backdrop, row:selected:active, row.activatable:select
   border-radius: 10px;
   background-color: #ffffff;
   color: black;
-  box-shadow: inset 0 0 0 9999px #eaebec, inset 0 0 0 3px #fafafa; }
+  box-shadow: inset 0 0 0 9999px #eaebec, inset 0 0 0 3px #ffffff; }
 
 /*********************
  * App Notifications *
@@ -5961,7 +5961,7 @@ placessidebar row {
  *********************/
 decoration {
   border-radius: 10px 10px 6px 6px;
-  border: 1px solid #fafafa;
+  border: 1px solid #ffffff;
   border-top-width: 0;
   border-bottom-width: 2px;
   background: #ffffff;
