@@ -11,7 +11,7 @@ TEMPLATE_SELECTED_COLOR=\#c21953
 build: $(COLOR_VARIANTS)
 
 $(COLOR_VARIANTS):
-	for variant in Light Dark ; \
+	for variant in Light Dark Darkest ; \
 	do \
 		mkdir -p $(THEMES_DIR)Flat-Remix-GTK-$@-$$variant/gtk-2.0/assets/ ; \
 		sed -e 's/$(DEFAULT_THEME_COLOR)/$(COLOR_$@)/gi' \

@@ -6,8 +6,6 @@ IGNORE=$(patsubst $(THEMES_DIR)%,%,$(wildcard $(THEMES_DIR)Flat-Remix-GTK-*XFWM*
 GTK_THEMES:=$(filter-out $(IGNORE),$(GTK_THEMES))
 
 
-GTKRC_TEMPLATE=gtkrc-light
-GTKRC_DARK_TEMPLATE=gtkrc-dark
 THEME_INDEX_TEMPLATE=index.theme
 STATIC_TEMPLATE_DIR=static/
 
@@ -33,7 +31,7 @@ $(GTK_THEMES):
 	sed -e 's/Name=/Name=$@/' \
 	    -e 's/Comment=/Comment=$@ theme"/' \
 	    -e 's/GtkTheme=/GtkTheme=$@/' \
-	    -e 's/MetacityTheme=/MetacityTheme=Flat-Remix-'$$(echo $@ | grep -o Light || echo Dark)-Metacity/ \
+	    -e 's/MetacityTheme=/MetacityTheme=Flat-Remix-'$$(echo $@ | grep -oE 'Light|Dark(est)?')-Metacity/ \
 	    -e 's/IconTheme=/IconTheme='$$(echo $@ | sed 's/-GTK//')/ \
 	    $(THEME_INDEX_TEMPLATE) > $(THEMES_DIR)$@/index.theme
 	cp -r $(STATIC_TEMPLATE_DIR)* $(THEMES_DIR)$@
@@ -42,7 +40,10 @@ $(COLOR_VARIANTS):
 	# GTK2
 	sed -e 's/$(DEFAULT_THEME_COLOR)/$(COLOR_$@)/gi' \
 	    -e 's/selected_fg_color:/selected_fg_color: $(TEXT_COLOR_$@)/' \
-	    $(GTKRC_TEMPLATE) > $(THEMES_DIR)Flat-Remix-GTK-$@-Light/gtk-2.0/gtkrc
+	    gtkrc-light > $(THEMES_DIR)Flat-Remix-GTK-$@-Light/gtk-2.0/gtkrc
 	sed -e 's/$(DEFAULT_THEME_COLOR)/$(COLOR_$@)/gi' \
 	    -e 's/selected_fg_color:/selected_fg_color: $(TEXT_COLOR_$@)/' \
-	    $(GTKRC_DARK_TEMPLATE) > $(THEMES_DIR)Flat-Remix-GTK-$@-Dark/gtk-2.0/gtkrc
+	    gtkrc-dark > $(THEMES_DIR)Flat-Remix-GTK-$@-Dark/gtk-2.0/gtkrc
+	sed -e 's/$(DEFAULT_THEME_COLOR)/$(COLOR_$@)/gi' \
+	    -e 's/selected_fg_color:/selected_fg_color: $(TEXT_COLOR_$@)/' \
+	    gtkrc-darkest > $(THEMES_DIR)Flat-Remix-GTK-$@-Darkest/gtk-2.0/gtkrc
