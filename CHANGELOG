@@ -1,3 +1,14 @@
+[20211123]
+ * GTK3: fix lightdm button color (fixes #129)
+ * GTK2: generate new darkest variant
+ * GTK2: add assets for darkest theme variant
+ * GTK3: generate new darkest variant
+ * GTK3: tweaks for darkest themes
+ * GTK3: configure darkest assets
+ * GTK3: add assets for darkest theme variant
+ * GTK3: add scss for darkest theme variant
+ * Improve release scripts
+
 [20211115]
  * Fix fedora spec file
 
