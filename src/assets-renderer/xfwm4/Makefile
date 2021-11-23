@@ -6,7 +6,7 @@ THEMES_DIR=../../../themes/
 .PHONY: build $(COLOR_VARIANTS) clean
 
 build:
-	for variant in Light Dark ; \
+	for variant in Light Dark Darkest; \
 	do \
 		mkdir -p $(THEMES_DIR)Flat-Remix-$$variant-XFWM/xfwm4/ ; \
 		mkdir -p $(THEMES_DIR)Flat-Remix-$$variant-XFWM-HiDPI/xfwm4/ ; \

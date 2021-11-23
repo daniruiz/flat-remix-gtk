@@ -19,6 +19,9 @@ build: $(GTK_THEMES) $(COLOR_VARIANTS)
 	cp themerc-dark $(THEMES_DIR)Flat-Remix-Dark-XFWM/xfwm4/themerc
 	cp themerc-dark-HiDPI $(THEMES_DIR)Flat-Remix-Dark-XFWM-HiDPI/xfwm4/themerc
 	cp themerc-dark-xHiDPI $(THEMES_DIR)Flat-Remix-Dark-XFWM-xHiDPI/xfwm4/themerc
+	cp themerc-dark $(THEMES_DIR)Flat-Remix-Darkest-XFWM/xfwm4/themerc
+	cp themerc-dark-HiDPI $(THEMES_DIR)Flat-Remix-Darkest-XFWM-HiDPI/xfwm4/themerc
+	cp themerc-dark-xHiDPI $(THEMES_DIR)Flat-Remix-Darkest-XFWM-xHiDPI/xfwm4/themerc
 	# Metacity
 	cp metacity-theme-1-light.xml $(THEMES_DIR)Flat-Remix-Light-Metacity/metacity-1/metacity-theme-1.xml
 	cp metacity-theme-1-dark.xml $(THEMES_DIR)Flat-Remix-Dark-Metacity/metacity-1/metacity-theme-1.xml

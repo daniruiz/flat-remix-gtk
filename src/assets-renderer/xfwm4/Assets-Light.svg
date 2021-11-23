@@ -64,7 +64,7 @@
   </g>
   <g id="close-prelight" transform="matrix(1.0573,0,0,1.0573,-13.977,-584.07)">
     <rect x="42.51" y="561.9" width="18.917" height="18.917" fill="#23252e" stroke-width=".67561" style="fill:#fff"/>
-    <path d="m51.968 563.79c-4.176 0-7.5664 3.3907-7.5664 7.5664 0 4.1758 3.3904 7.5664 7.5664 7.5664 4.176 0 7.5664-3.3907 7.5664-7.5664 0-4.1758-3.3904-7.5664-7.5664-7.5664z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#2777ff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#d31919"/>
+    <path d="m51.968 563.79c-4.176 0-7.5664 3.3907-7.5664 7.5664 0 4.1758 3.3904 7.5664 7.5664 7.5664s7.5664-3.3907 7.5664-7.5664c0-4.1758-3.3904-7.5664-7.5664-7.5664z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#2777ff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#d31919"/>
     <path d="m48.217 567.55h0.9455c0.01008-1.3e-4 0.01966-4.5e-4 0.02951 0 0.24106 0.0101 0.48208 0.12156 0.65003 0.29555l2.1568 2.1577 2.1865-2.1577c0.25114-0.21801 0.42232-0.28894 0.65002-0.29555h0.9455v0.94581c0 0.27095-0.0324 0.52081-0.23637 0.70937l-2.1568 2.1577 2.1273 2.1281c0.17793 0.17798 0.26591 0.42888 0.26591 0.67982v0.94583h-0.9455c-0.25083-1e-5 -0.50165-0.088-0.67957-0.26603l-2.1568-2.1576-2.1568 2.1576c-0.17791 0.17801-0.42875 0.26603-0.67959 0.26603h-0.9455v-0.94583c0-0.25092 0.08799-0.50184 0.26593-0.67982l2.1568-2.1281-2.1568-2.1577c-0.19924-0.18409-0.28663-0.44383-0.26593-0.70937v-0.94581z" color="#bebebe" enable-background="new" fill="#fff" stroke-width="1.2609"/>
   </g>
   <g id="close-pressed" transform="translate(-23,-551.36)">
@@ -74,11 +74,11 @@
   </g>
   <g id="close-inactive" transform="translate(-35,-551.36)">
     <rect x="108" y="561.36" width="20" height="20" fill="#23252e" stroke-width=".71429" style="fill:#fff"/>
-    <circle cx="118" cy="571.36" r="8" style="fill:#e6e6e6;stroke-width:0"/>
+    <circle cx="118" cy="571.36" r="8" style="fill:#ccc;stroke-width:0"/>
   </g>
   <g id="maximize-active" transform="translate(1 -563.36)">
     <rect x="9" y="594.36" width="20" height="20" fill="#23252e" stroke-width=".71429" style="fill:#fff"/>
-    <path d="m19 596.36c-4.413 0-8 3.587-8 8 0 4.4131 3.587 8 8 8s8-3.587 8-8c0-4.413-3.587-8-8-8z" style="-inkscape-stroke:none;color:#000000;fill:#377cf1"/>
+    <path d="m19 596.36c-4.413 0-8 3.587-8 8 0 4.4131 3.587 8 8 8s8-3.587 8-8-3.587-8-8-8z" style="-inkscape-stroke:none;color:#000000;fill:#377cf1"/>
   </g>
   <g id="maximize-prelight" transform="translate(-11,-563.36)">
     <rect x="42" y="594.36" width="20" height="20" fill="#23252e" stroke-width=".71429" style="fill:#fff"/>
@@ -87,12 +87,12 @@
   </g>
   <g id="maximize-pressed" transform="translate(-23,-563.36)">
     <rect x="75" y="594.36" width="20" height="20" fill="#23252e" stroke-width=".71429" style="fill:#fff"/>
-    <path d="m85 596.36c-4.4123 0-8 3.5877-8 8 0 4.4123 3.5877 8 8 8s8-3.5877 8-8c0-4.4123-3.5877-8-8-8z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="url(#radialGradient1090-4-5-6)" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#377cf1;stroke-width:1.01"/>
+    <path d="m85 596.36c-4.4123 0-8 3.5877-8 8s3.5877 8 8 8 8-3.5877 8-8-3.5877-8-8-8z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="url(#radialGradient1090-4-5-6)" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stop-color="#000000" style="fill:#377cf1;stroke-width:1.01"/>
     <path d="m81 600.36v8h8v-8zm1.9942 2h4.0117v4h-4.0117z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#fff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="fill:#fff;opacity:.5;stroke-width:1.01"/>
   </g>
   <g id="maximize-inactive" transform="translate(-35,-563.36)">
     <rect x="108" y="594.36" width="20" height="20" fill="#23252e" stroke-width=".71429" style="fill:#fff"/>
-    <circle cx="118" cy="604.36" r="8" style="fill:#e6e6e6;stroke-width:0"/>
+    <circle cx="118" cy="604.36" r="8" style="fill:#ccc;stroke-width:0"/>
   </g>
   <g id="hide-active" transform="translate(1 -575.36)">
     <rect x="9" y="627.36" width="20" height="20" fill="#23252e" stroke-width=".71429" style="fill:#fff"/>
@@ -110,7 +110,7 @@
   </g>
   <g id="hide-inactive" transform="translate(-35,-575.36)">
     <rect x="108" y="627.36" width="20" height="20" fill="#23252e" stroke-width=".71429" style="fill:#fff"/>
-    <circle cx="118" cy="637.36" r="8" style="fill:#e6e6e6;stroke-width:0"/>
+    <circle cx="118" cy="637.36" r="8" style="fill:#ccc;stroke-width:0"/>
   </g>
   <g id="stick-active" transform="translate(1 -521.36)">
     <rect x="9" y="594.36" width="20" height="20" fill="#23252e" stroke-width=".71429" style="fill:#fff"/>
