@@ -34,12 +34,6 @@
       <rect transform="scale(1,-1)" x="44" y="-157" width="7" height="16"/>
     </clipPath>
     <linearGradient id="linearGradient5254" x1="5" x2="5" y1="109.81" y2="82.124" gradientTransform="translate(7,6)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient6819"/>
-    <linearGradient id="linearGradient2047" x1="75.142" x2="75.142" y1="306.66" y2="365.93" gradientTransform="matrix(1.6497 0 0 .55372 -68.201 -45.329)" gradientUnits="userSpaceOnUse">
-      <stop style="stop-color:#f4f4f4" offset="0"/>
-      <stop style="stop-color:#f4f4f4" offset=".2"/>
-      <stop style="stop-color:#fafafa" offset=".9"/>
-      <stop style="stop-color:#fafafa" offset="1"/>
-    </linearGradient>
   </defs>
   <rect x="1.9531" y="86.25" width="378.05" height="74.219" style="fill:#f2f2f2"/>
   <rect x="470.7" y="4" width="165.3" height="472" style="fill:#fff"/>
@@ -917,12 +911,9 @@
     <g>
       <g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
         <g>
-          <rect x="50.562" y="125.54" width="31.501" height="30.968" rx="16.539" ry="16.549" style="color-rendering:auto;color:#000000;fill:url(#linearGradient2047);image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;stroke-linejoin:round;stroke-width:2.0822;stroke:#c2c2c2"/>
+          <rect x="50.562" y="125.54" width="31.501" height="30.968" rx="16.539" ry="16.549" style="color-rendering:auto;color:#000000;fill:#fafafa;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;stroke-linejoin:round;stroke-width:2.0822;stroke:#c2c2c2"/>
         </g>
       </g>
-      <path d="m208.1 270.13c-6e-3 0.12812-0.036 0.26586-0.036 0.39564 0 4.1447 3.3349 7.4814 7.4773 7.4814s7.4772-3.3367 7.4772-7.4814c0-0.12978-0.0294-0.26752-0.0359-0.39564-0.38155 3.7817-3.5578 6.726-7.4413 6.726s-7.0598-2.9443-7.4413-6.726z" style="color-rendering:auto;color:#000000;fill:#cacac8;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000"/>
-      <path d="m208.17 269.44c-0.0374 0.24554-0.0526 0.50259-0.0721 0.75729 0.38253 3.7915 3.567 6.7434 7.4606 6.7434s7.078-2.952 7.4606-6.7434c-0.0196-0.2547-0.0348-0.51175-0.0721-0.75729-0.5563 3.5982-3.6316 6.3468-7.3885 6.3468s-6.8322-2.7486-7.3885-6.3468z" style="color-rendering:auto;color:#000000;fill:#ededec;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000"/>
-      <path d="m208.1 270.92c-6e-3 -0.12812-0.036-0.26586-0.036-0.39564 0-4.1447 3.3349-7.4814 7.4773-7.4814s7.4772 3.3367 7.4772 7.4814c0 0.12978-0.0294 0.26752-0.0359 0.39564-0.38155-3.7817-3.5578-6.726-7.4413-6.726s-7.0598 2.9443-7.4413 6.726z" style="color-rendering:auto;color:#000000;fill:#fff;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000"/>
     </g>
   </g>
   <g id="checkbox-unchecked" transform="matrix(.99971 0 0 1 240.01 189.64)">
@@ -972,15 +963,7 @@
     <rect x="17" y="30.362" width="16" height="16" style="color:#000000;fill:none"/>
   </g>
   <g id="radio-unchecked-hover" transform="matrix(.93617 0 0 .93566 143.22 -5.123)">
-    <g>
-      <g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-        <g>
-          <rect x="50.562" y="125.54" width="31.501" height="30.968" rx="16.539" ry="16.549" style="color:#000000;fill:#fefefe;stroke-linejoin:round;stroke-width:2.0822;stroke:#c2c2c2"/>
-        </g>
-      </g>
-      <path d="m208.1 270.92c-6e-3 -0.12812-0.036-0.26586-0.036-0.39564 0-4.1447 3.3349-7.4814 7.4773-7.4814s7.4772 3.3367 7.4772 7.4814c0 0.12978-0.0294 0.26752-0.0359 0.39564-0.38155-3.7817-3.5578-6.726-7.4413-6.726s-7.0598 2.9443-7.4413 6.726z" style="color-rendering:auto;color:#000000;fill:#fff;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000"/>
-    </g>
-    <rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
+    <rect x="207.52" y="262.51" width="16.031" height="16.023" rx="8.417" ry="8.5625" style="color:#000000;fill:#fefefe;stroke-linejoin:round;stroke-width:1.0685;stroke:#c2c2c2"/>
   </g>
   <g id="radio-unchecked-active" transform="matrix(.93344 0 0 .93293 143.78 15.592)">
     <rect x="206.99" y="261.98" width="17.141" height="17.15" style="color:#000000;fill:none"/>
@@ -1024,13 +1007,6 @@
   </g>
   <g transform="matrix(.93617 0 0 .93566 143.22 -25.123)">
     <rect x="206.99" y="261.98" width="17.091" height="17.1" style="color:#000000;fill:none"/>
-    <g>
-      <g transform="matrix(.50892 0 0 .5174 181.79 197.56)">
-        <g>
-          <rect x="50.562" y="125.54" width="31.501" height="30.968" rx="16.539" ry="16.549" style="color-rendering:auto;color:#000000;fill:#fafafa;image-rendering:auto;isolation:auto;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;stroke-linejoin:round;stroke-width:2.0822;stroke:#c2c2c2"/>
-        </g>
-      </g>
-    </g>
   </g>
   <g id="progressbar-horz" transform="translate(-12,-42)">
     <path d="m138 68c-1.0994 0-2 0.90065-2 2s0.90065 2 2 2h1c1.0994 0 2-0.90065 2-2s-0.90065-2-2-2z" style="-inkscape-stroke:none;color:#000000;fill:#2777ff"/>

@@ -7,7 +7,7 @@ Encoding=UTF-8
 
 [X-GNOME-Metatheme]
 GtkTheme=Flat-Remix-GTK-Orange-Darkest
-MetacityTheme=Flat-Remix-Dark-Metacity
+MetacityTheme=Flat-Remix-Darkest-Metacity
 IconTheme=Flat-Remix-Orange-Darkest
 CursorTheme=Adwaita
 ButtonLayout=:minimize,maximize,close
