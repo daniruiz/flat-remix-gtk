@@ -40,9 +40,9 @@
     <path d="m15.5 179.35c3.047 0 5.5 2.453 5.5 5.5v23c0 3.047-2.453 5.5-5.5 5.5s-5.5-2.453-5.5-5.5v-23c0-3.047 2.453-5.5 5.5-5.5z" style="fill:none;opacity:.5;stroke-linecap:square;stroke-width:1.01;stroke:#000"/>
   </g>
   <rect x="9.5" y="178.85" width="7" height="28" fill="none"/>
-  <use id="top-left-inactive" transform="translate(8)" width="100%" height="100%" fill="#ffffff" xlink:href="#top-left-active"/>
-  <use id="top-right-active" transform="matrix(-1 0 0 1 41 0)" width="100%" height="100%" fill="#ffffff" xlink:href="#top-left-active"/>
-  <use id="top-right-inactive" transform="matrix(-1 0 0 1 49 0)" width="100%" height="100%" fill="#ffffff" xlink:href="#top-left-active"/>
+  <use id="top-left-inactive" transform="translate(8)" width="100%" height="100%" xlink:href="#top-left-active"/>
+  <use id="top-right-active" transform="matrix(-1 0 0 1 41 0)" width="100%" height="100%" xlink:href="#top-left-active"/>
+  <use id="top-right-inactive" transform="matrix(-1 0 0 1 49 0)" width="100%" height="100%" xlink:href="#top-left-active"/>
   <g id="left-active" transform="translate(25.281 -32.49)">
     <rect x="56.719" y="186.84" width="5" height="16" fill="#23252e" style="fill:#000;stroke-width:1.01"/>
     <rect transform="scale(-1,1)" x="-57.719" y="186.84" width="1" height="16" opacity=".5"/>
@@ -55,7 +55,7 @@
   <g id="bottom-left-active" transform="translate(-55.41 -20.63)" clip-path="url(#b)">
     <path transform="translate(55.408,19.279)" d="m58.447 193.35h13.555l-0.0025-4.999-13.553-1e-3z" fill="#23252e" style="fill:#000;stroke-width:1.01"/>
     <path d="m113.92 212.62 12.429-9.9e-4v-0.999l-12.429-1e-5z" opacity=".5"/>
-    <use transform="matrix(1,0,0,-1,99.908,391.48)" width="100%" height="100%" clip-path="url(#clipPath6191)" fill="#ffffff" xlink:href="#top-left-active"/>
+    <use transform="matrix(1,0,0,-1,99.908,391.48)" width="100%" height="100%" clip-path="url(#clipPath6191)" xlink:href="#top-left-active"/>
   </g>
   <use id="bottom-right-active" transform="rotate(-90 79 167)" width="100%" height="100%" xlink:href="#bottom-left-active"/>
   <use id="bottom-right-inactive" transform="rotate(-90 89 177)" width="100%" height="100%" xlink:href="#bottom-left-active"/>
