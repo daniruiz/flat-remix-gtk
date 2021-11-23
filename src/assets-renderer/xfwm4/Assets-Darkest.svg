@@ -53,7 +53,7 @@
   <use id="bottom-active" transform="rotate(-90 95.324 178.68)" width="100%" height="100%" xlink:href="#left-active"/>
   <use id="bottom-inactive" transform="rotate(-90 105.32 188.68)" width="100%" height="100%" xlink:href="#left-active"/>
   <g id="bottom-left-active" transform="translate(-55.41 -20.63)" clip-path="url(#b)">
-    <path transform="translate(55.408,19.279)" d="m58.447 193.35h13.555l-0.0025-4.999-13.553-1e-3z" fill="#23252e" style="fill:#000;stroke-width:1.01"/>
+    <path transform="translate(55.408,19.279)" d="m58.447 193.35h13.555l-0.0025-4.999-13.553-1e-3z" fill="#23252e" style="fill:#0d0d0d;stroke-width:1.01"/>
     <path d="m113.92 212.62 12.429-9.9e-4v-0.999l-12.429-1e-5z" opacity=".5"/>
     <use transform="matrix(1,0,0,-1,99.908,391.48)" width="100%" height="100%" clip-path="url(#clipPath6191)" xlink:href="#top-left-active"/>
   </g>
