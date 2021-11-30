@@ -1,3 +1,12 @@
+[20211130]
+ * Metacity: update window buttons assets
+ * XFWM4: fix bottom corner assets
+ * XFWM4: match border color with gtk window headerbar
+ * XFWM4: fix darkest theme assets
+ * XFWM: generate new darkest themes
+ * XFWM: add darkest theme variant
+ * Fix aur release script
+
 [20211123]
  * GTK3: fix lightdm button color (fixes #129)
  * GTK2: generate new darkest variant
