@@ -13,8 +13,8 @@
 <constant name="C_title_focused" value="white" />
 <constant name="C_title_unfocused" value="#717171" />
 
-<constant name="C_wm_bg" value="black" />
-<constant name="C_wm_border" value="white" />
+<constant name="C_wm_bg" value="#0d0d0d" />
+<constant name="C_wm_border" value="#0d0d0d" />
 
 <!-- geometries -->
 
