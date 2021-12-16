@@ -25,10 +25,13 @@ build: $(GTK_THEMES) $(COLOR_VARIANTS)
 	# Metacity
 	cp metacity-theme-1-light.xml $(THEMES_DIR)Flat-Remix-Light-Metacity/metacity-1/metacity-theme-1.xml
 	cp metacity-theme-1-dark.xml $(THEMES_DIR)Flat-Remix-Dark-Metacity/metacity-1/metacity-theme-1.xml
+	cp metacity-theme-1-darkest.xml $(THEMES_DIR)Flat-Remix-Darkest-Metacity/metacity-1/metacity-theme-1.xml
 	ln -rsvf $(THEMES_DIR)Flat-Remix-Light-Metacity/metacity-1/metacity-theme-1.xml $(THEMES_DIR)Flat-Remix-Light-Metacity/metacity-1/metacity-theme-2.xml
 	ln -rsvf $(THEMES_DIR)Flat-Remix-Light-Metacity/metacity-1/metacity-theme-1.xml $(THEMES_DIR)Flat-Remix-Light-Metacity/metacity-1/metacity-theme-3.xml
 	ln -rsvf $(THEMES_DIR)Flat-Remix-Dark-Metacity/metacity-1/metacity-theme-1.xml $(THEMES_DIR)Flat-Remix-Dark-Metacity/metacity-1/metacity-theme-2.xml
 	ln -rsvf $(THEMES_DIR)Flat-Remix-Dark-Metacity/metacity-1/metacity-theme-1.xml $(THEMES_DIR)Flat-Remix-Dark-Metacity/metacity-1/metacity-theme-3.xml
+	ln -rsvf $(THEMES_DIR)Flat-Remix-Darkest-Metacity/metacity-1/metacity-theme-1.xml $(THEMES_DIR)Flat-Remix-Darkest-Metacity/metacity-1/metacity-theme-2.xml
+	ln -rsvf $(THEMES_DIR)Flat-Remix-Darkest-Metacity/metacity-1/metacity-theme-1.xml $(THEMES_DIR)Flat-Remix-Darkest-Metacity/metacity-1/metacity-theme-3.xml
 
 $(GTK_THEMES):
 	sed -e 's/Name=/Name=$@/' \
