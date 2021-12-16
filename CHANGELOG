@@ -1,3 +1,10 @@
+[20211216]
+ * Metacity: match separation between titlebuttons with GKT3
+ * Fix src/Makefile
+ * Metacity: fix darkest theme window border
+ * Metacity: generate darkest theme
+ * Metacity: add darkest theme
+
 [20211201]
  * GTK3: Improve scrollbar visibility
 
