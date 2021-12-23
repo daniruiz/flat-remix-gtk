@@ -1,0 +1,11 @@
+$variant: 'dark';
+$transparency: 'true';
+$selected_bg_color: #2777ff;
+$selected_fg_color: #ffffff;
+$base_color: black;
+$bg_color: lighten(black, 5%);
+$borders_color: lighten(black, 12%);
+
+@import "common/_colors";
+@import "cinnamon/_drawing";
+@import "cinnamon/_common";

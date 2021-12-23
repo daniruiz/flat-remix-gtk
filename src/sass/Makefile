@@ -10,7 +10,7 @@ build: clean
 	do \
 	  mkdir -p $(foreach VARIANT,Light Dark Darkest,$(THEMES_DIR)Flat-Remix-GTK-$$COLOR-$(VARIANT)/gtk-3.0/); \
 	  mkdir -p $(foreach VARIANT,Light Dark,$(THEMES_DIR)Flat-Remix-GTK-$$COLOR-$(VARIANT)/gtk-4.0/); \
-	  mkdir -p $(foreach VARIANT,Light Dark,$(THEMES_DIR)Flat-Remix-GTK-$$COLOR-$(VARIANT)/cinnamon/); \
+	  mkdir -p $(foreach VARIANT,Light Dark Darkest,$(THEMES_DIR)Flat-Remix-GTK-$$COLOR-$(VARIANT)/cinnamon/); \
 	  cp gtk3-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Light/gtk-3.0/gtk.css ; \
 	  cp gtk3-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Light/gtk-3.0/gtk-solid.css ; \
 	  cp gtk3-dark-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Light/gtk-3.0/gtk-dark.css ; \
@@ -26,6 +26,8 @@ build: clean
 	  cp cinnamon-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Light/cinnamon/cinnamon-solid.css ; \
 	  cp cinnamon-dark-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Dark/cinnamon/cinnamon.css ; \
 	  cp cinnamon-dark-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Dark/cinnamon/cinnamon-solid.css ; \
+	  cp cinnamon-darkest-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Darkest/cinnamon/cinnamon.css ; \
+	  cp cinnamon-darkest-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Darkest/cinnamon/cinnamon-solid.css ; \
 	done
 
 define scss_to_css
