@@ -1,3 +1,7 @@
+[20211223]
+ * Cinnamon: add darkest assets
+ * Cinnamon: add darkest theme variants
+
 [20211216]
  * Metacity: match separation between titlebuttons with GKT3
  * Fix src/Makefile
