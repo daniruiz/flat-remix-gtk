@@ -1,6 +1,4 @@
 
-$asset_suffix: if($variant=='dark', '-dark', '');
-
 stage {
   color: $fg_color;
 }
