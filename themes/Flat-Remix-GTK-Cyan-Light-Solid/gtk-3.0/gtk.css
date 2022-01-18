@@ -5363,7 +5363,7 @@ scale slider {
  ************/
 scale trough, scale fill, progressbar trough {
   border: 2px solid #d9d9d9;
-  border-radius: 99px;
+  border-radius: 6px;
   background-color: #d9d9d9; }
   scale trough:disabled, scale fill:disabled, progressbar trough:disabled {
     background-color: #d9d9d9;
@@ -5377,7 +5377,7 @@ scale trough, scale fill, progressbar trough {
 
 scale highlight, progressbar progress {
   border: 2px solid #0ccfd9;
-  border-radius: 99px;
+  border-radius: 6px;
   background-color: #0ccfd9; }
   scale highlight:backdrop, progressbar progress:backdrop {
     border-color: #0ccfd9; }

@@ -166,7 +166,7 @@ scale slider {
  ************/
 %scale_trough {
   border: 2px solid $borders_color;
-  border-radius: 99px;
+  border-radius: $button_radius;
   background-color: $borders_color;
 
   &:disabled {
@@ -187,7 +187,7 @@ scale slider {
 
 %scale_highlight {
   border: 2px solid $progress_bg_color;
-  border-radius: 99px;
+  border-radius: $button_radius;
   background-color: $progress_bg_color;
 
   &:backdrop {
