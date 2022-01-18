@@ -14,7 +14,8 @@ $(COLOR_VARIANTS):
 		mkdir -p $(THEMES_DIR)Flat-Remix-GTK-$@-$$variant/gtk-3.0/ ; \
 		sed -e 's/$(DEFAULT_THEME_COLOR)/$(COLOR_$@)/gi' \
 		    -e 's/$(TEMPLATE_SELECTED_COLOR)/$(TEXT_COLOR_$@)/gi' \
-		    gtk3-$$variant.svg > $(THEMES_DIR)Flat-Remix-GTK-$@-$$variant/gtk-3.0/thumbnail.svg ; \
+		    gtk3-$$variant.svg \
+		| $(INKSCAPE) --pipe --export-filename=$(THEMES_DIR)Flat-Remix-GTK-$@-$$variant/gtk-3.0/thumbnail.png ; \
 	done
 
 metacity:
@@ -22,6 +23,7 @@ metacity:
 	do \
 		mkdir -p $(THEMES_DIR)Flat-Remix-$$variant-Metacity/metacity-1/ ; \
 		sed -e 's/$(DEFAULT_THEME_COLOR)/$(COLOR_$@)/gi' \
-		    metacity-$$variant.svg > $(THEMES_DIR)Flat-Remix-$$variant-Metacity/metacity-1/thumbnail.svg ; \
+		    metacity-$$variant.svg \
+		| $(INKSCAPE) --pipe --export-filename=$(THEMES_DIR)Flat-Remix-$$variant-Metacity/metacity-1/thumbnail.png ; \
 	done
 
