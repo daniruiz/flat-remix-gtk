@@ -1,3 +1,8 @@
+[20220118]
+ * Use png format for thumbnail images
+ * Add thumbnails for gtk3 and metacity themes
+ * GTK3: fix slider border-radius
+
 [20211223]
  * Cinnamon: add darkest assets
  * Cinnamon: add darkest theme variants
