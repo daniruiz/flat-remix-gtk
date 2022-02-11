@@ -10,7 +10,7 @@ $selected_bg_color: #2777ff;
 $selected_fg_color: #ffffff;
 
 @import 'common/_colors';
-@import 'gtk4/upstream/_drawing';
+@import 'gtk4/_drawing';
 @import 'gtk4/upstream/_common';
 @import 'gtk4/_common-tweaks';
 @import 'gtk4/_applications';

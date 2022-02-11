@@ -4,7 +4,7 @@ GREEN='\033[0;32m'
 YELLOW='\033[0;33m'
 RESET='\033[0m'
 
-VERSION=4.2.1
+VERSION=4.6.0
 
 echo
 printf " $YELLOW[ i ]$RESET Upstream version $VERSION\n"
@@ -14,7 +14,7 @@ while read file;
 do
 	echo
 	printf " $GREEN[ * ]$RESET Downloading file $file\n"
-	wget https://gitlab.gnome.org/GNOME/gtk/raw/$VERSION/gtk/theme/Adwaita/$file --timestamping --quiet
+	wget https://gitlab.gnome.org/GNOME/gtk/-/raw/$VERSION/gtk/theme/Default/$file --timestamping --quiet
 
 	if [ -f $file.patch ]
 	then

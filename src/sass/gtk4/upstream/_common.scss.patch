@@ -1,4 +1,8 @@
-10c10
+7c7
+< $assets: if($contrast=='normal', 'assets', 'assets-hc');
+---
+> $assets: 'assets';
+11c11
 < $button_radius: 5px;
 ---
 > $button_radius: 4px;
