@@ -3,7 +3,7 @@
 }
 
 $ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-$asset_suffix: if($variant=='dark', '-dark', '');
+//$asset_suffix: if($variant=='dark', '-dark', '');
 $assets: 'assets';
 $backdrop_transition: 200ms ease-out;
 $button_transition: all 200ms $ease-out-quad;
