@@ -44,15 +44,11 @@ button {
  **********/
 %entry,
 entry {
-  %entry_basic, & { min-height: $_entry_height; }
-
-  &:not(:disabled) {
-    background: if($variant=='dark', $dark_fill, $bg_color);
-  }
-
-  &:backdrop {
-    box-shadow: none;
-    border-color: $backdrop_borders_color;
+  %entry_basic, & {
+    min-height: $_entry_height;
+    @if ($variant == 'dark') {
+      background-color: $dark_fill;
+    }
   }
 }
 
@@ -65,31 +61,26 @@ headerbar entry {
  * Switch *
  **********/
 switch {
-  slider { @extend %slider; }
-
-  &:hover slider { @extend %slider_active; }
-
   &:checked {
     border-right-width: 0; // Hack to prevent dirty right border-radius
     margin-right: 1px; // Compensate missing right border
-    box-shadow: inset 0 1px 3px -1px transparentize(black, .4);
+  }
 
-    &, &:backdrop { border-color: transparentize(black, .8); }
+  slider {
+    @extend %slider;
 
-    slider {
+    &:checked {
       border-color: if($variant=='light', $suggested_border_color, $borders_color);
       &:backdrop:not(:disabled) {
         border-color: if($variant=='light', $suggested_bg_color, $backdrop_borders_color);
       }
     }
+
+    &:disabled {
+      border-color: $backdrop_borders_color;
+    }
   }
 
-  &:backdrop, &:disabled {
-    box-shadow: none;
-    border-color: $backdrop_borders_color;
-
-    slider { border-color: $backdrop_borders_color; }
-  }
 }
 
 /*************************
@@ -97,30 +88,33 @@ switch {
  *************************/
 check,
 radio {
-  $_c: if($variant=='light', $bg_color, darken($bg_color, 2%));
-  $_shadow: 0 1px 2px transparentize($shadow_color, 0.03);
+  &, menu menuitem &, menu menuitem:hover & {
+    @include button(normal);
 
-  background-image: linear-gradient(to bottom, $_c 20%, darken($_c, 2%) 90%);
-  border-color: $alt_borders_color;
+    &:hover {
+       @include button(hover);
+    }
 
-  &:checked, &:indeterminate {
-    background-image: linear-gradient(to bottom, $checkradio_bg_color 20%, darken($checkradio_bg_color, 2%) 90%);
-    border-color: $selected_borders_color;
-    color: $selected_fg_color;
-
-    &, &:active { box-shadow: inset 0 1px transparentize(white, .9), $_shadow; }
-
-    &:backdrop {
-      background-image: image($checkradio_bg_color);
-      box-shadow: none;
+    &:disabled, &:disabled:backdrop {
+      &, &:checked, &:indeterminate {
+        border-color: $borders_color;
+        background-image: image($bg_color);
+        color: $fg_color;
+      }
     }
   }
 
-  &:disabled, &:disabled:backdrop {
-    &, &:checked, &:indeterminate {
-      border-color: $borders_color;
-      background-image: image($bg_color);
-      color: $fg_color;
+  &, menu menuitem & {
+    &:checked, &:indeterminate {
+      background-image: image($selected_bg_color);
+      border-color: $selected_bg_color;
+      color: $bg_color;
+
+      &:active { box-shadow: none; }
+      &:backdrop {
+        background-image: image($checkradio_bg_color);
+        color: $bg_color;
+      }
     }
   }
 }
@@ -144,113 +138,103 @@ check {
  ************/
 %slider,
 scale slider {
-  @include button(normal);
-
-  border-color: darken($alt_borders_color, 3%);
-
-  @at-root %slider_active,
-  &:active {
-    background-image: if($variant == 'light', image(lighten($bg_color, 14%)), image(darken($bg_color, 9%)));
-    border-color: $suggested_bg_color;
-  }
-
-  &:backdrop, &:disabled {
-    border-color: $borders_color;
-    background-image: image($bg_color);
-    box-shadow: none;
-  }
+  @include button(normal-alt);
+  &:active, &:hover { @include button(hover-alt); }
 }
 
-/*****************
- * Title buttons *
- *****************/
-windowcontrols {
-  margin: 0 5px;
-
-  &.end { margin-left: 11px; }
-  &.right { margin-right: 11px; }
-
-  button {
-    $_titlebutton_bg: lighten($bg_color, 10%);
-    color: transparent;
-    background: $_titlebutton_bg;
-    margin: 0;
-    padding: 0;
-    min-width: 0;
-    min-height: 0;
-    border: 1px solid $alt_borders_color;
-    -gtk-icon-shadow: none;
-    transition: all .2s;
-
-    @at-root %titlebutton_hover,
-    &:hover {
-      color: $fg_color;
-      background: $_titlebutton_bg;
-      border-color: transparent;
-      box-shadow: 0 0 0 1px $shadow_color;
-    }
-
-    &.close {
-      color: if($variant=='light', white, black);
-      background: $selected_bg_color;
-      border-color: transparent;
-
-      &:hover {
-        color: if($variant=='light', black, white);
-        background: mix(white, $selected_bg_color, 10%);
-      }
-
-      @if lightness($selected_bg_color) > 60%
-       or lightness($selected_bg_color) < 20% {
-        &, &:hover { color: $selected_fg_color; }
-      }
-    }
-
-    &:backdrop,
-    &:backdrop:hover {
-      color: transparent;
-      background: transparent;
-      box-shadow: none;
-      border-color: $backdrop_borders_color;
-      background: $shadow_color;
-    }
-  }
-}
 
 /***************
  * Header bars *
  ***************/
+headerbar {
+  border: none;
+  background: $headerbar_color;
+  box-shadow: inset 0 1px $top_hilight;
+  color: $text_color;
+
+  &, &:backdrop {
+    box-shadow: none;
+    background: $headerbar_color;
+  }
+}
+
 %titlebar,
 headerbar {
-  $_border_color: darken($bg_color, 20%);
+  $_headerbar_widget_bg: image(if($variant == 'light', darken($bg_color, 7%), lighten($bg_color, 7%)));
+  $_headerbar_widget_bg_disabled: image(if($variant == 'light', darken($bg_color, 4%), darken($bg_color, 4%)));
+
+  .title { font-weight: normal; }
 
   min-height: $_headerbar_height;
-  border-color: $_border_color;
 
-  $_scale_asset: 'assets/kali-headerbar-logo#{$asset_suffix}';
-  @include headerbar_fill(darken($bg_color, if($variant == 'light', 5%, 10%)),
-                          $ov: -gtk-scaled(url('#{$_scale_asset}.png'), url('#{$_scale_asset}@2.png')));
-  box-shadow: 0 1px 4px transparentize($_border_color, .25);
-  background-repeat: no-repeat;
-  background-position: left;
+  button,
+  entry,
+  .linked button,
+  .linked entry {
+    border: none;
 
-  &:backdrop {
-    background-image: -gtk-scaled(url('#{$_scale_asset}.png'), url('#{$_scale_asset}@2.png'));
-    background-repeat: no-repeat;
-    background-position: left;
-    box-shadow: none;
+    background: $_headerbar_widget_bg;
+    &:disabled {
+      background: $_headerbar_widget_bg_disabled;
+    }
   }
 
-  stackswitcher button:checked,
+  button:backdrop {
+    background: $_headerbar_widget_bg;
+    &:disabled {
+      background: $_headerbar_widget_bg_disabled;
+    }
+  }
+
+  stackswitcher button,
   button.toggle {
-    &:active, &:checked { @extend %button_active; }
+    &:active, &:checked { @include button(active); }
   }
 
-  .dialog &,
-  .dialog &:backdrop {
-    background: $bg_color;
-    border: 0;
-    box-shadow: none;
+  // Window title buttons
+  windowcontrols {
+    margin: 0 5px;
+
+    &.end { margin-left: 11px; }
+    &.right { margin-right: 11px; }
+
+    button {
+      $_titlebutton_bg: lighten($bg_color, 10%);
+      color: transparent;
+      margin: 0;
+      padding: 0;
+      min-width: 0;
+      min-height: 0;
+      border: 0;
+      -gtk-icon-shadow: none;
+      transition: all ease-out .1s;
+
+      @at-root %titlebutton_hover,
+      &:hover {
+        color: white;
+        background: $_titlebutton_bg;
+      }
+
+      &.minimize {
+        background: image(#fd7d00);
+      }
+
+      &.maximize {
+        background: image(#377cf1);
+      }
+
+      &.close {
+        background: image(#d31919);
+      }
+
+      &:backdrop,
+      &:backdrop:hover {
+        color: transparent;
+        box-shadow: none;
+        border-color: $backdrop_borders_color;
+        background: if($variant == 'light', darken($bg_color, 20%), lighten($bg_color, 20%));
+      }
+    }
   }
 }
 
@@ -306,30 +290,19 @@ notebook {
 
         > tab,
         > tab.reorderable-page {
-          padding: $_tab_btn_pad;
           border: 1px solid transparent;
-          margin: 3px;
-          transition: $button_transition;
 
-          &:hover {
-            @include button(hover);
-            transition-duration: 50ms;
-
-            &:backdrop {
-              @include button(undecorated);
-            }
-          }
+          &:hover:not(:backdrop) { @include button(hover); }
 
           &:checked {
             @include button(normal);
+            background: image($base_color);
 
             &:backdrop {
               @include button(backdrop);
-              transition: $backdrop_transition;
+              background: image($base_color);
             }
           }
-
-          &:backdrop { color: $backdrop_fg_color; }
         }
       }
     }
@@ -342,21 +315,57 @@ notebook {
 
     &.top {
       background-image: linear-gradient(to bottom, $gradient);
+      > tabs {
+        margin-bottom: -3px;
+        > tab {
+          margin: 3px 0;
+          border-radius: $button_radius $button_radius 0 0;
+          &:not(:checked) { box-shadow: 4px 3px 0 -3px $borders_color; }
+          &:checked, &:checked:backdrop { border-bottom-color: $base_color; }
+        }
+      }
     }
 
     &.bottom {
       background-image: linear-gradient(to top, $gradient);
+      > tabs {
+        margin-top: -3px;
+        > tab {
+          margin: 3px 0;
+          border-radius: 0 0 $button_radius $button_radius;
+          &:not(:checked) { box-shadow: 4px -3px 0 -3px $borders_color; }
+          &:checked, &:checked:backdrop { border-top-color: $base_color; }
+        }
+      }
     }
 
     &.right {
       background-image: linear-gradient(to left, $gradient);
+      > tabs {
+        margin-left: -3px;
+        > tab {
+          margin: 0 3px;
+          border-radius: 0 $button_radius $button_radius 0;
+          &:not(:checked) { box-shadow: -3px 4px 0 -3px $borders_color; }
+          &:checked, &:checked:backdrop { border-left-color: $base_color; }
+        }
+      }
     }
 
     &.left {
       background-image: linear-gradient(to right, $gradient);
+      > tabs {
+        margin-right: -3px;
+        > tab {
+          margin: 0 3px;
+          border-radius: $button_radius 0 0 $button_radius;
+          &:not(:checked) { box-shadow: 3px 4px 0 -3px $borders_color; }
+          &:checked, &:checked:backdrop { border-right-color: $base_color; }
+        }
+      }
     }
 
-    > tabs > tab {
+    tab {
       border-radius: $button_radius;
       transition: $button_transition;
       min-height: 24px;
@@ -367,6 +376,36 @@ notebook {
       }
     }
   }
+}
+
+/**************
+ * Scrollbars *
+ **************/
+scrollbar > range {
+  > trough > slider {
+    min-width: 6px;
+    min-height: 6px;
+  }
+
+  &.fine-tune > trough > slider {
+    min-width: 3px;
+    min-height: 3px;
+  }
+}
+
+/*********************
+ * App Notifications *
+ *********************/
+.app-notification,
+.app-notification.frame {
+  padding: 0 10px;
+  margin: 5px;
+  border-radius: $button_radius+3;
+  border: 1px solid transparentize($_wm_border, 0.1);
+  box-shadow: $_menu_shadow;
+  background-image: none;
+
+  &:backdrop { box-shadow: none; }
 }
 
 /**********************
@@ -383,8 +422,8 @@ window {
 
     &:backdrop {
       box-shadow: 0 2px 8px 0 transparent,
-                  0 0 0 1px transparent,
-                  0 0 0 3px transparentize(black, if($variant == 'light', .85, .75));
+                  0 0 5px 3px transparentize(black, if($variant == 'light', .85, .75)),
+                  0 0 0 1px if($variant=='light', transparentize(black, 0.97), transparentize(black, 0.25));
     }
 
     &.dialog.message,
