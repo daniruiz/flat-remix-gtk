@@ -20,9 +20,13 @@ build: clean
 	  cp gtk3-darkest-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Darkest/gtk-3.0/gtk.css ; \
 	  cp gtk3-darkest-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Darkest/gtk-3.0/gtk-solid.css ; \
 	  cp gtk4-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Light/gtk-4.0/gtk.css ; \
+	  cp gtk4-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Light/gtk-4.0/gtk-solid.css ; \
 	  cp gtk4-dark-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Light/gtk-4.0/gtk-dark.css ; \
+	  cp gtk4-dark-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Light/gtk-4.0/gtk-dark-solid.css ; \
 	  cp gtk4-dark-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Dark/gtk-4.0/gtk.css ; \
+	  cp gtk4-dark-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Dark/gtk-4.0/gtk-solid.css ; \
 	  cp gtk4-darkest-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Darkest/gtk-4.0/gtk.css ; \
+	  cp gtk4-darkest-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Darkest/gtk-4.0/gtk-solid.css ; \
 	  cp cinnamon-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Light/cinnamon/cinnamon.css ; \
 	  cp cinnamon-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Light/cinnamon/cinnamon-solid.css ; \
 	  cp cinnamon-dark-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Dark/cinnamon/cinnamon.css ; \

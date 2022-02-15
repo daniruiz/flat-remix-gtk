@@ -4335,6 +4335,10 @@ window.csd {
   window.csd.dialog.message, window.csd.popup {
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(31, 31, 31, 0.65);
     border-width: 0; }
+  window.csd.background {
+    background: linear-gradient(to bottom, rgba(13, 13, 13, 0.8) 40px, #0d0d0d 40px); }
+    window.csd.background headerbar {
+      background: transparent; }
 
 window.maximized, window.fullscreen, window.tiled, window.tiled-top, window.tiled-left, window.tiled-right, window.tiled-bottom {
   border-width: 0; }

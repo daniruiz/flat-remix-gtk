@@ -432,6 +432,12 @@ window {
                   0 0 0 1px transparentize($_wm_border, 0.1);
       border-width: 0;
     }
+
+    &.background {
+      background: linear-gradient(to bottom, $headerbar_color $_headerbar_height, $bg_color $_headerbar_height);
+
+      headerbar { background: transparent; }
+    }
   }
 
   &.maximized,
@@ -448,6 +454,7 @@ window {
     box-shadow: 0 0 0 1px $_wm_border;
     border-width: 0;
   }
+  
 }
 
 tooltip.csd { border: 0; }
