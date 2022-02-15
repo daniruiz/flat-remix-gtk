@@ -6162,9 +6162,10 @@ list.tweak-categories separator {
   border: 0;
   border-radius: 8px;
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
-  background: #ffffff;
   padding: 7px 10px;
   margin: 0 5px; }
+  #whiskermenu-window scrolledwindow.frame, #whiskermenu-window scrolledwindow.frame iconview:not(:hover):not(:focus) {
+    background: #ffffff; }
   #whiskermenu-window scrolledwindow.frame treeview {
     background: transparent;
     border-radius: 6px; }
