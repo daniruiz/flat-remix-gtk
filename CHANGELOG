@@ -1,3 +1,13 @@
+[20220215]
+ * GTK4: add solid and transparent variants
+ * GTK4: add darkest variants
+ * Regenerate css for gtk & cinnamon themes
+ * Add GTK4 themes
+ * GTK3: fix theme for whiskermenu in icons mode
+ * GTK4: flatten button widgets
+ * Cinnamon: update theme for linux mint 20.3
+ * Hide inkscape messages in thumgnail generation script
+
 [20220118]
  * Use png format for thumbnail images
  * Add thumbnails for gtk3 and metacity themes
