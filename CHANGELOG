@@ -1,3 +1,9 @@
+[20220310]
+ * GTK3: add symlinks for dark mode in dark themes
+ * GTK3: update to gtk 3.24.33
+ * Update icon
+ * Add new gnome screenshots
+
 [20220215]
  * GTK4: add solid and transparent variants
  * GTK4: add darkest variants
