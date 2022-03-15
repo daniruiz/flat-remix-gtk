@@ -2,7 +2,7 @@
 <svg
    version="1.1"
    viewBox="0 0 20 19.999999"
-   id="svg190"
+   id="svg191"
    sodipodi:docname="Assets-Dark.svg"
    width="20"
    height="20"
@@ -12,7 +12,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview192"
+     id="namedview193"
      pagecolor="#ffffff"
      bordercolor="#111111"
      borderopacity="1"
@@ -91,7 +91,7 @@
        height="20"
        fill="#23252e"
        stroke-width="0.71429"
-       id="rect154" />
+       id="rect155" />
     <path
        d="m 85,596.36 c -4.4123,0 -8,3.5877 -8,8 0,4.4123 3.5877,8 8,8 4.4123,0 8,-3.5877 8,-8 0,-4.4123 -3.5877,-8 -8,-8 z"
        color="#000000"
@@ -103,13 +103,13 @@
        solid-color="#000000"
        stop-color="#000000"
        style="fill:#383d4b;stroke-width:1.01"
-       id="path156" />
+       id="path157" />
     <circle
        cx="85"
        cy="604.35999"
        r="4"
        fill="#fff"
        style="opacity:0.5;fill:#ffffff;stroke-width:1.01"
-       id="circle158" />
+       id="circle159" />
   </g>
 </svg>

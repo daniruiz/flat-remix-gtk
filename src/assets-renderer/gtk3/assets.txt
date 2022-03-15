@@ -88,3 +88,7 @@ text-select-start-darkest
 text-select-start-hover
 text-select-start-hover-dark
 text-select-start-hover-darkest
+titlebutton
+minimize
+maximize
+close

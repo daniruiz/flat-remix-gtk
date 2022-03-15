@@ -23,7 +23,7 @@ build: $(SUBDIRS)
 			&& mv "$${gtk_theme}-Solid"/gtk-4.0/gtk-dark-solid.css "$${gtk_theme}-Solid"/gtk-4.0/gtk-dark.css; \
 		[ -f "$${gtk_theme}-Solid"/cinnamon/cinnamon-solid.css ] \
 			&& mv "$${gtk_theme}-Solid"/cinnamon/cinnamon-solid.css "$${gtk_theme}-Solid"/cinnamon/cinnamon.css; \
-		rm -f "$${gtk_theme}"/gtk-3.0/gtk-*solid.css "$${gtk_theme}"/cinnamon/cinnamon-solid.css; \
+		rm -f "$${gtk_theme}"/gtk-3.0/gtk-*solid.css "$${gtk_theme}"/gtk-4.0/gtk-*solid.css "$${gtk_theme}"/cinnamon/cinnamon-solid.css; \
 	done
 
 $(SUBDIRS):

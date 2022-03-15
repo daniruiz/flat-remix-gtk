@@ -2,7 +2,7 @@
 <svg
    version="1.1"
    viewBox="0 0 20 19.999999"
-   id="svg190"
+   id="svg191"
    sodipodi:docname="Assets-Darkest.svg"
    width="20"
    height="20"
@@ -12,7 +12,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview192"
+     id="namedview193"
      pagecolor="#ffffff"
      bordercolor="#111111"
      borderopacity="1"
@@ -105,16 +105,13 @@
        stop-color="#000000"
        style="fill:#377cf1"
        id="path101" />
-    <path
-       d="m 48,600.36 v 8 h 8 v -8 z m 1.9942,2 h 4.0117 v 4 h -4.0117 z"
-       color="#000000"
-       color-rendering="auto"
-       dominant-baseline="auto"
-       fill="#ffffff"
-       image-rendering="auto"
-       shape-rendering="auto"
-       solid-color="#000000"
-       style="stroke-width:1.01"
-       id="path103" />
+    <g
+       transform="translate(-44.605,347.63)"
+       id="g104">
+      <path
+         id="maximize"
+         d="m 95.011,252.73 h 4.5037 c 0.59971,0 1.0871,0.49073 1.0904,1.0905 v 4.5038 z m 3.2062,8 h -4.5216 c -0.59978,0 -1.0904,-0.49066 -1.0904,-1.0904 v -4.5216 l 5.6119,5.6119"
+         style="fill:#ffffff" />
+    </g>
   </g>
 </svg>

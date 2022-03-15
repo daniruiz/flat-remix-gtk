@@ -2,7 +2,7 @@
 <svg
    version="1.1"
    viewBox="0 0 20 19.999999"
-   id="svg188"
+   id="svg189"
    sodipodi:docname="Assets-Light.svg"
    width="20"
    height="20"
@@ -11,7 +11,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview190"
+     id="namedview191"
      pagecolor="#ffffff"
      bordercolor="#111111"
      borderopacity="1"
@@ -80,7 +80,7 @@
        fill="#23252e"
        stroke-width="0.71429"
        style="fill:#ffffff"
-       id="rect104" />
+       id="rect105" />
     <path
        d="m 85,596.36 c -4.4123,0 -8,3.5877 -8,8 0,4.4123 3.5877,8 8,8 4.4123,0 8,-3.5877 8,-8 0,-4.4123 -3.5877,-8 -8,-8 z"
        color="#000000"
@@ -92,9 +92,9 @@
        solid-color="#000000"
        stop-color="#000000"
        style="fill:#377cf1;stroke-width:1.01"
-       id="path106" />
+       id="path107" />
     <path
-       d="m 81,600.36 v 8 h 8 v -8 z m 1.9942,2 h 4.0117 v 4 h -4.0117 z"
+       d="m 83.406,600.36 h 4.5037 c 0.59971,0 1.0871,0.49073 1.0904,1.0905 v 4.5038 z m 3.2062,8 h -4.5216 c -0.59978,0 -1.0904,-0.49066 -1.0904,-1.0904 v -4.5216 l 5.6119,5.6119"
        color="#000000"
        color-rendering="auto"
        dominant-baseline="auto"
@@ -103,6 +103,6 @@
        shape-rendering="auto"
        solid-color="#000000"
        style="opacity:0.5;fill:#ffffff;stroke-width:1.01"
-       id="path108" />
+       id="path109" />
   </g>
 </svg>

@@ -2,7 +2,7 @@
 <svg
    version="1.1"
    viewBox="0 0 20 19.999999"
-   id="svg188"
+   id="svg189"
    sodipodi:docname="Assets-Light.svg"
    width="20"
    height="20"
@@ -11,7 +11,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview190"
+     id="namedview191"
      pagecolor="#ffffff"
      bordercolor="#111111"
      borderopacity="1"
@@ -80,12 +80,12 @@
        fill="#23252e"
        stroke-width="0.71429"
        style="fill:#ffffff"
-       id="rect111" />
+       id="rect112" />
     <circle
        cx="118"
        cy="604.35999"
        r="8"
        style="fill:#cccccc;stroke-width:0"
-       id="circle113" />
+       id="circle114" />
   </g>
 </svg>
