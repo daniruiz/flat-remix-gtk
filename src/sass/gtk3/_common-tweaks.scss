@@ -285,6 +285,9 @@ headerbar {
       &:backdrop:hover {
         background-color: if($variant == 'light', darken($bg_color, 20%), lighten($bg_color, 20%));
         background-image: -gtk-scaled(url('assets/titlebutton.png'), url('assets/titlebutton@2.png'));
+        @if $transparency=='true' {
+          box-shadow: inset 0 0 0 1px transparentize(black, .9);
+        }
       }
     }
 
