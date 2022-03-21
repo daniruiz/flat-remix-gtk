@@ -5470,7 +5470,7 @@ headerbar button.titlebutton:not(.appmenu).close {
   headerbar button.titlebutton:not(.appmenu).close:backdrop {
     background-color: #404040;
     background-image: -gtk-scaled(url("assets/titlebutton.png"), url("assets/titlebutton@2.png"));
-    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1); }
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2); }
 
 .titlebar:not(headerbar) button.titlebutton:not(.appmenu).minimize,
 headerbar button.titlebutton:not(.appmenu).minimize {
