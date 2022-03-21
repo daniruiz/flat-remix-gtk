@@ -199,40 +199,50 @@ headerbar {
     &.right { margin-right: 11px; }
 
     button {
-      $_titlebutton_bg: lighten($bg_color, 10%);
-      color: transparent;
-      margin: 0;
-      padding: 0;
-      min-width: 0;
-      min-height: 0;
-      border: 0;
-      -gtk-icon-shadow: none;
-      transition: all ease-out .1s;
+      &.minimize, &.maximize, &.close {
+        color: transparent;
+        -gtk-icon-shadow: none;
+        background-image: -gtk-scaled(url('assets/titlebutton.png'), url('assets/titlebutton@2.png'));
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 8px;
+        margin: 0;
+        padding: 0;
+        min-width: 0;
+        min-height: 0;
+        box-shadow: none;
+        border: none;
+        transition: all .2s;
 
-      @at-root %titlebutton_hover,
-      &:hover {
-        color: white;
-        background: $_titlebutton_bg;
+        &:backdrop,
+        &:backdrop:hover {
+          background-color: if($variant == 'light', darken($bg_color, 20%), lighten($bg_color, 20%));
+          background-image: -gtk-scaled(url('assets/titlebutton.png'), url('assets/titlebutton@2.png'));
+          @if $transparency=='true' {
+            box-shadow: inset 0 0 0 1px transparentize(black, .9);
+          }
+        }
       }
 
       &.minimize {
-        background: image(#fd7d00);
+        background-color: #fd7d00;
+        &:hover {
+          background-image: -gtk-scaled(url('assets/minimize.png'), url('assets/minimize@2.png'));
+        }
       }
 
       &.maximize {
-        background: image(#377cf1);
+        background-color: #377cf1;
+        &:hover {
+          background-image: -gtk-scaled(url('assets/maximize.png'), url('assets/maximize@2.png'));
+        }
       }
 
       &.close {
-        background: image(#d31919);
-      }
-
-      &:backdrop,
-      &:backdrop:hover {
-        color: transparent;
-        box-shadow: none;
-        border-color: $backdrop_borders_color;
-        background: if($variant == 'light', darken($bg_color, 20%), lighten($bg_color, 20%));
+        background-color: #d31919;
+        &:hover {
+          background-image: -gtk-scaled(url('assets/close.png'), url('assets/close@2.png'));
+        }
       }
     }
   }

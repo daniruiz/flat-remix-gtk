@@ -4140,35 +4140,48 @@ headerbar {
     .titlebar:not(headerbar) windowcontrols.right,
     headerbar windowcontrols.right {
       margin-right: 11px; }
-    .titlebar:not(headerbar) windowcontrols button,
-    headerbar windowcontrols button {
+    .titlebar:not(headerbar) windowcontrols button.minimize, .titlebar:not(headerbar) windowcontrols button.maximize, .titlebar:not(headerbar) windowcontrols button.close,
+    headerbar windowcontrols button.minimize,
+    headerbar windowcontrols button.maximize,
+    headerbar windowcontrols button.close {
       color: transparent;
+      -gtk-icon-shadow: none;
+      background-image: -gtk-scaled(url("assets/titlebutton.png"), url("assets/titlebutton@2.png"));
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 8px;
       margin: 0;
       padding: 0;
       min-width: 0;
       min-height: 0;
-      border: 0;
-      -gtk-icon-shadow: none;
-      transition: all ease-out .1s; }
-      .titlebar:not(headerbar) windowcontrols button:hover,
-      headerbar windowcontrols button:hover {
-        color: white;
-        background: #262626; }
-      .titlebar:not(headerbar) windowcontrols button.minimize,
-      headerbar windowcontrols button.minimize {
-        background: image(#fd7d00); }
-      .titlebar:not(headerbar) windowcontrols button.maximize,
-      headerbar windowcontrols button.maximize {
-        background: image(#377cf1); }
-      .titlebar:not(headerbar) windowcontrols button.close,
-      headerbar windowcontrols button.close {
-        background: image(#d31919); }
-      .titlebar:not(headerbar) windowcontrols button:backdrop,
-      headerbar windowcontrols button:backdrop {
-        color: transparent;
-        box-shadow: none;
-        border-color: #1f1f1f;
-        background: #404040; }
+      box-shadow: none;
+      border: none;
+      transition: all .2s; }
+      .titlebar:not(headerbar) windowcontrols button.minimize:backdrop, .titlebar:not(headerbar) windowcontrols button.maximize:backdrop, .titlebar:not(headerbar) windowcontrols button.close:backdrop,
+      headerbar windowcontrols button.minimize:backdrop,
+      headerbar windowcontrols button.maximize:backdrop,
+      headerbar windowcontrols button.close:backdrop {
+        background-color: #404040;
+        background-image: -gtk-scaled(url("assets/titlebutton.png"), url("assets/titlebutton@2.png"));
+        box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1); }
+    .titlebar:not(headerbar) windowcontrols button.minimize,
+    headerbar windowcontrols button.minimize {
+      background-color: #fd7d00; }
+      .titlebar:not(headerbar) windowcontrols button.minimize:hover,
+      headerbar windowcontrols button.minimize:hover {
+        background-image: -gtk-scaled(url("assets/minimize.png"), url("assets/minimize@2.png")); }
+    .titlebar:not(headerbar) windowcontrols button.maximize,
+    headerbar windowcontrols button.maximize {
+      background-color: #377cf1; }
+      .titlebar:not(headerbar) windowcontrols button.maximize:hover,
+      headerbar windowcontrols button.maximize:hover {
+        background-image: -gtk-scaled(url("assets/maximize.png"), url("assets/maximize@2.png")); }
+    .titlebar:not(headerbar) windowcontrols button.close,
+    headerbar windowcontrols button.close {
+      background-color: #d31919; }
+      .titlebar:not(headerbar) windowcontrols button.close:hover,
+      headerbar windowcontrols button.close:hover {
+        background-image: -gtk-scaled(url("assets/close.png"), url("assets/close@2.png")); }
 
 headerbar entry,
 headerbar spinbutton,
