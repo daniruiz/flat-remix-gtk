@@ -1,4 +1,4 @@
-SUBDIRS=$(foreach SUBDIR,cinnamon gtk2 gtk3 metacity thumbnail xfwm4,assets-renderer/$(SUBDIR)) sass
+SUBDIRS?=$(foreach SUBDIR,cinnamon gtk2 gtk3 metacity thumbnail xfwm4,assets-renderer/$(SUBDIR)) sass
 THEMES_DIR=../themes
 
 include Makefile.inc
