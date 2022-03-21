@@ -1,3 +1,10 @@
+[20220321]
+ * GTK: use darker outline for titlebuttons in transparent dark variant
+ * GTK4: update titlebuttons
+ * Allow configuring src SUBDIRS for custom make build
+ * GTK3: make titlebuttons more visible in variant with transparent headerbar
+ * Use previous theme version titlebutton icons
+
 [20220310]
  * GTK3: add symlinks for dark mode in dark themes
  * GTK3: update to gtk 3.24.33
