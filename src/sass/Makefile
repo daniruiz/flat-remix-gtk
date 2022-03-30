@@ -43,8 +43,11 @@ build: clean
 	  cp cinnamon-darkest-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Darkest/cinnamon/cinnamon.css ; \
 	  cp cinnamon-darkest-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Darkest/cinnamon/cinnamon-solid.css ; \
 	  cp libadwaita-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Light/libadwaita-1/gtk.css ; \
+	  cp libadwaita-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Light/libadwaita-1/gtk-solid.css ; \
 	  cp libadwaita-dark-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Dark/libadwaita-1/gtk.css ; \
+	  cp libadwaita-dark-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Dark/libadwaita-1/gtk-solid.css ; \
 	  cp libadwaita-darkest-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Darkest/libadwaita-1/gtk.css ; \
+	  cp libadwaita-darkest-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Darkest/libadwaita-1/gtk-solid.css ; \
 	done
 
 define scss_to_css
