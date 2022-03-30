@@ -32,7 +32,7 @@ $dark_base_color: #272a34!default;
 @define-color view_fg_color #{if($variant == 'light', #000000, #ffffff)};
 
 // Header bar, search bar, tab bar
-@define-color headerbar_bg_color #{if($variant == 'light', #ebebeb, darken($dark_base_color, 8))};
+@define-color headerbar_bg_color #{if($variant == 'light', #ffffff, darken($dark_base_color, 8))};
 @define-color headerbar_fg_color #{if($variant == 'light', transparentize(black, .2), white)};
 @define-color headerbar_border_color #{if($variant == 'light', transparentize(black, .2), white)};
 @define-color headerbar_backdrop_color @window_bg_color;
