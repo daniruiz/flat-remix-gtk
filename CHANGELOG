@@ -1,3 +1,14 @@
+[20220330]
+ * Add libadwaita demo screenshot
+ * LibAdwaita: move themes to a separate folder
+ * LibAdwaita: use white for light header bg
+ * LibAdwaita: fix issue with popup bg in transparent themes
+ * LibAdwaita: use a bit lighter black bg for darkest themes
+ * LibAdwaita: add theme variants with transparency
+ * LibAdwaita: copy assets instead of symlinking to gtk3
+ * LibAdwaita: use custom flat-remix titlebutton icons
+ * Add support for libadwaita themes
+
 [20220321]
  * GTK: use darker outline for titlebuttons in transparent dark variant
  * GTK4: update titlebuttons
