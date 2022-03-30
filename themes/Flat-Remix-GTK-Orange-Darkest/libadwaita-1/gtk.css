@@ -37,14 +37,23 @@ windowcontrols {
     margin: -3px; }
     windowcontrols button.minimize image, windowcontrols button.maximize image, windowcontrols button.close image {
       padding: 0;
-      color: transparent; }
-      windowcontrols button.minimize image:hover, windowcontrols button.maximize image:hover, windowcontrols button.close image:hover {
-        color: white; }
+      color: transparent;
+      background-image: -gtk-scaled(url("assets/titlebutton.png"), url("assets/titlebutton@2.png"));
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 8px; }
       windowcontrols button.minimize image:backdrop, windowcontrols button.maximize image:backdrop, windowcontrols button.close image:backdrop {
-        background-color: rgba(0, 0, 0, 0.7); }
+        background-color: #7f7f7f;
+        background-image: -gtk-scaled(url("assets/titlebutton.png"), url("assets/titlebutton@2.png")); }
     windowcontrols button.minimize image {
       background-color: #fd7d00; }
+      windowcontrols button.minimize image:hover {
+        background-image: -gtk-scaled(url("assets/minimize.png"), url("assets/minimize@2.png")); }
     windowcontrols button.maximize image {
       background-color: #377cf1; }
+      windowcontrols button.maximize image:hover {
+        background-image: -gtk-scaled(url("assets/maximize.png"), url("assets/maximize@2.png")); }
     windowcontrols button.close image {
       background-color: #d31919; }
+      windowcontrols button.close image:hover {
+        background-image: -gtk-scaled(url("assets/close.png"), url("assets/close@2.png")); }

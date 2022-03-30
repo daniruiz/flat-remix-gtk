@@ -12,16 +12,38 @@ windowcontrols {
       image {
         padding: 0;
         color: transparent;
+        background-image: -gtk-scaled(url("assets/titlebutton.png"),
+                                      url("assets/titlebutton@2.png"));
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 8px;
 
-        &:hover { color: white; }
-        &:backdrop { background-color: transparentize(black, if($variant=='light', .7, .3)); }
+        &:backdrop {
+          background-color: rgb(127, 127, 127);
+          background-image: -gtk-scaled(url('assets/titlebutton.png'), url('assets/titlebutton@2.png'));
+        }
       }
     }
 
-    &.minimize image { background-color: #fd7d00; }
+    &.minimize image {
+      background-color: #fd7d00;
+      &:hover {
+        background-image: -gtk-scaled(url('assets/minimize.png'), url('assets/minimize@2.png'));
+      }
+    }
 
-    &.maximize image { background-color: #377cf1; }
+    &.maximize image {
+      background-color: #377cf1;
+      &:hover {
+        background-image: -gtk-scaled(url('assets/maximize.png'), url('assets/maximize@2.png'));
+      }
+    }
 
-    &.close image { background-color: #d31919; }
+    &.close image {
+      background-color: #d31919;
+      &:hover {
+        background-image: -gtk-scaled(url('assets/close.png'), url('assets/close@2.png'));
+      }
+    }
   }
 }
