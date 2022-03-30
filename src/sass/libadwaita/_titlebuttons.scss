@@ -1,0 +1,27 @@
+windowcontrols {
+  margin: 8px;
+
+  button {
+    min-height: 16px;
+    min-width: 16px;
+    margin: -3px;
+
+    &.minimize,
+    &.maximize,
+    &.close {
+      image {
+        padding: 0;
+        color: transparent;
+
+        &:hover { color: white; }
+        &:backdrop { background-color: transparentize(black, if($variant=='light', .7, .3)); }
+      }
+    }
+
+    &.minimize image { background-color: #fd7d00; }
+
+    &.maximize image { background-color: #377cf1; }
+
+    &.close image { background-color: #d31919; }
+  }
+}
