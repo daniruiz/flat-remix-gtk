@@ -31,7 +31,7 @@ dist: _get_version
 	for color_variant in $(COLOR_VARIANTS); \
 	do \
 		count_pretty=$$(echo "0$${count}" | tail -c 3); \
-		(cd themes && tar -c "Flat-Remix-GTK-$${color_variant}"* Flat-Remix-*-XFWM* Flat-Remix-*-Metacity) | \
+		(cd themes && tar -c Flat-Remix-*-$${color_variant}* Flat-Remix-*-XFWM* Flat-Remix-*-Metacity) | \
 			xz -z - > "$${count_pretty}-Flat-Remix-GTK-$${color_variant}_$(VERSION).tar.xz"; \
 		count=$$((count+1)); \
 	done; \

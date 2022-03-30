@@ -27,13 +27,12 @@ build:
 	done
 	for variant in $(COLOR_VARIANTS) ; \
 	do \
-		echo $(THEMES_DIR)Flat-Remix-GTK-$$variant-Light/libadwaita-1/assets/; \
-		mkdir -p $(THEMES_DIR)Flat-Remix-GTK-$$variant-Light/libadwaita-1/assets/ ; \
-		mkdir -p $(THEMES_DIR)Flat-Remix-GTK-$$variant-Dark/libadwaita-1/assets/ ; \
-		mkdir -p $(THEMES_DIR)Flat-Remix-GTK-$$variant-Darkest/libadwaita-1/assets/ ; \
-		cp $(ASSETS_DIR)/* $(THEMES_DIR)Flat-Remix-GTK-$$variant-Light/libadwaita-1/assets/ ; \
-		cp $(ASSETS_DIR)/* $(THEMES_DIR)Flat-Remix-GTK-$$variant-Dark/libadwaita-1/assets/ ; \
-		cp $(ASSETS_DIR)/* $(THEMES_DIR)Flat-Remix-GTK-$$variant-Darkest/libadwaita-1/assets/ ; \
+		mkdir -p $(THEMES_DIR)Flat-Remix-LibAdwaita-$$variant-Light/assets/ ; \
+		mkdir -p $(THEMES_DIR)Flat-Remix-LibAdwaita-$$variant-Dark/assets/ ; \
+		mkdir -p $(THEMES_DIR)Flat-Remix-LibAdwaita-$$variant-Darkest/assets/ ; \
+		cp $(ASSETS_DIR)/* $(THEMES_DIR)Flat-Remix-LibAdwaita-$$variant-Light/assets/ ; \
+		cp $(ASSETS_DIR)/* $(THEMES_DIR)Flat-Remix-LibAdwaita-$$variant-Dark/assets/ ; \
+		cp $(ASSETS_DIR)/* $(THEMES_DIR)Flat-Remix-LibAdwaita-$$variant-Darkest/assets/ ; \
 	done
 
 clean:

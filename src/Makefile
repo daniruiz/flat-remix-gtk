@@ -9,24 +9,16 @@ build: $(SUBDIRS)
 	$(MAKE) -C templates build
 	# Remove variants that are not valid
 	rm -rf $(foreach variant,$(UNWANTED_VARIANTS),$(THEMES_DIR)/Flat-Remix-GTK-$(variant)*)
+	rm -rf $(foreach variant,$(UNWANTED_VARIANTS),$(THEMES_DIR)/Flat-Remix-LibAdwaita-$(variant)*)
 	# Add Solid themes
-	find $(THEMES_DIR) -name "Flat-Remix-GTK-*" ! -name "*Solid*" | while read gtk_theme; do \
-		rm -rf "$${gtk_theme}-Solid"; \
-		cp -a $$gtk_theme "$${gtk_theme}-Solid"; \
-		[ -f "$${gtk_theme}-Solid"/gtk-3.0/gtk-solid.css ] \
-			&& mv "$${gtk_theme}-Solid"/gtk-3.0/gtk-solid.css "$${gtk_theme}-Solid"/gtk-3.0/gtk.css; \
-		[ -f "$${gtk_theme}-Solid"/gtk-3.0/gtk-dark-solid.css ] \
-			&& mv "$${gtk_theme}-Solid"/gtk-3.0/gtk-dark-solid.css "$${gtk_theme}-Solid"/gtk-3.0/gtk-dark.css; \
-		[ -f "$${gtk_theme}-Solid"/gtk-4.0/gtk-solid.css ] \
-			&& mv "$${gtk_theme}-Solid"/gtk-4.0/gtk-solid.css "$${gtk_theme}-Solid"/gtk-4.0/gtk.css; \
-		[ -f "$${gtk_theme}-Solid"/gtk-4.0/gtk-dark-solid.css ] \
-			&& mv "$${gtk_theme}-Solid"/gtk-4.0/gtk-dark-solid.css "$${gtk_theme}-Solid"/gtk-4.0/gtk-dark.css; \
-		[ -f "$${gtk_theme}-Solid"/libadwaita-1/gtk-solid.css ] \
-			&& mv "$${gtk_theme}-Solid"/libadwaita-1/gtk-solid.css "$${gtk_theme}-Solid"/libadwaita-1/gtk.css; \
-		[ -f "$${gtk_theme}-Solid"/cinnamon/cinnamon-solid.css ] \
-			&& mv "$${gtk_theme}-Solid"/cinnamon/cinnamon-solid.css "$${gtk_theme}-Solid"/cinnamon/cinnamon.css; \
-		rm -f "$${gtk_theme}"/*/*solid.css; \
-	done
+	rm -rf $(THEMES_DIR)/*-Solid
+	find $(THEMES_DIR) -name "Flat-Remix-GTK-*" -or -name "Flat-Remix-LibAdwaita-*" \
+		| while read gtk_theme; do \
+			cp -a $$gtk_theme "$${gtk_theme}-Solid"; \
+			find "$${gtk_theme}-Solid" -name "*-solid.css" \
+				-exec sh -c 'mv $$1 $$(echo $$1 | sed "s/-solid//")' _ {} \; ; \
+		done
+	find $(THEMES_DIR) -name "*-solid.css" -delete
 
 $(SUBDIRS):
 	$(MAKE) -C $@ build
