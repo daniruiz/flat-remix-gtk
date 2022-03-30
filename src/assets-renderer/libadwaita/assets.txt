@@ -1,0 +1,4 @@
+titlebutton
+minimize
+maximize
+close
