@@ -14,6 +14,7 @@ $selected_fg_color: #ffffff;
 @import 'common/_colors';
 @import 'gtk4/_drawing';
 @import 'gtk4/upstream/_common';
+@import 'gtk3/upstream/libhandy/Adwaita-base';
 @import 'gtk4/_common-tweaks';
 @import 'gtk4/_applications';
 @import 'gtk4/upstream/_colors-public';
