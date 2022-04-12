@@ -130,6 +130,14 @@ filechooser,
   }
 }
 
+box.nautilus-path-bar {
+  > scrolledwindow {
+    background-color: if($variant == 'light', darken($bg_color, 7%), lighten($bg_color, 7%));
+    border: none;
+  }
+  > button { box-shadow: none; }
+}
+
 /* GNOME TERMINAL */
 terminal-window,
 .mate-terminal {
