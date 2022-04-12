@@ -6129,10 +6129,17 @@ filechooser placessidebar.sidebar row.sidebar-row,
   .nautilus-window .path-bar-box widget > .text-button:not(:nth-last-child(2)):not(:last-child):not(:hover) {
     box-shadow: 5px 0 0 -3px rgba(92, 97, 108, 0.15); }
 
+box.nautilus-path-bar > scrolledwindow {
+  background-color: #ededed;
+  border: none; }
+
+box.nautilus-path-bar > button {
+  box-shadow: none; }
+
 /* GNOME TERMINAL */
 terminal-window notebook scrollbar,
 .mate-terminal notebook scrollbar {
-  background: none; }
+  background: #fafafa; }
 
 /* GNOME TWEAKS */
 list.tweak-categories separator {
@@ -6827,6 +6834,31 @@ read if you used those and something break with a version upgrade you're on your
 @define-color content_view_bg #fafafa;
 /* Very contrasty background for text views (@theme_text_color foreground) */
 @define-color text_view_bg #fafafa;
+.open-document-selector-treeview:hover {
+    background-color: alpha(@theme_fg_color, 0.05);
+}
+
+.open-document-selector-treeview:selected:hover {
+    background-color: @theme_selected_bg_color;
+}
+
+/* Only normal state is handle */
+.open-document-selector-name-label {
+    color: @theme_fg_color;
+}
+
+/* Only normal state is handle */
+.open-document-selector-path-label {
+    color: @theme_unfocused_fg_color;
+    font-size: smaller;
+}
+
+/* Only normal state is handle */
+.open-document-selector-match {
+    color: shade (@theme_fg_color, 0.6);
+    background-color: alpha(@warning_color, 0.4);
+}
+
 .gedit-document-panel {
     background-color: @sidebar_bg;
 }
@@ -6894,17 +6926,26 @@ statusbar {
     background: @theme_base_color;
 }
 
+.nautilus-empty-state-icon {
+    opacity: 0.50;
+}
+
 .nautilus-canvas-item {
     border-radius: 5px;
 }
 
-.nautilus-canvas-item.dim-label,
-.nautilus-list-dim-label {
+.nautilus-canvas-item.thumbnail {
+  -gtk-icon-shadow: 0px 1px 2px @borders,
+                    1px 0px 0px alpha(@borders, 0.25),
+                    -1px 0px 0px alpha(@borders, 0.25),
+                    0px 2px 0px alpha(@borders, 0.5);
+}
+
+.nautilus-canvas-item.dim-label {
     color: mix (@theme_fg_color, @theme_bg_color, 0.50);
 }
 
-.nautilus-canvas-item.dim-label:selected,
-.nautilus-list-dim-label:selected {
+.nautilus-canvas-item.dim-label:selected {
     color: mix (@theme_selected_fg_color, @theme_selected_bg_color, 0.20);
 }
 
@@ -6928,6 +6969,13 @@ statusbar {
   animation-iteration-count: 3;
 }
 
+/* Remove white background and highlight on hover which GTK adds by default
+ * to GtkListBox. TODO: Switch to GtkListView and drop this CSS hack. */
+.operations-list,
+.operations-list > :hover {
+  background: none;
+}
+
 .disclosure-button {
   padding-left: 4px;
   padding-right: 4px;
@@ -6935,28 +6983,41 @@ statusbar {
 
 /* Path bar */
 
-.path-bar-box {
-  border-radius: 5px;
+.nautilus-path-bar scrolledwindow {
+  border-radius: 5px 0px 0px 5px;
   border: 1px @borders solid;
+  border-right-width: 0px;
   background-color: @theme_bg_color;
-  padding-right: 6px;
+}
+.nautilus-path-bar scrolledwindow undershoot.left {
+  border-radius: 5px 0px 0px 5px;
+  background: linear-gradient(to right, @theme_bg_color 6px, alpha(@theme_bg_color, 0) 24px);
+}
+.nautilus-path-bar scrolledwindow undershoot.right {
+  background: linear-gradient(to left, @theme_bg_color 6px, alpha(@theme_bg_color, 0) 24px);
 }
 
-.nautilus-path-bar button {
+.nautilus-path-bar > button,
+.path-buttons-box button {
   margin: 0px;
 }
 
-.nautilus-path-bar button:first-child {
-  border-width: 0px 1px 0px 0px;
-  border-radius: 3.5px 0px 0px 3.5px;
+.path-buttons-box button {
+  background-image: none;
+  box-shadow: none;
+  border-radius: 5px;
+  border-width: 0px;
+  -gtk-icon-shadow: none;
 }
 
-.nautilus-path-bar button:not(:first-child) {
-  border-width: 0px 1px 0px 1px;
-  border-radius: 0px 0px 0px 0px;
+.path-buttons-box button:not(.current-dir):not(:backdrop):hover {
+  background: alpha(@theme_fg_color, 0.15);
+  box-shadow: inset 0 0 0 2px @theme_bg_color;
 }
 
-.nautilus-path-bar button:not(:checked) image { opacity: 0.8; } /* dim the icon when not checked */
+.path-buttons-box button:not(.current-dir):not(:backdrop):hover * {
+  opacity: 1;
+}
 
 /* Make the tags fit into the box */
 entry.search > * {
@@ -6991,7 +7052,7 @@ entry.search > * {
   border-width: 1px;
   border-style: solid solid none;
   border-color: @borders;
-  border-radius: 3px 3px 0 0;
+  border-radius: 8px 8px 0 0;
 }
 
 .floating-bar.bottom.left { /* axes left border and border radius */
@@ -7048,20 +7109,24 @@ entry.search > * {
     color: shade(@disk_space_free, 0.7);
 }
 
-/* View */
-.nautilus-list-view .view {
+/* As a workaround for GtkTreeView showing thick border above first row when
+ * horizontal grid lines are enabled, we add them using CSS instead. Exclude the
+ * drop targets to let through the default feedback style. */
+.nautilus-list-view .view:not(:drop(active)) {
     border-bottom: 1px solid @theme_bg_color;
+}
+
+.nautilus-list-view.thumbnail {
+  -gtk-icon-shadow: 0px 1px 2px @borders,
+                    1px 0px 0px alpha(@borders, 0.25),
+                    -1px 0px 0px alpha(@borders, 0.25),
+                    0px 2px 0px alpha(@borders, 0.5);
 }
 
 .search-information {
   background-color: @theme_selected_bg_color;
   color:white;
   padding:2px;
-}
-
-/* Hide superfluous treeview drop target indication */
-.nautilus-list-view .view.dnd {
-    border-style: none;
 }
 
 @define-color conflict_bg #fef6b6;
@@ -7081,25 +7146,41 @@ entry.search > * {
 }
 
 /* Icon view */
+flowbox {
+  padding: 18px
+}
+
+flowboxchild {
+  padding: 0px;
+}
+
 flowboxchild:selected {
   background-color:transparent;
+  outline-color: transparent;
 }
 
-.icon-background {
-  background-color:black;
-  border-color:#4a90d9;
-  border-style:solid;
-  border-width:0px;
+flowboxchild .thumbnail {
+  margin: 4px;
+  box-shadow: 0px 1px 2px 0px alpha(@borders, 0.5),
+              0px 0px 0px 1px alpha(@borders, 0.5),
+              0px 2px 0px 0px alpha(@borders, 0.5);
+  border-radius: 2px;
 }
 
-flowboxchild > .icon-item-background {
-  padding:4px;
+.icon-ui-labels-box {
+  padding: 2px 4px;
+  border-radius: 4px;
 }
-flowboxchild:selected > .icon-item-background {
-  padding:4px;
-  background-color:#4a90d9;
-  border-color:#4a90d9;
-  border-style:solid;
-  border-width:0px;
-  border-radius:4px 4px 4px 4px;
+
+flowboxchild:selected .icon-ui-labels-box {
+  color: @theme_selected_fg_color;
+  background-color: @theme_selected_bg_color;
+}
+
+flowboxchild:selected image {
+  -gtk-icon-effect: dim; /* GTK 3 only */
+  /* GTK 4 TODO: Replace previous line with the following one:
+  -gtk-icon-filter: opacity(0.5);
+  */
+  -gtk-icon-shadow: 0px 0px @theme_selected_bg_color;
 }
