@@ -1,3 +1,11 @@
+[20220412]
+ * Regenerate all themes
+ * GTK3: style nautilus 42 path-bar
+ * GTK3: update nautilus and gedit custom styles
+ * GTK3: fix gnome-terminal transparent scrollbar
+ * Add libadwaita styles for GTK4
+ * Update light libadwaita demo
+
 [20220330]
  * Add libadwaita demo screenshot
  * LibAdwaita: move themes to a separate folder
