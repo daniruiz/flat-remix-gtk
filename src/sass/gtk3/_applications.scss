@@ -307,6 +307,19 @@ wnck-pager {
   }
 }
 
+/* XFCE4 desktop */
+XfdesktopIconView.view {
+  background-color: transparent;
+  color: white;
+  text-shadow: 0 1px 3px black;
+}
+
+XfdesktopIconView.view:active {
+  background-color: rgba(255, 255, 255, .2);
+  color: white;
+  text-shadow: 0 1px 3px black;
+}
+
 /* Thunar */
 .thunar {
   // Reduce height of root user warning
