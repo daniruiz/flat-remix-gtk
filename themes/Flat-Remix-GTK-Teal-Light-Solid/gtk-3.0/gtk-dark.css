@@ -6236,6 +6236,17 @@ wnck-pager {
       background: #0099a1;
       box-shadow: inset 0 -2px rgba(0, 0, 0, 0.2); }
 
+/* XFCE4 desktop */
+XfdesktopIconView.view {
+  background-color: transparent;
+  color: white;
+  text-shadow: 0 1px 3px black; }
+
+XfdesktopIconView.view:active {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  text-shadow: 0 1px 3px black; }
+
 /* Thunar */
 .thunar .warning {
   margin: -7px 0; }
