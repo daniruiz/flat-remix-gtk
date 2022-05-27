@@ -1,3 +1,6 @@
+[20220527]
+ * Xfce: fix selection rubberband color
+
 [20220427]
  * Regenerate all themes
  * Xfce: fix desktop color in themes with black selected_fg_color
