@@ -311,13 +311,22 @@ wnck-pager {
 XfdesktopIconView.view {
   background-color: transparent;
   color: white;
-  text-shadow: 0 1px 3px black;
+  text-shadow: 0 1px 2px black;
 }
 
 XfdesktopIconView.view:active {
-  background-color: rgba(255, 255, 255, .2);
-  color: white;
-  text-shadow: 0 1px 3px black;
+  background-color: transparentize($selected_bg_color, .7);
+  color: transparentize($selected_bg_color, .7);
+  border-radius: $button_radius;
+}
+
+XfdesktopIconView.label:active {
+  background-color: transparentize($selected_bg_color, .7);
+  color: $selected_fg_color;
+}
+
+XfdesktopIconView.rubberband {
+  background-color: transparentize($selected_bg_color, .7);
 }
 
 /* Thunar */
