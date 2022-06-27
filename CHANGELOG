@@ -1,3 +1,7 @@
+[20220627]
+ * GTK3: use selected_fg_color for check and radio
+ * GTK3: fix scale widget's highlight bar
+
 [20220527]
  * Xfce: fix selection rubberband color
 
