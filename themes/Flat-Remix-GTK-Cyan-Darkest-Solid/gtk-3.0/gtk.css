@@ -5352,19 +5352,36 @@ scale trough, scale fill, progressbar trough {
     border-color: #1f1f1f; }
   scale trough:backdrop, scale fill:backdrop, progressbar trough:backdrop {
     background-color: #1f1f1f;
-    border-color: #1f1f1f; }
+    border-color: #1f1f1f;
+    transition: 200ms ease-out; }
     scale trough:backdrop:disabled, scale fill:backdrop:disabled, progressbar trough:backdrop:disabled {
       background-color: #1f1f1f;
       border-color: #1f1f1f; }
+  row:selected scale trough, scale row:selected trough, row:selected scale fill, scale row:selected fill, row:selected progressbar trough, progressbar row:selected trough {
+    border-color: #044548; }
+  .osd scale trough, scale .osd trough, .osd scale fill, scale .osd fill, .osd progressbar trough, progressbar .osd trough {
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0.8); }
+    .osd scale trough:disabled, scale .osd trough:disabled, .osd scale fill:disabled, scale .osd fill:disabled, .osd progressbar trough:disabled, progressbar .osd trough:disabled {
+      background-color: rgba(68, 72, 83, 0.5); }
 
 scale highlight, progressbar progress {
   border: 2px solid #0ccfd9;
   border-radius: 6px;
   background-color: #0ccfd9; }
+  scale highlight:disabled, progressbar progress:disabled {
+    background-color: transparent;
+    border-color: transparent; }
   scale highlight:backdrop, progressbar progress:backdrop {
     border-color: #0ccfd9; }
     scale highlight:backdrop:disabled, progressbar progress:backdrop:disabled {
       background-color: transparent;
+      border-color: transparent; }
+  row:selected scale highlight, scale row:selected highlight, row:selected progressbar progress, progressbar row:selected progress {
+    border-color: #044548; }
+  .osd scale highlight, scale .osd highlight, .osd progressbar progress, progressbar .osd progress {
+    border-color: #0ccfd9; }
+    .osd scale highlight:disabled, scale .osd highlight:disabled, .osd progressbar progress:disabled, progressbar .osd progress:disabled {
       border-color: transparent; }
 
 /***************

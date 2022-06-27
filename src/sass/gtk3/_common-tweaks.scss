@@ -177,11 +177,23 @@ scale slider {
   &:backdrop {
     background-color: $backdrop_borders_color;
     border-color: $backdrop_borders_color;
+    transition: $backdrop_transition;
 
     &:disabled {
       background-color: $insensitive_borders_color;
       border-color: $insensitive_borders_color;
     }
+  }
+
+  // ...on selected list rows
+  row:selected & { &:disabled, & { border-color: $selected_borders_color; }}
+
+  // OSD
+  .osd & {
+    border-color: $osd_borders_color;
+    background-color: transparentize($osd_borders_color, 0.2);
+
+    &:disabled { background-color: $osd_insensitive_bg_color; }
   }
 }
 
@@ -190,12 +202,27 @@ scale slider {
   border-radius: $button_radius;
   background-color: $progress_bg_color;
 
+  &:disabled {
+    background-color: transparent;
+    border-color: transparent;
+  }
+
   &:backdrop {
     border-color: $progress_bg_color;
     &:disabled {
       background-color: transparent;
       border-color: transparent;
     }
+  }
+
+  // ...on selected list rows
+  row:selected & { &:disabled, & { border-color: $selected_borders_color; }}
+
+  // OSD
+  .osd & {
+    border-color: $progress_bg_color;
+
+    &:disabled { border-color: transparent; }
   }
 }
 
