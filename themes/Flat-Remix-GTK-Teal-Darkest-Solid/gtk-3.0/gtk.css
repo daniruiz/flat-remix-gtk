@@ -5313,7 +5313,7 @@ radio:checked,
 radio:indeterminate, menu menuitem radio:checked, menu menuitem radio:indeterminate {
   background-image: image(#0099a1);
   border-color: #0099a1;
-  color: #0d0d0d; }
+  color: #ffffff; }
   check:checked:active, check:indeterminate:active, menu menuitem check:checked:active, menu menuitem check:indeterminate:active,
   radio:checked:active,
   radio:indeterminate:active, menu menuitem radio:checked:active, menu menuitem radio:indeterminate:active {
@@ -5322,7 +5322,7 @@ radio:indeterminate, menu menuitem radio:checked, menu menuitem radio:indetermin
   radio:checked:backdrop,
   radio:indeterminate:backdrop, menu menuitem radio:checked:backdrop, menu menuitem radio:indeterminate:backdrop {
     background-image: image(#0099a1);
-    color: #0d0d0d; }
+    color: #ffffff; }
 
 switch slider,
 scale slider {

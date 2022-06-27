@@ -144,12 +144,12 @@ radio {
     &:checked, &:indeterminate {
       background-image: image($selected_bg_color);
       border-color: $selected_bg_color;
-      color: $bg_color;
+      color: $selected_fg_color;
 
       &:active { box-shadow: none; }
       &:backdrop {
         background-image: image($checkradio_bg_color);
-        color: $bg_color;
+        color: $selected_fg_color;
       }
     }
   }
