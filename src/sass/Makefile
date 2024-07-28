@@ -11,7 +11,7 @@ build: clean
 	  mkdir -p $(foreach VARIANT,Light Dark Darkest,$(THEMES_DIR)Flat-Remix-GTK-$$COLOR-$(VARIANT)/gtk-3.0/); \
 	  mkdir -p $(foreach VARIANT,Light Dark Darkest,$(THEMES_DIR)Flat-Remix-GTK-$$COLOR-$(VARIANT)/gtk-4.0/); \
 	  mkdir -p $(foreach VARIANT,Light Dark Darkest,$(THEMES_DIR)Flat-Remix-GTK-$$COLOR-$(VARIANT)/cinnamon/); \
-	  mkdir -p $(foreach VARIANT,Light Dark Darkest,$(THEMES_DIR)Flat-Remix-LibAdwaita-$$COLOR-$(VARIANT)/); \
+	  mkdir -p $(foreach VARIANT,Light Dark Darkest,$(THEMES_DIR)Flat-Remix-GTK-$$COLOR-$(VARIANT)/libadwaita/); \
 	  cp gtk3-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Light/gtk-3.0/gtk.css ; \
 	  cp gtk3-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Light/gtk-3.0/gtk-solid.css ; \
 	  cp gtk3-dark-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Light/gtk-3.0/gtk-dark.css ; \
@@ -42,12 +42,12 @@ build: clean
 	  cp cinnamon-dark-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Dark/cinnamon/cinnamon-solid.css ; \
 	  cp cinnamon-darkest-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Darkest/cinnamon/cinnamon.css ; \
 	  cp cinnamon-darkest-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Darkest/cinnamon/cinnamon-solid.css ; \
-	  cp libadwaita-$$COLOR.css $(THEMES_DIR)Flat-Remix-LibAdwaita-$$COLOR-Light/gtk.css ; \
-	  cp libadwaita-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-LibAdwaita-$$COLOR-Light/gtk-solid.css ; \
-	  cp libadwaita-dark-$$COLOR.css $(THEMES_DIR)Flat-Remix-LibAdwaita-$$COLOR-Dark/gtk.css ; \
-	  cp libadwaita-dark-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-LibAdwaita-$$COLOR-Dark/gtk-solid.css ; \
-	  cp libadwaita-darkest-$$COLOR.css $(THEMES_DIR)Flat-Remix-LibAdwaita-$$COLOR-Darkest/gtk.css ; \
-	  cp libadwaita-darkest-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-LibAdwaita-$$COLOR-Darkest/gtk-solid.css ; \
+	  cp libadwaita-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Light/libadwaita/gtk.css ; \
+	  cp libadwaita-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Light/libadwaita/gtk-solid.css ; \
+	  cp libadwaita-dark-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Dark/libadwaita/gtk.css ; \
+	  cp libadwaita-dark-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Dark/libadwaita/gtk-solid.css ; \
+	  cp libadwaita-darkest-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Darkest/libadwaita/gtk.css ; \
+	  cp libadwaita-darkest-solid-$$COLOR.css $(THEMES_DIR)Flat-Remix-GTK-$$COLOR-Darkest/libadwaita/gtk-solid.css ; \
 	done
 
 define scss_to_css
