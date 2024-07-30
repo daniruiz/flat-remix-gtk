@@ -1,3 +1,19 @@
+[20240730]
+ * Libadwaita: add missing color variables
+ * Libadwaita: move themes inside GTK folder
+ * Libadwaita: regenerate all theme variants
+ * GTK4: Use libadwaita theme code instead of upstream gtk4
+ * GTK4: generate all theme variants
+ * GTK4: use libadwaita assets
+ * Remove old themes
+ * Libadwaita: make title buttons visible in colored headerbars
+ * GTK4: add missing assets symlinks
+ * Add theme install script
+ * Add executable permissions to install and uninstall scripts
+ * Fix install script
+ * Remove uninstall.sh too during theme files removal
+ * Generate changelog in reverse order
+
 [20220627]
  * GTK3: use selected_fg_color for check and radio
  * GTK3: fix scale widget's highlight bar
