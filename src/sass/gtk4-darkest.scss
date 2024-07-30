@@ -1,24 +1,2 @@
-// General guidelines:
-// - very unlikely you want to edit something else than _common.scss
-// - keep the number of defined colors to a minimum, use the color blending functions if
-//   you need a subtle shade
-// - if you need to inverse a color function use the @if directive to match for dark $variant
-
-$variant: 'darkest';
-$asset_suffix: '-darkest';
-$transparency: 'true';
-$high-contrast:'false';
-$selected_bg_color: #2777ff;
-$selected_fg_color: #ffffff;
-$base_color: black;
-$bg_color: lighten(black, 5%);
-$borders_color: lighten(black, 12%);
-
-@import 'common/_colors';
-@import 'gtk4/_drawing';
-@import 'gtk4/upstream/_common';
-@import 'gtk4/_common-tweaks';
-@import 'gtk4/_darkest-common-tweaks';
-@import 'gtk3/upstream/libhandy/Adwaita-base';
-@import 'gtk4/_applications';
-@import 'gtk4/upstream/_colors-public';
+@import 'libadwaita-darkest';
+@import 'gtk4/base';
