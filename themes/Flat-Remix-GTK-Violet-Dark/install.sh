@@ -7,6 +7,6 @@ mkdir -p ~/.config/gtk-4.0/
 cp -r -f libadwaita/* uninstall.sh ~/.config/gtk-4.0/
 
 mkdir -p ~/.themes/
-cp -a . ~/.themes/
+cp -a $PWD ~/.themes/
 
-gsettings set org.gnome.desktop.interface gtk-theme "$(dirname $PWD)"
+gsettings set org.gnome.desktop.interface gtk-theme "$(basename $PWD)"
