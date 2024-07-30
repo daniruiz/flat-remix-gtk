@@ -41,6 +41,8 @@ $(GTK_THEMES):
 	    -e 's/IconTheme=/IconTheme='$$(echo $@ | sed 's/-GTK//')/ \
 	    $(THEME_INDEX_TEMPLATE) > $(THEMES_DIR)$@/index.theme
 	cp -r $(STATIC_TEMPLATE_DIR)* $(THEMES_DIR)$@
+	cp install.sh $(THEMES_DIR)$@
+	sed -e 's/theme=/theme=$@/' uninstall.sh > $(THEMES_DIR)$@/uninstall.sh
 
 $(COLOR_VARIANTS):
 	# GTK2
