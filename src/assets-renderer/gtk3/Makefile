@@ -39,9 +39,6 @@ $(COLOR_VARIANTS):
 	cp $(CURRENT_ASSETS_DIR)* $(THEMES_DIR)Flat-Remix-GTK-$@-Light/gtk-3.0/assets/
 	cp $(CURRENT_ASSETS_DIR)* $(THEMES_DIR)Flat-Remix-GTK-$@-Dark/gtk-3.0/assets/
 	cp $(CURRENT_ASSETS_DIR)* $(THEMES_DIR)Flat-Remix-GTK-$@-Darkest/gtk-3.0/assets/
-	ln -nrsvf $(THEMES_DIR)Flat-Remix-GTK-$@-Light/gtk-3.0/assets/ $(THEMES_DIR)Flat-Remix-GTK-$@-Light/gtk-4.0/assets
-	ln -nrsvf $(THEMES_DIR)Flat-Remix-GTK-$@-Dark/gtk-3.0/assets/ $(THEMES_DIR)Flat-Remix-GTK-$@-Dark/gtk-4.0/assets
-	ln -nrsvf $(THEMES_DIR)Flat-Remix-GTK-$@-Darkest/gtk-3.0/assets/ $(THEMES_DIR)Flat-Remix-GTK-$@-Darkest/gtk-4.0/assets
 
 clean:
 	-rm -r $(foreach COLOR_VARIANT, $(COLOR_VARIANTS), \

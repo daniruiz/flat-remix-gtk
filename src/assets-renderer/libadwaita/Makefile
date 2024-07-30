@@ -33,6 +33,9 @@ build:
 		cp $(ASSETS_DIR)/* $(THEMES_DIR)Flat-Remix-GTK-$$variant-Light/libadwaita/assets/ ; \
 		cp $(ASSETS_DIR)/* $(THEMES_DIR)Flat-Remix-GTK-$$variant-Dark/libadwaita/assets/ ; \
 		cp $(ASSETS_DIR)/* $(THEMES_DIR)Flat-Remix-GTK-$$variant-Darkest/libadwaita/assets/ ; \
+		ln -nrsvf $(THEMES_DIR)Flat-Remix-GTK-$$variant-Light/libadwaita/assets/ $(THEMES_DIR)Flat-Remix-GTK-$$variant-Light/gtk-4.0/assets; \
+		ln -nrsvf $(THEMES_DIR)Flat-Remix-GTK-$$variant-Dark/libadwaita/assets/ $(THEMES_DIR)Flat-Remix-GTK-$$variant-Dark/gtk-4.0/assets; \
+		ln -nrsvf $(THEMES_DIR)Flat-Remix-GTK-$$variant-Darkest/libadwaita/assets/ $(THEMES_DIR)Flat-Remix-GTK-$$variant-Darkest/gtk-4.0/assets; \
 	done
 
 clean:
