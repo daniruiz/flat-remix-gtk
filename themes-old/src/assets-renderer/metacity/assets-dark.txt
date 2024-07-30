@@ -1,7 +1,0 @@
-titlebutton-appmenu-backdrop-dark
-titlebutton-close-dark
-titlebutton-close-hover-dark
-titlebutton-maximize-dark
-titlebutton-maximize-hover-dark
-titlebutton-minimize-dark
-titlebutton-minimize-hover-dark

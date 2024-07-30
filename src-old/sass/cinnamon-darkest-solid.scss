@@ -1,9 +1,0 @@
-$variant: 'dark';
-$darker: 'false';
-$darkest: 'true';
-$transparency: 'false';
-$windowOutline: 'false';
-
-@import "gtk-sass/_colors"; //use gtk colors
-@import "cinnamon-sass/_drawing";
-@import "cinnamon-sass/_common";

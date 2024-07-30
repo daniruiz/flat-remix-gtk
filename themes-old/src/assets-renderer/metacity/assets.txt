@@ -1,7 +1,0 @@
-titlebutton-appmenu-backdrop
-titlebutton-close
-titlebutton-close-hover
-titlebutton-maximize
-titlebutton-maximize-hover
-titlebutton-minimize
-titlebutton-minimize-hover
