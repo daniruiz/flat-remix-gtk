@@ -57,7 +57,8 @@ windowcontrols {
       background-image: -gtk-scaled(url("assets/titlebutton.png"), url("assets/titlebutton@2.png"));
       background-position: center;
       background-repeat: no-repeat;
-      background-size: 8px; }
+      background-size: 8px;
+      box-shadow: 0 0 5px 0 alpha(@headerbar_bg_color, 10); }
       windowcontrols button.minimize image:backdrop, windowcontrols button.maximize image:backdrop, windowcontrols button.close image:backdrop {
         background-color: #7f7f7f;
         background-image: -gtk-scaled(url("assets/titlebutton.png"), url("assets/titlebutton@2.png")); }

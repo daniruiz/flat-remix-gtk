@@ -17,6 +17,7 @@ windowcontrols {
         background-position: center;
         background-repeat: no-repeat;
         background-size: 8px;
+        box-shadow: 0 0 5px 0 #{"alpha(@headerbar_bg_color, 10)"};
 
         &:backdrop {
           background-color: rgb(127, 127, 127);
