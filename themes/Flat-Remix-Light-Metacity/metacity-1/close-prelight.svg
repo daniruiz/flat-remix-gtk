@@ -2,7 +2,7 @@
 <svg
    version="1.1"
    viewBox="0 0 20.000944 20.000944"
-   id="svg189"
+   id="svg36"
    sodipodi:docname="Assets-Light.svg"
    width="20.000944"
    height="20.000944"
@@ -11,15 +11,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview191"
+     id="namedview36"
      pagecolor="#ffffff"
-     bordercolor="#111111"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="1" />
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
-     id="defs18">
+     id="defs4">
     <radialGradient
        id="radialGradient1090-4-5"
        cx="19"
@@ -30,15 +31,15 @@
       <stop
          stop-color="#fff"
          offset="0"
-         id="stop2" />
+         id="stop1" />
       <stop
          stop-color="#fff"
          offset=".6"
-         id="stop4" />
+         id="stop2" />
       <stop
          stop-color="#bababa"
          offset="1"
-         id="stop6" />
+         id="stop3" />
     </radialGradient>
     <clipPath
        id="a-9">
@@ -49,7 +50,7 @@
          height="28"
          fill="#ffffff"
          opacity="0.539"
-         id="rect9" />
+         id="rect3" />
     </clipPath>
     <clipPath
        id="b-8">
@@ -59,14 +60,14 @@
          width="16"
          height="16"
          opacity="0.3"
-         id="rect12" />
+         id="rect4" />
     </clipPath>
     <clipPath
        id="clipPath6191">
       <path
          d="m 9.5,194.85 v -16 h 16 v 5 h -11 v 11 z"
          style="stroke-width:30.2;stroke-linecap:round;stroke-linejoin:round"
-         id="path15" />
+         id="path4" />
     </clipPath>
   </defs>
   <g
@@ -80,7 +81,7 @@
        fill="#23252e"
        stroke-width="0.67561"
        style="fill:#ffffff"
-       id="rect73" />
+       id="rect13" />
     <path
        d="m 51.968,563.79 c -4.176,0 -7.5664,3.3907 -7.5664,7.5664 0,4.1758 3.3904,7.5664 7.5664,7.5664 4.176,0 7.5664,-3.3907 7.5664,-7.5664 0,-4.1758 -3.3904,-7.5664 -7.5664,-7.5664 z"
        color="#000000"
@@ -92,7 +93,7 @@
        solid-color="#000000"
        stop-color="#000000"
        style="fill:#d31919"
-       id="path75" />
+       id="path14" />
     <path
        d="m 48.217,567.55 h 0.9455 c 0.01008,-1.3e-4 0.01966,-4.5e-4 0.02951,0 0.24106,0.0101 0.48208,0.12156 0.65003,0.29555 l 2.1568,2.1577 2.1865,-2.1577 c 0.25114,-0.21801 0.42232,-0.28894 0.65002,-0.29555 h 0.9455 v 0.94581 c 0,0.27095 -0.0324,0.52081 -0.23637,0.70937 l -2.1568,2.1577 2.1273,2.1281 c 0.17793,0.17798 0.26591,0.42888 0.26591,0.67982 v 0.94583 h -0.9455 c -0.25083,-10e-6 -0.50165,-0.088 -0.67957,-0.26603 l -2.1568,-2.1576 -2.1568,2.1576 c -0.17791,0.17801 -0.42875,0.26603 -0.67959,0.26603 h -0.9455 v -0.94583 c 0,-0.25092 0.08799,-0.50184 0.26593,-0.67982 l 2.1568,-2.1281 -2.1568,-2.1577 c -0.19924,-0.18409 -0.28663,-0.44383 -0.26593,-0.70937 V 567.55 Z"
        color="#bebebe"
@@ -100,6 +101,6 @@
        fill="#fff"
        stroke-width="1.2609"
        style="fill:#ffffff"
-       id="path77" />
+       id="path15" />
   </g>
 </svg>

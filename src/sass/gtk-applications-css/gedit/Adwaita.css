@@ -19,7 +19,7 @@
 
 /* Only normal state is handle */
 .open-document-selector-match {
-    color: shade (@theme_fg_color, 0.6);
+    color: shade(@theme_fg_color, 0.6);
     background-color: alpha(@warning_color, 0.4);
 }
 
@@ -79,7 +79,7 @@ statusbar {
 .gedit-search-entry-occurrences-tag {
     background-color: @theme_base_color;
     background-image: none;
-    color: shade (@theme_unfocused_fg_color, 0.8);
+    color: shade(@theme_unfocused_fg_color, 0.8);
     border: 0px;
     margin: 2px;
     padding: 2px;

@@ -6881,7 +6881,7 @@ read if you used those and something break with a version upgrade you're on your
 
 /* Only normal state is handle */
 .open-document-selector-match {
-    color: shade (@theme_fg_color, 0.6);
+    color: shade(@theme_fg_color, 0.6);
     background-color: alpha(@warning_color, 0.4);
 }
 
@@ -6941,7 +6941,7 @@ statusbar {
 .gedit-search-entry-occurrences-tag {
     background-color: @theme_base_color;
     background-image: none;
-    color: shade (@theme_unfocused_fg_color, 0.8);
+    color: shade(@theme_unfocused_fg_color, 0.8);
     border: 0px;
     margin: 2px;
     padding: 2px;
@@ -6968,11 +6968,11 @@ statusbar {
 }
 
 .nautilus-canvas-item.dim-label {
-    color: mix (@theme_fg_color, @theme_bg_color, 0.50);
+    color: mix(@theme_fg_color, @theme_bg_color, 0.50);
 }
 
 .nautilus-canvas-item.dim-label:selected {
-    color: mix (@theme_selected_fg_color, @theme_selected_bg_color, 0.20);
+    color: mix(@theme_selected_fg_color, @theme_selected_bg_color, 0.20);
 }
 
 /* Toolbar */
@@ -7173,7 +7173,7 @@ entry.search > * {
 
 /* Icon view */
 flowbox {
-  padding: 18px
+  padding: 18px;
 }
 
 flowboxchild {
@@ -7204,9 +7204,8 @@ flowboxchild:selected .icon-ui-labels-box {
 }
 
 flowboxchild:selected image {
-  -gtk-icon-effect: dim; /* GTK 3 only */
-  /* GTK 4 TODO: Replace previous line with the following one:
-  -gtk-icon-filter: opacity(0.5);
-  */
   -gtk-icon-shadow: 0px 0px @theme_selected_bg_color;
+  /* In the Makefile, we will uncomment the following appropriately. */
+   -gtk-icon-effect: dim;  /* Make: GTK3 only */
+  /* -gtk-icon-filter: opacity(0.5);  * Make: GTK4 only */
 }

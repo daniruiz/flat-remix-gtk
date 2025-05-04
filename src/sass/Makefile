@@ -6,6 +6,17 @@ THEMES_DIR=../../themes/
 
 build: clean
 	$(MAKE) $(TARGETS)
+	
+	# Replace conditional stuff. For example, see the definition
+	# for "flowboxchild:selected image" in nautilus/Adwaita.css.
+	# The way this works is we have an existing commented line
+	# which ends with the embedded comment "* Make: GTK3 only */"
+	# for GTK 3 (and 4 for GTK4). Note the missing starting slash,
+	# that's because we can't have nested comments in CSS for some
+	# reason. We need to add it ourselves when uncommenting line.
+	ls gtk3-*.css | xargs sed -i 's|^\(\s*\)\(/\*\)\(.*\)\(\* Make: GTK3 only \*/\)$$|\1\3/\4|'
+	ls gtk4-*.css | xargs sed -i 's|^\(\s*\)\(/\*\)\(.*\)\(\* Make: GTK4 only \*/\)$$|\1\3/\4|'
+	
 	for COLOR in $(COLOR_VARIANTS); \
 	do \
 	  mkdir -p $(foreach VARIANT,Light Dark Darkest,$(THEMES_DIR)Flat-Remix-GTK-$$COLOR-$(VARIANT)/gtk-3.0/); \

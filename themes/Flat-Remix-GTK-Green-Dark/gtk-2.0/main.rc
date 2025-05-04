@@ -127,7 +127,7 @@ style "default" {
   text[ACTIVE]      = @selected_fg_color
 
   base[NORMAL]      = @base_color
-  base[PRELIGHT]    = shade (0.95, @bg_color)
+  base[PRELIGHT]    = shade(0.95, @bg_color)
   base[SELECTED]    = @selected_bg_color
   base[INSENSITIVE] = @insensitive_bg_color
   base[ACTIVE]      = @selected_bg_color

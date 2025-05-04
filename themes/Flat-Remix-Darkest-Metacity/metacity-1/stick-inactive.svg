@@ -2,7 +2,7 @@
 <svg
    version="1.1"
    viewBox="0 0 20 19.999999"
-   id="svg191"
+   id="svg34"
    sodipodi:docname="Assets-Darkest.svg"
    width="20"
    height="20"
@@ -12,29 +12,30 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview193"
+     id="namedview34"
      pagecolor="#ffffff"
-     bordercolor="#111111"
-     borderopacity="1"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="1" />
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
-     id="defs20">
+     id="defs4">
     <linearGradient
        id="linearGradient1387">
       <stop
          stop-color="#383d4b"
          offset="0"
-         id="stop2" />
+         id="stop1" />
       <stop
          stop-color="#383d4b"
          offset=".6"
-         id="stop4" />
+         id="stop2" />
       <stop
          stop-color="#13151a"
          offset="1"
-         id="stop6" />
+         id="stop3" />
     </linearGradient>
     <clipPath
        id="b">
@@ -44,7 +45,7 @@
          width="16"
          height="16"
          opacity="0.3"
-         id="rect9" />
+         id="rect3" />
     </clipPath>
     <clipPath
        id="a">
@@ -55,7 +56,7 @@
          height="28"
          fill="#ffffff"
          opacity="0.539"
-         id="rect12" />
+         id="rect4" />
     </clipPath>
     <radialGradient
        id="radialGradient1090-4-5"
@@ -78,7 +79,7 @@
       <path
          d="m 9.5,194.85 v -16 h 16 v 5 h -11 v 11 z"
          style="stroke-width:30.2;stroke-linecap:round;stroke-linejoin:round"
-         id="path17" />
+         id="path4" />
     </clipPath>
   </defs>
   <g
@@ -92,13 +93,13 @@
        fill="#23252e"
        stroke-width="0.71429"
        style="fill:#0d0d0d"
-       id="rect162" />
+       id="rect28" />
     <circle
        cx="118"
        cy="604.35999"
        r="4"
        fill="#ffffff"
        opacity="0.5"
-       id="circle164" />
+       id="circle28" />
   </g>
 </svg>
