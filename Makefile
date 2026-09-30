@@ -3,6 +3,7 @@ MAINTAINER = Daniel Ruiz de Alegría <daniel@drasite.com>
 UBUNTU_RELEASE = jammy
 PREFIX ?= /usr
 THEMES ?= $(patsubst themes/%/,%,$(wildcard themes/*/))
+EXCLUDE ?=
 
 include src/Makefile.inc
 
@@ -12,8 +13,11 @@ build:
 	$(MAKE) -C src build
 
 install:
-	mkdir -p $(DESTDIR)$(PREFIX)/share/themes
-	cp -a $(foreach theme,$(THEMES),themes/$(theme)) $(DESTDIR)$(PREFIX)/share/themes
+	for theme in $(THEMES); do \
+		mkdir -p $(DESTDIR)$(PREFIX)/share/themes/$$theme; \
+		find themes/$$theme -mindepth 1 -maxdepth 1 $(foreach e,$(EXCLUDE),! -name $(e)) \
+			-exec cp -a {} $(DESTDIR)$(PREFIX)/share/themes/$$theme/ \; ; \
+	done
 
 uninstall:
 	-rm -rf $(foreach theme,$(THEMES),$(DESTDIR)$(PREFIX)/share/themes/$(theme))
